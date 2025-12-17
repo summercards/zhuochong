@@ -11,6 +11,7 @@ import ctypes
 
 # ==========================================
 # ▼▼▼ 游戏配置 ▼▼▼
+RAPID_FIRE_DELAY = 0.08      
 AFK_TIMEOUT = 10.0           
 ATTACK_FRAME_SPEED = 30      
 IDLE_FRAME_SPEED = 200       
@@ -19,6 +20,15 @@ SOULS_PER_LEVEL_BASE = 20
 
 # 掉落率 (1%)
 LOOT_DROP_RATE = 0.01 
+
+# 💰 恢复：回收价格表
+SELL_PRICES = {
+    "white": 10,
+    "green": 50,
+    "blue": 200,
+    "purple": 1000,
+    "gold": 5000
+}
 
 VK_SPACE = 0x20
 VK_SHIFT = 0x10
@@ -62,17 +72,17 @@ ITEMS_DB = [
     ("初始之火的余烬", "🔥", "仅存的一朵初火，温暖得让人想哭。", "gold", "toy", None),
 ]
 
-# --- 👔 套装定义 (核心修复：路径指向 images/skins) ---
+# --- 👔 套装定义 ---
 EQUIPMENT_SETS = {
     "solar": {
         "name": "太阳战士",
         "items": ["太阳徽章盾", "太阳直剑", "太阳长子头冠"], 
-        "skin_folder": "images/skins/solar"  # <--- 修复了这里！
+        "skin_folder": "images/skins/solar" 
     },
     "abyss": {
         "name": "深渊行者",
         "items": ["深渊臂甲", "深渊大剑", "深渊凝视之眼"],
-        "skin_folder": "images/skins/abyss"  # <--- 修复了这里！
+        "skin_folder": "images/skins/abyss" 
     }
 }
 
@@ -169,43 +179,34 @@ class KnightPet(tk.Tk):
         
         self._setup_inputs_and_drag()
 
-    # --- 皮肤资源加载 (修复版) ---
+    # --- 皮肤资源加载 ---
     def _reload_skin_resources(self):
         skin_rel_path = ""
-        
-        # 1. 确定皮肤文件夹相对路径 (例如: images/skins/solar)
         if self.current_skin != "default":
             for sid, data in EQUIPMENT_SETS.items():
                 if sid == self.current_skin:
                     skin_rel_path = data["skin_folder"]
                     break
         
-        # 2. 拼接绝对路径
         if skin_rel_path:
             skin_root = os.path.join(self.base_dir, skin_rel_path)
         else:
-            skin_root = self.base_dir # 默认回退到根目录
+            skin_root = self.base_dir
             
-        # 3. 检查并加载 Idle
         idle_dir = os.path.join(skin_root, "idle")
-        # 如果是默认皮肤，或者皮肤文件夹里没有idle，回退到 images/idle
         if not os.path.exists(idle_dir):
             idle_dir = os.path.join(self.base_dir, "images", "idle")
             
         self.idle_frames = self._load_frames(idle_dir)
-        
-        # 4. 终极保底：如果连 images/idle 都没有，用 images/knight.png
         if not self.idle_frames:
             img = os.path.join(self.base_dir, "images", "knight.png")
             self._load_fallback_idle(img)
 
-        # 5. 加载 Attack
         att_dir = os.path.join(skin_root, "attack")
         if not os.path.exists(att_dir):
             att_dir = os.path.join(self.base_dir, "images", "attack")
         self.attack_frames = self._load_frames(att_dir)
 
-        # 6. 加载 Bonfire (通常不换皮)
         bf_dir = os.path.join(self.base_dir, "images", "bonfire")
         self.bonfire_frames = self._load_frames(bf_dir)
 
@@ -272,7 +273,8 @@ class KnightPet(tk.Tk):
             "inventory": [], 
             "unlocked_skins": ["default"], 
             "current_skin": "default",
-            "gift_received": False
+            "gift_received_5": False,  # 5级礼包
+            "gift_received_10": False  # 10级礼包
         }
         if os.path.exists(self.data_file_path):
             try:
@@ -350,7 +352,7 @@ class KnightPet(tk.Tk):
             self.canvas.itemconfigure(item, state=state)
 
     # ==========================================
-    # ▼▼▼ 物品逻辑 (直接进包) ▼▼▼
+    # ▼▼▼ 物品逻辑 ▼▼▼
     # ==========================================
     def _try_auto_loot(self):
         if random.random() > LOOT_DROP_RATE: return
@@ -367,7 +369,6 @@ class KnightPet(tk.Tk):
         if not candidates: candidates = [item for item in ITEMS_DB if item[3] == "white"]
         
         item_data = random.choice(candidates)
-        # 直接进包，不生成地面宝箱
         self._add_item_to_inventory(item_data)
 
     def _add_item_to_inventory(self, item_data, bypass_limit=False):
@@ -384,41 +385,44 @@ class KnightPet(tk.Tk):
             self._save_data()
             
             color = RARITY_COLORS[r]
-            # 弹气泡提示获得物品
             self._show_bubble(f"获得: {name}", 2000, color)
             
-            if set_id: self._check_set_completion(set_id)
             if hasattr(self, 'backpack_window') and self.backpack_window.winfo_exists():
                 self._refresh_backpack_ui()
         else:
             self._show_bubble("背包已满！", 1500, "red")
 
-    def _give_level_5_gift(self):
-        if self.data.get("gift_received", False): return
-        self.data["gift_received"] = True
-        
-        solar_items = ["太阳徽章盾", "太阳直剑", "太阳长子头冠"]
-        for target_name in solar_items:
-            for item in ITEMS_DB:
-                if item[0] == target_name:
-                    self._add_item_to_inventory(item, bypass_limit=True)
-                    break
-        
-        self._show_bubble("🎉 新手礼包已送达！", 3000, "#ffd700")
-        messagebox.showinfo("等级奖励", "恭喜达到5级！\n为了表彰你的勇气，赋予你【太阳战士套装】！\n请在背包中查看并解锁皮肤。")
+    def _give_level_gifts(self):
+        """检查并发放礼包"""
+        # 5级礼包
+        if self.data["level"] >= 5 and not self.data.get("gift_received_5", False):
+            self.data["gift_received_5"] = True
+            self._show_bubble("🎉 5级礼包!", 3000, "#ffd700")
+            # 送一些药水
+            items = [("绿花草", "green"), ("修理光粉", "green")]
+            for target_name, _ in items:
+                for item in ITEMS_DB:
+                    if item[0] == target_name:
+                        self._add_item_to_inventory(item, bypass_limit=True)
+            messagebox.showinfo("5级奖励", "恭喜达到5级！获得了一些补给品。")
 
-    def _check_set_completion(self, set_id):
-        if set_id not in EQUIPMENT_SETS: return
-        needed_items = set(EQUIPMENT_SETS[set_id]["items"])
-        owned_items = set(i["name"] for i in self.data["inventory"])
-        if needed_items.issubset(owned_items):
-            if set_id not in self.data["unlocked_skins"]:
-                self.data["unlocked_skins"].append(set_id)
-                self._save_data()
-                messagebox.showinfo("套装集齐!", f"恭喜！你集齐了【{EQUIPMENT_SETS[set_id]['name']}】\n新皮肤已解锁！请在背包中更换。")
+        # 10级礼包 (太阳套装)
+        if self.data["level"] >= 10 and not self.data.get("gift_received_10", False):
+            self.data["gift_received_10"] = True
+            
+            solar_items = ["太阳徽章盾", "太阳直剑", "太阳长子头冠"]
+            for target_name in solar_items:
+                for item in ITEMS_DB:
+                    if item[0] == target_name:
+                        self._add_item_to_inventory(item, bypass_limit=True)
+                        break
+            
+            self._show_bubble("🎉 10级大礼包!", 3000, "#ffd700")
+            messagebox.showinfo("10级奖励", "恭喜达到10级！\n为了表彰你的勇气，赋予你【太阳战士套装】！\n请在背包中查看并去【更换皮肤】处合成。")
 
     # ==========================================
-
+    # ▼▼▼ 背包 UI (含出售 & 合成 & 皮肤) ▼▼▼
+    # ==========================================
     def _open_backpack(self, event=None):
         self._drag_data["is_moving"] = True
         self.is_menu_open = False
@@ -472,9 +476,20 @@ class KnightPet(tk.Tk):
         self.lbl_desc_text = tk.Label(self.bp_desc_frame, text="", font=("Microsoft YaHei", 8), fg="#aaa", bg="#252525", anchor="nw", justify="left", wraplength=220)
         self.lbl_desc_text.pack(fill="both", expand=True, padx=5, pady=2)
         
-        self.btn_use_item = tk.Button(self.bp_desc_frame, text="查看", bg="#444", fg="white", font=("Microsoft YaHei", 8), command=self._use_selected_item)
-        self.btn_use_item.place(relx=1.0, rely=1.0, x=-5, y=-5, anchor="se")
+        # 按钮容器
+        btn_frame = tk.Frame(self.bp_desc_frame, bg="#252525")
+        btn_frame.place(relx=1.0, rely=1.0, x=-5, y=-5, anchor="se")
+
+        # 恢复：出售按钮
+        self.btn_sell_item = tk.Button(btn_frame, text="出售", bg="#600", fg="#ffd700", font=("Microsoft YaHei", 8, "bold"), command=self._sell_selected_item)
+        self.btn_sell_item.pack(side="right", padx=2)
+        
+        # 阅读按钮
+        self.btn_use_item = tk.Button(btn_frame, text="查看", bg="#444", fg="white", font=("Microsoft YaHei", 8), command=self._use_selected_item)
+        self.btn_use_item.pack(side="right", padx=2)
+        
         self.btn_use_item.pack_forget() 
+        self.btn_sell_item.pack_forget()
 
         self.lbl_soul_count = tk.Label(win, text="", font=("Consolas", 10), fg="#888", bg="#1c1c1c")
         self.lbl_soul_count.pack(side="bottom", pady=5)
@@ -530,10 +545,16 @@ class KnightPet(tk.Tk):
                         item_data["set_id"] = item_def[5]
                         break
             
-            color = RARITY_COLORS.get(item_data["rarity"], "white")
+            rarity = item_data.get("rarity", "white")
+            color = RARITY_COLORS.get(rarity, "white")
             self.lbl_desc_name.config(text=f"{item_data['icon']} {item_data['name']}", fg=color)
             self.lbl_desc_text.config(text=desc)
             
+            # 恢复：显示出售按钮
+            price = SELL_PRICES.get(rarity, 10)
+            self.btn_sell_item.config(text=f"出售(+{price})")
+            self.btn_sell_item.pack(side="right", padx=2)
+
             if item_data.get("type") == "letter":
                 self.btn_use_item.config(text="阅读")
                 self.btn_use_item.pack(side="right", padx=2)
@@ -543,6 +564,29 @@ class KnightPet(tk.Tk):
             self.lbl_desc_name.config(text="空", fg="gray")
             self.lbl_desc_text.config(text="")
             self.btn_use_item.pack_forget()
+            self.btn_sell_item.pack_forget()
+
+    # --- 恢复：出售功能 ---
+    def _sell_selected_item(self):
+        if self.selected_slot_index == -1: return
+        inventory = self.data.get("inventory", [])
+        if self.selected_slot_index >= len(inventory): return
+        
+        item = inventory[self.selected_slot_index]
+        rarity = item.get("rarity", "white")
+        price = SELL_PRICES.get(rarity, 10)
+        
+        self.data["total_souls"] += price
+        del inventory[self.selected_slot_index]
+        self._save_data()
+        
+        self.selected_slot_index = -1
+        self._show_bubble(f"获得灵魂 +{price}", 1000, "#ffd700")
+        self._refresh_backpack_ui()
+        self.lbl_desc_name.config(text="已出售", fg="#c0a062")
+        self.lbl_desc_text.config(text="")
+        self.btn_sell_item.pack_forget()
+        self.btn_use_item.pack_forget()
 
     def _use_selected_item(self):
         if self.selected_slot_index == -1: return
@@ -565,23 +609,79 @@ class KnightPet(tk.Tk):
     def _open_skin_menu(self):
         skin_win = tk.Toplevel(self.backpack_window)
         skin_win.title("更换皮肤")
-        skin_win.geometry("200x250")
+        skin_win.geometry("260x350")
         skin_win.configure(bg="#1c1c1c")
         
         tk.Label(skin_win, text="WARDROBE", font=("Times New Roman", 12, "bold"), fg="#c0a062", bg="#1c1c1c").pack(pady=10)
         
         unlocked = self.data.get("unlocked_skins", ["default"])
         
-        for skin_id in unlocked:
-            name = "默认骑士"
-            if skin_id in EQUIPMENT_SETS:
-                name = EQUIPMENT_SETS[skin_id]["name"]
+        # 1. 默认
+        self._create_skin_btn(skin_win, "default", "默认骑士", True, False)
+
+        # 2. 其他套装
+        for set_id, set_data in EQUIPMENT_SETS.items():
+            is_unlocked = set_id in unlocked
+            self._create_skin_btn(skin_win, set_id, set_data["name"], is_unlocked, True)
+
+    # --- 恢复：合成按钮逻辑 ---
+    def _create_skin_btn(self, win, skin_id, name, is_unlocked, is_craftable):
+        frame = tk.Frame(win, bg="#1c1c1c")
+        frame.pack(pady=3, fill="x", padx=20)
+        
+        if skin_id == self.current_skin:
+            lbl_color = "#ffd700"
+            state = "disabled"
+        elif is_unlocked:
+            lbl_color = "white"
+            state = "normal"
+        else:
+            lbl_color = "gray"
+            state = "normal"
+
+        tk.Label(frame, text=name, fg=lbl_color, bg="#1c1c1c", width=12, anchor="w").pack(side="left")
+        
+        if skin_id == self.current_skin:
+            tk.Label(frame, text="●", fg="#ffd700", bg="#1c1c1c").pack(side="right")
+        elif is_unlocked:
+            tk.Button(frame, text="装备", bg="#333", fg="white", width=6, font=("Microsoft YaHei", 8),
+                      command=lambda: self._change_skin(skin_id, win)).pack(side="right")
+        elif is_craftable:
+            # 检查材料
+            can_craft = self._check_can_craft(skin_id)
+            btn_bg = "#006400" if can_craft else "#333"
+            btn_fg = "white" if can_craft else "gray"
+            btn_txt = "合成" if can_craft else "未集齐"
             
-            btn_text = f"● {name}" if skin_id == self.current_skin else name
-            fg_color = "#ffd700" if skin_id == self.current_skin else "white"
-            
-            tk.Button(skin_win, text=btn_text, bg="#333", fg=fg_color, width=20,
-                      command=lambda s=skin_id, w=skin_win: self._change_skin(s, w)).pack(pady=2)
+            tk.Button(frame, text=btn_txt, bg=btn_bg, fg=btn_fg, width=6, font=("Microsoft YaHei", 8),
+                      state="normal" if can_craft else "disabled",
+                      command=lambda: self._craft_skin(skin_id, win)).pack(side="right")
+
+    def _check_can_craft(self, set_id):
+        if set_id not in EQUIPMENT_SETS: return False
+        needed = set(EQUIPMENT_SETS[set_id]["items"])
+        owned = set(i["name"] for i in self.data["inventory"])
+        return needed.issubset(owned)
+
+    def _craft_skin(self, set_id, win):
+        """合成皮肤：消耗物品"""
+        if not self._check_can_craft(set_id): return
+        
+        needed = EQUIPMENT_SETS[set_id]["items"]
+        for need_name in needed:
+            # 找到并删除一个
+            for i, item in enumerate(self.data["inventory"]):
+                if item["name"] == need_name:
+                    del self.data["inventory"][i]
+                    break
+        
+        self.data["unlocked_skins"].append(set_id)
+        self._save_data()
+        
+        win.destroy()
+        self._open_skin_menu()
+        self._refresh_backpack_ui()
+        messagebox.showinfo("合成成功", f"【{EQUIPMENT_SETS[set_id]['name']}】制作完成！\n装备已消耗，新外观已解锁。")
 
     def _change_skin(self, skin_id, win):
         self.current_skin = skin_id
@@ -623,10 +723,28 @@ class KnightPet(tk.Tk):
         self.state = action_type
         self._gain_xp()
         
+        # 掉落改为生成宝箱
         self._try_auto_loot()
 
         if action_type == "ATTACK": 
             self._animate_attack_sequence()
+
+    def _try_auto_loot(self):
+        if random.random() > LOOT_DROP_RATE: return
+
+        level = self.data["level"]
+        roll = random.random()
+        rarity = "white"
+        if level >= 50 and roll < 0.10: rarity = "gold"
+        elif level >= 30 and roll < 0.20: rarity = "purple"
+        elif level >= 10 and roll < 0.30: rarity = "blue"
+        elif roll < 0.50: rarity = "green"
+        
+        candidates = [item for item in ITEMS_DB if item[3] == rarity]
+        if not candidates: candidates = [item for item in ITEMS_DB if item[3] == "white"]
+        
+        item_data = random.choice(candidates)
+        self._add_item_to_inventory(item_data)
 
     def _reset_pose(self):
         if self.idle_frames:
@@ -649,8 +767,8 @@ class KnightPet(tk.Tk):
             self.canvas.config(bg="yellow")
             self.after(50, lambda: self.canvas.config(bg="white"))
             
-            if self.data["level"] == 5:
-                self._give_level_5_gift()
+            # 检查礼包
+            self._give_level_gifts()
 
         self._update_hud()
         self._save_data()
