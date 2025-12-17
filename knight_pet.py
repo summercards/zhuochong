@@ -21,13 +21,15 @@ SOULS_PER_LEVEL_BASE = 20
 # 掉落率 (1%)
 LOOT_DROP_RATE = 0.01 
 
-# 💰 恢复：回收价格表
+# 💰 回收价格表
 SELL_PRICES = {
-    "white": 10,
-    "green": 50,
-    "blue": 200,
-    "purple": 1000,
-    "gold": 5000
+    "white": 10, "green": 50, "blue": 200, "purple": 1000, "gold": 5000,
+    "chest": 0 
+}
+
+# 宝箱消耗
+CHEST_COSTS = {
+    "white": 100, "green": 500, "blue": 2000, "purple": 5000, "gold": 20000
 }
 
 VK_SPACE = 0x20
@@ -41,34 +43,44 @@ SOUL_QUOTES = [
 ]
 
 # ==========================================
-# ▼▼▼ 📦 物品数据库 ▼▼▼
+# ▼▼▼ 📦 物品数据库 (注意信件命名格式) ▼▼▼
 # ==========================================
+# 格式：系列名: 章节名
 ITEMS_DB = [
+    # --- 宝箱 ---
+    ("破旧的木箱", "📦", "布满灰尘的箱子，不知道里面有什么。", "white", "chest", None),
+    ("铁皮补给箱", "🧰", "骑士团的制式补给箱，锁扣很结实。", "green", "chest", None),
+    ("贵族珍藏箱", "💎", "装饰华丽的箱子，通常装有不错的宝物。", "blue", "chest", None),
+    ("深渊沉淀箱", "⬛", "从深渊打捞上来的箱子，散发着不祥的气息。", "purple", "chest", None),
+    ("葛温的宝藏", "🌞", "闪耀着太阳光辉的宝箱，传说中的神物。", "gold", "chest", None),
+
     # --- 🤍 白色 ---
     ("破旧的猫薄荷", "🌿", "虽然干枯了，但依然能让猫咪兴奋一小会儿。", "white", "toy", None),
     ("打结的毛线球", "🧶", "一个被抓得乱七八糟的毛线球，经典的玩具。", "white", "toy", None),
-    ("家书: 第一章", "📜", "‘亲爱的孩子，当你看到这封信时，我已经踏上了寻找初火的旅途...’", "white", "letter", None),
+    # 家书系列
+    ("家书: 第一章", "📜", "【致我最爱的孩子】\n\n当你看到这封信时，我已经踏上了寻找初火的旅途。\n村里的长者说，只有点燃初火，才能驱散这漫长的黑夜。\n我把家里的钥匙埋在了那棵老橡树下，如果我不回来，房子就归你了。\n\n—— 爱你的父亲", "white", "letter", None),
     
     # --- 💚 绿色 ---
     ("发条老鼠", "🐁", "上紧发条就会满地乱跑的机械玩具。", "green", "toy", None),
-    ("家书: 第二章", "📜", "‘路途比我想象的艰难，活尸们在城墙上游荡，我必须小心...’", "green", "letter", None),
+    # 家书系列
+    ("家书: 第二章", "📜", "【致我最爱的孩子】\n\n路途比我想象的艰难。\n洛斯里克的城墙上到处都是活尸，它们穿着破烂的盔甲，漫无目的地游荡。\n我必须小心翼翼地穿过这里。\n我有些后悔出来了，但我必须前进。\n\n如果我回不来，请把我的剑交给铁匠安德烈，他知道该怎么做。", "green", "letter", None),
     ("太阳徽章盾", "🛡️", "【太阳套装】画着滑稽太阳的盾牌，看起来充满希望。", "green", "equip", "solar"),
     
     # --- 💙 蓝色 ---
-    ("骑士的日记", "📘", "‘那个自称洋葱骑士的家伙在井里睡着了，真拿他没办法。’", "blue", "letter", None),
+    ("骑士的日记", "📘", "【洋葱骑士的观察日记】\n\n那个自称洋葱骑士的家伙在井里睡着了，真拿他没办法。\n他说他的盔甲被偷了，没办法出来。\n我把备用的盔甲丢下去了，希望能帮到他。\n\n这个世界虽然残酷，但还是有好人的，对吧？", "blue", "letter", None),
     ("水晶球", "🔮", "摇晃它，里面会飘起金色的雪花。", "blue", "toy", None),
     ("太阳直剑", "⚔️", "【太阳套装】被阳光祝福过的直剑，挥舞时有暖意。", "blue", "equip", "solar"),
     
     # --- 💜 紫色 ---
     ("深渊臂甲", "🦾", "【深渊套装】仿佛有生命的黑色铠甲，会不自觉地颤抖。", "purple", "equip", "abyss"),
     ("深渊大剑", "🗡️", "【深渊套装】沉重无比的巨剑，曾属于一位漫步深渊的英雄。", "purple", "equip", "abyss"),
-    ("无名王者的信", "💌", "‘风暴已至，我的老友。若你还能以此身侍奉古龙...’", "purple", "letter", None),
+    ("无名王者的信", "💌", "【致老友】\n\n风暴已至，我的老友。\n若你还能以此身侍奉古龙，若你还记得我们在云端并肩作战的日子...\n\n那就来古龙顶端找我吧，钟声为证。\n我们要最后一次，挑战诸神。", "purple", "letter", None),
     ("被污染的玩偶", "🧸", "一个破旧的玩偶，散发着令人不安的寒气。", "purple", "toy", None),
     
     # --- 💛 金色 ---
     ("太阳长子头冠", "👑", "【太阳套装】传说中被放逐的战神的头冠，拥有雷电的力量。", "gold", "equip", "solar"),
     ("深渊凝视之眼", "👁️", "【深渊套装】当你凝视它时，它也在凝视你。", "gold", "equip", "abyss"),
-    ("防火女的遗书", "🔥", "‘灰烬大人，请您夺火吧...这个世界已经太冷了。’", "gold", "letter", None),
+    ("防火女的遗书", "🔥", "【给灰烬大人】\n\n灰烬大人，请您夺火吧...这个世界已经太冷了。\n即使是微弱的火苗，也能照亮下一个时代。\n\n哪怕那是...黑暗的时代。\n我会一直在祭祀场等您，直到世界的尽头。", "gold", "letter", None),
     ("初始之火的余烬", "🔥", "仅存的一朵初火，温暖得让人想哭。", "gold", "toy", None),
 ]
 
@@ -116,10 +128,14 @@ class KnightPet(tk.Tk):
         self.bonfire_frame_index = 0
         self.idle_frame_index = 0
         self.monster_ids = [] 
+        self.chest_ids = [] 
         self.is_menu_open = False 
         self.selected_slot_index = -1
         self.current_skin = self.data.get("current_skin", "default")
         self.prev_keys_state = set()
+        
+        # 挂机计时器
+        self.last_drop_time = time.time()
 
         self.base_width = 200
         
@@ -156,11 +172,20 @@ class KnightPet(tk.Tk):
         self.btn_menu_icon = self.canvas.create_text(btn_x+12, btn_y+12, text="⚙️", fill="white", font=("Segoe UI", 10), state='hidden', tags="ui_btn")
         
         self.sub_btns = []
-        bp_x = btn_x + 35
+        
+        # 档案馆
+        arc_x = btn_x + 35
+        self.btn_arc_bg = self.canvas.create_oval(arc_x, btn_y, arc_x+24, btn_y+24, fill="#444", outline="#cd853f", state='hidden', tags="sub_btn")
+        self.btn_arc_icon = self.canvas.create_text(arc_x+12, btn_y+12, text="📖", fill="white", state='hidden', tags="sub_btn")
+        self.sub_btns.extend([self.btn_arc_bg, self.btn_arc_icon])
+
+        # 背包
+        bp_x = arc_x + 35
         self.btn_bp_bg = self.canvas.create_oval(bp_x, btn_y, bp_x+24, btn_y+24, fill="#444", outline="#ffd700", state='hidden', tags="sub_btn")
         self.btn_bp_icon = self.canvas.create_text(bp_x+12, btn_y+12, text="🎒", fill="white", state='hidden', tags="sub_btn")
         self.sub_btns.extend([self.btn_bp_bg, self.btn_bp_icon])
 
+        # 退出
         quit_x = bp_x + 35
         self.btn_quit_bg = self.canvas.create_oval(quit_x, btn_y, quit_x+24, btn_y+24, fill="#500", outline="red", state='hidden', tags="sub_btn")
         self.btn_quit_icon = self.canvas.create_text(quit_x+12, btn_y+12, text="❌", fill="white", state='hidden', tags="sub_btn")
@@ -177,6 +202,8 @@ class KnightPet(tk.Tk):
         self.after(1000, self._check_afk)
         self.after(5000, self._random_talk_loop)
         
+        self.after(1000, self._time_drop_loop)
+
         self._setup_inputs_and_drag()
 
     # --- 皮肤资源加载 ---
@@ -271,10 +298,11 @@ class KnightPet(tk.Tk):
         default = {
             "level": 1, "current_xp": 0, "total_souls": 0, 
             "inventory": [], 
+            "archive": [], 
             "unlocked_skins": ["default"], 
             "current_skin": "default",
-            "gift_received_5": False,  # 5级礼包
-            "gift_received_10": False  # 10级礼包
+            "gift_received_5": False,
+            "gift_received_10": False
         }
         if os.path.exists(self.data_file_path):
             try:
@@ -324,6 +352,8 @@ class KnightPet(tk.Tk):
         self.canvas.tag_bind(self.btn_menu_icon, "<Button-1>", self._toggle_menu)
         self.canvas.tag_bind(self.btn_bp_bg, "<Button-1>", self._open_backpack)
         self.canvas.tag_bind(self.btn_bp_icon, "<Button-1>", self._open_backpack)
+        self.canvas.tag_bind(self.btn_arc_bg, "<Button-1>", self._open_archive_ui)
+        self.canvas.tag_bind(self.btn_arc_icon, "<Button-1>", self._open_archive_ui)
         self.canvas.tag_bind(self.btn_quit_bg, "<Button-1>", self.exit_game)
         self.canvas.tag_bind(self.btn_quit_icon, "<Button-1>", self.exit_game)
 
@@ -351,25 +381,31 @@ class KnightPet(tk.Tk):
         for item in self.sub_btns:
             self.canvas.itemconfigure(item, state=state)
 
-    # ==========================================
-    # ▼▼▼ 物品逻辑 ▼▼▼
-    # ==========================================
-    def _try_auto_loot(self):
-        if random.random() > LOOT_DROP_RATE: return
+    def _time_drop_loop(self):
+        if time.time() - self.last_drop_time > 1800: # 30分钟
+            self._spawn_afk_chest()
+            self.last_drop_time = time.time()
+        self.after(1000, self._time_drop_loop)
 
+    def _spawn_afk_chest(self):
         level = self.data["level"]
-        roll = random.random()
         rarity = "white"
-        if level >= 50 and roll < 0.10: rarity = "gold"
-        elif level >= 30 and roll < 0.20: rarity = "purple"
-        elif level >= 10 and roll < 0.30: rarity = "blue"
-        elif roll < 0.50: rarity = "green"
+        roll = random.random()
+        if level >= 50 and roll < 0.2: rarity = "gold"
+        elif level >= 30 and roll < 0.3: rarity = "purple"
+        elif level >= 10 and roll < 0.4: rarity = "blue"
+        elif roll < 0.5: rarity = "green"
         
-        candidates = [item for item in ITEMS_DB if item[3] == rarity]
-        if not candidates: candidates = [item for item in ITEMS_DB if item[3] == "white"]
+        chest_candidates = [i for i in ITEMS_DB if i[4] == "chest" and i[3] == rarity]
+        if not chest_candidates: 
+            chest_candidates = [i for i in ITEMS_DB if i[4] == "chest" and i[3] == "white"]
+            
+        chest_item = random.choice(chest_candidates)
         
-        item_data = random.choice(candidates)
-        self._add_item_to_inventory(item_data)
+        if self._add_item_to_inventory(chest_item, bypass_limit=False):
+            self._show_bubble("挂机收获!", 3000, "#ffd700")
+        else:
+            self._show_bubble("背包满了!", 3000, "red")
 
     def _add_item_to_inventory(self, item_data, bypass_limit=False):
         name, icon, desc, r, i_type, set_id = item_data
@@ -384,44 +420,206 @@ class KnightPet(tk.Tk):
             self.data["inventory"].append(new_item)
             self._save_data()
             
-            color = RARITY_COLORS[r]
-            self._show_bubble(f"获得: {name}", 2000, color)
-            
             if hasattr(self, 'backpack_window') and self.backpack_window.winfo_exists():
                 self._refresh_backpack_ui()
+                
+            return True
         else:
-            self._show_bubble("背包已满！", 1500, "red")
+            return False
 
     def _give_level_gifts(self):
-        """检查并发放礼包"""
-        # 5级礼包
         if self.data["level"] >= 5 and not self.data.get("gift_received_5", False):
             self.data["gift_received_5"] = True
-            self._show_bubble("🎉 5级礼包!", 3000, "#ffd700")
-            # 送一些药水
             items = [("绿花草", "green"), ("修理光粉", "green")]
             for target_name, _ in items:
                 for item in ITEMS_DB:
                     if item[0] == target_name:
                         self._add_item_to_inventory(item, bypass_limit=True)
+            self._show_bubble("🎉 5级礼包!", 3000, "#ffd700")
             messagebox.showinfo("5级奖励", "恭喜达到5级！获得了一些补给品。")
 
-        # 10级礼包 (太阳套装)
         if self.data["level"] >= 10 and not self.data.get("gift_received_10", False):
             self.data["gift_received_10"] = True
-            
             solar_items = ["太阳徽章盾", "太阳直剑", "太阳长子头冠"]
             for target_name in solar_items:
                 for item in ITEMS_DB:
                     if item[0] == target_name:
                         self._add_item_to_inventory(item, bypass_limit=True)
                         break
-            
             self._show_bubble("🎉 10级大礼包!", 3000, "#ffd700")
-            messagebox.showinfo("10级奖励", "恭喜达到10级！\n为了表彰你的勇气，赋予你【太阳战士套装】！\n请在背包中查看并去【更换皮肤】处合成。")
+            messagebox.showinfo("10级奖励", "恭喜达到10级！\n获得【太阳战士套装】！\n请在背包中查看并去【更换皮肤】处合成。")
 
     # ==========================================
-    # ▼▼▼ 背包 UI (含出售 & 合成 & 皮肤) ▼▼▼
+    # ▼▼▼ 档案馆 UI (核心更新) ▼▼▼
+    # ==========================================
+    def _open_archive_ui(self, event=None):
+        self._drag_data["is_moving"] = True
+        self.is_menu_open = False
+        for item in self.sub_btns: self.canvas.itemconfigure(item, state='hidden')
+
+        if hasattr(self, 'archive_window') and self.archive_window.winfo_exists():
+            self.archive_window.lift()
+            return
+
+        aw = tk.Toplevel(self)
+        aw.title("Archive")
+        aw.geometry("450x550") 
+        aw.resizable(False, False)
+        aw.configure(bg="#2c2520") # 书架色
+        aw.attributes("-topmost", True)
+        self.archive_window = aw
+
+        main_x = self.winfo_x()
+        main_y = self.winfo_y()
+        aw.geometry(f"+{main_x + 250}+{main_y}")
+
+        # Title
+        tk.Label(aw, text="档案馆", font=("Times New Roman", 16, "bold"), fg="#deb887", bg="#2c2520").pack(pady=10)
+        
+        paned = tk.PanedWindow(aw, orient="horizontal", bg="#2c2520", sashwidth=4, sashrelief="ridge")
+        paned.pack(fill="both", expand=True, padx=10, pady=10)
+
+        # Left List
+        left_frame = tk.Frame(paned, bg="#3e3630")
+        self.arc_list = tk.Listbox(left_frame, bg="#3e3630", fg="#dcdcdc", font=("Microsoft YaHei", 10), 
+                                   selectbackground="#8b4513", selectforeground="white", borderwidth=0, highlightthickness=0)
+        self.arc_list.pack(side="left", fill="both", expand=True)
+        paned.add(left_frame, width=150)
+
+        # Right Text (羊皮纸风格)
+        right_frame = tk.Frame(paned, bg="#f5deb3")
+        self.arc_text = tk.Text(right_frame, bg="#f5deb3", fg="#3e2723", font=("KaiTi", 12), 
+                                wrap="word", padx=15, pady=15, borderwidth=0, highlightthickness=0)
+        self.arc_text.pack(fill="both", expand=True)
+        self.arc_text.insert("1.0", "请选择要阅读的文献...")
+        self.arc_text.config(state="disabled")
+        paned.add(right_frame)
+
+        self._refresh_archive_list()
+        self.arc_list.bind("<<ListboxSelect>>", self._on_archive_select)
+
+    def _refresh_archive_list(self):
+        self.arc_list.delete(0, "end")
+        archive_data = self.data.get("archive", [])
+        if not archive_data:
+            self.arc_list.insert("end", "(暂无记录)")
+            self.arc_list.config(state="disabled")
+            return
+        
+        self.arc_list.config(state="normal")
+        
+        # 1. 归类逻辑：提取冒号前的名称
+        self.grouped_archive = {} # {"家书": [item1, item2], ...}
+        
+        for item in archive_data:
+            name = item["name"]
+            if ":" in name:
+                series_name = name.split(":")[0]
+                if series_name not in self.grouped_archive:
+                    self.grouped_archive[series_name] = []
+                self.grouped_archive[series_name].append(item)
+            else:
+                # 没冒号的单独放
+                self.grouped_archive[name] = [item]
+        
+        # 2. 显示列表
+        for title in self.grouped_archive.keys():
+            self.arc_list.insert("end", f"📜 {title}")
+
+    def _on_archive_select(self, event):
+        selection = self.arc_list.curselection()
+        if not selection: return
+        
+        # 获取选中的标题 (去掉前面的emoji)
+        display_text = self.arc_list.get(selection[0])
+        title = display_text.replace("📜 ", "")
+        
+        items = self.grouped_archive.get(title, [])
+        if not items: return
+        
+        # 按名称排序 (保证章节顺序)
+        items.sort(key=lambda x: x["name"])
+        
+        # 拼合内容
+        full_content = ""
+        for item in items:
+            full_content += f"【{item['name']}】\n\n{item['desc']}\n\n"
+            full_content += "- " * 15 + "\n\n"
+            
+        self.arc_text.config(state="normal")
+        self.arc_text.delete("1.0", "end")
+        self.arc_text.insert("1.0", full_content)
+        self.arc_text.config(state="disabled")
+
+    # ==========================================
+    # ▼▼▼ 美化版信件阅读弹窗 ▼▼▼
+    # ==========================================
+    def _show_letter_ui(self, title, content):
+        win = tk.Toplevel(self)
+        win.title("阅读")
+        win.geometry("350x450")
+        win.configure(bg="#f5deb3") # 羊皮纸色
+        win.attributes("-topmost", True)
+        
+        # 居中
+        main_x = self.winfo_x()
+        main_y = self.winfo_y()
+        win.geometry(f"+{main_x+50}+{main_y+50}")
+        
+        # 标题
+        tk.Label(win, text=title, font=("KaiTi", 16, "bold"), bg="#f5deb3", fg="#5c4033", pady=15).pack()
+        
+        # 内容
+        text_box = tk.Text(win, font=("KaiTi", 12), bg="#f5deb3", fg="#3e2723", wrap="word", 
+                           borderwidth=0, highlightthickness=0, padx=20, pady=10)
+        text_box.pack(fill="both", expand=True)
+        text_box.insert("1.0", content)
+        text_box.config(state="disabled")
+        
+        # 底部提示
+        tk.Label(win, text="(已收入档案馆)", font=("Microsoft YaHei", 8), bg="#f5deb3", fg="#8b4513").pack(pady=10)
+        
+        tk.Button(win, text="关闭", bg="#8b4513", fg="white", command=win.destroy, relief="flat", padx=10).pack(pady=(0, 15))
+
+    # --- 核心修改：阅读并归档 ---
+    def _read_and_archive_letter(self):
+        if self.selected_slot_index == -1: return
+        inventory = self.data.get("inventory", [])
+        if self.selected_slot_index >= len(inventory): return
+        
+        item = inventory[self.selected_slot_index]
+        
+        # 1. 存入档案馆 (去重)
+        if "archive" not in self.data: self.data["archive"] = []
+        
+        exists = False
+        for arc_item in self.data["archive"]:
+            if arc_item["name"] == item["name"]:
+                exists = True
+                break
+        
+        if not exists:
+            self.data["archive"].append({
+                "name": item["name"],
+                "desc": item["desc"]
+            })
+        
+        # 2. 弹窗显示 (美化版)
+        self._show_letter_ui(item['name'], item['desc'])
+        
+        # 3. 从背包移除
+        del inventory[self.selected_slot_index]
+        self._save_data()
+        
+        # 4. 刷新UI
+        self.selected_slot_index = -1
+        self._refresh_backpack_ui()
+        self.lbl_desc_name.config(text="已归档", fg="#cd853f")
+        self.lbl_desc_text.config(text="")
+        self.btn_action.pack_forget()
+
+    # ==========================================
+    # ▼▼▼ 原有背包与系统逻辑 ▼▼▼
     # ==========================================
     def _open_backpack(self, event=None):
         self._drag_data["is_moving"] = True
@@ -480,16 +678,10 @@ class KnightPet(tk.Tk):
         btn_frame = tk.Frame(self.bp_desc_frame, bg="#252525")
         btn_frame.place(relx=1.0, rely=1.0, x=-5, y=-5, anchor="se")
 
-        # 恢复：出售按钮
-        self.btn_sell_item = tk.Button(btn_frame, text="出售", bg="#600", fg="#ffd700", font=("Microsoft YaHei", 8, "bold"), command=self._sell_selected_item)
-        self.btn_sell_item.pack(side="right", padx=2)
-        
-        # 阅读按钮
-        self.btn_use_item = tk.Button(btn_frame, text="查看", bg="#444", fg="white", font=("Microsoft YaHei", 8), command=self._use_selected_item)
-        self.btn_use_item.pack(side="right", padx=2)
-        
-        self.btn_use_item.pack_forget() 
-        self.btn_sell_item.pack_forget()
+        # 动态按钮
+        self.btn_action = tk.Button(btn_frame, text="操作", bg="#444", fg="white", font=("Microsoft YaHei", 8))
+        self.btn_action.pack(side="right", padx=2)
+        self.btn_action.pack_forget()
 
         self.lbl_soul_count = tk.Label(win, text="", font=("Consolas", 10), fg="#888", bg="#1c1c1c")
         self.lbl_soul_count.pack(side="bottom", pady=5)
@@ -534,6 +726,8 @@ class KnightPet(tk.Tk):
     def _on_slot_click(self, index, item_data):
         self.selected_slot_index = index
         self._refresh_backpack_ui()
+        self.btn_action.pack_forget() 
+        
         if item_data:
             desc = item_data.get("desc", "")
             if not desc:
@@ -546,27 +740,32 @@ class KnightPet(tk.Tk):
                         break
             
             rarity = item_data.get("rarity", "white")
+            i_type = item_data.get("type", "toy")
             color = RARITY_COLORS.get(rarity, "white")
+            
             self.lbl_desc_name.config(text=f"{item_data['icon']} {item_data['name']}", fg=color)
             self.lbl_desc_text.config(text=desc)
             
-            # 恢复：显示出售按钮
-            price = SELL_PRICES.get(rarity, 10)
-            self.btn_sell_item.config(text=f"出售(+{price})")
-            self.btn_sell_item.pack(side="right", padx=2)
-
-            if item_data.get("type") == "letter":
-                self.btn_use_item.config(text="阅读")
-                self.btn_use_item.pack(side="right", padx=2)
+            # 按钮逻辑
+            if i_type == "chest":
+                cost = CHEST_COSTS.get(rarity, 100)
+                self.btn_action.config(text=f"开启 (-{cost})", bg="#228b22", fg="white", 
+                                       command=self._open_selected_chest)
+                self.btn_action.pack(side="right", padx=2)
+            elif i_type == "letter":
+                # 阅读归档
+                self.btn_action.config(text="阅读 (归档)", bg="#cd853f", fg="white", 
+                                       command=self._read_and_archive_letter)
+                self.btn_action.pack(side="right", padx=2)
             else:
-                self.btn_use_item.pack_forget()
+                price = SELL_PRICES.get(rarity, 10)
+                self.btn_action.config(text=f"出售 (+{price})", bg="#600", fg="#ffd700", 
+                                       command=self._sell_selected_item)
+                self.btn_action.pack(side="right", padx=2)
         else:
             self.lbl_desc_name.config(text="空", fg="gray")
             self.lbl_desc_text.config(text="")
-            self.btn_use_item.pack_forget()
-            self.btn_sell_item.pack_forget()
 
-    # --- 恢复：出售功能 ---
     def _sell_selected_item(self):
         if self.selected_slot_index == -1: return
         inventory = self.data.get("inventory", [])
@@ -585,17 +784,48 @@ class KnightPet(tk.Tk):
         self._refresh_backpack_ui()
         self.lbl_desc_name.config(text="已出售", fg="#c0a062")
         self.lbl_desc_text.config(text="")
-        self.btn_sell_item.pack_forget()
-        self.btn_use_item.pack_forget()
+        self.btn_action.pack_forget()
 
-    def _use_selected_item(self):
+    def _open_selected_chest(self):
         if self.selected_slot_index == -1: return
         inventory = self.data.get("inventory", [])
-        if self.selected_slot_index >= len(inventory): return
-        
         item = inventory[self.selected_slot_index]
-        if item.get("type") == "letter":
-            messagebox.showinfo("信件内容", f"【{item['name']}】\n\n{item.get('desc', '')}\n\n(这是一封在旅途中捡到的信...)")
+        rarity = item.get("rarity", "white")
+        cost = CHEST_COSTS.get(rarity, 100)
+        
+        if self.data["total_souls"] < cost:
+            messagebox.showwarning("灵魂不足", f"开启这个宝箱需要 {cost} 灵魂！\n快去挂机打怪赚取灵魂吧。")
+            return
+            
+        self.data["total_souls"] -= cost
+        del inventory[self.selected_slot_index]
+        self._save_data()
+        self.selected_slot_index = -1
+        self.btn_action.pack_forget()
+        self.lbl_desc_name.config(text="开启中...", fg="#c0a062")
+        self.lbl_desc_text.config(text="")
+        self._refresh_backpack_ui()
+        
+        count = random.randint(2, 3)
+        rewards = []
+        pool_rarity = [rarity] 
+        if rarity == 'white': pool_rarity.append('green')
+        elif rarity == 'green': pool_rarity.extend(['white', 'blue'])
+        elif rarity == 'blue': pool_rarity.extend(['green', 'purple'])
+        elif rarity == 'purple': pool_rarity.extend(['blue', 'gold'])
+        elif rarity == 'gold': pool_rarity.extend(['purple'])
+        
+        for _ in range(count):
+            r_target = random.choice(pool_rarity)
+            candidates = [i for i in ITEMS_DB if i[4] != 'chest' and i[3] == r_target]
+            if not candidates: candidates = [i for i in ITEMS_DB if i[4] != 'chest' and i[3] == 'white']
+            item_data = random.choice(candidates)
+            self._add_item_to_inventory(item_data, bypass_limit=True) 
+            rewards.append(item_data[0])
+            
+        msg = "你获得了：\n" + "\n".join([f"- {n}" for n in rewards])
+        messagebox.showinfo("宝箱开启", msg)
+        self._refresh_backpack_ui()
 
     def _sort_inventory(self):
         if "inventory" in self.data:
@@ -611,20 +841,18 @@ class KnightPet(tk.Tk):
         skin_win.title("更换皮肤")
         skin_win.geometry("260x350")
         skin_win.configure(bg="#1c1c1c")
+        skin_win.attributes("-topmost", True)
         
         tk.Label(skin_win, text="WARDROBE", font=("Times New Roman", 12, "bold"), fg="#c0a062", bg="#1c1c1c").pack(pady=10)
         
         unlocked = self.data.get("unlocked_skins", ["default"])
         
-        # 1. 默认
         self._create_skin_btn(skin_win, "default", "默认骑士", True, False)
 
-        # 2. 其他套装
         for set_id, set_data in EQUIPMENT_SETS.items():
             is_unlocked = set_id in unlocked
             self._create_skin_btn(skin_win, set_id, set_data["name"], is_unlocked, True)
 
-    # --- 恢复：合成按钮逻辑 ---
     def _create_skin_btn(self, win, skin_id, name, is_unlocked, is_craftable):
         frame = tk.Frame(win, bg="#1c1c1c")
         frame.pack(pady=3, fill="x", padx=20)
@@ -647,7 +875,6 @@ class KnightPet(tk.Tk):
             tk.Button(frame, text="装备", bg="#333", fg="white", width=6, font=("Microsoft YaHei", 8),
                       command=lambda: self._change_skin(skin_id, win)).pack(side="right")
         elif is_craftable:
-            # 检查材料
             can_craft = self._check_can_craft(skin_id)
             btn_bg = "#006400" if can_craft else "#333"
             btn_fg = "white" if can_craft else "gray"
@@ -664,12 +891,10 @@ class KnightPet(tk.Tk):
         return needed.issubset(owned)
 
     def _craft_skin(self, set_id, win):
-        """合成皮肤：消耗物品"""
         if not self._check_can_craft(set_id): return
         
         needed = EQUIPMENT_SETS[set_id]["items"]
         for need_name in needed:
-            # 找到并删除一个
             for i, item in enumerate(self.data["inventory"]):
                 if item["name"] == need_name:
                     del self.data["inventory"][i]
@@ -723,28 +948,8 @@ class KnightPet(tk.Tk):
         self.state = action_type
         self._gain_xp()
         
-        # 掉落改为生成宝箱
-        self._try_auto_loot()
-
         if action_type == "ATTACK": 
             self._animate_attack_sequence()
-
-    def _try_auto_loot(self):
-        if random.random() > LOOT_DROP_RATE: return
-
-        level = self.data["level"]
-        roll = random.random()
-        rarity = "white"
-        if level >= 50 and roll < 0.10: rarity = "gold"
-        elif level >= 30 and roll < 0.20: rarity = "purple"
-        elif level >= 10 and roll < 0.30: rarity = "blue"
-        elif roll < 0.50: rarity = "green"
-        
-        candidates = [item for item in ITEMS_DB if item[3] == rarity]
-        if not candidates: candidates = [item for item in ITEMS_DB if item[3] == "white"]
-        
-        item_data = random.choice(candidates)
-        self._add_item_to_inventory(item_data)
 
     def _reset_pose(self):
         if self.idle_frames:
@@ -767,8 +972,10 @@ class KnightPet(tk.Tk):
             self.canvas.config(bg="yellow")
             self.after(50, lambda: self.canvas.config(bg="white"))
             
-            # 检查礼包
-            self._give_level_gifts()
+            if self.data["level"] == 5:
+                self._give_level_gifts()
+            elif self.data["level"] == 10:
+                self._give_level_gifts()
 
         self._update_hud()
         self._save_data()
