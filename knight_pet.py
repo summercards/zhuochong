@@ -18,6 +18,10 @@ IDLE_FRAME_SPEED = 200
 BONFIRE_FRAME_SPEED = 120    
 SOULS_PER_LEVEL_BASE = 20
 
+# ★★★ 核心修复：定义一个特殊的透明背景色 ★★★
+# 使用 #000001 (极深黑色)，肉眼看像黑色，但不会误伤纯黑轮廓(#000000)或纯白像素(#FFFFFF)
+TRANS_COLOR = "#000001" 
+
 # 掉落率 (1%)
 LOOT_DROP_RATE = 0.01 
 
@@ -112,8 +116,10 @@ class KnightPet(tk.Tk):
         self.base_dir = base_dir
         self.overrideredirect(True)
         self.attributes("-topmost", True)
+        
+        # ★★★ 修复：使用特殊颜色过滤，而不是白色 ★★★
         try:
-            self.wm_attributes("-transparentcolor", "white")
+            self.wm_attributes("-transparentcolor", TRANS_COLOR)
         except tk.TclError:
             pass
 
@@ -146,8 +152,9 @@ class KnightPet(tk.Tk):
         self.canvas_width = self.base_width + 250 
         self.canvas_height = self.h_size + 150 
         
+        # ★★★ 修复：Canvas 背景色设为 TRANS_COLOR ★★★
         self.canvas = tk.Canvas(self, width=self.canvas_width, height=self.canvas_height,
-                                highlightthickness=0, bg="white")
+                                highlightthickness=0, bg=TRANS_COLOR)
         self.canvas.pack()
 
         self.center_x = self.base_width // 2 + 50
@@ -242,7 +249,10 @@ class KnightPet(tk.Tk):
             pil_image = Image.open(path)
             w_percent = (self.base_width / float(pil_image.size[0]))
             self.h_size = int((float(pil_image.size[1]) * float(w_percent)))
-            pil_resized = pil_image.resize((self.base_width, self.h_size), Image.LANCZOS)
+            
+            # ★★★ 修复：像素画使用 NEAREST 算法，去除白边 ★★★
+            pil_resized = pil_image.resize((self.base_width, self.h_size), Image.NEAREST)
+            
             self.knight_photo_idle_fallback = ImageTk.PhotoImage(pil_resized)
         except: pass
 
@@ -258,7 +268,10 @@ class KnightPet(tk.Tk):
                 if i==0 and not hasattr(self, 'h_size'):
                     self.h_size = int((float(pil_img.size[1]) * float(w_percent)))
                 h_target = int((float(pil_img.size[1]) * float(w_percent)))
-                pil_resized = pil_img.resize((self.base_width, h_target), Image.LANCZOS)
+                
+                # ★★★ 修复：像素画使用 NEAREST 算法，去除白边 ★★★
+                pil_resized = pil_img.resize((self.base_width, h_target), Image.NEAREST)
+                
                 frames.append(ImageTk.PhotoImage(pil_resized))
             except: pass
         return frames
@@ -969,8 +982,10 @@ class KnightPet(tk.Tk):
             self.data["level"] += 1
             self.data["current_xp"] = 0 
             self._show_bubble("灵魂等级提升！", 2000, "#ffd700")
+            
+            # ★★★ 修复：升级闪烁后恢复为透明色，不是白色 ★★★
             self.canvas.config(bg="yellow")
-            self.after(50, lambda: self.canvas.config(bg="white"))
+            self.after(50, lambda: self.canvas.config(bg=TRANS_COLOR))
             
             if self.data["level"] == 5:
                 self._give_level_gifts()
