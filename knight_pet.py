@@ -12,17 +12,17 @@ import ctypes
 # ==========================================
 # ▼▼▼ 游戏配置 ▼▼▼
 RAPID_FIRE_DELAY = 0.08      
-AFK_TIMEOUT = 10.0           
+AFK_TIMEOUT = 10.0            
 ATTACK_FRAME_SPEED = 30      
-IDLE_FRAME_SPEED = 200       
-BONFIRE_FRAME_SPEED = 120    
+IDLE_FRAME_SPEED = 200        
+BONFIRE_FRAME_SPEED = 120     
 SOULS_PER_LEVEL_BASE = 20
 
 # ★★★ 核心修复：定义一个特殊的透明背景色 ★★★
 # 使用 #000001 (极深黑色)，肉眼看像黑色，但不会误伤纯黑轮廓(#000000)或纯白像素(#FFFFFF)
 TRANS_COLOR = "#000001" 
 
-# 掉落率 (1%)
+# 掉落率 (用于随机判定稀有度)
 LOOT_DROP_RATE = 0.01 
 
 # 💰 回收价格表
@@ -140,9 +140,6 @@ class KnightPet(tk.Tk):
         self.current_skin = self.data.get("current_skin", "default")
         self.prev_keys_state = set()
         
-        # 挂机计时器
-        self.last_drop_time = time.time()
-
         self.base_width = 200
         
         # --- 加载资源 ---
@@ -167,7 +164,29 @@ class KnightPet(tk.Tk):
         # UI & HUD
         self.bubble_rect = self.canvas.create_rectangle(0,0,0,0, fill="#222", outline="#555", width=2, state='hidden')
         self.bubble_text = self.canvas.create_text(0,0, text="", fill="#ddd", font=("Microsoft YaHei", 9), state='hidden')
-        self.hud_text = self.canvas.create_text(0,0, text="", fill="#ffd700", font=("Microsoft YaHei", 10, "bold"))
+        
+        # =========================================================================
+        # ★★★ 字体优化：创建多层文字实现描边效果 ★★★
+        # =========================================================================
+        self.hud_layers = []
+        font_cfg = ("Microsoft YaHei", 10, "bold")
+        
+        # 1. 创建8个方向的黑色描边（模拟外轮廓）
+        offsets = [
+            (-1, -1), (1, -1), (-1, 1), (1, 1),  # 对角
+            (0, -1), (0, 1), (-1, 0), (1, 0)     # 上下左右
+        ]
+        for ox, oy in offsets:
+            # 描边层：黑色
+            tid = self.canvas.create_text(0, 0, text="", fill="black", font=font_cfg)
+            self.hud_layers.append((tid, ox, oy))
+            
+        # 2. 创建本体层（放在最上面）
+        # 本体层：金色
+        self.hud_main_id = self.canvas.create_text(0, 0, text="", fill="#ffd700", font=font_cfg)
+        self.hud_layers.append((self.hud_main_id, 0, 0))
+        # =========================================================================
+
         self.xp_bar_bg = self.canvas.create_rectangle(0,0,0,0, fill="#333", outline="#555")
         self.xp_bar_fill = self.canvas.create_rectangle(0,0,0,0, fill="#ffd700", outline="")
         self._update_hud()
@@ -315,7 +334,8 @@ class KnightPet(tk.Tk):
             "unlocked_skins": ["default"], 
             "current_skin": "default",
             "gift_received_5": False,
-            "gift_received_10": False
+            "gift_received_10": False,
+            "drop_timer": 0 # ★ 新增：挂机计时器(秒)
         }
         if os.path.exists(self.data_file_path):
             try:
@@ -336,10 +356,25 @@ class KnightPet(tk.Tk):
         return self.data["level"] * 10 + SOULS_PER_LEVEL_BASE
 
     def _update_hud(self):
-        txt = f"等级 {self.data['level']} | 灵魂 {self.data['total_souls']}"
+        # 计算挂机进度
+        timer = self.data.get("drop_timer", 0)
+        target = 1800 # 30分钟
+        pct_val = int((timer / target) * 100)
+        if pct_val > 100: pct_val = 100
+        
+        # 状态图标：REST时加速
+        status_icon = "🔥" if self.state == "REST" else "⏳"
+        
+        txt = f"Lv.{self.data['level']} | 灵魂 {self.data['total_souls']} | {status_icon} {pct_val}%"
+        
         text_y = self.base_y + self.h_size//2 + 15
-        self.canvas.coords(self.hud_text, self.center_x, text_y)
-        self.canvas.itemconfigure(self.hud_text, text=txt)
+        
+        # ★★★ 字体优化：更新所有描边层 ★★★
+        for tid, ox, oy in self.hud_layers:
+            # 坐标加上偏移量 (ox, oy)
+            self.canvas.coords(tid, self.center_x + ox, text_y + oy)
+            self.canvas.itemconfigure(tid, text=txt)
+        
         bw, bh = 120, 6
         bx = self.center_x - bw // 2
         by = text_y + 10
@@ -395,19 +430,39 @@ class KnightPet(tk.Tk):
             self.canvas.itemconfigure(item, state=state)
 
     def _time_drop_loop(self):
-        if time.time() - self.last_drop_time > 1800: # 30分钟
+        # 目标: 1800秒 (30分钟)
+        TARGET_TIME = 1800
+        
+        # 基础增量1秒
+        increment = 1
+        
+        # 如果正在休息(REST)，挂机效率翻倍
+        if self.state == "REST":
+            increment = 2
+            
+        self.data["drop_timer"] += increment
+        
+        # 检查是否掉落
+        if self.data["drop_timer"] >= TARGET_TIME:
+            self.data["drop_timer"] = 0 # 重置
             self._spawn_afk_chest()
-            self.last_drop_time = time.time()
+            self._save_data()
+        
+        # 刷新界面显示进度
+        self._update_hud()
+            
+        # 1秒后再次调用
         self.after(1000, self._time_drop_loop)
 
     def _spawn_afk_chest(self):
         level = self.data["level"]
         rarity = "white"
         roll = random.random()
-        if level >= 50 and roll < 0.2: rarity = "gold"
-        elif level >= 30 and roll < 0.3: rarity = "purple"
-        elif level >= 10 and roll < 0.4: rarity = "blue"
-        elif roll < 0.5: rarity = "green"
+        # 根据等级提高挂机收益
+        if level >= 50 and roll < 0.25: rarity = "gold"
+        elif level >= 30 and roll < 0.35: rarity = "purple"
+        elif level >= 10 and roll < 0.45: rarity = "blue"
+        elif roll < 0.6: rarity = "green"
         
         chest_candidates = [i for i in ITEMS_DB if i[4] == "chest" and i[3] == rarity]
         if not chest_candidates: 
@@ -416,9 +471,11 @@ class KnightPet(tk.Tk):
         chest_item = random.choice(chest_candidates)
         
         if self._add_item_to_inventory(chest_item, bypass_limit=False):
-            self._show_bubble("挂机收获!", 3000, "#ffd700")
+            # 播放提示气泡
+            color = RARITY_COLORS.get(rarity, "white")
+            self._show_bubble(f"挂机获得: {chest_item[0]}", 4000, color)
         else:
-            self._show_bubble("背包满了!", 3000, "red")
+            self._show_bubble("背包已满，挂机宝箱丢失!", 3000, "red")
 
     def _add_item_to_inventory(self, item_data, bypass_limit=False):
         name, icon, desc, r, i_type, set_id = item_data
@@ -1060,12 +1117,14 @@ class KnightPet(tk.Tk):
         self.state = "REST"
         self._show_bubble("篝火已点燃...", 2000)
         self.bonfire_frame_index = 0
+        self._update_hud() # 立即刷新状态图标
 
     def _wake_up(self):
         self.is_resting = False
         self.state = "IDLE"
         self._show_bubble("使命在召唤。", 1000)
         self._reset_pose()
+        self._update_hud() # 立即刷新状态图标
 
     def _random_talk_loop(self):
         if not self.is_resting and random.random() < 0.2:
