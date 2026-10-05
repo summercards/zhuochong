@@ -1,0 +1,23 @@
+E09_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 986, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 864, in main
+    keyframes = [(frame, dft_pose(arm, frame))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 864, in <listcomp>
+    keyframes = [(frame, dft_pose(arm, frame))
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 462, in dft_pose
+    lock_feet(arm, pose, want, foot_pitch(frame), knee_z=knee_z)
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 369, in lock_feet
+    _solve()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 367, in _solve
+    worst = max(worst, err.length * 1000.0)
+                ^^^^^
+UnboundLocalError: cannot access local variable 'worst' where it is not associated with a value
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

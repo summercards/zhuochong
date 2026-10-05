@@ -1,0 +1,4375 @@
+{
+ "armature": "Character_Rig",
+ "fps": 60.0,
+ "note": "Blender 世界坐标: +x=左手侧, +y=背后(前向=-y), +z=上; reach_m = -y, height_m = z",
+ "clips": {
+  "Air_Heavy": {
+   "code": "Air_Heavy",
+   "hit_frames": [
+    16
+   ],
+   "samples": [
+    {
+     "frame": 16,
+     "probes": {
+      "hand.L": [
+       0.2261,
+       -0.4676,
+       1.5775
+      ],
+      "hand.R": [
+       -0.2261,
+       -0.4676,
+       1.5775
+      ],
+      "foot.L": [
+       0.1472,
+       -0.3184,
+       0.7182
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.0083,
+       0.7322
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3932,
+       0.7235
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0832,
+       0.7375
+      ],
+      "shoulder.L": [
+       0.1511,
+       -0.1376,
+       2.0375
+      ],
+      "shoulder.R": [
+       -0.1511,
+       -0.1376,
+       2.0375
+      ],
+      "forearm.L": [
+       0.2132,
+       -0.411,
+       1.6564
+      ],
+      "forearm.R": [
+       -0.2132,
+       -0.411,
+       1.6564
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.4676,
+       "height_m": 1.5775,
+       "lateral_m": 0.2261
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3932,
+       "height_m": 0.7235,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1376,
+       "height_m": 2.0375,
+       "lateral_m": 0.1511
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.411,
+       "height_m": 1.6564,
+       "lateral_m": 0.2132
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Air_Hit": {
+   "code": "Air_Hit",
+   "hit_frames": [
+    2
+   ],
+   "samples": [
+    {
+     "frame": 2,
+     "probes": {
+      "hand.L": [
+       0.4025,
+       0.1592,
+       2.6393
+      ],
+      "hand.R": [
+       -0.6672,
+       0.0401,
+       2.5356
+      ],
+      "foot.L": [
+       0.1924,
+       -0.0986,
+       1.1185
+      ],
+      "foot.R": [
+       -0.1908,
+       0.2052,
+       1.0954
+      ],
+      "toe.L": [
+       0.1969,
+       -0.166,
+       1.0859
+      ],
+      "toe.R": [
+       -0.1953,
+       0.1377,
+       1.0628
+      ],
+      "shoulder.L": [
+       -0.0043,
+       0.1725,
+       2.412
+      ],
+      "shoulder.R": [
+       -0.261,
+       0.0535,
+       2.3081
+      ],
+      "forearm.L": [
+       0.4222,
+       0.228,
+       2.5724
+      ],
+      "forearm.R": [
+       -0.6849,
+       0.0989,
+       2.4592
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": -0.0401,
+       "height_m": 2.5356,
+       "lateral_m": -0.6672
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.166,
+       "height_m": 1.0859,
+       "lateral_m": 0.1969
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": -0.0535,
+       "height_m": 2.3081,
+       "lateral_m": -0.261
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": -0.0989,
+       "height_m": 2.4592,
+       "lateral_m": -0.6849
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Air_Light": {
+   "code": "Air_Light",
+   "hit_frames": [
+    16
+   ],
+   "samples": [
+    {
+     "frame": 16,
+     "probes": {
+      "hand.L": [
+       0.1556,
+       -0.7482,
+       2.1369
+      ],
+      "hand.R": [
+       -0.3459,
+       -0.3216,
+       2.2119
+      ],
+      "foot.L": [
+       0.1472,
+       -0.1903,
+       0.859
+      ],
+      "foot.R": [
+       -0.124,
+       -0.3606,
+       1.0652
+      ],
+      "toe.L": [
+       0.1472,
+       -0.2651,
+       0.8537
+      ],
+      "toe.R": [
+       -0.124,
+       -0.4256,
+       1.0277
+      ],
+      "shoulder.L": [
+       0.1156,
+       -0.1332,
+       2.0919
+      ],
+      "shoulder.R": [
+       -0.1459,
+       0.0084,
+       2.1019
+      ],
+      "forearm.L": [
+       0.1492,
+       -0.6506,
+       2.1297
+      ],
+      "forearm.R": [
+       -0.297,
+       -0.241,
+       2.185
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.7482,
+       "height_m": 2.1369,
+       "lateral_m": 0.1556
+      },
+      "kick": {
+       "limb": "toe.R",
+       "reach_m": 0.4256,
+       "height_m": 1.0277,
+       "lateral_m": -0.124
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1332,
+       "height_m": 2.0919,
+       "lateral_m": 0.1156
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.6506,
+       "height_m": 2.1297,
+       "lateral_m": 0.1492
+      }
+     },
+     "elbow_to_hand_m": 0.0981
+    }
+   ]
+  },
+  "Battle_Start": {
+   "code": "Battle_Start",
+   "hit_frames": [
+    46
+   ],
+   "samples": [
+    {
+     "frame": 46,
+     "probes": {
+      "hand.L": [
+       0.0469,
+       -0.3688,
+       1.084
+      ],
+      "hand.R": [
+       -0.0469,
+       -0.3688,
+       1.084
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.148,
+       -0.1879,
+       1.2076
+      ],
+      "shoulder.R": [
+       -0.148,
+       -0.1879,
+       1.2076
+      ],
+      "forearm.L": [
+       0.0606,
+       -0.312,
+       1.0053
+      ],
+      "forearm.R": [
+       -0.0606,
+       -0.312,
+       1.0053
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3688,
+       "height_m": 1.084,
+       "lateral_m": 0.0469
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1879,
+       "height_m": 1.2076,
+       "lateral_m": 0.148
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.312,
+       "height_m": 1.0053,
+       "lateral_m": 0.0606
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Charge": {
+   "code": "Charge",
+   "hit_frames": [
+    72
+   ],
+   "samples": [
+    {
+     "frame": 72,
+     "probes": {
+      "hand.L": [
+       0.5254,
+       0.1398,
+       1.8661
+      ],
+      "hand.R": [
+       -0.5254,
+       0.1398,
+       1.8661
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0207
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0225
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0207
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0225
+      ],
+      "shoulder.L": [
+       0.1502,
+       0.0813,
+       1.339
+      ],
+      "shoulder.R": [
+       -0.1502,
+       0.0813,
+       1.339
+      ],
+      "forearm.L": [
+       0.4725,
+       0.1299,
+       1.7842
+      ],
+      "forearm.R": [
+       -0.4725,
+       0.1299,
+       1.7842
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": -0.1398,
+       "height_m": 1.8661,
+       "lateral_m": 0.5254
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0207,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": -0.0813,
+       "height_m": 1.339,
+       "lateral_m": 0.1502
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": -0.1299,
+       "height_m": 1.7842,
+       "lateral_m": 0.4725
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Charge_Loop": {
+   "code": "Charge_Loop",
+   "hit_frames": [
+    72
+   ],
+   "samples": [
+    {
+     "frame": 72,
+     "probes": {
+      "hand.L": [
+       0.1806,
+       -0.2736,
+       0.7014
+      ],
+      "hand.R": [
+       -0.1806,
+       -0.2736,
+       0.7014
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0219
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0239
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0219
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0239
+      ],
+      "shoulder.L": [
+       0.1507,
+       -0.201,
+       1.1941
+      ],
+      "shoulder.R": [
+       -0.1507,
+       -0.201,
+       1.1941
+      ],
+      "forearm.L": [
+       0.212,
+       -0.209,
+       0.7681
+      ],
+      "forearm.R": [
+       -0.212,
+       -0.209,
+       0.7681
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.2736,
+       "height_m": 0.7014,
+       "lateral_m": 0.1806
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0219,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.201,
+       "height_m": 1.1941,
+       "lateral_m": 0.1507
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.209,
+       "height_m": 0.7681,
+       "lateral_m": 0.212
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Combo_Finish": {
+   "code": "Combo_Finish",
+   "hit_frames": [
+    30
+   ],
+   "samples": [
+    {
+     "frame": 30,
+     "probes": {
+      "hand.L": [
+       0.2299,
+       -1.6421,
+       0.3788
+      ],
+      "hand.R": [
+       -0.2259,
+       -1.6421,
+       0.3788
+      ],
+      "foot.L": [
+       0.1479,
+       -1.2028,
+       0.1177
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.964,
+       0.0226
+      ],
+      "toe.L": [
+       0.1479,
+       -1.2775,
+       0.1118
+      ],
+      "toe.R": [
+       -0.1456,
+       -1.039,
+       0.0226
+      ],
+      "shoulder.L": [
+       0.1425,
+       -1.1691,
+       0.811
+      ],
+      "shoulder.R": [
+       -0.1385,
+       -1.1691,
+       0.811
+      ],
+      "forearm.L": [
+       0.2221,
+       -1.5614,
+       0.4339
+      ],
+      "forearm.R": [
+       -0.2181,
+       -1.5614,
+       0.4339
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 1.6421,
+       "height_m": 0.3788,
+       "lateral_m": 0.2299
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 1.2775,
+       "height_m": 0.1118,
+       "lateral_m": 0.1479
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 1.1691,
+       "height_m": 0.811,
+       "lateral_m": 0.1425
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 1.5614,
+       "height_m": 0.4339,
+       "lateral_m": 0.2221
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Dash_Attack": {
+   "code": "Dash_Attack",
+   "hit_frames": [
+    20
+   ],
+   "samples": [
+    {
+     "frame": 20,
+     "probes": {
+      "hand.L": [
+       0.1807,
+       -0.9128,
+       1.2284
+      ],
+      "hand.R": [
+       0.0437,
+       -1.6618,
+       1.0463
+      ],
+      "foot.L": [
+       0.0506,
+       -0.5023,
+       0.0232
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.9794,
+       0.0221
+      ],
+      "toe.L": [
+       0.0506,
+       -0.5773,
+       0.0232
+      ],
+      "toe.R": [
+       -0.1456,
+       -1.0543,
+       0.0182
+      ],
+      "shoulder.L": [
+       0.1552,
+       -0.81,
+       1.2428
+      ],
+      "shoulder.R": [
+       -0.0259,
+       -1.024,
+       1.138
+      ],
+      "forearm.L": [
+       0.1954,
+       -0.8656,
+       1.1438
+      ],
+      "forearm.R": [
+       0.0369,
+       -1.5642,
+       1.0512
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 1.6618,
+       "height_m": 1.0463,
+       "lateral_m": 0.0437
+      },
+      "kick": {
+       "limb": "toe.R",
+       "reach_m": 1.0543,
+       "height_m": 0.0182,
+       "lateral_m": -0.1456
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 1.024,
+       "height_m": 1.138,
+       "lateral_m": -0.0259
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 1.5642,
+       "height_m": 1.0512,
+       "lateral_m": 0.0369
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Grab_Start": {
+   "code": "Grab_Start",
+   "hit_frames": [
+    28
+   ],
+   "samples": [
+    {
+     "frame": 28,
+     "probes": {
+      "hand.L": [
+       0.3353,
+       -1.3613,
+       1.1359
+      ],
+      "hand.R": [
+       -0.3147,
+       -1.3626,
+       1.1346
+      ],
+      "foot.L": [
+       0.1472,
+       -0.824,
+       0.0214
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.514,
+       0.0237
+      ],
+      "toe.L": [
+       0.1472,
+       -0.899,
+       0.0214
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.589,
+       0.0237
+      ],
+      "shoulder.L": [
+       0.1558,
+       -0.7555,
+       1.1987
+      ],
+      "shoulder.R": [
+       -0.1352,
+       -0.7568,
+       1.1973
+      ],
+      "forearm.L": [
+       0.3206,
+       -1.2647,
+       1.1291
+      ],
+      "forearm.R": [
+       -0.3,
+       -1.266,
+       1.1277
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 1.3626,
+       "height_m": 1.1346,
+       "lateral_m": -0.3147
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.899,
+       "height_m": 0.0214,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.7568,
+       "height_m": 1.1973,
+       "lateral_m": -0.1352
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 1.266,
+       "height_m": 1.1277,
+       "lateral_m": -0.3
+      }
+     },
+     "elbow_to_hand_m": 0.0979
+    }
+   ]
+  },
+  "Ground_Hit": {
+   "code": "Ground_Hit",
+   "hit_frames": [
+    2
+   ],
+   "samples": [
+    {
+     "frame": 2,
+     "probes": {
+      "hand.L": [
+       0.5955,
+       1.2753,
+       -0.0427
+      ],
+      "hand.R": [
+       -0.6352,
+       1.2552,
+       -0.0318
+      ],
+      "foot.L": [
+       0.3569,
+       0.1257,
+       0.3688
+      ],
+      "foot.R": [
+       -0.3758,
+       0.1123,
+       0.3309
+      ],
+      "toe.L": [
+       0.3438,
+       0.0554,
+       0.3915
+      ],
+      "toe.R": [
+       -0.3797,
+       0.0377,
+       0.3234
+      ],
+      "shoulder.L": [
+       0.1304,
+       0.9571,
+       0.1935
+      ],
+      "shoulder.R": [
+       -0.1701,
+       0.937,
+       0.2044
+      ],
+      "forearm.L": [
+       0.5209,
+       1.2243,
+       -0.0048
+      ],
+      "forearm.R": [
+       -0.5606,
+       1.2042,
+       0.0061
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": -1.2552,
+       "height_m": -0.0318,
+       "lateral_m": -0.6352
+      },
+      "kick": {
+       "limb": "toe.R",
+       "reach_m": -0.0377,
+       "height_m": 0.3234,
+       "lateral_m": -0.3797
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": -0.937,
+       "height_m": 0.2044,
+       "lateral_m": -0.1701
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": -1.2042,
+       "height_m": 0.0061,
+       "lateral_m": -0.5606
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Ground_Smash": {
+   "code": "Ground_Smash",
+   "hit_frames": [
+    36
+   ],
+   "samples": [
+    {
+     "frame": 36,
+     "probes": {
+      "hand.L": [
+       0.1983,
+       -0.4609,
+       0.2923
+      ],
+      "hand.R": [
+       -0.1983,
+       -0.4609,
+       0.2923
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0238
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0252
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0238
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0252
+      ],
+      "shoulder.L": [
+       0.1515,
+       -0.3542,
+       0.9302
+      ],
+      "shoulder.R": [
+       -0.1515,
+       -0.3542,
+       0.9302
+      ],
+      "forearm.L": [
+       0.1944,
+       -0.4334,
+       0.3862
+      ],
+      "forearm.R": [
+       -0.1944,
+       -0.4334,
+       0.3862
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.4609,
+       "height_m": 0.2923,
+       "lateral_m": 0.1983
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0238,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.3542,
+       "height_m": 0.9302,
+       "lateral_m": 0.1515
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.4334,
+       "height_m": 0.3862,
+       "lateral_m": 0.1944
+      }
+     },
+     "elbow_to_hand_m": 0.0979
+    }
+   ]
+  },
+  "Guard_Break": {
+   "code": "Guard_Break",
+   "hit_frames": [
+    4
+   ],
+   "samples": [
+    {
+     "frame": 4,
+     "probes": {
+      "hand.L": [
+       0.224,
+       -0.146,
+       1.496
+      ],
+      "hand.R": [
+       -0.224,
+       -0.146,
+       1.496
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1492,
+       -0.0365,
+       1.3264
+      ],
+      "shoulder.R": [
+       -0.1492,
+       -0.0365,
+       1.3264
+      ],
+      "forearm.L": [
+       0.284,
+       -0.1631,
+       1.4204
+      ],
+      "forearm.R": [
+       -0.284,
+       -0.1631,
+       1.4204
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.146,
+       "height_m": 1.496,
+       "lateral_m": 0.224
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0365,
+       "height_m": 1.3264,
+       "lateral_m": 0.1492
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.1631,
+       "height_m": 1.4204,
+       "lateral_m": 0.284
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Heavy_01": {
+   "code": "Heavy_01",
+   "hit_frames": [
+    26
+   ],
+   "samples": [
+    {
+     "frame": 26,
+     "probes": {
+      "hand.L": [
+       0.2738,
+       -0.1974,
+       1.3197
+      ],
+      "hand.R": [
+       0.0574,
+       -0.9701,
+       1.1177
+      ],
+      "foot.L": [
+       0.1562,
+       -0.4446,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1562,
+       -0.5196,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1608,
+       -0.116,
+       1.277
+      ],
+      "shoulder.R": [
+       -0.005,
+       -0.3619,
+       1.2424
+      ],
+      "forearm.L": [
+       0.3072,
+       -0.1463,
+       1.2431
+      ],
+      "forearm.R": [
+       0.0476,
+       -0.8735,
+       1.1314
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.9701,
+       "height_m": 1.1177,
+       "lateral_m": 0.0574
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.5196,
+       "height_m": 0.0217,
+       "lateral_m": 0.1562
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.3619,
+       "height_m": 1.2424,
+       "lateral_m": -0.005
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.8735,
+       "height_m": 1.1314,
+       "lateral_m": 0.0476
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Heavy_02": {
+   "code": "Heavy_02",
+   "hit_frames": [
+    26
+   ],
+   "samples": [
+    {
+     "frame": 26,
+     "probes": {
+      "hand.L": [
+       0.1787,
+       -0.5013,
+       0.6389
+      ],
+      "hand.R": [
+       -0.1787,
+       -0.5013,
+       0.6389
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0235
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0236
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0235
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0236
+      ],
+      "shoulder.L": [
+       0.146,
+       -0.2366,
+       1.065
+      ],
+      "shoulder.R": [
+       -0.146,
+       -0.2366,
+       1.065
+      ],
+      "forearm.L": [
+       0.1865,
+       -0.4231,
+       0.6975
+      ],
+      "forearm.R": [
+       -0.1865,
+       -0.4231,
+       0.6975
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.5013,
+       "height_m": 0.6389,
+       "lateral_m": 0.1787
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0235,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.2366,
+       "height_m": 1.065,
+       "lateral_m": 0.146
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.4231,
+       "height_m": 0.6975,
+       "lateral_m": 0.1865
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Body": {
+   "code": "Hit_Body",
+   "hit_frames": [
+    3
+   ],
+   "samples": [
+    {
+     "frame": 3,
+     "probes": {
+      "hand.L": [
+       0.1525,
+       -0.3217,
+       1.2591
+      ],
+      "hand.R": [
+       -0.1376,
+       -0.2875,
+       1.2862
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1568,
+       -0.0939,
+       1.2884
+      ],
+      "shoulder.R": [
+       -0.1454,
+       -0.1032,
+       1.2866
+      ],
+      "forearm.L": [
+       0.1722,
+       -0.2529,
+       1.1922
+      ],
+      "forearm.R": [
+       -0.1552,
+       -0.2287,
+       1.2098
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3217,
+       "height_m": 1.2591,
+       "lateral_m": 0.1525
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.1032,
+       "height_m": 1.2866,
+       "lateral_m": -0.1454
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.2529,
+       "height_m": 1.1922,
+       "lateral_m": 0.1722
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Head": {
+   "code": "Hit_Head",
+   "hit_frames": [
+    3
+   ],
+   "samples": [
+    {
+     "frame": 3,
+     "probes": {
+      "hand.L": [
+       0.1445,
+       -0.3077,
+       1.2711
+      ],
+      "hand.R": [
+       -0.1296,
+       -0.2735,
+       1.2982
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1512,
+       -0.0524,
+       1.3165
+      ],
+      "shoulder.R": [
+       -0.1512,
+       -0.0524,
+       1.3165
+      ],
+      "forearm.L": [
+       0.1642,
+       -0.2389,
+       1.2042
+      ],
+      "forearm.R": [
+       -0.1472,
+       -0.2147,
+       1.2218
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3077,
+       "height_m": 1.2711,
+       "lateral_m": 0.1445
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0524,
+       "height_m": 1.3165,
+       "lateral_m": 0.1512
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.2389,
+       "height_m": 1.2042,
+       "lateral_m": 0.1642
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Heavy_B": {
+   "code": "Hit_Heavy_B",
+   "hit_frames": [
+    4
+   ],
+   "samples": [
+    {
+     "frame": 4,
+     "probes": {
+      "hand.L": [
+       0.1585,
+       -0.3907,
+       1.2631
+      ],
+      "hand.R": [
+       -0.1436,
+       -0.3565,
+       1.2902
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1588,
+       -0.1315,
+       1.3023
+      ],
+      "shoulder.R": [
+       -0.1435,
+       -0.1467,
+       1.3004
+      ],
+      "forearm.L": [
+       0.1782,
+       -0.3219,
+       1.1962
+      ],
+      "forearm.R": [
+       -0.1612,
+       -0.2977,
+       1.2138
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3907,
+       "height_m": 1.2631,
+       "lateral_m": 0.1585
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.1467,
+       "height_m": 1.3004,
+       "lateral_m": -0.1435
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.3219,
+       "height_m": 1.1962,
+       "lateral_m": 0.1782
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Heavy_F": {
+   "code": "Hit_Heavy_F",
+   "hit_frames": [
+    4
+   ],
+   "samples": [
+    {
+     "frame": 4,
+     "probes": {
+      "hand.L": [
+       0.1585,
+       -0.2247,
+       1.2631
+      ],
+      "hand.R": [
+       -0.1436,
+       -0.1905,
+       1.2902
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1554,
+       0.0433,
+       1.2978
+      ],
+      "shoulder.R": [
+       -0.1452,
+       0.0257,
+       1.3084
+      ],
+      "forearm.L": [
+       0.1782,
+       -0.1559,
+       1.1962
+      ],
+      "forearm.R": [
+       -0.1612,
+       -0.1317,
+       1.2138
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.2247,
+       "height_m": 1.2631,
+       "lateral_m": 0.1585
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": -0.0257,
+       "height_m": 1.3084,
+       "lateral_m": -0.1452
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.1559,
+       "height_m": 1.1962,
+       "lateral_m": 0.1782
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Leg": {
+   "code": "Hit_Leg",
+   "hit_frames": [
+    3
+   ],
+   "samples": [
+    {
+     "frame": 3,
+     "probes": {
+      "hand.L": [
+       0.1406,
+       -0.3077,
+       1.2724
+      ],
+      "hand.R": [
+       -0.1317,
+       -0.2735,
+       1.2995
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.217,
+       -0.0533,
+       1.3022
+      ],
+      "shoulder.R": [
+       -0.0843,
+       -0.0526,
+       1.2982
+      ],
+      "forearm.L": [
+       0.1603,
+       -0.2389,
+       1.2055
+      ],
+      "forearm.R": [
+       -0.1493,
+       -0.2147,
+       1.2231
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3077,
+       "height_m": 1.2724,
+       "lateral_m": 0.1406
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0533,
+       "height_m": 1.3022,
+       "lateral_m": 0.217
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.2389,
+       "height_m": 1.2055,
+       "lateral_m": 0.1603
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Light_B": {
+   "code": "Hit_Light_B",
+   "hit_frames": [
+    3
+   ],
+   "samples": [
+    {
+     "frame": 3,
+     "probes": {
+      "hand.L": [
+       0.1535,
+       -0.3237,
+       1.2671
+      ],
+      "hand.R": [
+       -0.1386,
+       -0.2895,
+       1.2942
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1545,
+       -0.0645,
+       1.3125
+      ],
+      "shoulder.R": [
+       -0.1475,
+       -0.0721,
+       1.3117
+      ],
+      "forearm.L": [
+       0.1732,
+       -0.2549,
+       1.2002
+      ],
+      "forearm.R": [
+       -0.1562,
+       -0.2307,
+       1.2178
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3237,
+       "height_m": 1.2671,
+       "lateral_m": 0.1535
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.0721,
+       "height_m": 1.3117,
+       "lateral_m": -0.1475
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.2549,
+       "height_m": 1.2002,
+       "lateral_m": 0.1732
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Hit_Light_F": {
+   "code": "Hit_Light_F",
+   "hit_frames": [
+    3
+   ],
+   "samples": [
+    {
+     "frame": 3,
+     "probes": {
+      "hand.L": [
+       0.1535,
+       -0.2917,
+       1.2671
+      ],
+      "hand.R": [
+       -0.1386,
+       -0.2575,
+       1.2942
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1535,
+       -0.0304,
+       1.3076
+      ],
+      "shoulder.R": [
+       -0.147,
+       -0.0379,
+       1.307
+      ],
+      "forearm.L": [
+       0.1732,
+       -0.2229,
+       1.2002
+      ],
+      "forearm.R": [
+       -0.1562,
+       -0.1987,
+       1.2178
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.2917,
+       "height_m": 1.2671,
+       "lateral_m": 0.1535
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.0379,
+       "height_m": 1.307,
+       "lateral_m": -0.147
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.2229,
+       "height_m": 1.2002,
+       "lateral_m": 0.1732
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Jump_Land": {
+   "code": "Jump_Land",
+   "hit_frames": [
+    4
+   ],
+   "samples": [
+    {
+     "frame": 4,
+     "probes": {
+      "hand.L": [
+       0.4677,
+       -0.3245,
+       0.8683
+      ],
+      "hand.R": [
+       -0.5374,
+       0.0132,
+       0.833
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0237
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0237
+      ],
+      "shoulder.L": [
+       0.1517,
+       -0.0531,
+       1.3489
+      ],
+      "shoulder.R": [
+       -0.1517,
+       -0.0531,
+       1.3489
+      ],
+      "forearm.L": [
+       0.4339,
+       -0.263,
+       0.9367
+      ],
+      "forearm.R": [
+       -0.4795,
+       0.0068,
+       0.9118
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3245,
+       "height_m": 0.8683,
+       "lateral_m": 0.4677
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0531,
+       "height_m": 1.3489,
+       "lateral_m": 0.1517
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.263,
+       "height_m": 0.9367,
+       "lateral_m": 0.4339
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Knockdown_Attack": {
+   "code": "Knockdown_Attack",
+   "hit_frames": [
+    32
+   ],
+   "samples": [
+    {
+     "frame": 32,
+     "probes": {
+      "hand.L": [
+       0.3944,
+       -0.5587,
+       0.6239
+      ],
+      "hand.R": [
+       -0.2269,
+       -1.0148,
+       0.4236
+      ],
+      "foot.L": [
+       0.1562,
+       -0.4446,
+       0.025
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.704,
+       0.0245
+      ],
+      "toe.L": [
+       0.1562,
+       -0.5196,
+       0.025
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.779,
+       0.0245
+      ],
+      "shoulder.L": [
+       0.0413,
+       -0.9571,
+       0.9895
+      ],
+      "shoulder.R": [
+       -0.1807,
+       -0.764,
+       1.0207
+      ],
+      "forearm.L": [
+       0.3441,
+       -0.6325,
+       0.6642
+      ],
+      "forearm.R": [
+       -0.2269,
+       -0.9717,
+       0.5116
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 1.0148,
+       "height_m": 0.4236,
+       "lateral_m": -0.2269
+      },
+      "kick": {
+       "limb": "toe.R",
+       "reach_m": 0.779,
+       "height_m": 0.0245,
+       "lateral_m": -0.1456
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.9571,
+       "height_m": 0.9895,
+       "lateral_m": 0.0413
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.9717,
+       "height_m": 0.5116,
+       "lateral_m": -0.2269
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Knockdown_B": {
+   "code": "Knockdown_B",
+   "hit_frames": [
+    7
+   ],
+   "samples": [
+    {
+     "frame": 7,
+     "probes": {
+      "hand.L": [
+       0.5057,
+       0.4126,
+       1.3968
+      ],
+      "hand.R": [
+       -0.7093,
+       0.2706,
+       1.3342
+      ],
+      "foot.L": [
+       0.2127,
+       -0.1963,
+       0.0223
+      ],
+      "foot.R": [
+       -0.2128,
+       -0.211,
+       0.0228
+      ],
+      "toe.L": [
+       0.2153,
+       -0.2712,
+       0.0221
+      ],
+      "toe.R": [
+       -0.2154,
+       -0.286,
+       0.0227
+      ],
+      "shoulder.L": [
+       0.0273,
+       0.21,
+       1.3023
+      ],
+      "shoulder.R": [
+       -0.231,
+       0.0679,
+       1.2397
+      ],
+      "forearm.L": [
+       0.4338,
+       0.4516,
+       1.3428
+      ],
+      "forearm.R": [
+       -0.6397,
+       0.2926,
+       1.2689
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": -0.2706,
+       "height_m": 1.3342,
+       "lateral_m": -0.7093
+      },
+      "kick": {
+       "limb": "toe.R",
+       "reach_m": 0.286,
+       "height_m": 0.0227,
+       "lateral_m": -0.2154
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": -0.0679,
+       "height_m": 1.2397,
+       "lateral_m": -0.231
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": -0.2926,
+       "height_m": 1.2689,
+       "lateral_m": -0.6397
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Knockdown_F": {
+   "code": "Knockdown_F",
+   "hit_frames": [
+    7
+   ],
+   "samples": [
+    {
+     "frame": 7,
+     "probes": {
+      "hand.L": [
+       0.5131,
+       -0.0801,
+       1.4208
+      ],
+      "hand.R": [
+       -0.7034,
+       -0.2145,
+       1.339
+      ],
+      "foot.L": [
+       0.2083,
+       0.1084,
+       0.0242
+      ],
+      "foot.R": [
+       -0.2083,
+       0.0936,
+       0.0245
+      ],
+      "toe.L": [
+       0.2083,
+       0.0334,
+       0.0242
+      ],
+      "toe.R": [
+       -0.2083,
+       0.0186,
+       0.0245
+      ],
+      "shoulder.L": [
+       0.0334,
+       0.1264,
+       1.3255
+      ],
+      "shoulder.R": [
+       -0.2237,
+       -0.0079,
+       1.2437
+      ],
+      "forearm.L": [
+       0.5043,
+       0.0144,
+       1.3964
+      ],
+      "forearm.R": [
+       -0.6926,
+       -0.1226,
+       1.3067
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.2145,
+       "height_m": 1.339,
+       "lateral_m": -0.7034
+      },
+      "kick": {
+       "limb": "toe.R",
+       "reach_m": -0.0186,
+       "height_m": 0.0245,
+       "lateral_m": -0.2083
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.0079,
+       "height_m": 1.2437,
+       "lateral_m": -0.2237
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.1226,
+       "height_m": 1.3067,
+       "lateral_m": -0.6926
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Launch_Hit": {
+   "code": "Launch_Hit",
+   "hit_frames": [
+    3
+   ],
+   "samples": [
+    {
+     "frame": 3,
+     "probes": {
+      "hand.L": [
+       0.1445,
+       -0.2393,
+       1.4619
+      ],
+      "hand.R": [
+       -0.1295,
+       -0.2105,
+       1.489
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2646,
+       0.182
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0454,
+       0.182
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3396,
+       0.182
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0296,
+       0.182
+      ],
+      "shoulder.L": [
+       0.1507,
+       0.0173,
+       1.5037
+      ],
+      "shoulder.R": [
+       -0.1506,
+       0.0118,
+       1.5037
+      ],
+      "forearm.L": [
+       0.1642,
+       -0.1704,
+       1.395
+      ],
+      "forearm.R": [
+       -0.1472,
+       -0.1517,
+       1.4126
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.2393,
+       "height_m": 1.4619,
+       "lateral_m": 0.1445
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3396,
+       "height_m": 0.182,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": -0.0118,
+       "height_m": 1.5037,
+       "lateral_m": -0.1506
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.1704,
+       "height_m": 1.395,
+       "lateral_m": 0.1642
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Launcher": {
+   "code": "Launcher",
+   "hit_frames": [
+    30
+   ],
+   "samples": [
+    {
+     "frame": 30,
+     "probes": {
+      "hand.L": [
+       0.3806,
+       -0.0244,
+       0.7828
+      ],
+      "hand.R": [
+       -0.1457,
+       -0.1797,
+       2.016
+      ],
+      "foot.L": [
+       0.1472,
+       -0.6014,
+       0.0684
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.1525,
+       0.2842
+      ],
+      "toe.L": [
+       0.1472,
+       -0.6588,
+       0.0202
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.2261,
+       0.2697
+      ],
+      "shoulder.L": [
+       0.1932,
+       -0.197,
+       1.3767
+      ],
+      "shoulder.R": [
+       -0.0585,
+       -0.0404,
+       1.3877
+      ],
+      "forearm.L": [
+       0.363,
+       -0.0362,
+       0.8785
+      ],
+      "forearm.R": [
+       -0.1379,
+       -0.164,
+       1.9196
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.1797,
+       "height_m": 2.016,
+       "lateral_m": -0.1457
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.6588,
+       "height_m": 0.0202,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.197,
+       "height_m": 1.3767,
+       "lateral_m": 0.1932
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.164,
+       "height_m": 1.9196,
+       "lateral_m": -0.1379
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Light_01": {
+   "code": "Light_01",
+   "hit_frames": [
+    6
+   ],
+   "samples": [
+    {
+     "frame": 6,
+     "probes": {
+      "hand.L": [
+       0.2032,
+       -0.7934,
+       1.2364
+      ],
+      "hand.R": [
+       -0.1568,
+       -0.2531,
+       1.2788
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1375,
+       -0.1561,
+       1.3142
+      ],
+      "shoulder.R": [
+       -0.1527,
+       -0.0691,
+       1.3143
+      ],
+      "forearm.L": [
+       0.2012,
+       -0.6954,
+       1.2374
+      ],
+      "forearm.R": [
+       -0.1744,
+       -0.1864,
+       1.2092
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.7934,
+       "height_m": 1.2364,
+       "lateral_m": 0.2032
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1561,
+       "height_m": 1.3142,
+       "lateral_m": 0.1375
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.6954,
+       "height_m": 1.2374,
+       "lateral_m": 0.2012
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Light_02": {
+   "code": "Light_02",
+   "hit_frames": [
+    8
+   ],
+   "samples": [
+    {
+     "frame": 8,
+     "probes": {
+      "hand.L": [
+       0.1449,
+       -0.2204,
+       1.2904
+      ],
+      "hand.R": [
+       0.245,
+       -0.7249,
+       1.2531
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1314,
+       -0.0284,
+       1.3172
+      ],
+      "shoulder.R": [
+       -0.1066,
+       -0.2141,
+       1.303
+      ],
+      "forearm.L": [
+       0.1625,
+       -0.1617,
+       1.214
+      ],
+      "forearm.R": [
+       0.1661,
+       -0.6677,
+       1.2433
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.7249,
+       "height_m": 1.2531,
+       "lateral_m": 0.245
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.2141,
+       "height_m": 1.303,
+       "lateral_m": -0.1066
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.6677,
+       "height_m": 1.2433,
+       "lateral_m": 0.1661
+      }
+     },
+     "elbow_to_hand_m": 0.0979
+    }
+   ]
+  },
+  "Light_03": {
+   "code": "Light_03",
+   "hit_frames": [
+    10
+   ],
+   "samples": [
+    {
+     "frame": 10,
+     "probes": {
+      "hand.L": [
+       -0.2923,
+       -0.7751,
+       1.2333
+      ],
+      "hand.R": [
+       -0.1245,
+       -0.2348,
+       1.2989
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0217
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0217
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.0374,
+       -0.2503,
+       1.2927
+      ],
+      "shoulder.R": [
+       -0.1456,
+       -0.0125,
+       1.3136
+      ],
+      "forearm.L": [
+       -0.2148,
+       -0.7155,
+       1.2273
+      ],
+      "forearm.R": [
+       -0.1421,
+       -0.176,
+       1.2225
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.7751,
+       "height_m": 1.2333,
+       "lateral_m": -0.2923
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0217,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.2503,
+       "height_m": 1.2927,
+       "lateral_m": 0.0374
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.7155,
+       "height_m": 1.2273,
+       "lateral_m": -0.2148
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Low_Attack": {
+   "code": "Low_Attack",
+   "hit_frames": [
+    20
+   ],
+   "samples": [
+    {
+     "frame": 20,
+     "probes": {
+      "hand.L": [
+       0.1871,
+       -0.0342,
+       1.1137
+      ],
+      "hand.R": [
+       -0.1722,
+       0.0,
+       1.1408
+      ],
+      "foot.L": [
+       0.1781,
+       -0.8096,
+       0.381
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0232
+      ],
+      "toe.L": [
+       0.1912,
+       -0.883,
+       0.3888
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0232
+      ],
+      "shoulder.L": [
+       0.1483,
+       0.1073,
+       1.1755
+      ],
+      "shoulder.R": [
+       -0.1483,
+       0.1073,
+       1.1755
+      ],
+      "forearm.L": [
+       0.208,
+       0.0159,
+       1.0322
+      ],
+      "forearm.R": [
+       -0.1903,
+       0.0382,
+       1.0524
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.0342,
+       "height_m": 1.1137,
+       "lateral_m": 0.1871
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.883,
+       "height_m": 0.3888,
+       "lateral_m": 0.1912
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": -0.1073,
+       "height_m": 1.1755,
+       "lateral_m": 0.1483
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": -0.0159,
+       "height_m": 1.0322,
+       "lateral_m": 0.208
+      }
+     },
+     "elbow_to_hand_m": 0.0979
+    }
+   ]
+  },
+  "Rage": {
+   "code": "Rage",
+   "hit_frames": [
+    28,
+    52
+   ],
+   "samples": [
+    {
+     "frame": 28,
+     "probes": {
+      "hand.L": [
+       0.1231,
+       -0.2382,
+       1.1666
+      ],
+      "hand.R": [
+       -0.1213,
+       -0.2385,
+       1.1661
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1513,
+       -0.0967,
+       1.2983
+      ],
+      "shoulder.R": [
+       -0.1513,
+       -0.0967,
+       1.2983
+      ],
+      "forearm.L": [
+       0.1477,
+       -0.333,
+       1.1705
+      ],
+      "forearm.R": [
+       -0.1457,
+       -0.3333,
+       1.1719
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.2385,
+       "height_m": 1.1661,
+       "lateral_m": -0.1213
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0967,
+       "height_m": 1.2983,
+       "lateral_m": 0.1513
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.3333,
+       "height_m": 1.1719,
+       "lateral_m": -0.1457
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    },
+    {
+     "frame": 52,
+     "probes": {
+      "hand.L": [
+       0.1227,
+       -0.1704,
+       1.2106
+      ],
+      "hand.R": [
+       -0.1218,
+       -0.1703,
+       1.2103
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1517,
+       -0.0144,
+       1.3308
+      ],
+      "shoulder.R": [
+       -0.1517,
+       -0.0144,
+       1.3308
+      ],
+      "forearm.L": [
+       0.1477,
+       -0.2651,
+       1.2075
+      ],
+      "forearm.R": [
+       -0.1465,
+       -0.265,
+       1.2072
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.1704,
+       "height_m": 1.2106,
+       "lateral_m": 0.1227
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0144,
+       "height_m": 1.3308,
+       "lateral_m": 0.1517
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.2651,
+       "height_m": 1.2075,
+       "lateral_m": 0.1477
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Skill_01": {
+   "code": "Skill_01",
+   "hit_frames": [
+    36
+   ],
+   "samples": [
+    {
+     "frame": 36,
+     "probes": {
+      "hand.L": [
+       0.1658,
+       -0.3337,
+       0.7907
+      ],
+      "hand.R": [
+       -0.3032,
+       -0.1928,
+       0.8573
+      ],
+      "foot.L": [
+       0.1472,
+       -0.8156,
+       0.0223
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.4466,
+       0.024
+      ],
+      "toe.L": [
+       0.1472,
+       -0.8906,
+       0.0223
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.5216,
+       0.024
+      ],
+      "shoulder.L": [
+       0.0597,
+       -0.8837,
+       1.1126
+      ],
+      "shoulder.R": [
+       -0.1971,
+       -0.7428,
+       1.1791
+      ],
+      "forearm.L": [
+       0.1609,
+       -0.4238,
+       0.8289
+      ],
+      "forearm.R": [
+       -0.2983,
+       -0.2829,
+       0.8955
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.3337,
+       "height_m": 0.7907,
+       "lateral_m": 0.1658
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.8906,
+       "height_m": 0.0223,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.8837,
+       "height_m": 1.1126,
+       "lateral_m": 0.0597
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.4238,
+       "height_m": 0.8289,
+       "lateral_m": 0.1609
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Skill_02": {
+   "code": "Skill_02",
+   "hit_frames": [
+    68
+   ],
+   "samples": [
+    {
+     "frame": 68,
+     "probes": {
+      "hand.L": [
+       0.16,
+       -0.78,
+       0.35
+      ],
+      "hand.R": [
+       -0.16,
+       -0.78,
+       0.35
+      ],
+      "foot.L": [
+       0.1472,
+       -0.6446,
+       0.0242
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.3346,
+       0.0254
+      ],
+      "toe.L": [
+       0.1472,
+       -0.7196,
+       0.0242
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.4096,
+       0.0254
+      ],
+      "shoulder.L": [
+       0.1517,
+       -0.6189,
+       0.9393
+      ],
+      "shoulder.R": [
+       -0.1517,
+       -0.6189,
+       0.9393
+      ],
+      "forearm.L": [
+       0.1907,
+       -0.745,
+       0.4363
+      ],
+      "forearm.R": [
+       -0.1907,
+       -0.745,
+       0.4363
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.78,
+       "height_m": 0.35,
+       "lateral_m": 0.16
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.7196,
+       "height_m": 0.0242,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.6189,
+       "height_m": 0.9393,
+       "lateral_m": 0.1517
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.745,
+       "height_m": 0.4363,
+       "lateral_m": 0.1907
+      }
+     },
+     "elbow_to_hand_m": 0.0981
+    }
+   ]
+  },
+  "Skill_03": {
+   "code": "Skill_03",
+   "hit_frames": [
+    46
+   ],
+   "samples": [
+    {
+     "frame": 46,
+     "probes": {
+      "hand.L": [
+       0.105,
+       -0.255,
+       1.3
+      ],
+      "hand.R": [
+       -0.3,
+       -0.65,
+       1.35
+      ],
+      "foot.L": [
+       0.114,
+       -0.205,
+       0.242
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0234
+      ],
+      "toe.L": [
+       0.114,
+       -0.28,
+       0.242
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0234
+      ],
+      "shoulder.L": [
+       0.1449,
+       -0.0437,
+       1.2631
+      ],
+      "shoulder.R": [
+       -0.1236,
+       -0.1721,
+       1.2377
+      ],
+      "forearm.L": [
+       0.1657,
+       -0.2484,
+       1.2234
+      ],
+      "forearm.R": [
+       -0.3052,
+       -0.5783,
+       1.2834
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.65,
+       "height_m": 1.35,
+       "lateral_m": -0.3
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.28,
+       "height_m": 0.242,
+       "lateral_m": 0.114
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.1721,
+       "height_m": 1.2377,
+       "lateral_m": -0.1236
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.5783,
+       "height_m": 1.2834,
+       "lateral_m": -0.3052
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Spawn": {
+   "code": "Spawn",
+   "hit_frames": [
+    60
+   ],
+   "samples": [
+    {
+     "frame": 60,
+     "probes": {
+      "hand.L": [
+       0.3746,
+       0.1406,
+       0.995
+      ],
+      "hand.R": [
+       -0.3746,
+       0.1406,
+       0.995
+      ],
+      "foot.L": [
+       0.147,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.147,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1501,
+       -0.1254,
+       1.0336
+      ],
+      "shoulder.R": [
+       -0.1501,
+       -0.1254,
+       1.0336
+      ],
+      "forearm.L": [
+       0.285,
+       0.1714,
+       0.9701
+      ],
+      "forearm.R": [
+       -0.285,
+       0.1714,
+       0.9701
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": -0.1406,
+       "height_m": 0.995,
+       "lateral_m": 0.3746
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.147
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1254,
+       "height_m": 1.0336,
+       "lateral_m": 0.1501
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": -0.1714,
+       "height_m": 0.9701,
+       "lateral_m": 0.285
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Throw": {
+   "code": "Throw",
+   "hit_frames": [
+    28
+   ],
+   "samples": [
+    {
+     "frame": 28,
+     "probes": {
+      "hand.L": [
+       0.3354,
+       -1.3733,
+       1.136
+      ],
+      "hand.R": [
+       -0.3146,
+       -1.3746,
+       1.1347
+      ],
+      "foot.L": [
+       0.1472,
+       -1.094,
+       0.0205
+      ],
+      "foot.R": [
+       -0.1456,
+       -0.784,
+       0.0237
+      ],
+      "toe.L": [
+       0.1472,
+       -1.169,
+       0.0205
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.859,
+       0.0237
+      ],
+      "shoulder.L": [
+       0.2498,
+       -0.8954,
+       1.1778
+      ],
+      "shoulder.R": [
+       0.0156,
+       -1.0629,
+       1.1406
+      ],
+      "forearm.L": [
+       0.3722,
+       -1.2893,
+       1.1015
+      ],
+      "forearm.R": [
+       -0.2265,
+       -1.3685,
+       1.0924
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 1.3746,
+       "height_m": 1.1347,
+       "lateral_m": -0.3146
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 1.169,
+       "height_m": 0.0205,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 1.0629,
+       "height_m": 1.1406,
+       "lateral_m": 0.0156
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 1.3685,
+       "height_m": 1.0924,
+       "lateral_m": -0.2265
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Ultimate_Attack": {
+   "code": "Ultimate_Attack",
+   "hit_frames": [
+    10,
+    24,
+    34,
+    64
+   ],
+   "samples": [
+    {
+     "frame": 10,
+     "probes": {
+      "hand.L": [
+       0.1564,
+       -0.4116,
+       1.1792
+      ],
+      "hand.R": [
+       -0.2022,
+       -0.5445,
+       1.2207
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0215
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0231
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0215
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0231
+      ],
+      "shoulder.L": [
+       0.1354,
+       -0.1477,
+       1.3202
+      ],
+      "shoulder.R": [
+       -0.1598,
+       -0.1331,
+       1.3225
+      ],
+      "forearm.L": [
+       0.2313,
+       -0.3496,
+       1.1672
+      ],
+      "forearm.R": [
+       -0.2644,
+       -0.4697,
+       1.2095
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.5445,
+       "height_m": 1.2207,
+       "lateral_m": -0.2022
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0215,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1477,
+       "height_m": 1.3202,
+       "lateral_m": 0.1354
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.4697,
+       "height_m": 1.2095,
+       "lateral_m": -0.2644
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    },
+    {
+     "frame": 24,
+     "probes": {
+      "hand.L": [
+       0.177,
+       -0.5549,
+       1.2127
+      ],
+      "hand.R": [
+       -0.1816,
+       -0.4914,
+       1.1436
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0215
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0233
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0215
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0233
+      ],
+      "shoulder.L": [
+       0.1568,
+       -0.1632,
+       1.3096
+      ],
+      "shoulder.R": [
+       -0.1433,
+       -0.1467,
+       1.3083
+      ],
+      "forearm.L": [
+       0.2452,
+       -0.486,
+       1.1985
+      ],
+      "forearm.R": [
+       -0.2471,
+       -0.4187,
+       1.1393
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.5549,
+       "height_m": 1.2127,
+       "lateral_m": 0.177
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0215,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1632,
+       "height_m": 1.3096,
+       "lateral_m": 0.1568
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.486,
+       "height_m": 1.1985,
+       "lateral_m": 0.2452
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    },
+    {
+     "frame": 34,
+     "probes": {
+      "hand.L": [
+       0.1575,
+       -0.4792,
+       1.1481
+      ],
+      "hand.R": [
+       -0.2191,
+       -0.588,
+       1.3106
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0233
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0233
+      ],
+      "shoulder.L": [
+       0.1362,
+       -0.1723,
+       1.2992
+      ],
+      "shoulder.R": [
+       -0.161,
+       -0.1681,
+       1.3016
+      ],
+      "forearm.L": [
+       0.2294,
+       -0.4133,
+       1.1387
+      ],
+      "forearm.R": [
+       -0.2816,
+       -0.5161,
+       1.2876
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.588,
+       "height_m": 1.3106,
+       "lateral_m": -0.2191
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1723,
+       "height_m": 1.2992,
+       "lateral_m": 0.1362
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.5161,
+       "height_m": 1.2876,
+       "lateral_m": -0.2816
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    },
+    {
+     "frame": 64,
+     "probes": {
+      "hand.L": [
+       0.2256,
+       -0.6237,
+       1.1048
+      ],
+      "hand.R": [
+       -0.2319,
+       -0.5946,
+       1.1055
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0223
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.024
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0223
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.024
+      ],
+      "shoulder.L": [
+       0.1456,
+       -0.1171,
+       1.2381
+      ],
+      "shoulder.R": [
+       -0.1519,
+       -0.0879,
+       1.2388
+      ],
+      "forearm.L": [
+       0.2658,
+       -0.5343,
+       1.1054
+      ],
+      "forearm.R": [
+       -0.2721,
+       -0.5052,
+       1.1061
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.L",
+       "reach_m": 0.6237,
+       "height_m": 1.1048,
+       "lateral_m": 0.2256
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0223,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.1171,
+       "height_m": 1.2381,
+       "lateral_m": 0.1456
+      },
+      "elbow": {
+       "limb": "forearm.L",
+       "reach_m": 0.5343,
+       "height_m": 1.1054,
+       "lateral_m": 0.2658
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Uppercut": {
+   "code": "Uppercut",
+   "hit_frames": [
+    24
+   ],
+   "samples": [
+    {
+     "frame": 24,
+     "probes": {
+      "hand.L": [
+       0.1997,
+       -0.2918,
+       1.1177
+      ],
+      "hand.R": [
+       -0.1105,
+       -0.4078,
+       1.8804
+      ],
+      "foot.L": [
+       0.1472,
+       -0.3054,
+       0.0604
+      ],
+      "foot.R": [
+       -0.1456,
+       0.1651,
+       0.1075
+      ],
+      "toe.L": [
+       0.1472,
+       -0.369,
+       0.0207
+      ],
+      "toe.R": [
+       -0.1456,
+       0.0901,
+       0.1075
+      ],
+      "shoulder.L": [
+       0.1562,
+       -0.0538,
+       1.4575
+      ],
+      "shoulder.R": [
+       -0.1368,
+       -0.076,
+       1.4314
+      ],
+      "forearm.L": [
+       0.2288,
+       -0.2116,
+       1.0695
+      ],
+      "forearm.R": [
+       -0.119,
+       -0.3816,
+       1.7863
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.4078,
+       "height_m": 1.8804,
+       "lateral_m": -0.1105
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.369,
+       "height_m": 0.0207,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.076,
+       "height_m": 1.4314,
+       "lateral_m": -0.1368
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.3816,
+       "height_m": 1.7863,
+       "lateral_m": -0.119
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Victory_01": {
+   "code": "Victory_01",
+   "hit_frames": [
+    28,
+    42,
+    56
+   ],
+   "samples": [
+    {
+     "frame": 28,
+     "probes": {
+      "hand.L": [
+       0.0878,
+       -0.3183,
+       1.2526
+      ],
+      "hand.R": [
+       -0.0774,
+       -0.3351,
+       1.2474
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1553,
+       -0.1552,
+       1.256
+      ],
+      "shoulder.R": [
+       -0.1431,
+       -0.1722,
+       1.2508
+      ],
+      "forearm.L": [
+       0.098,
+       -0.4157,
+       1.2582
+      ],
+      "forearm.R": [
+       -0.0963,
+       -0.4311,
+       1.2529
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.3351,
+       "height_m": 1.2474,
+       "lateral_m": -0.0774
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.1722,
+       "height_m": 1.2508,
+       "lateral_m": -0.1431
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.4311,
+       "height_m": 1.2529,
+       "lateral_m": -0.0963
+      }
+     },
+     "elbow_to_hand_m": 0.0981
+    },
+    {
+     "frame": 42,
+     "probes": {
+      "hand.L": [
+       0.0878,
+       -0.3183,
+       1.2526
+      ],
+      "hand.R": [
+       -0.0774,
+       -0.3351,
+       1.2474
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1553,
+       -0.1552,
+       1.256
+      ],
+      "shoulder.R": [
+       -0.1431,
+       -0.1722,
+       1.2508
+      ],
+      "forearm.L": [
+       0.098,
+       -0.4157,
+       1.2582
+      ],
+      "forearm.R": [
+       -0.0963,
+       -0.4311,
+       1.2529
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.3351,
+       "height_m": 1.2474,
+       "lateral_m": -0.0774
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.1722,
+       "height_m": 1.2508,
+       "lateral_m": -0.1431
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.4311,
+       "height_m": 1.2529,
+       "lateral_m": -0.0963
+      }
+     },
+     "elbow_to_hand_m": 0.0981
+    },
+    {
+     "frame": 56,
+     "probes": {
+      "hand.L": [
+       0.0878,
+       -0.3183,
+       1.2526
+      ],
+      "hand.R": [
+       -0.0774,
+       -0.3351,
+       1.2474
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1553,
+       -0.1552,
+       1.256
+      ],
+      "shoulder.R": [
+       -0.1431,
+       -0.1722,
+       1.2508
+      ],
+      "forearm.L": [
+       0.098,
+       -0.4157,
+       1.2582
+      ],
+      "forearm.R": [
+       -0.0963,
+       -0.4311,
+       1.2529
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.3351,
+       "height_m": 1.2474,
+       "lateral_m": -0.0774
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.1722,
+       "height_m": 1.2508,
+       "lateral_m": -0.1431
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.4311,
+       "height_m": 1.2529,
+       "lateral_m": -0.0963
+      }
+     },
+     "elbow_to_hand_m": 0.0981
+    }
+   ]
+  },
+  "Victory_02": {
+   "code": "Victory_02",
+   "hit_frames": [
+    34
+   ],
+   "samples": [
+    {
+     "frame": 34,
+     "probes": {
+      "hand.L": [
+       0.3047,
+       -0.0856,
+       1.9395
+      ],
+      "hand.R": [
+       -0.1619,
+       -0.2758,
+       1.3263
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1457,
+       -0.0612,
+       1.3858
+      ],
+      "shoulder.R": [
+       -0.1379,
+       -0.0536,
+       1.3131
+      ],
+      "forearm.L": [
+       0.3137,
+       -0.0514,
+       1.8481
+      ],
+      "forearm.R": [
+       -0.1618,
+       -0.2253,
+       1.2423
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.2758,
+       "height_m": 1.3263,
+       "lateral_m": -0.1619
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.L",
+       "reach_m": 0.0612,
+       "height_m": 1.3858,
+       "lateral_m": 0.1457
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.2253,
+       "height_m": 1.2423,
+       "lateral_m": -0.1618
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Victory_03": {
+   "code": "Victory_03",
+   "hit_frames": [
+    24
+   ],
+   "samples": [
+    {
+     "frame": 24,
+     "probes": {
+      "hand.L": [
+       0.0527,
+       -0.3196,
+       1.2905
+      ],
+      "hand.R": [
+       -0.0405,
+       -0.3373,
+       1.2896
+      ],
+      "foot.L": [
+       0.1472,
+       -0.2846,
+       0.0218
+      ],
+      "foot.R": [
+       -0.1456,
+       0.0254,
+       0.0218
+      ],
+      "toe.L": [
+       0.1472,
+       -0.3596,
+       0.0218
+      ],
+      "toe.R": [
+       -0.1456,
+       -0.0496,
+       0.0218
+      ],
+      "shoulder.L": [
+       0.1559,
+       -0.0743,
+       1.3071
+      ],
+      "shoulder.R": [
+       -0.1437,
+       -0.0921,
+       1.3062
+      ],
+      "forearm.L": [
+       0.1064,
+       -0.2952,
+       1.2123
+      ],
+      "forearm.R": [
+       -0.0929,
+       -0.3124,
+       1.2106
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": 0.3373,
+       "height_m": 1.2896,
+       "lateral_m": -0.0405
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.3596,
+       "height_m": 0.0218,
+       "lateral_m": 0.1472
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": 0.0921,
+       "height_m": 1.3062,
+       "lateral_m": -0.1437
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": 0.3124,
+       "height_m": 1.2106,
+       "lateral_m": -0.0929
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  },
+  "Wall_Hit": {
+   "code": "Wall_Hit",
+   "hit_frames": [
+    14
+   ],
+   "samples": [
+    {
+     "frame": 14,
+     "probes": {
+      "hand.L": [
+       0.5116,
+       0.2829,
+       1.7493
+      ],
+      "hand.R": [
+       -0.4912,
+       0.1637,
+       1.7847
+      ],
+      "foot.L": [
+       0.2537,
+       -0.05,
+       0.7451
+      ],
+      "foot.R": [
+       -0.2521,
+       0.2522,
+       0.7451
+      ],
+      "toe.L": [
+       0.2547,
+       -0.1246,
+       0.7373
+      ],
+      "toe.R": [
+       -0.2531,
+       0.1776,
+       0.7373
+      ],
+      "shoulder.L": [
+       0.1462,
+       0.5089,
+       1.9657
+      ],
+      "shoulder.R": [
+       -0.1258,
+       0.3897,
+       2.001
+      ],
+      "forearm.L": [
+       0.5313,
+       0.3518,
+       1.6824
+      ],
+      "forearm.R": [
+       -0.5088,
+       0.2225,
+       1.7083
+      ]
+     },
+     "best": {
+      "punch": {
+       "limb": "hand.R",
+       "reach_m": -0.1637,
+       "height_m": 1.7847,
+       "lateral_m": -0.4912
+      },
+      "kick": {
+       "limb": "toe.L",
+       "reach_m": 0.1246,
+       "height_m": 0.7373,
+       "lateral_m": 0.2547
+      },
+      "shoulder": {
+       "limb": "shoulder.R",
+       "reach_m": -0.3897,
+       "height_m": 2.001,
+       "lateral_m": -0.1258
+      },
+      "elbow": {
+       "limb": "forearm.R",
+       "reach_m": -0.2225,
+       "height_m": 1.7083,
+       "lateral_m": -0.5088
+      }
+     },
+     "elbow_to_hand_m": 0.098
+    }
+   ]
+  }
+ }
+}

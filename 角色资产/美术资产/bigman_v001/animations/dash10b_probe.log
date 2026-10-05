@@ -1,0 +1,10 @@
+DASH10B_TWIST_SIGN {"rows": {"pelvis_ry-20": {"shoulder_L_y": -13.68, "shoulder_R_y": 13.68, "thigh_L_y": -30.78, "thigh_R_y": 30.78}, "pelvis_ry+20": {"shoulder_L_y": 13.68, "shoulder_R_y": -13.68, "thigh_L_y": 30.78, "thigh_R_y": -30.78}, "chest_ry-20": {"shoulder_L_y": -13.68, "shoulder_R_y": 13.68, "thigh_L_y": 0.0, "thigh_R_y": 0.0}, "chest_ry+20": {"shoulder_L_y": 13.68, "shoulder_R_y": -13.68, "thigh_L_y": 0.0, "thigh_R_y": 0.0}}, "note": "y 越小 = 越靠前（角色正面朝 −Y）。"}
+DASH10B_RUN0 {"ankle_L": [46.64, -387.35, 85.26], "ankle_R": [-19.48, 532.0, 193.44], "fist_L": [127.88, -311.88, 1172.5], "fist_R": [-135.32, -361.43, 1311.51], "shoulder_L": [29.76, -120.91, 1288.01], "shoulder_R": [-50.02, -126.17, 1285.12], "tip_L_deg": 3.0, "tip_R_deg": 3.0, "sole": {"L": -0.0, "R": 108.18}}
+DASH10B_IDLE0 {"fist_L": [144.52, -307.73, 1271.06], "fist_R": [-129.58, -273.48, 1298.18], "shoulder_L": [40.0, -59.52, 1326.16], "shoulder_R": [-40.0, -59.52, 1326.16], "ankle_L": [143.18, -169.57, 79.76], "ankle_R": [-141.58, 140.43, 79.83]}
+DASH10B_BONE_LENGTH {"shoulder.R": 111.8, "upperarm.R": 328.0, "forearm.R": 224.0, "hand.R": 98.0, "upperarm.L": 328.0, "forearm.L": 224.0, "hand.L": 98.0, "arm_R_shoulder_to_fist_mm": 761.8}
+DASH10B_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

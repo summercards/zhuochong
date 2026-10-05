@@ -1,0 +1,14 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\verify_glb.py", line 62, in <module>
+    if not main(target):
+           ^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\verify_glb.py", line 32, in main
+    version, doc = read_glb(path)
+                   ^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\verify_glb.py", line 17, in read_glb
+    with open(path, "rb") as handle:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '--background'
+
+Blender quit

@@ -1,0 +1,175 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+# ================= E11S_ITER 迭代 =================
+E11S_ITER round=0 max_ay_move_mm=499.0
+E11S_ITER round=1 max_ay_move_mm=1.0
+E11S_ITER round=2 max_ay_move_mm=1.0
+E11S_ITER round=3 max_ay_move_mm=809.0
+E11S_ITER round=4 max_ay_move_mm=808.0
+# ================= E11S_FINAL 结果 =================
+E11S_FINAL f= 24 ank=(-0.199,-0.1970,0.1266) hip=(+0.615,+0.158) soleR= +12.00 soleL=  -2.16 kneeR= 172.48 (want  175.0) | 踝步 0.0 mm
+E11S_FINAL f= 30 ank=(-0.190,-0.2110,0.1401) hip=(+0.596,+0.170) soleR= +26.00 soleL=  -2.15 kneeR= 213.33 (want  215.0) | 踝步 0.0 mm
+E11S_FINAL f= 38 ank=(-0.184,-0.2580,0.1329) hip=(+0.553,+0.197) soleR= +20.00 soleL=  -2.08 kneeR= 202.71 (want  200.0) | 踝步 0.0 mm
+E11S_FINAL f= 44 ank=(-0.180,+0.5190,0.1240) hip=(+0.520,+0.218) soleR= +20.75 soleL=  -1.32 kneeR= 171.23 (want  170.0) | 踝步 0.0 mm
+E11S_FINAL f= 52 ank=(-0.175,+0.4460,0.1273) hip=(+0.469,+0.265) soleR=  +5.00 soleL=  -4.94 kneeR= 135.07 (want  134.0) | 踝步 0.0 mm
+E11S_FINAL f= 60 ank=(-0.170,+0.3610,0.1674) hip=(+0.414,+0.317) soleR=  +2.00 soleL=  -7.35 kneeR= 111.86 (want  112.0) | 踝步 0.0 mm
+E11S_FINAL f= 68 ank=(-0.165,+0.4520,0.1890) hip=(+0.350,+0.384) soleR=  +2.00 soleL=  -4.23 kneeR= 107.09 (want  107.0) | 踝步 0.0 mm
+E11S_FINAL f= 84 ank=(-0.157,+0.4900,0.1827) hip=(+0.234,+0.529) soleR=  +2.00 soleL=  +2.40 kneeR= 150.18 (want  150.0) | 踝步 0.0 mm
+E11S_FINAL f= 92 ank=(-0.152,+0.4290,0.1667) hip=(+0.150,+0.640) soleR=  +2.00 soleL=  +1.72 kneeR= 250.16 (want  250.0) | 踝步 0.0 mm
+E11S_FINAL f=100 ank=(-0.145,+0.3310,0.1092) hip=(+0.050,+0.767) soleR=  +2.00 soleL=  +1.01 kneeR= 360.02 (want  360.0) | 踝步 0.0 mm
+# ================= E11S_KEYS 可直接粘贴 =================
+ANKLE_KEYS_R = (
+    (0, "TERM"), (16, "TERM"),
+    (24, (-0.199, -0.1970, 0.1266)),
+    (30, (-0.190, -0.2110, 0.1401)),
+    (38, (-0.184, -0.2580, 0.1329)),
+    (44, (-0.180, +0.5190, 0.1240)),
+    (52, (-0.175, +0.4460, 0.1273)),
+    (60, (-0.170, +0.3610, 0.1674)),
+    (68, (-0.165, +0.4520, 0.1890)),
+    (84, (-0.157, +0.4900, 0.1827)),
+    (92, (-0.152, +0.4290, 0.1667)),
+    (100, (-0.145, +0.3310, 0.1092)),
+    (104, "REST"), (120, "REST"),
+)
+KNEE_Z_R = (
+    (0, 0.1405), (16, 0.1405),
+    (24, 0.1750),
+    (30, 0.2150),
+    (38, 0.2000),
+    (44, 0.1700),
+    (52, 0.1340),
+    (60, 0.1120),
+    (68, 0.1070),
+    (84, 0.1500),
+    (92, 0.2500),
+    (100, 0.3600),
+    (104, 0.4284), (120, 0.4284),
+)
+# ================= E11S_SCAN 全程逐帧（预测门禁）=========
+E11S_SCAN f=  0 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  1 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  2 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  3 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  4 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  5 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  6 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  7 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  8 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f=  9 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 10 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 11 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 12 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 13 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 14 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 15 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 16 soleL=  -0.52 soleR=  -0.52 kneeR= 140.47 ankR=(-0.212,-0.1721,+0.1139)
+E11S_SCAN f= 17 soleL=  -1.02 soleR=  +1.00 kneeR= 144.19 ankR=(-0.210,-0.1753,+0.1155)
+E11S_SCAN f= 18 soleL=  -1.32 soleR=  +2.52 kneeR= 149.18 ankR=(-0.209,-0.1784,+0.1171)
+E11S_SCAN f= 19 soleL=  -1.55 soleR=  +4.06 kneeR= 153.66 ankR=(-0.207,-0.1815,+0.1187)
+E11S_SCAN f= 20 soleL=  -1.74 soleR=  +5.62 kneeR= 157.81 ankR=(-0.206,-0.1846,+0.1202)
+E11S_SCAN f= 21 soleL=  -1.89 soleR=  +7.19 kneeR= 161.72 ankR=(-0.204,-0.1877,+0.1218)
+E11S_SCAN f= 22 soleL=  -2.00 soleR=  +8.78 kneeR= 165.45 ankR=(-0.202,-0.1908,+0.1234)
+E11S_SCAN f= 23 soleL=  -2.09 soleR= +10.38 kneeR= 169.03 ankR=(-0.201,-0.1939,+0.1250)
+E11S_SCAN f= 24 soleL=  -2.16 soleR= +12.00 kneeR= 172.48 ankR=(-0.199,-0.1970,+0.1266)
+E11S_SCAN f= 25 soleL=  -2.21 soleR= +14.28 kneeR= 180.85 ankR=(-0.198,-0.1993,+0.1288)
+E11S_SCAN f= 26 soleL=  -2.23 soleR= +16.59 kneeR= 188.29 ankR=(-0.196,-0.2017,+0.1311)
+E11S_SCAN f= 27 soleL=  -2.24 soleR= +18.92 kneeR= 195.12 ankR=(-0.195,-0.2040,+0.1334)
+E11S_SCAN f= 28 soleL=  -2.23 soleR= +21.26 kneeR= 201.51 ankR=(-0.193,-0.2063,+0.1356)
+E11S_SCAN f= 29 soleL=  -2.20 soleR= +23.62 kneeR= 207.55 ankR=(-0.192,-0.2087,+0.1379)
+E11S_SCAN f= 30 soleL=  -2.15 soleR= +26.00 kneeR= 213.33 ankR=(-0.190,-0.2110,+0.1401)
+E11S_SCAN f= 31 soleL=  -2.21 soleR= +25.26 kneeR= 212.72 ankR=(-0.189,-0.2169,+0.1392)
+E11S_SCAN f= 32 soleL=  -2.24 soleR= +24.53 kneeR= 211.96 ankR=(-0.189,-0.2228,+0.1383)
+E11S_SCAN f= 33 soleL=  -2.24 soleR= +23.82 kneeR= 211.03 ankR=(-0.188,-0.2286,+0.1374)
+E11S_SCAN f= 34 soleL=  -2.21 soleR= +23.08 kneeR= 209.90 ankR=(-0.187,-0.2345,+0.1365)
+E11S_SCAN f= 35 soleL=  -2.19 soleR= +22.32 kneeR= 208.56 ankR=(-0.186,-0.2404,+0.1356)
+E11S_SCAN f= 36 soleL=  -2.17 soleR= +21.55 kneeR= 206.95 ankR=(-0.186,-0.2462,+0.1347)
+E11S_SCAN f= 37 soleL=  -2.14 soleR= +20.77 kneeR= 205.02 ankR=(-0.185,-0.2521,+0.1338)
+E11S_SCAN f= 38 soleL=  -2.08 soleR= +20.00 kneeR= 202.71 ankR=(-0.184,-0.2580,+0.1329)
+E11S_SCAN f= 39 soleL=  -2.00 soleR= +24.67 kneeR= 391.83 ankR=(-0.184,-0.1285,+0.1314)
+E11S_SCAN f= 40 soleL=  -1.91 soleR= +29.79 kneeR= 468.30 ankR=(-0.183,+0.0010,+0.1300)
+E11S_SCAN f= 41 soleL=  -1.79 soleR= +36.10 kneeR= 514.16 ankR=(-0.182,+0.1305,+0.1285)
+E11S_SCAN f= 42 soleL=  -1.65 soleR= +37.35 kneeR= 535.64 ankR=(-0.181,+0.2600,+0.1270)
+E11S_SCAN f= 43 soleL=  -1.49 soleR= +35.77 kneeR= 506.99 ankR=(-0.181,+0.3895,+0.1255)
+E11S_SCAN f= 44 soleL=  -1.32 soleR= +20.75 kneeR= 171.23 ankR=(-0.180,+0.5190,+0.1240)
+E11S_SCAN f= 45 soleL=  -1.80 soleR= +20.73 kneeR= 163.62 ankR=(-0.179,+0.5099,+0.1244)
+E11S_SCAN f= 46 soleL=  -2.26 soleR= +20.78 kneeR= 157.15 ankR=(-0.179,+0.5008,+0.1248)
+E11S_SCAN f= 47 soleL=  -2.70 soleR= +20.88 kneeR= 151.66 ankR=(-0.178,+0.4916,+0.1252)
+E11S_SCAN f= 48 soleL=  -3.13 soleR= +21.05 kneeR= 147.03 ankR=(-0.178,+0.4825,+0.1256)
+E11S_SCAN f= 49 soleL=  -3.60 soleR= +18.61 kneeR= 143.14 ankR=(-0.177,+0.4734,+0.1260)
+E11S_SCAN f= 50 soleL=  -4.06 soleR= +14.13 kneeR= 139.90 ankR=(-0.176,+0.4643,+0.1264)
+E11S_SCAN f= 51 soleL=  -4.51 soleR=  +9.71 kneeR= 137.23 ankR=(-0.176,+0.4551,+0.1269)
+E11S_SCAN f= 52 soleL=  -4.94 soleR=  +5.00 kneeR= 135.07 ankR=(-0.175,+0.4460,+0.1273)
+E11S_SCAN f= 53 soleL=  -5.36 soleR=  +4.14 kneeR= 129.23 ankR=(-0.174,+0.4354,+0.1323)
+E11S_SCAN f= 54 soleL=  -5.78 soleR=  +3.43 kneeR= 123.72 ankR=(-0.174,+0.4248,+0.1373)
+E11S_SCAN f= 55 soleL=  -6.23 soleR=  +2.88 kneeR= 118.53 ankR=(-0.173,+0.4141,+0.1423)
+E11S_SCAN f= 56 soleL=  -6.79 soleR=  +2.50 kneeR= 113.69 ankR=(-0.172,+0.4035,+0.1474)
+E11S_SCAN f= 57 soleL=  -7.37 soleR=  +2.31 kneeR= 109.19 ankR=(-0.172,+0.3929,+0.1524)
+E11S_SCAN f= 58 soleL=  -8.09 soleR=  +2.14 kneeR= 105.04 ankR=(-0.171,+0.3823,+0.1574) <<BAND
+E11S_SCAN f= 59 soleL=  -7.73 soleR=  +1.97 kneeR= 108.35 ankR=(-0.171,+0.3716,+0.1624)
+E11S_SCAN f= 60 soleL=  -7.35 soleR=  +2.00 kneeR= 111.86 ankR=(-0.170,+0.3610,+0.1674)
+E11S_SCAN f= 61 soleL=  -6.96 soleR=  +1.69 kneeR= 336.74 ankR=(-0.169,+0.3724,+0.1701)
+E11S_SCAN f= 62 soleL=  -6.55 soleR=  +1.46 kneeR= 292.73 ankR=(-0.169,+0.3838,+0.1728)
+E11S_SCAN f= 63 soleL=  -6.18 soleR=  +1.32 kneeR= 250.54 ankR=(-0.168,+0.3951,+0.1755)
+E11S_SCAN f= 64 soleL=  -5.81 soleR=  +1.27 kneeR= 212.01 ankR=(-0.167,+0.4065,+0.1782)
+E11S_SCAN f= 65 soleL=  -5.43 soleR=  +1.31 kneeR= 178.24 ankR=(-0.167,+0.4179,+0.1809)
+E11S_SCAN f= 66 soleL=  -5.04 soleR=  +1.45 kneeR= 149.62 ankR=(-0.166,+0.4293,+0.1836)
+E11S_SCAN f= 67 soleL=  -4.64 soleR=  +1.67 kneeR= 126.04 ankR=(-0.166,+0.4406,+0.1863)
+E11S_SCAN f= 68 soleL=  -4.23 soleR=  +2.00 kneeR= 107.09 ankR=(-0.165,+0.4520,+0.1890)
+E11S_SCAN f= 69 soleL=  -3.81 soleR=  +0.71 kneeR= 104.20 ankR=(-0.164,+0.4544,+0.1886)
+E11S_SCAN f= 70 soleL=  -3.38 soleR=  -0.58 kneeR= 102.31 ankR=(-0.164,+0.4567,+0.1882)
+E11S_SCAN f= 71 soleL=  -3.10 soleR=  -1.83 kneeR= 101.29 ankR=(-0.164,+0.4591,+0.1878)
+E11S_SCAN f= 72 soleL=  -2.84 soleR=  -3.07 kneeR= 101.03 ankR=(-0.163,+0.4615,+0.1874)
+E11S_SCAN f= 73 soleL=  -2.84 soleR=  -3.07 kneeR= 101.03 ankR=(-0.163,+0.4615,+0.1874)
+E11S_SCAN f= 74 soleL=  -2.84 soleR=  -3.07 kneeR= 101.03 ankR=(-0.163,+0.4615,+0.1874)
+E11S_SCAN f= 75 soleL=  -2.84 soleR=  -3.07 kneeR= 101.03 ankR=(-0.163,+0.4615,+0.1874)
+E11S_SCAN f= 76 soleL=  -2.84 soleR=  -3.07 kneeR= 101.03 ankR=(-0.163,+0.4615,+0.1874)
+E11S_SCAN f= 77 soleL=  -2.19 soleR=  -7.05 kneeR=  97.73 ankR=(-0.160,+0.4734,+0.1855) <<KNEE
+E11S_SCAN f= 78 soleL=  -1.31 soleR=  -5.89 kneeR= 103.79 ankR=(-0.160,+0.4757,+0.1851)
+E11S_SCAN f= 79 soleL=  -0.45 soleR=  -4.68 kneeR= 110.40 ankR=(-0.160,+0.4781,+0.1847)
+E11S_SCAN f= 80 soleL=  +0.39 soleR=  -3.43 kneeR= 117.50 ankR=(-0.159,+0.4805,+0.1843)
+E11S_SCAN f= 81 soleL=  +1.00 soleR=  -2.14 kneeR= 125.06 ankR=(-0.159,+0.4829,+0.1839)
+E11S_SCAN f= 82 soleL=  +1.56 soleR=  -0.80 kneeR= 133.04 ankR=(-0.158,+0.4852,+0.1835)
+E11S_SCAN f= 83 soleL=  +2.11 soleR=  +0.58 kneeR= 141.42 ankR=(-0.157,+0.4876,+0.1831)
+E11S_SCAN f= 84 soleL=  +2.40 soleR=  +2.00 kneeR= 150.18 ankR=(-0.157,+0.4900,+0.1827)
+E11S_SCAN f= 85 soleL=  +2.40 soleR=  +1.86 kneeR= 163.26 ankR=(-0.156,+0.4824,+0.1807)
+E11S_SCAN f= 86 soleL=  +2.35 soleR=  +1.76 kneeR= 176.12 ankR=(-0.156,+0.4748,+0.1787)
+E11S_SCAN f= 87 soleL=  +2.31 soleR=  +1.70 kneeR= 188.81 ankR=(-0.155,+0.4671,+0.1767)
+E11S_SCAN f= 88 soleL=  +2.28 soleR=  +1.68 kneeR= 201.32 ankR=(-0.155,+0.4595,+0.1747)
+E11S_SCAN f= 89 soleL=  +2.14 soleR=  +1.70 kneeR= 213.70 ankR=(-0.154,+0.4519,+0.1727)
+E11S_SCAN f= 90 soleL=  +1.99 soleR=  +1.76 kneeR= 225.95 ankR=(-0.153,+0.4442,+0.1707)
+E11S_SCAN f= 91 soleL=  +1.85 soleR=  +1.86 kneeR= 238.10 ankR=(-0.153,+0.4366,+0.1687)
+E11S_SCAN f= 92 soleL=  +1.72 soleR=  +2.00 kneeR= 250.16 ankR=(-0.152,+0.4290,+0.1667)
+E11S_SCAN f= 93 soleL=  +1.59 soleR=  +1.15 kneeR= 264.34 ankR=(-0.151,+0.4167,+0.1595)
+E11S_SCAN f= 94 soleL=  +1.46 soleR=  +0.59 kneeR= 278.27 ankR=(-0.150,+0.4045,+0.1523)
+E11S_SCAN f= 95 soleL=  +1.35 soleR=  +0.33 kneeR= 292.00 ankR=(-0.149,+0.3922,+0.1451)
+E11S_SCAN f= 96 soleL=  +1.26 soleR=  +0.34 kneeR= 305.59 ankR=(-0.149,+0.3800,+0.1380)
+E11S_SCAN f= 97 soleL=  +1.17 soleR=  +0.43 kneeR= 319.09 ankR=(-0.148,+0.3677,+0.1308)
+E11S_SCAN f= 98 soleL=  +1.10 soleR=  +0.72 kneeR= 332.60 ankR=(-0.147,+0.3555,+0.1236)
+E11S_SCAN f= 99 soleL=  +1.05 soleR=  +1.25 kneeR= 346.20 ankR=(-0.146,+0.3433,+0.1164)
+E11S_SCAN f=100 soleL=  +1.01 soleR=  +2.00 kneeR= 360.02 ankR=(-0.145,+0.3310,+0.1092)
+E11S_SCAN f=101 soleL=  +0.99 soleR=  +2.77 kneeR= 377.65 ankR=(-0.144,+0.2834,+0.1019)
+E11S_SCAN f=102 soleL=  +0.99 soleR=  +3.17 kneeR= 395.16 ankR=(-0.143,+0.2357,+0.0945)
+E11S_SCAN f=103 soleL=  +1.01 soleR=  +3.35 kneeR= 412.16 ankR=(-0.142,+0.1881,+0.0872)
+E11S_SCAN f=104 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=105 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=106 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=107 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=108 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=109 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=110 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=111 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=112 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=113 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=114 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=115 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=116 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=117 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=118 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=119 soleL=  +1.06 soleR=  -0.98 kneeR= 428.27 ankR=(-0.142,+0.1404,+0.0798)
+E11S_SCAN f=120 soleL=  +1.06 soleR=  -0.96 kneeR= 428.35 ankR=(-0.142,+0.1404,+0.0798)
+E11S_WORST ankle_step_mm=(129.5107404012031, 42)
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

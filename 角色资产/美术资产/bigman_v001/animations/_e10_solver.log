@@ -1,0 +1,10 @@
+E10SV_REST_REBUILD {"max_pos_mm": 0.1859, "max_dir_deg": 1.4518, "at": "shin.L", "knee_calc": {"L": {"knee_calc": [113.6, -223.6, 487.1], "clipped": false}, "R": {"knee_calc": [-116.9, -77.9, 428.3], "clipped": false}}}
+E10SV_REST_PERBONE {"thigh.L": {"pos_mm": 0.0, "dir_deg": 1.4518}, "shin.L": {"pos_mm": 0.1859, "dir_deg": 1.4516}, "foot.L": {"pos_mm": 0.0001, "dir_deg": 0.0224}, "toe.L": {"pos_mm": 0.0001, "dir_deg": 0.0}, "thigh.R": {"pos_mm": 0.0, "dir_deg": 0.5655}, "shin.R": {"pos_mm": 0.0142, "dir_deg": 0.5654}, "foot.R": {"pos_mm": 0.0, "dir_deg": 0.0105}, "toe.R": {"pos_mm": 0.0, "dir_deg": 0.0}}
+E10SV_AIM_TARGETS {"ankle": {"L": [211.8, -172.2, 113.9], "R": [-211.8, -172.2, 113.9]}, "knee": {"L": [150.7, 235.2, 116.7], "R": [-150.7, 235.2, 116.7]}, "low": -4.8}
+E10SV_SUPINE_SOLVE {"per_side": {"L": {"knee_mm": [150.7, 234.5, 140.5], "knee_err_mm": 23.77, "ankle_mm": [211.8, -172.1, 113.9], "ankle_err_mm": 0.13}, "R": {"knee_mm": [-150.7, 234.5, 140.5], "knee_err_mm": 23.77, "ankle_mm": [-211.8, -172.1, 113.9], "ankle_err_mm": 0.13}}, "low": -4.8, "part": "Hair_Mass", "trouser_min": 36.09}
+E10SV_PROBE_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

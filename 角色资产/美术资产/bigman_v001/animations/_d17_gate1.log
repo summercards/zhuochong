@@ -1,0 +1,7 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_getup_f.py", line 1164
+    "★ 与 `hand_off_ok` **方向相反**：这条管"脚什么时候上来"，那条管"手什么"
+                                                    ^
+SyntaxError: unterminated string literal (detected at line 1164)
+
+Blender quit

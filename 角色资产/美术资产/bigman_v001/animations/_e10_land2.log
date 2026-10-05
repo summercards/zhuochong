@@ -1,0 +1,43 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+E10LAND_SKIN {"Shoe_Heel_L": {"parents": ["foot.L", "toe.L", "shin.L"], "nvg": 3}, "Shoe_Sole_L": {"parents": ["foot.L", "toe.L", "shin.L"], "nvg": 3}, "Shoe_Toe_Cap_L": {"parents": ["foot.L", "toe.L", "shin.L"], "nvg": 3}, "Shoe_Upper_L": {"parents": ["foot.L", "toe.L", "shin.L"], "nvg": 3}, "Shoe_Heel_R": {"parents": ["foot.R", "toe.R", "shin.R"], "nvg": 3}, "Shoe_Sole_R": {"parents": ["foot.R", "toe.R", "shin.R"], "nvg": 3}, "Shoe_Toe_Cap_R": {"parents": ["foot.R", "toe.R", "shin.R"], "nvg": 3}, "Shoe_Upper_R": {"parents": ["foot.R", "toe.R", "shin.R"], "nvg": 3}}
+E10LAND f= 10 low8=[('Shoe_Sole_R', -0.97), ('Shoe_Sole_L', 1.57), ('Shoe_Heel_L', 3.55), ('Shoe_Heel_R', 9.77), ('Shoe_Upper_R', 16.81), ('Shoe_Upper_L', 18.06), ('Shoe_Toe_Cap_L', 49.36), ('Shoe_Toe_Cap_R', 49.43)]
+    shoeL=1.57 shoeR=-0.97 trouser=71.89
+    shin.L   head=[114.5, -183.3, 490.5] tail=[143.2, -169.6, 79.8] 朝向差(rest)=4.750°
+    foot.L   head=[143.2, -169.6, 79.8] tail=[147.2, -284.6, 21.8] 朝向差(rest)=0.004°
+    toe.L    head=[147.2, -284.6, 21.8] tail=[147.2, -359.6, 21.8] 朝向差(rest)=0.000°
+E10LAND f= 20 low8=[('Shoe_Sole_L', 18.45), ('Shoe_Heel_L', 19.64), ('Shoe_Sole_R', 27.85), ('Shoe_Heel_R', 33.31), ('Shoe_Upper_L', 35.9), ('Shoe_Upper_R', 44.87), ('Shoe_Toe_Cap_L', 76.73), ('Shoe_Toe_Cap_R', 76.74)]
+    shoeL=18.45 shoeR=27.85 trouser=115.23
+    shin.L   head=[117.9, -23.0, 490.1] tail=[156.1, -170.1, 107.1] 朝向差(rest)=23.065°
+    foot.L   head=[156.1, -170.1, 107.1] tail=[160.1, -285.1, 49.1] 朝向差(rest)=0.000°
+    toe.L    head=[160.1, -285.1, 49.1] tail=[160.1, -360.1, 49.1] 朝向差(rest)=0.000°
+E10LAND f= 22 low8=[('Shoe_Sole_L', 16.68), ('Shoe_Heel_L', 18.26), ('Shoe_Sole_R', 30.53), ('Shoe_Heel_R', 31.43), ('Shoe_Upper_L', 35.21), ('Shoe_Upper_R', 47.44), ('Shoe_Toe_Cap_L', 81.61), ('Shoe_Toe_Cap_R', 81.61)]
+    shoeL=16.68 shoeR=30.53 trouser=104.61
+    shin.L   head=[120.0, 60.1, 451.1] tail=[161.0, -170.3, 112.0] 朝向差(rest)=35.690°
+    foot.L   head=[161.0, -170.3, 112.0] tail=[165.0, -285.3, 54.0] 朝向差(rest)=0.018°
+    toe.L    head=[165.0, -285.3, 54.0] tail=[165.0, -360.3, 54.0] 朝向差(rest)=0.000°
+E10LAND f= 23 low8=[('Shoe_Sole_L', 15.08), ('Shoe_Heel_L', 16.85), ('Shoe_Sole_R', 26.52), ('Shoe_Heel_R', 27.61), ('Shoe_Upper_L', 33.89), ('Shoe_Upper_R', 43.67), ('Jacket_Vent', 69.92), ('Trouser_R', 74.29)]
+    shoeL=15.08 shoeR=26.52 trouser=74.29
+    shin.L   head=[121.6, 99.3, 422.0] tail=[163.6, -170.4, 113.4] 朝向差(rest)=42.426°
+    foot.L   head=[163.6, -170.4, 113.4] tail=[167.6, -285.4, 55.4] 朝向差(rest)=0.000°
+    toe.L    head=[167.6, -285.4, 55.4] tail=[167.6, -360.4, 55.4] 朝向差(rest)=0.000°
+E10LAND f= 24 low8=[('Shoe_Sole_L', 12.75), ('Shoe_Heel_L', 14.85), ('Jacket_Vent', 19.26), ('Shoe_Sole_R', 21.79), ('Shoe_Heel_R', 23.17), ('Trouser_R', 24.64), ('Suit_Torso', 26.75), ('Shoe_Upper_L', 31.42)]
+    shoeL=12.75 shoeR=21.79 trouser=24.64
+    shin.L   head=[123.5, 135.4, 386.6] tail=[166.3, -170.5, 113.9] 朝向差(rest)=49.355°
+    foot.L   head=[166.3, -170.5, 113.9] tail=[170.3, -285.5, 55.9] 朝向差(rest)=0.004°
+    toe.L    head=[170.3, -285.5, 55.9] tail=[170.3, -360.5, 55.9] 朝向差(rest)=0.000°
+E10LAND f= 30 low8=[('Shoe_Sole_L', 9.55), ('Shoe_Heel_L', 12.28), ('Shoe_Sole_R', 14.73), ('Jacket_Vent', 15.1), ('Shoe_Heel_R', 17.0), ('Suit_Torso', 21.96), ('Trouser_R', 24.0), ('Shoe_Upper_L', 28.51)]
+    shoeL=9.55 shoeR=14.73 trouser=24.0
+    shin.L   head=[132.4, 150.2, 366.8] tail=[183.2, -171.1, 113.9] 朝向差(rest)=53.059°
+    foot.L   head=[183.2, -171.1, 113.9] tail=[179.7, -288.7, 61.4] 朝向差(rest)=8.144°
+    toe.L    head=[179.7, -288.7, 61.4] tail=[180.2, -363.7, 65.0] 朝向差(rest)=8.657°
+E10LAND f= 60 low8=[('Hair_Mass', -4.8), ('Shoe_Sole_L', -0.52), ('Shoe_Sole_R', -0.52), ('Jacket_Vent', 4.2), ('Shoe_Heel_L', 4.53), ('Shoe_Heel_R', 4.53), ('Hand_Palm_L', 5.13), ('Hand_Palm_R', 5.13)]
+    shoeL=-0.52 shoeR=-0.52 trouser=36.09
+    shin.L   head=[150.7, 234.5, 140.5] tail=[211.8, -172.1, 113.9] 朝向差(rest)=86.344°
+    foot.L   head=[211.8, -172.1, 113.9] tail=[196.1, -298.2, 92.5] 朝向差(rest)=45.360°
+    toe.L    head=[196.1, -298.2, 92.5] tail=[209.8, -370.6, 106.2] 朝向差(rest)=46.920°
+E10LAND_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

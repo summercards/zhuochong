@@ -1,0 +1,26 @@
+# ===== WorkBuddy 工具数据（非项目内容）=====
+.workbuddy/
+
+# ===== 引擎 / 编译缓存（可由源文件重建）=====
+.godot/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 操作系统垃圾 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 编辑器临时产物 =====
+*.tmp
+*~
+
+# ===== Godot 探针运行输出（每次运行覆盖，非源码）=====
+bigmanfight/bigmanfitht/probe_props.log
+
+# ===== 可再生的帧序列中间产物（约 2.42GB / 7345 张）=====
+# 动画预览帧：可由 角色资产/美术资产/bigman_v001/*.blend 重新渲染
+角色资产/美术资产/bigman_v001/previews/anim/
+# 视频渲染帧：可由 outputs/bigman_reel_v001/*.blend 重新渲染
+outputs/bigman_reel_v001/frames/

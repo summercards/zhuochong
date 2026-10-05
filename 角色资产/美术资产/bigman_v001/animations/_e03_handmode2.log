@@ -1,0 +1,6 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\_e03_handmode.py", line 105
+    for mode in R.HAND_AXIS_MODES:
+IndentationError: unexpected indent
+
+Blender quit

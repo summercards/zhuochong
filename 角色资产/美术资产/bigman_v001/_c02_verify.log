@@ -1,0 +1,28 @@
+GLB I:/工作项目/BIGMANFIGHT/角色资产/美术资产/bigman_v001/bigman_anim_v001.glb
+  version=2  nodes=149  meshes=91  skins=1  materials=17
+  animations=25
+    - Air_Heavy                通道=171 骨骼= 57 时长=0.433s
+    - Air_Light                通道=171 骨骼= 57 时长=0.450s
+    - Combo_Finish             通道=171 骨骼= 57 时长=0.800s
+    - Crouch                   通道=171 骨骼= 57 时长=0.400s
+    - Crouch_Idle              通道=171 骨骼= 57 时长=2.000s
+    - Dash_Attack              通道=171 骨骼= 57 时长=0.700s
+    - Heavy_01                 通道=171 骨骼= 57 时长=0.800s
+    - Heavy_02                 通道=171 骨骼= 57 时长=0.867s
+    - Idle_01                  通道=171 骨骼= 57 时长=3.000s
+    - Idle_02                  通道=171 骨骼= 57 时长=3.500s
+    - Jump_Fall                通道=171 骨骼= 57 时长=0.400s
+    - Jump_Land                通道=171 骨骼= 57 时长=0.500s
+    - Jump_Start               通道=171 骨骼= 57 时长=0.600s
+    - Jump_Up                  通道=171 骨骼= 57 时长=0.200s
+    - Launcher                 通道=171 骨骼= 57 时长=0.867s
+    - Light_01                 通道=171 骨骼= 57 时长=0.300s
+    - Light_02                 通道=171 骨骼= 57 时长=0.367s
+    - Light_03                 通道=171 骨骼= 57 时长=0.433s
+    - Low_Attack               通道=171 骨骼= 57 时长=0.767s
+    - Run                      通道=171 骨骼= 57 时长=0.800s
+    - Run_Stop                 通道=171 骨骼= 57 时长=0.900s
+    - Turn                     通道=171 骨骼= 57 时长=0.500s
+    - Uppercut                 通道=171 骨骼= 57 时长=0.833s
+    - Walk_B                   通道=171 骨骼= 57 时长=1.200s
+    - Walk_F                   通道=171 骨骼= 57 时长=1.200s

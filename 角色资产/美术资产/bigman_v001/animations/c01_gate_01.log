@@ -1,0 +1,13 @@
+C01_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_combo01.py", line 1233, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_combo01.py", line 1038, in main
+    PELVIS_X = ((0, PELVIS_XE),) + tuple(k for k in PELVIS_X if k[0] != 0)
+                                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'PELVIS_X' where it is not associated with a value
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

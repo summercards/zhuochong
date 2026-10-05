@@ -1,0 +1,49 @@
+{
+  "scene": "GreenShootingEffect_V1",
+  "frames": [
+    1,
+    160
+  ],
+  "fps": 30,
+  "resolution": [
+    720,
+    720
+  ],
+  "engine": "BLENDER_EEVEE_NEXT",
+  "collections": [
+    "ENVIRONMENT",
+    "GROUND_ENERGY",
+    "BEAM_SYSTEM",
+    "CROSS_SIGILS",
+    "PARTICLES",
+    "EFFECT_LIGHTS"
+  ],
+  "phases": {
+    "ground_healing_wave": [
+      1,
+      24
+    ],
+    "rising_line_energy": [
+      8,
+      72
+    ],
+    "cross_follow_rise": [
+      18,
+      104
+    ],
+    "healing_sustain": [
+      72,
+      118
+    ],
+    "rotate_shrink_dissolve": [
+      104,
+      160
+    ]
+  },
+  "controls": [
+    "CTRL_GroundEnergy",
+    "CTRL_BeamSystem",
+    "CTRL_CrossSigils",
+    "CTRL_Particles"
+  ]
+}

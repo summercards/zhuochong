@@ -1,0 +1,7 @@
+E03_HANDAXIS {"L": {"basis": {"local_x": [0.0, -1.0, 0.0], "local_y": [1.0, 0.0, 0.0], "local_z": [-0.0, 0.0, 1.0]}, "thumb_dir": [0.042, -0.9963, -0.0752], "knuckle_dir": [-0.9999, 0.0162, -0.0028], "thumb_proj": {"local_x": 0.996, "local_y": 0.042, "local_z": -0.075}, "knuckle_proj": {"local_x": -0.016, "local_y": -1.0, "local_z": -0.003}, "palm_centroid_mm": [729.2, 0.0, 1419.7], "hand_tail_mm": [800.0, 0.0, 1420.0], "hand_head_mm": [702.0, 0.0, 1420.0]}, "R": {"basis": {"local_x": [0.0, 1.0, -0.0], "local_y": [-1.0, 0.0, 0.0], "local_z": [0.0, 0.0, 1.0]}, "thumb_dir": [-0.042, -0.9963, -0.0752], "knuckle_dir": [0.9999, 0.0162, -0.0028], "thumb_proj": {"local_x": -0.996, "local_y": 0.042, "local_z": -0.075}, "knuckle_proj": {"local_x": 0.016, "local_y": -1.0, "local_z": -0.003}, "palm_centroid_mm": [-729.2, -0.0, 1419.7], "hand_tail_mm": [-800.0, 0.0, 1420.0], "hand_head_mm": [-702.0, 0.0, 1420.0]}}
+E03_HANDAXIS_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

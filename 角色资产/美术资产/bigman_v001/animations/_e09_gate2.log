@@ -1,0 +1,25 @@
+E09_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 781, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 701, in main
+    report.update(dft_assertions(arm, action, samples, meshes))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 482, in dft_assertions
+    kneel_lows = {f: _worst(f, knee_keys) for f in hold}
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 482, in <dictcomp>
+    kneel_lows = {f: _worst(f, knee_keys) for f in hold}
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 476, in _worst
+    return min(prof[frame][k] for k in keys if k in prof[frame])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 476, in <genexpr>
+    return min(prof[frame][k] for k in keys if k in prof[frame])
+                                                    ~~~~^^^^^^^
+KeyError: 29
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

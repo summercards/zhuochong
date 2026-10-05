@@ -1,0 +1,112 @@
+E03_STEP f=  0 hand.L e=(     2.5,    -0.5,    21.2) de=None dm=None | forearm.L e=(     5.1,    13.3,  -137.8) de=None dm=None | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=None dm=None
+E03_STEP f=  1 hand.L e=(     2.5,    -0.5,    21.5) de=  0.34 dm=  0.15 | forearm.L e=(     5.2,    13.4,  -138.0) de=  0.18 dm=  0.20 | upperarm.L e=(   -50.2,   -13.2,   -27.8) de=  0.18 dm=  0.11
+E03_STEP f=  2 hand.L e=(     2.3,    -0.8,    22.3) de=  0.76 dm=  0.49 | forearm.L e=(     5.2,    13.7,  -138.5) de=  0.47 dm=  0.46 | upperarm.L e=(   -50.0,   -13.4,   -28.3) de=  0.42 dm=  0.30
+E03_STEP f=  3 hand.L e=(     2.3,    -1.6,    22.8) de=  0.82 dm=  1.33 | forearm.L e=(     5.4,    13.7,  -139.1) de=  0.64 dm=  0.59 | upperarm.L e=(   -49.7,   -13.5,   -28.7) de=  0.42 dm=  0.47
+E03_STEP f=  4 hand.L e=(     2.4,    -3.3,    22.4) de=  1.74 dm=  2.86 | forearm.L e=(     5.6,    13.0,  -139.8) de=  0.68 dm=  1.14 | upperarm.L e=(   -49.6,   -13.5,   -28.8) de=  0.15 dm=  0.87
+E03_STEP f=  5 hand.L e=(     2.5,    -6.3,    20.5) de=  2.93 dm=  4.94 | forearm.L e=(     6.0,    11.3,  -140.4) de=  1.72 dm=  2.30 | upperarm.L e=(   -49.6,   -13.3,   -28.2) de=  0.56 dm=  1.65
+E03_STEP f=  6 hand.L e=(     2.1,   -10.6,    17.3) de=  4.30 dm=  7.35 | forearm.L e=(     6.4,     8.2,  -141.0) de=  3.05 dm=  3.90 | upperarm.L e=(   -50.1,   -12.6,   -26.7) de=  1.51 dm=  2.76
+E03_STEP f=  7 hand.L e=(     1.0,   -16.3,    13.2) de=  5.71 dm=  9.92 | forearm.L e=(     6.8,     3.6,  -141.5) de=  4.60 dm=  5.76 | upperarm.L e=(   -50.9,   -11.5,   -24.0) de=  2.70 dm=  4.15
+E03_STEP f=  8 hand.L e=(    -1.2,   -23.3,     9.6) de=  6.99 dm= 12.45 | forearm.L e=(     7.3,    -2.6,  -142.2) de=  6.27 dm=  7.65 | upperarm.L e=(   -52.2,    -9.8,   -20.0) de=  4.02 dm=  5.72
+E03_STEP f=  9 hand.L e=(    -4.2,   -31.2,     7.2) de=  7.95 dm= 14.60 | forearm.L e=(     7.6,   -10.4,  -143.3) de=  7.80 dm=  9.27 | upperarm.L e=(   -53.8,    -7.3,   -14.7) de=  5.32 dm=  7.28
+E03_STEP f= 10 hand.L e=(    -7.4,   -39.6,     6.5) de=  8.35 dm= 15.89 | forearm.L e=(     7.7,   -19.3,  -144.9) de=  8.82 dm= 10.20 | upperarm.L e=(   -55.6,    -4.2,    -8.3) de=  6.33 dm=  8.57
+E03_STEP f= 11 hand.L e=(    -9.4,   -47.6,     6.4) de=  8.01 dm= 15.81 | forearm.L e=(     7.6,   -28.1,  -146.8) de=  8.87 dm= 10.03 | upperarm.L e=(   -57.1,    -0.6,    -1.6) de=  6.75 dm=  9.14
+E03_STEP f= 12 hand.L e=(    -8.9,   -54.5,     5.5) de=  6.91 dm= 14.02 | forearm.L e=(     7.6,   -35.7,  -148.8) de=  7.54 dm=  8.49 | upperarm.L e=(   -58.0,     2.7,     4.6) de=  6.23 dm=  8.55
+E03_STEP f= 13 hand.L e=(    -5.9,   -59.6,     3.4) de=  5.15 dm= 10.44 | forearm.L e=(     7.9,   -40.4,  -150.7) de=  4.72 dm=  5.72 | upperarm.L e=(   -58.2,     5.2,     9.2) de=  4.60 dm=  6.60
+E03_STEP f= 14 hand.L e=(    -2.0,   -62.5,     1.0) de=  3.86 dm=  5.52 | forearm.L e=(     8.6,   -41.1,  -152.0) de=  1.34 dm=  2.70 | upperarm.L e=(   -58.0,     6.2,    11.2) de=  1.96 dm=  3.50
+E03_STEP f= 15 hand.L e=(    -4.8,   -63.8,     1.0) de=  2.80 dm=  1.31 | forearm.L e=(     9.5,   -40.3,  -151.8) de=  0.91 dm=  2.54 | upperarm.L e=(   -57.5,     6.3,    11.5) de=  0.49 dm=  1.59
+E03_STEP f= 16 hand.L e=(   -16.7,   -64.3,     2.4) de= 11.94 dm=  7.52 | forearm.L e=(    10.3,   -41.1,  -149.8) de=  2.09 dm=  3.39 | upperarm.L e=(   -57.0,     6.0,    11.0) de=  0.51 dm=  0.87
+E03_STEP f= 17 hand.L e=(   -34.4,   -64.7,     5.1) de= 17.67 dm= 12.37 | forearm.L e=(    11.3,   -41.9,  -146.5) de=  3.27 dm=  3.18 | upperarm.L e=(   -56.3,     4.8,     8.9) de=  2.12 dm=  1.86
+E03_STEP f= 18 hand.L e=(   -57.7,   -64.9,    10.9) de= 23.29 dm= 16.52 | forearm.L e=(    13.4,   -40.8,  -142.6) de=  3.92 dm=  1.77 | upperarm.L e=(   -55.3,     2.4,     4.5) de=  4.34 dm=  4.50
+E03_STEP f= 19 hand.L e=(   -82.5,   -64.5,    17.2) de= 24.78 dm= 19.51 | forearm.L e=(    16.5,   -36.5,  -138.5) de=  4.29 dm=  3.08 | upperarm.L e=(   -53.5,    -0.9,    -1.7) de=  6.22 dm=  6.87
+E03_STEP f= 20 hand.L e=(  -101.5,   -64.2,    17.8) de= 18.97 dm= 20.90 | forearm.L e=(    20.1,   -30.6,  -134.9) de=  5.93 dm=  5.22 | upperarm.L e=(   -50.8,    -4.2,    -8.8) de=  7.08 dm=  8.05
+E03_STEP f= 21 hand.L e=(  -111.2,   -64.4,    10.5) de=  9.76 dm= 20.77 | forearm.L e=(    23.5,   -25.2,  -132.4) de=  5.32 dm=  5.80 | upperarm.L e=(   -47.6,    -6.9,   -15.6) de=  6.82 dm=  8.01
+E03_STEP f= 22 hand.L e=(  -113.1,   -64.9,    -2.2) de= 12.69 dm= 19.42 | forearm.L e=(    25.8,   -21.5,  -131.4) de=  3.75 dm=  6.06 | upperarm.L e=(   -44.6,    -8.9,   -21.5) de=  5.90 dm=  7.28
+E03_STEP f= 23 hand.L e=(   -86.8,   -79.6,   -39.1) de= 36.89 dm= 16.97 | forearm.L e=(    24.8,    -4.7,  -124.5) de= 16.76 dm= 17.68 | upperarm.L e=(   -42.6,   -10.4,   -26.2) de=  4.74 dm=  6.32
+E03_STEP f= 24 hand.L e=(   -87.8,   -74.4,   -42.4) de=  5.18 dm=  8.56 | forearm.L e=(    23.2,    -7.6,  -126.6) de=  2.87 dm=  7.29 | upperarm.L e=(   -42.3,   -11.3,   -28.7) de=  2.44 dm=  4.18
+E03_STEP f= 25 hand.L e=(   -89.7,   -68.8,   -44.1) de=  5.56 dm=  9.56 | forearm.L e=(    21.3,   -10.0,  -128.9) de=  2.43 dm=  9.14 | upperarm.L e=(   -41.9,   -12.6,   -32.2) de=  3.55 dm=  5.74
+E03_STEP f= 26 hand.L e=(   -97.3,   -59.7,   -45.0) de=  9.09 dm= 10.67 | forearm.L e=(    18.1,   -15.0,  -130.1) de=  4.94 dm=  7.90 | upperarm.L e=(   -43.6,   -13.5,   -33.1) de=  1.68 dm=  3.45
+E03_STEP f= 27 hand.L e=(   -93.6,   -50.7,   -41.6) de=  9.04 dm=  3.58 | forearm.L e=(    14.1,   -19.5,  -130.4) de=  4.56 dm=  9.03 | upperarm.L e=(   -45.4,   -14.9,   -34.8) de=  1.76 dm=  4.81
+E03_STEP f= 28 hand.L e=(   -90.8,   -42.0,   -42.5) de=  8.68 dm=  3.40 | forearm.L e=(     9.6,   -21.5,  -129.5) de=  4.47 dm=  8.95 | upperarm.L e=(   -47.3,   -16.9,   -37.5) de=  2.72 dm=  6.21
+E03_STEP f= 29 hand.L e=(   -90.8,   -42.0,   -42.5) de=  0.00 dm=  0.00 | forearm.L e=(     9.6,   -21.5,  -129.5) de=  0.00 dm=  0.00 | upperarm.L e=(   -47.3,   -16.9,   -37.5) de=  0.00 dm=  0.00
+E03_STEP f= 30 hand.L e=(   -90.8,   -42.0,   -42.5) de=  0.00 dm=  0.00 | forearm.L e=(     9.6,   -21.5,  -129.5) de=  0.00 dm=  0.00 | upperarm.L e=(   -47.3,   -16.9,   -37.5) de=  0.00 dm=  0.00
+E03_STEP f= 31 hand.L e=(   -91.0,   -42.1,   -42.3) de=  0.16 dm=  0.47 | forearm.L e=(     9.8,   -21.4,  -129.5) de=  0.16 dm=  0.44 | upperarm.L e=(   -47.5,   -17.0,   -37.6) de=  0.16 dm=  0.44
+E03_STEP f= 32 hand.L e=(   -92.4,   -42.9,   -42.0) de=  1.37 dm=  2.89 | forearm.L e=(    10.2,   -21.3,  -129.4) de=  0.47 dm=  1.72 | upperarm.L e=(   -47.5,   -17.5,   -38.6) de=  1.05 dm=  2.01
+E03_STEP f= 33 hand.L e=(   -92.1,   -42.9,   -41.5) de=  0.47 dm=  1.57 | forearm.L e=(    10.8,   -20.2,  -129.4) de=  1.06 dm=  1.95 | upperarm.L e=(   -48.6,   -17.7,   -38.1) de=  1.07 dm=  1.24
+E03_STEP f= 34 hand.L e=(   -85.2,   -39.5,   -37.9) de=  6.93 dm= 17.98 | forearm.L e=(     5.4,   -28.9,  -126.3) de=  8.69 dm=  8.86 | upperarm.L e=(   -53.0,   -15.1,   -29.8) de=  8.27 dm=  7.01
+E03_STEP f= 35 hand.L e=(   -86.0,   -40.0,   -37.2) de=  0.82 dm=  2.67 | forearm.L e=(     6.2,   -28.1,  -126.2) de=  0.80 dm=  2.59 | upperarm.L e=(   -54.1,   -15.6,   -30.0) de=  1.11 dm=  2.63
+E03_STEP f= 36 hand.L e=(   -86.9,   -40.6,   -36.4) de=  0.88 dm=  2.94 | forearm.L e=(     7.1,   -27.2,  -126.2) de=  0.89 dm=  2.84 | upperarm.L e=(   -55.2,   -16.1,   -30.2) de=  1.18 dm=  2.90
+E03_STEP f= 37 hand.L e=(   -91.0,   -39.3,   -37.8) de=  4.13 dm=  3.08 | forearm.L e=(     4.4,   -30.8,  -124.2) de=  3.51 dm=  2.45 | upperarm.L e=(   -57.9,   -14.8,   -26.5) de=  3.73 dm=  2.53
+E03_STEP f= 38 hand.L e=(   -88.6,   -35.4,   -37.7) de=  3.87 dm= 12.73 | forearm.L e=(    -5.7,   -41.4,  -116.2) de= 10.68 dm= 11.33 | upperarm.L e=(   -60.9,   -10.3,   -17.5) de=  9.01 dm=  8.08
+E03_STEP f= 39 hand.L e=(   -89.3,   -35.8,   -37.1) de=  0.77 dm=  2.59 | forearm.L e=(    -5.1,   -41.1,  -116.1) de=  0.61 dm=  2.34 | upperarm.L e=(   -62.2,   -10.5,   -17.3) de=  1.30 dm=  2.61
+E03_STEP f= 40 hand.L e=(   -93.2,   -39.1,   -37.1) de=  3.90 dm= 13.11 | forearm.L e=(    -9.7,   -47.8,  -109.9) de=  6.78 dm=  9.37 | upperarm.L e=(   -63.2,   -12.7,   -20.6) de=  3.23 dm=  5.89
+E03_STEP f= 41 hand.L e=(   -91.1,   -36.5,   -35.7) de=  2.67 dm= 12.70 | forearm.L e=(    -3.9,   -40.2,  -116.0) de=  7.60 dm= 10.94 | upperarm.L e=(   -64.8,   -10.8,   -17.0) de=  3.58 dm=  2.86
+E03_STEP f= 42 hand.L e=(   -94.7,   -39.6,   -35.8) de=  3.55 dm= 12.88 | forearm.L e=(    -8.6,   -47.2,  -110.0) de=  6.96 dm=  9.59 | upperarm.L e=(   -65.3,   -13.0,   -20.2) de=  3.22 dm=  5.17
+E03_STEP f= 43 hand.L e=(   -95.2,   -39.6,   -35.6) de=  0.56 dm=  1.04 | forearm.L e=(    -8.7,   -47.3,  -109.7) de=  0.31 dm=  0.61 | upperarm.L e=(   -65.9,   -13.0,   -19.9) de=  0.55 dm=  0.87
+E03_STEP f= 44 hand.L e=(   -93.1,   -36.5,   -35.1) de=  3.10 dm= 12.62 | forearm.L e=(    -4.1,   -40.5,  -115.2) de=  6.73 dm=  9.77 | upperarm.L e=(   -66.7,   -10.5,   -15.9) de=  3.97 dm=  4.33
+E03_STEP f= 45 hand.L e=(   -99.7,   -40.5,   -33.6) de=  6.56 dm=  0.00 | forearm.L e=(    -1.1,   -40.5,  -112.5) de=  2.95 dm=  7.00 | upperarm.L e=(   -67.0,    -9.5,   -14.3) de=  1.62 dm=  1.90
+E03_STEP f= 46 hand.L e=(  -115.1,   -48.6,   -28.0) de= 15.40 dm=  0.00 | forearm.L e=(     7.6,   -39.5,  -105.9) de=  8.73 dm= 14.59 | upperarm.L e=(   -67.2,    -9.2,   -13.8) de=  0.56 dm=  0.65
+E03_STEP f= 47 hand.L e=(  -132.7,   -55.9,   -19.3) de= 17.63 dm=  0.00 | forearm.L e=(    18.5,   -38.7,   -97.4) de= 10.92 dm= 14.01 | upperarm.L e=(   -65.9,   -11.0,   -16.9) de=  3.10 dm=  3.61
+E03_STEP f= 48 hand.L e=(  -142.0,   -58.9,   -14.2) de=  9.34 dm=  0.00 | forearm.L e=(    23.9,   -39.0,   -92.5) de=  5.43 dm=  6.50 | upperarm.L e=(   -64.7,   -12.4,   -19.4) de=  2.58 dm=  2.98
+E03_STEP f= 49 hand.L e=(  -149.7,   -58.6,    -3.0) de= 11.20 dm= 12.61 | forearm.L e=(    18.9,   -45.2,   -95.9) de=  6.18 dm=  9.02 | upperarm.L e=(   -64.6,   -11.9,   -18.8) de=  0.68 dm=  1.42
+E03_STEP f= 50 hand.L e=(  -133.0,   -56.1,   -13.2) de= 16.70 dm=  2.17 | forearm.L e=(    11.6,   -45.5,  -102.1) de=  7.35 dm=  8.47 | upperarm.L e=(   -64.1,   -10.5,   -16.8) de=  1.98 dm=  4.21
+E03_STEP f= 51 hand.L e=(  -110.6,   -49.8,   -26.8) de= 22.40 dm=  3.62 | forearm.L e=(     0.8,   -47.1,  -108.6) de= 10.77 dm= 13.00 | upperarm.L e=(   -62.1,   -10.0,   -16.5) de=  2.04 dm=  4.00
+E03_STEP f= 52 hand.L e=(   -91.9,   -36.9,   -38.8) de= 18.68 dm= 16.67 | forearm.L e=(     0.7,   -34.3,  -123.6) de= 14.99 dm= 20.35 | upperarm.L e=(   -57.6,   -13.3,   -24.0) de=  7.49 dm=  5.33
+E03_STEP f= 53 hand.L e=(   -91.9,   -36.9,   -38.8) de=  0.00 dm=  0.00 | forearm.L e=(     0.7,   -34.3,  -123.6) de=  0.00 dm=  0.00 | upperarm.L e=(   -57.6,   -13.3,   -24.0) de=  0.00 dm=  0.00
+E03_STEP f= 54 hand.L e=(   -91.9,   -36.9,   -38.8) de=  0.00 dm=  0.00 | forearm.L e=(     0.7,   -34.3,  -123.6) de=  0.00 dm=  0.00 | upperarm.L e=(   -57.6,   -13.3,   -24.0) de=  0.00 dm=  0.00
+E03_STEP f= 55 hand.L e=(   -92.7,   -37.5,   -38.8) de=  0.79 dm=  0.09 | forearm.L e=(     1.0,   -34.4,  -123.3) de=  0.30 dm=  0.87 | upperarm.L e=(   -57.8,   -13.1,   -23.6) de=  0.42 dm=  0.40
+E03_STEP f= 56 hand.L e=(   -94.9,   -38.9,   -38.7) de=  2.19 dm=  0.24 | forearm.L e=(     1.8,   -34.6,  -122.5) de=  0.84 dm=  2.38 | upperarm.L e=(   -58.1,   -12.6,   -22.5) de=  1.06 dm=  1.01
+E03_STEP f= 57 hand.L e=(   -91.8,   -38.7,   -35.7) de=  3.09 dm= 15.21 | forearm.L e=(    -3.0,   -41.2,  -116.6) de=  6.59 dm=  9.87 | upperarm.L e=(   -59.4,    -9.3,   -16.3) de=  6.24 dm=  6.73
+E03_STEP f= 58 hand.L e=(   -95.4,   -41.7,   -34.3) de=  3.65 dm=  0.47 | forearm.L e=(    -0.1,   -40.3,  -115.6) de=  2.90 dm=  3.94 | upperarm.L e=(   -59.6,    -9.1,   -15.8) de=  0.42 dm=  0.32
+E03_STEP f= 59 hand.L e=(   -99.8,   -44.9,   -32.4) de=  4.41 dm=  0.53 | forearm.L e=(     3.3,   -39.4,  -114.2) de=  3.40 dm=  4.40 | upperarm.L e=(   -59.8,    -9.1,   -15.7) de=  0.20 dm=  0.37
+E03_STEP f= 60 hand.L e=(  -104.9,   -48.1,   -30.1) de=  5.03 dm=  0.56 | forearm.L e=(     7.0,   -38.4,  -112.3) de=  3.73 dm=  4.60 | upperarm.L e=(   -59.9,    -9.2,   -16.0) de=  0.26 dm=  0.73
+E03_STEP f= 61 hand.L e=(  -110.3,   -51.2,   -27.4) de=  5.46 dm=  0.57 | forearm.L e=(    10.9,   -37.5,  -110.1) de=  3.86 dm=  4.56 | upperarm.L e=(   -59.9,    -9.6,   -16.6) de=  0.65 dm=  1.14
+E03_STEP f= 62 hand.L e=(  -115.9,   -53.9,   -24.5) de=  5.61 dm=  0.53 | forearm.L e=(    14.6,   -36.8,  -107.6) de=  3.76 dm=  4.30 | upperarm.L e=(   -59.7,   -10.1,   -17.6) de=  0.97 dm=  1.46
+E03_STEP f= 63 hand.L e=(  -131.6,   -58.7,   -11.5) de= 15.62 dm= 12.84 | forearm.L e=(    15.5,   -43.7,  -105.1) de=  6.89 dm=  6.88 | upperarm.L e=(   -59.1,   -11.2,   -19.6) de=  1.99 dm=  2.54
+E03_STEP f= 64 hand.L e=(  -137.6,   -60.0,    -7.1) de=  6.04 dm=  0.38 | forearm.L e=(    18.6,   -43.2,  -103.4) de=  3.09 dm=  3.21 | upperarm.L e=(   -58.9,   -11.6,   -20.5) de=  0.94 dm=  1.30
+E03_STEP f= 65 hand.L e=(  -141.7,   -61.0,    -4.2) de=  4.13 dm=  0.23 | forearm.L e=(    20.6,   -42.7,  -102.0) de=  2.01 dm=  2.24 | upperarm.L e=(   -58.6,   -12.0,   -21.2) de=  0.73 dm=  0.97
+E03_STEP f= 66 hand.L e=(  -143.3,   -61.5,    -3.0) de=  1.62 dm=  0.12 | forearm.L e=(    21.2,   -42.3,  -101.4) de=  0.64 dm=  0.89 | upperarm.L e=(   -58.5,   -12.1,   -21.5) de=  0.29 dm=  0.38
+E03_STEP f= 67 hand.L e=(  -143.1,   -61.5,    -3.2) de=  0.27 dm=  0.07 | forearm.L e=(    21.2,   -42.3,  -101.4) de=  0.08 dm=  0.07 | upperarm.L e=(   -58.5,   -12.1,   -21.5) de=  0.03 dm=  0.04
+E03_STEP f= 68 hand.L e=(  -142.5,   -61.5,    -3.5) de=  0.53 dm=  0.10 | forearm.L e=(    21.1,   -42.3,  -101.7) de=  0.23 dm=  0.26 | upperarm.L e=(   -58.4,   -12.1,   -21.6) de=  0.09 dm=  0.08
+E03_STEP f= 69 hand.L e=(  -140.1,   -60.9,    -4.1) de=  2.44 dm=  2.11 | forearm.L e=(    20.6,   -42.8,  -101.8) de=  0.47 dm=  0.55 | upperarm.L e=(   -58.4,   -12.0,   -21.3) de=  0.30 dm=  0.50
+E03_STEP f= 70 hand.L e=(  -134.7,   -59.3,    -4.9) de=  5.45 dm=  5.63 | forearm.L e=(    19.6,   -44.1,  -101.9) de=  1.35 dm=  1.55 | upperarm.L e=(   -58.7,   -11.5,   -20.3) de=  1.00 dm=  1.33
+E03_STEP f= 71 hand.L e=(  -118.3,   -54.6,   -14.1) de= 16.38 dm= 18.09 | forearm.L e=(    20.4,   -35.6,  -100.9) de=  8.49 dm=  9.26 | upperarm.L e=(   -59.6,   -10.3,   -17.9) de=  2.37 dm=  2.93
+E03_STEP f= 72 hand.L e=(  -111.8,   -52.0,   -10.6) de=  6.52 dm= 11.01 | forearm.L e=(    18.2,   -35.3,  -101.3) de=  2.20 dm=  1.09 | upperarm.L e=(   -60.4,    -9.0,   -15.4) de=  2.55 dm=  3.21
+E03_STEP f= 73 hand.L e=(  -104.6,   -49.5,    -5.2) de=  7.14 dm= 12.86 | forearm.L e=(    15.5,   -35.1,  -102.5) de=  2.75 dm=  0.82 | upperarm.L e=(   -61.4,    -7.2,   -12.1) de=  3.26 dm=  4.09
+E03_STEP f= 74 hand.L e=(   -96.7,   -47.5,     1.5) de=  7.96 dm= 14.21 | forearm.L e=(    12.3,   -35.6,  -104.6) de=  3.18 dm=  0.71 | upperarm.L e=(   -62.2,    -5.0,    -8.3) de=  3.82 dm=  4.82
+E03_STEP f= 75 hand.L e=(   -84.0,   -45.8,     7.7) de= 12.62 dm= 16.09 | forearm.L e=(     9.0,   -36.4,  -108.5) de=  3.88 dm=  1.95 | upperarm.L e=(   -62.6,    -2.8,    -4.7) de=  3.55 dm=  4.59
+E03_STEP f= 76 hand.L e=(   -71.9,   -41.8,    14.1) de= 12.17 dm= 15.80 | forearm.L e=(     9.2,   -30.7,  -114.2) de=  5.66 dm=  7.35 | upperarm.L e=(   -62.1,    -2.4,    -4.2) de=  0.49 dm=  1.20
+E03_STEP f= 77 hand.L e=(   -47.6,   -39.3,    11.5) de= 24.25 dm= 16.05 | forearm.L e=(     7.0,   -29.6,  -120.5) de=  6.31 dm=  7.52 | upperarm.L e=(   -61.3,    -2.3,    -4.6) de=  0.82 dm=  0.77
+E03_STEP f= 78 hand.L e=(   -25.0,   -34.4,     7.2) de= 22.65 dm= 16.14 | forearm.L e=(     5.9,   -24.6,  -126.2) de=  5.69 dm=  9.84 | upperarm.L e=(   -60.0,    -3.7,    -7.3) de=  2.77 dm=  2.80
+E03_STEP f= 79 hand.L e=(    -9.7,   -27.8,     6.6) de= 15.26 dm= 15.87 | forearm.L e=(     5.7,   -16.7,  -130.6) de=  7.94 dm= 11.04 | upperarm.L e=(   -58.4,    -6.0,   -11.7) de=  4.35 dm=  4.53
+E03_STEP f= 80 hand.L e=(    -1.9,   -21.0,     9.5) de=  7.81 dm= 14.62 | forearm.L e=(     5.9,    -8.0,  -133.7) de=  8.65 dm= 10.52 | upperarm.L e=(   -56.5,    -8.4,   -16.4) de=  4.74 dm=  4.90
+E03_STEP f= 81 hand.L e=(     1.1,   -15.0,    13.6) de=  5.98 dm= 12.57 | forearm.L e=(     6.2,    -0.2,  -135.8) de=  7.81 dm=  8.88 | upperarm.L e=(   -54.6,   -10.5,   -20.7) de=  4.29 dm=  4.31
+E03_STEP f= 82 hand.L e=(     1.9,   -10.1,    17.2) de=  4.92 dm=  9.99 | forearm.L e=(     6.4,     6.0,  -137.0) de=  6.20 dm=  6.74 | upperarm.L e=(   -52.9,   -12.0,   -24.1) de=  3.39 dm=  3.23
+E03_STEP f= 83 hand.L e=(     1.9,    -6.3,    20.0) de=  3.80 dm=  7.23 | forearm.L e=(     6.3,    10.2,  -137.8) de=  4.28 dm=  4.48 | upperarm.L e=(   -51.5,   -12.9,   -26.4) de=  2.30 dm=  2.00
+E03_STEP f= 84 hand.L e=(     1.9,    -3.6,    21.8) de=  2.72 dm=  4.72 | forearm.L e=(     6.0,    12.7,  -138.3) de=  2.47 dm=  2.39 | upperarm.L e=(   -50.7,   -13.3,   -27.7) de=  1.27 dm=  0.90
+E03_STEP f= 85 hand.L e=(     1.9,    -1.9,    22.4) de=  1.74 dm=  2.63 | forearm.L e=(     5.7,    13.7,  -138.4) de=  1.02 dm=  0.84 | upperarm.L e=(   -50.2,   -13.4,   -28.1) de=  0.45 dm=  0.33
+E03_STEP f= 86 hand.L e=(     2.1,    -0.9,    22.1) de=  0.93 dm=  1.08 | forearm.L e=(     5.4,    13.8,  -138.2) de=  0.29 dm=  0.83 | upperarm.L e=(   -50.1,   -13.3,   -28.0) de=  0.10 dm=  0.67
+E03_STEP f= 87 hand.L e=(     2.4,    -0.6,    21.5) de=  0.61 dm=  0.46 | forearm.L e=(     5.2,    13.5,  -138.0) de=  0.33 dm=  1.13 | upperarm.L e=(   -50.2,   -13.2,   -27.8) de=  0.25 dm=  0.83
+E03_STEP f= 88 hand.L e=(     2.5,    -0.5,    21.2) de=  0.30 dm=  0.56 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.19 dm=  0.85 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.13 dm=  0.70
+E03_STEP f= 89 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.55 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.55 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.55
+E03_STEP f= 90 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.49 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.49 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.49
+E03_STEP f= 91 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.44 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.44 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.44
+E03_STEP f= 92 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.37 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.37 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.37
+E03_STEP f= 93 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.30 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.30 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.30
+E03_STEP f= 94 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.22 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.22 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.22
+E03_STEP f= 95 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.14 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.14 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.14
+E03_STEP f= 96 hand.L e=(     2.5,    -0.5,    21.2) de=  0.00 dm=  0.04 | forearm.L e=(     5.1,    13.3,  -137.8) de=  0.00 dm=  0.04 | upperarm.L e=(   -50.2,   -13.2,   -27.7) de=  0.00 dm=  0.04
+E03_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 2276, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 2176, in main
+    report.update(rage_assertions(arm, action, samples, meshes))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 1628, in rage_assertions
+    "★★★ 权威口径 = **13 方向多数表决**（> 6 票），**判据只看排除拇指后的"
+TypeError: not enough arguments for format string
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

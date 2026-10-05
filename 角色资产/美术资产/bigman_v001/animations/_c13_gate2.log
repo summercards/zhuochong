@@ -1,0 +1,96 @@
+C13_LAYOUT {"total_frames": 120, "seconds": 2.0, "hits": [10, 24, 34, 64], "hitstop_end": [12, 26, 36, 67], "strike_start": [5, 19, 29, 58], "seg_len": [10, 14, 10, 30], "drive": ["R", "L", "R", "R"], "quiet": [14, 16], "charge_hold": [52, 55], "recover": 82, "settle_end": 114, "cancel": 108, "pelvis_z0_mm": 830.0, "ankle0_mm": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "idle_hand_mm": {"L": [144.52, -307.73, 1271.06], "R": [-129.58, -273.48, 1298.18]}, "note": "大招攻击：4 段重击（刺拳/摆拳/上勾/全身下砸），间隔 [10, 14, 10, 30]，CV 0.515；每段命中 3~4 帧逐位冻结；原地连招、骨盆前压承担位移。"}
+C13_CHAIN seg=1 side=R window=[1,10] hit=10
+  f1   foot=    64 leg=   588 hip=   384 waist=  1063 shoulder=   891 hand=   650 d= 236/   1 r=0.36
+  f2   foot=     5 leg=   470 hip=   360 waist=   664 shoulder=   548 hand=  3418 d= 264/   1 r=0.41
+  f3   foot=    18 leg=   428 hip=   337 waist=   366 shoulder=   270 hand=  3617 d= 286/   1 r=0.44
+  f4   foot=   233 leg=   531 hip=   299 waist=   545 shoulder=   448 hand=  1434 d= 300/   1 r=0.46
+  f5   foot=  2054 leg=  2235 hip=   892 waist=  1487 shoulder=  1177 hand=  1790 d= 310/   1 r=0.48
+  f6   foot=  1507 leg=  4077 hip=  1310 waist=  1865 shoulder=  1368 hand=  2303 d= 325/   1 r=0.50
+  f7   foot=   717 leg=  1534 hip=  2154 waist=  3822 shoulder=  2772 hand=  4042 d= 345/   1 r=0.53
+  f8   foot=    51 leg=   991 hip=     0 waist=  3385 shoulder=  2991 hand=  4811 d= 372/   1 r=0.57
+  f9   foot=     8 leg=   666 hip=     0 waist=     0 shoulder=  1693 hand=  2081 d= 412/   1 r=0.63
+  f10  foot=     2 leg=   549 hip=     0 waist=     0 shoulder=     0 hand=  3983 d= 470/   1 r=0.72
+C13_CHAIN seg=2 side=L window=[11,24] hit=24
+  f11  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 300/   1 r=0.46
+  f12  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 300/   1 r=0.46
+  f13  foot=     5 leg=   934 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 300/   1 r=0.46
+  f14  foot=     1 leg=    86 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 300/   1 r=0.46
+  f15  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 300/   1 r=0.46
+  f16  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 300/   1 r=0.46
+  f17  foot=    13 leg=   767 hip=   726 waist=  1896 shoulder=  2176 hand=  2048 d= 303/   1 r=0.47
+  f18  foot=   464 leg=   749 hip=   735 waist=  2660 shoulder=  2920 hand=  2648 d= 310/   1 r=0.48
+  f19  foot=  1880 leg=  1959 hip=   437 waist=   654 shoulder=  1169 hand=   666 d= 330/   1 r=0.51
+  f20  foot=  1507 leg=  4911 hip=   859 waist=  1240 shoulder=   520 hand=  1591 d= 355/   1 r=0.55
+  f21  foot=   717 leg=  1320 hip=  1073 waist=  1974 shoulder=   636 hand=  2608 d= 390/   1 r=0.60
+  f22  foot=   136 leg=  1362 hip=     0 waist=  3385 shoulder=  2871 hand=  5942 d= 435/   1 r=0.67
+  f23  foot=    12 leg=   819 hip=     0 waist=     0 shoulder=  1693 hand=  3314 d= 495/   1 r=0.76
+  f24  foot=     3 leg=   653 hip=     0 waist=     0 shoulder=     0 hand=  4853 d= 560/   1 r=0.86
+C13_CHAIN seg=3 side=R window=[25,34] hit=34
+  f25  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 380/   1 r=0.58
+  f26  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 380/   1 r=0.58
+  f27  foot=    17 leg=   637 hip=   617 waist=  2620 shoulder=  2871 hand=  5564 d= 338/   1 r=0.52
+  f28  foot=   373 leg=   381 hip=   637 waist=  2632 shoulder=  2911 hand=  3394 d= 330/   1 r=0.51
+  f29  foot=  2062 leg=  1609 hip=   495 waist=   630 shoulder=   718 hand=   948 d= 345/   1 r=0.53
+  f30  foot=  1689 leg=  3868 hip=   805 waist=  1163 shoulder=   422 hand=  1516 d= 365/   1 r=0.56
+  f31  foot=   717 leg=  1141 hip=  1132 waist=  2035 shoulder=   800 hand=  2478 d= 395/   1 r=0.61
+  f32  foot=    38 leg=  1090 hip=     0 waist=  3385 shoulder=  2785 hand=  5466 d= 435/   1 r=0.67
+  f33  foot=     6 leg=   777 hip=     0 waist=     0 shoulder=  1693 hand=  2999 d= 490/   1 r=0.75
+  f34  foot=     2 leg=   621 hip=     0 waist=     0 shoulder=     0 hand=  4467 d= 555/   1 r=0.85
+C13_CHAIN seg=4 side=R window=[35,64] hit=64
+  f35  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 555/   1 r=0.85
+  f36  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 555/   1 r=0.85
+  f37  foot=     6 leg=   727 hip=   139 waist=   939 shoulder=   648 hand=  2036 d= 535/   1 r=0.82
+  f38  foot=     3 leg=   304 hip=   346 waist=  2254 shoulder=  1601 hand=  3845 d= 514/   1 r=0.79
+  f39  foot=     3 leg=   370 hip=   445 waist=  2719 shoulder=  2034 hand=  6723 d= 485/   1 r=0.75
+  f40  foot=     3 leg=   333 hip=   438 waist=  2300 shoulder=  1793 hand=  6321 d= 470/   1 r=0.72
+  f41  foot=     2 leg=   291 hip=   432 waist=  1786 shoulder=  1482 hand=  4763 d= 473/   1 r=0.73
+  f42  foot=     2 leg=   291 hip=   485 waist=  1775 shoulder=  1527 hand=  5015 d= 480/   1 r=0.74
+  f43  foot=     2 leg=   267 hip=   515 waist=  1752 shoulder=  1536 hand=  4988 d= 490/   1 r=0.75
+  f44  foot=     2 leg=   223 hip=   526 waist=  1713 shoulder=  1509 hand=  4682 d= 502/   1 r=0.77
+  f45  foot=     2 leg=   181 hip=   545 waist=  1681 shoulder=  1469 hand=  4182 d= 512/   1 r=0.79
+  f46  foot=     1 leg=   139 hip=   589 waist=  1672 shoulder=  1436 hand=  3619 d= 520/   1 r=0.80
+  f47  foot=     1 leg=    83 hip=   643 waist=  1828 shoulder=  1529 hand=  3564 d= 527/   1 r=0.81
+  f48  foot=     1 leg=    68 hip=   710 waist=  1942 shoulder=  1595 hand=  3513 d= 533/   1 r=0.82
+  f49  foot=     0 leg=   106 hip=   930 waist=  1898 shoulder=  1567 hand=  2963 d= 538/   1 r=0.83
+  f50  foot=     4 leg=   609 hip=  1683 waist=  2058 shoulder=  1785 hand=  2328 d= 540/   1 r=0.83
+  f51  foot=     1 leg=    61 hip=     0 waist=   242 shoulder=   366 hand=   366 d= 540/   1 r=0.83
+  f52  foot=     0 leg=    34 hip=     0 waist=   136 shoulder=   205 hand=   205 d= 540/   1 r=0.83
+  f53  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 540/   1 r=0.83
+  f54  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 540/   1 r=0.83
+  f55  foot=     0 leg=     0 hip=     0 waist=     0 shoulder=     0 hand=     0 d= 540/   1 r=0.83
+  f56  foot=    11 leg=   239 hip=   480 waist=  3100 shoulder=  2862 hand=  2883 d= 541/   1 r=0.83
+  f57  foot=   175 leg=   395 hip=   723 waist=  4029 shoulder=  3495 hand=  3538 d= 542/   1 r=0.83
+  f58  foot=   546 leg=   675 hip=  1325 waist=  2456 shoulder=  1814 hand=  2410 d= 545/   1 r=0.84
+  f59  foot=  2221 leg=  2048 hip=  1718 waist=  3688 shoulder=  2936 hand=  4565 d= 548/   1 r=0.84
+  f60  foot=  1848 leg=  4505 hip=  1828 waist=  4950 shoulder=  4041 hand=  6475 d= 550/   1 r=0.85
+  f61  foot=   919 leg=  2633 hip=  2683 waist= 10287 shoulder=  8977 hand= 13236 d= 552/   1 r=0.85
+  f62  foot=   161 leg=  1638 hip=     0 waist=  4501 shoulder=  4095 hand= 10422 d= 550/   1 r=0.85
+  f63  foot=     8 leg=  1189 hip=     0 waist=   507 shoulder=  1659 hand=  6658 d= 528/   1 r=0.81
+  f64  foot=     4 leg=   787 hip=     0 waist=   246 shoulder=   173 hand= 13515 d= 545/   1 r=0.84
+C13_STEP f6    15.21 deg shin.L
+C13_STEP f9    15.54 deg upperarm.L
+C13_STEP f10   16.25 deg forearm.R
+C13_STEP f20   17.19 deg shin.L
+C13_STEP f23   17.08 deg forearm.L
+C13_STEP f24   21.45 deg forearm.L
+C13_STEP f27   16.76 deg upperarm.L
+C13_STEP f30   15.65 deg shin.L
+C13_STEP f33   15.85 deg forearm.R
+C13_STEP f34   21.21 deg forearm.R
+C13_STEP f43   18.98 deg forearm.R
+C13_STEP f44   35.00 deg forearm.R
+C13_STEP f45   34.24 deg forearm.R
+C13_STEP f46   20.11 deg forearm.L
+C13_STEP f60   17.62 deg shin.L
+C13_STEP f61   31.86 deg forearm.L
+C13_STEP f62   76.38 deg forearm.L
+C13_STEP f64   27.64 deg forearm.R
+C13_STEP f68   16.72 deg upperarm.L
+C13_REPORT {"loop_seamless": null, "ground_min_mm": -0.96, "ground_contact_ok": true, "max_frame_step_deg": 76.382, "max_frame_step_at": [62, "forearm.L"], "no_teleport": false, "bone_travel_mm": {"pelvis": 188.81, "chest": 273.57, "head": 437.66, "hand.L": 583.75, "hand.R": 551.4}, "seg_len": [10, 14, 10, 30], "seg_mean": 16.0, "seg_std": 8.2462, "seg_cv": 0.5154, "seg_adjacent_ratio": [1.4, 0.7143, 3.0], "seg_max_adjacent_ratio": 3.0, "rhythm_uneven_ok": true, "seg_peak_hand_speed_mmps": [4810.6, 5941.8, 5563.6, 13515.3], "seg_peak_hand_frame": [8, 22, 27, 64], "seg_peak_step_mm": [120.74, 120.75, 120.77, 272.29], "chain_peak_frames": {"foot": {"foot": 5, "leg": 6, "hip": 7, "waist": 7, "shoulder": 8, "hand": 8}, "leg": {"foot": 19, "leg": 20, "hip": 21, "waist": 22, "shoulder": 18, "hand": 22}, "hip": {"foot": 29, "leg": 30, "hip": 31, "waist": 32, "shoulder": 28, "hand": 27}, "waist": {"foot": 59, "leg": 60, "hip": 61, "waist": 61, "shoulder": 61, "hand": 64}}, "chain_peak_detail": [{"foot": {"key": "foot.R", "frame": 5, "speed_mmps": 2053.8}, "leg": {"key": "thigh.R.tail", "frame": 6, "speed_mmps": 4077.0}, "hip": {"key": "pelvis", "frame": 7, "speed_mmps": 2154.2}, "waist": {"key": "chest.tail", "frame": 7, "speed_mmps": 3822.0}, "shoulder": {"key": "upperarm.R", "frame": 8, "speed_mmps": 2990.9}, "hand": {"key": "hand.R.tail", "frame": 8, "speed_mmps": 4810.6}}, {"foot": {"key": "foot.L", "frame": 19, "speed_mmps": 1879.7}, "leg": {"key": "thigh.L.tail", "frame": 20, "speed_mmps": 4911.1}, "hip": {"key": "pelvis", "frame": 21, "speed_mmps": 1073.3}, "waist": {"key": "chest.tail", "frame": 22, "speed_mmps": 3384.6}, "shoulder": {"key": "upperarm.L", "frame": 18, "speed_mmps": 2919.6}, "hand": {"key": "hand.L.tail", "frame": 22, "speed_mmps": 5941.8}}, {"foot": {"key": "foot.R", "frame": 29, "speed_mmps": 2061.5}, "leg": {"key": "thigh.R.tail", "frame": 30, "speed_mmps": 3868.2}, "hip": {"key": "pelvis", "frame": 31, "speed_mmps": 1132.1}, "waist": {"key": "chest.tail", "frame": 32, "speed_mmps": 3385.0}, "shoulder": {"key": "upperarm.R", "frame": 28, "speed_mmps": 2910.9}, "hand": {"key": "hand.R.tail", "frame": 27, "speed_mmps": 5563.6}}, {"foot": {"key": "foot.R", "frame": 59, "speed_mmps": 2221.1}, "leg": {"key": "thigh.R.tail", "frame": 60, "speed_mmps": 4504.7}, "hip": {"key": "pelvis", "frame": 61, "speed_mmps": 2683.3}, "waist": {"key": "chest.tail", "frame": 61, "speed_mmps": 10286.7}, "shoulder": {"key": "upperarm.R", "frame": 61, "speed_mmps": 8977.2}, "hand": {"key": "hand.R.tail", "frame": 64, "speed_mmps": 13515.3}}], "chain_peak_keys": {"foot": {"foot": "foot.R", "leg": "thigh.R.tail", "hip": "pelvis", "waist": "chest.tail", "shoulder": "upperarm.R", "hand": "hand.R.tail"}, "leg": {"foot": "foot.L", "leg": "thigh.L.tail", "hip": "pelvis", "waist": "chest.tail", "shoulder": "upperarm.L", "hand": "hand.L.tail"}, "hip": {"foot": "foot.R", "leg": "thigh.R.tail", "hip": "pelvis", "waist": "chest.tail", "shoulder": "upperarm.R", "hand": "hand.R.tail"}, "waist": {"foot": "foot.R", "leg": "thigh.R.tail", "hip": "pelvis", "waist": "chest.tail", "shoulder": "upperarm.R", "hand": "hand.R.tail"}}, "accent_ok_flags": [true, true, false, true], "accent_tail_boundary": [6.0, 18.4, 30.0, 52.0], "accent_at_tail_ok": false, "rhythm_weight_corr": 1.0, "rhythm_weight_corr_ok": true, "hitstop": [{"segment": 1, "hit": 10, "hold": [10, 12], "frames": 3, "inside_max_step_mm": 0.0, "before_step_mm": 66.3897, "after_step_mm": 28.9885, "gap_before_mm": 66.3897, "gap_after_mm": 28.9885, "real": true}, {"segment": 2, "hit": 24, "hold": [24, 26], "frames": 3, "inside_max_step_mm": 0.0, "before_step_mm": 80.8898, "after_step_mm": 92.7268, "gap_before_mm": 80.8898, "gap_after_mm": 92.7268, "real": true}, {"segment": 3, "hit": 34, "hold": [34, 36], "frames": 3, "inside_max_step_mm": 0.0, "before_step_mm": 74.4499, "after_step_mm": 93.2388, "gap_before_mm": 74.4499, "gap_after_mm": 93.2388, "real": true}, {"segment": 4, "hit": 64, "hold": [64, 67], "frames": 4, "inside_max_step_mm": 0.0, "before_step_mm": 225.3899, "after_step_mm": 82.5831, "gap_before_mm": 225.3899, "gap_after_mm": 82.5831, "real": true}], "hitstop_real_ok": true, "chain_strictly_increasing": [false, false, false, false], "chain_per_hit_ok": false, "segment_yaw_changes": 4, "segment_yaw_peak_deg": 12.24, "segment_count_ok": true, "seg_peak_step_min_mm": 120.74, "no_freeze_ok": true, "press": [{"segment": 1, "forward_peak_mm": 70.0, "at_hit_mm": 70.0, "ok": true}, {"segment": 2, "forward_peak_mm": 82.0, "at_hit_mm": 82.0, "ok": true}, {"segment": 3, "forward_peak_mm": 98.0, "at_hit_mm": 98.0, "ok": true}, {"segment": 4, "forward_peak_mm": 112.0, "at_hit_mm": 112.0, "ok": true}], "press_ok": true, "camera_torso_yaw_max_deg": 17.0, "camera_head_yaw_max_deg": 6.8, "camera_facing_ok": true, "quiet_hold_worst_mm": 0.0, "quiet_hold_ok": true, "charge_hold_worst_mm": 0.0, "charge_hold_ok": true, "hits": [{"index": 1, "frame": 10, "side": "R", "part": "hand.R", "point_m": [-0.1296, -0.2735, 1.2982], "hitstop": [10, 12]}, {"index": 2, "frame": 24, "side": "L", "part": "hand.L", "point_m": [0.1445, -0.3077, 1.2711], "hitstop": [24, 26]}, {"index": 3, "frame": 34, "side": "R", "part": "hand.R", "point_m": [-0.1296, -0.2735, 1.2982], "hitstop": [34, 36]}, {"index": 4, "frame": 64, "side": "R", "part": "hand.R", "point_m": [-0.1296, -0.2735, 1.2982], "hitstop": [64, 67]}], "ua_start_delta_deg": 0.0, "ua_start_ok": true, "hitframe_markers": {"HIT_1": {"marker": 10, "expected": 10, "ok": true}, "HIT_2": {"marker": 24, "expected": 24, "ok": true}, "HIT_3": {"marker": 34, "expected": 34, "ok": true}, "HIT_4": {"marker": 64, "expected": 64, "ok": true}}, "hitframe_registered_ok": true, "plant_L_mm": 0.209, "plant_R_mm": 0.648, "plant_3d_L_mm": 45.661, "plant_3d_R_mm": 51.466, "plant_ok": true, "low_bad_frames": {}, "leg_reach_worst_ratio": 0.93796, "leg_reach_worst_at": [0, "L"], "leg_reach_ok": true, "arm_clamp": {"L": {"any": false, "worst_frame": 24, "worst_ratio": 0.86197, "worst_over_mm": 0.0, "limit_mm": 649.675}, "R": {"any": false, "worst_frame": 34, "worst_ratio": 0.85427, "worst_over_mm": 0.0, "limit_mm": 649.675}}, "arm_reach_ok": true, "settle_tail_mm": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "settle_monotone_ok": true, "settle_last2_mm": 0.0, "settle_no_stop_ok": true, "end_pose_delta_mm": 0.0, "end_pose_ok": true, "settle_ok": true, "hit_point_m": {"HIT_1": [-0.1296, -0.2735, 1.2982], "HIT_2": [0.1445, -0.3077, 1.2711], "HIT_3": [-0.1296, -0.2735, 1.2982], "HIT_4": [-0.1296, -0.2735, 1.2982]}, "meta": {"anim_id": "Ultimate_Attack", "loop": false, "category": "连招与特殊技", "note": "大招攻击：4 段重击（右刺拳 / 左摆拳 / 右上勾 / 双拳全身下砸），段间隔 [10, 14, 10, 30] 不平均；每段命中 3~4 帧完全停顿；原地连招，位移由骨盆前压承担。", "hits": [{"index": 1, "frame": 10, "side": "R", "part": "hand.R", "point_m": [-0.1296, -0.2735, 1.2982], "hitstop": [10, 12]}, {"index": 2, "frame": 24, "side": "L", "part": "hand.L", "point_m": [0.1445, -0.3077, 1.2711], "hitstop": [24, 26]}, {"index": 3, "frame": 34, "side": "R", "part": "hand.R", "point_m": [-0.1296, -0.2735, 1.2982], "hitstop": [34, 36]}, {"index": 4, "frame": 64, "side": "R", "part": "hand.R", "point_m": [-0.1296, -0.2735, 1.2982], "hitstop": [64, 67]}], "segments": {"ease": [0, 3], "seg1": [3, 10], "hold1": [14, 16], "seg2": [10, 24], "seg3": [24, 34], "charge": [34, 52], "charge_hold": [52, 55], "seg4": [58, 64], "follow": [67, 82], "recover": [82, 114], "rest": [114, 120]}, "hit_frames": [10, 24, 34, 64], "hitstop_frames": [3, 3, 3, 4], "seg_len": [10, 14, 10, 30], "cancel_frame": 108, "settle_end": 114, "root_motion_m": [0.0, 0.0], "pelvis_press_note": "位移由骨盆前压承担（世界 −Y），脚不迈步", "foot_lift_note": "抬跟（foot.rx）为 chain 的「脚」节点提供位移；水平位移=0", "fps": 60, "frames": [0, 120]}, "failed": ["accent_at_tail_ok", "chain_per_hit_ok"], "non_ok_bools": ["no_teleport"]}
+C13_DONE failed=['accent_at_tail_ok', 'chain_per_hit_ok']
+C13_DONE non_ok_bools=['no_teleport']
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

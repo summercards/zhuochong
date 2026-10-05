@@ -1,0 +1,115 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+# ============ E11R 基线（逐帧，未反解） ============
+E11R_PRE f= 56 fp= +22.00 soleR=   +5.15 soleL=  +3.02 kneeR= 542.32 ankR= 150.00 toeRtail=  25.71
+E11R_PRE f= 58 fp= +26.00 soleR=   -7.76 soleL=  +2.69 kneeR= 503.26 ankR= 147.50 toeRtail=  12.40
+E11R_PRE f= 60 fp= +30.00 soleR=  -20.45 soleL=  +3.51 kneeR= 427.78 ankR= 145.00 toeRtail=  -0.00
+E11R_PRE f= 62 fp= +32.50 soleR=  -28.88 soleL=  +4.38 kneeR= 325.95 ankR= 142.50 toeRtail=  -8.38
+E11R_PRE f= 64 fp= +35.00 soleR=  -36.96 soleL=  +5.17 kneeR= 224.20 ankR= 140.00 toeRtail= -16.45
+E11R_PRE f= 66 fp= +37.50 soleR=  -44.68 soleL=  +6.00 kneeR= 181.89 ankR= 137.50 toeRtail= -24.20
+E11R_PRE f= 68 fp= +40.00 soleR=  -52.01 soleL=  +6.88 kneeR= 150.78 ankR= 135.00 toeRtail= -31.61
+E11R_PRE f= 70 fp= +41.00 soleR=  -56.30 soleL=  +7.76 kneeR= 128.97 ankR= 132.50 toeRtail= -35.97
+E11R_PRE f= 72 fp= +42.00 soleR=  -60.50 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail= -40.24
+E11R_PRE f= 74 fp= +43.00 soleR=  -60.50 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail= -40.24
+E11R_PRE f= 76 fp= +44.00 soleR=  -60.50 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail= -40.24
+E11R_PRE f= 78 fp= +42.25 soleR=  -60.96 soleL=  +8.93 kneeR= 137.24 ankR= 130.00 toeRtail= -40.68
+E11R_PRE f= 80 fp= +40.50 soleR=  -57.71 soleL= +10.30 kneeR= 159.10 ankR= 130.00 toeRtail= -37.50
+E11R_PRE f= 82 fp= +38.75 soleR=  -54.29 soleL= +11.12 kneeR= 180.34 ankR= 130.00 toeRtail= -34.16
+E11R_PRE f= 84 fp= +37.00 soleR=  -50.70 soleL= +11.40 kneeR= 201.14 ankR= 130.00 toeRtail= -30.67
+E11R_PRE f= 86 fp= +35.25 soleR=  -47.44 soleL= +10.95 kneeR= 228.39 ankR= 129.50 toeRtail= -27.52
+E11R_PRE f= 88 fp= +33.50 soleR=  -44.02 soleL= +10.32 kneeR= 254.42 ankR= 129.00 toeRtail= -24.23
+E11R_PRE f= 90 fp= +31.75 soleR=  -40.43 soleL=  +9.73 kneeR= 279.37 ankR= 128.50 toeRtail= -20.80
+E11R_PRE f= 92 fp= +30.00 soleR=  -36.69 soleL=  +9.18 kneeR= 303.35 ankR= 128.00 toeRtail= -17.23
+E11R_PRE f= 94 fp= +25.00 soleR=  -26.29 soleL=  +8.43 kneeR= 333.96 ankR= 121.41 toeRtail=  -7.17
+E11R_PRE f= 96 fp= +20.00 soleR=  -18.06 soleL=  +6.07 kneeR= 357.10 ankR= 110.12 toeRtail=   0.21
+E11R_PRE f= 98 fp= +15.00 soleR=   -9.15 soleL=  +4.13 kneeR= 376.50 ankR= 100.30 toeRtail=   8.35
+E11R_PRE f=100 fp= +10.00 soleR=   -0.27 soleL=  +2.60 kneeR= 393.70 ankR=  91.96 toeRtail=  17.06
+E11R_PRE f=102 fp=  +5.00 soleR=   +1.09 soleL=  +1.54 kneeR= 410.19 ankR=  83.36 toeRtail=  19.11
+# ============ E11R 逐帧二分反解 ============
+# ============ E11R 反解后逐帧 ============
+E11R_POST f= 56 fp= +22.79 soleR=   +3.00 soleL=  +3.02 kneeR= 542.32 ankR= 150.00 toeRtail=  23.61
+E11R_POST f= 57 fp= +22.40 soleR=   +3.00 soleL=  +2.88 kneeR= 526.07 ankR= 148.75 toeRtail=  23.18
+E11R_POST f= 58 fp= +22.00 soleR=   +2.99 soleL=  +2.69 kneeR= 503.26 ankR= 147.50 toeRtail=  22.81
+E11R_POST f= 59 fp= +21.57 soleR=   +3.00 soleL=  +3.09 kneeR= 469.82 ankR= 146.25 toeRtail=  22.66
+E11R_POST f= 60 fp= +21.14 soleR=   +3.01 soleL=  +3.51 kneeR= 427.78 ankR= 145.00 toeRtail=  22.51
+E11R_POST f= 61 fp= +20.73 soleR=   +3.01 soleL=  +3.94 kneeR= 378.77 ankR= 143.75 toeRtail=  22.34
+E11R_POST f= 62 fp= +20.32 soleR=   +2.99 soleL=  +4.38 kneeR= 325.95 ankR= 142.50 toeRtail=  22.16
+E11R_POST f= 63 fp= +19.92 soleR=   +2.99 soleL=  +4.77 kneeR= 273.25 ankR= 141.25 toeRtail=  21.99
+E11R_POST f= 64 fp= +19.51 soleR=   +3.00 soleL=  +5.17 kneeR= 224.20 ankR= 140.00 toeRtail=  21.84
+E11R_POST f= 65 fp= +19.12 soleR=   +3.00 soleL=  +5.58 kneeR= 201.54 ankR= 138.75 toeRtail=  21.67
+E11R_POST f= 66 fp= +18.72 soleR=   +3.01 soleL=  +6.00 kneeR= 181.89 ankR= 137.50 toeRtail=  21.51
+E11R_POST f= 67 fp= +18.34 soleR=   +3.01 soleL=  +6.44 kneeR= 165.05 ankR= 136.25 toeRtail=  21.34
+E11R_POST f= 68 fp= +17.96 soleR=   +2.99 soleL=  +6.88 kneeR= 150.78 ankR= 135.00 toeRtail=  21.18
+E11R_POST f= 69 fp= +17.55 soleR=   +2.99 soleL=  +7.34 kneeR= 138.83 ankR= 133.75 toeRtail=  21.09
+E11R_POST f= 70 fp= +17.16 soleR=   +2.99 soleL=  +7.76 kneeR= 128.97 ankR= 132.50 toeRtail=  20.98
+E11R_POST f= 71 fp= +16.76 soleR=   +2.99 soleL=  +8.03 kneeR= 120.95 ankR= 131.25 toeRtail=  20.89
+E11R_POST f= 72 fp= +16.37 soleR=   +3.01 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 73 fp= +79.99 soleR=   +3.01 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 74 fp= +79.99 soleR=   +3.01 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 75 fp= +79.99 soleR=   +3.01 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 76 fp= +79.99 soleR=   +3.01 soleL=  +8.31 kneeR= 114.57 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 77 fp= +16.37 soleR=   +3.01 soleL=  +8.23 kneeR= 126.02 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 78 fp= +16.37 soleR=   +3.01 soleL=  +8.93 kneeR= 137.24 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 79 fp= +16.37 soleR=   +3.01 soleL=  +9.62 kneeR= 148.25 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 80 fp= +16.37 soleR=   +3.01 soleL= +10.30 kneeR= 159.10 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 81 fp= +16.37 soleR=   +3.01 soleL= +10.72 kneeR= 169.78 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 82 fp= +16.37 soleR=   +3.01 soleL= +11.12 kneeR= 180.34 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 83 fp= +16.37 soleR=   +3.01 soleL= +11.43 kneeR= 190.79 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 84 fp= +16.37 soleR=   +3.01 soleL= +11.40 kneeR= 201.14 ankR= 130.00 toeRtail=  20.80
+E11R_POST f= 85 fp= +16.29 soleR=   +3.01 soleL= +11.19 kneeR= 214.92 ankR= 129.75 toeRtail=  20.79
+E11R_POST f= 86 fp= +16.20 soleR=   +3.00 soleL= +10.95 kneeR= 228.39 ankR= 129.50 toeRtail=  20.79
+E11R_POST f= 87 fp= +16.12 soleR=   +3.00 soleL= +10.63 kneeR= 241.55 ankR= 129.25 toeRtail=  20.78
+E11R_POST f= 88 fp= +16.04 soleR=   +3.00 soleL= +10.32 kneeR= 254.42 ankR= 129.00 toeRtail=  20.77
+E11R_POST f= 89 fp= +15.95 soleR=   +3.00 soleL= +10.03 kneeR= 267.02 ankR= 128.75 toeRtail=  20.76
+E11R_POST f= 90 fp= +15.87 soleR=   +3.00 soleL=  +9.73 kneeR= 279.37 ankR= 128.50 toeRtail=  20.75
+E11R_POST f= 91 fp= +15.79 soleR=   +3.00 soleL=  +9.45 kneeR= 291.47 ankR= 128.25 toeRtail=  20.74
+E11R_POST f= 92 fp= +15.71 soleR=   +3.00 soleL=  +9.18 kneeR= 303.35 ankR= 128.00 toeRtail=  20.73
+E11R_POST f= 93 fp= +15.77 soleR=   +3.00 soleL=  +9.77 kneeR= 320.52 ankR= 127.59 toeRtail=  21.46
+E11R_POST f= 94 fp= +14.97 soleR=   +3.01 soleL=  +8.43 kneeR= 333.96 ankR= 121.41 toeRtail=  21.14
+E11R_POST f= 95 fp= +14.12 soleR=   +3.00 soleL=  +7.20 kneeR= 346.09 ankR= 115.58 toeRtail=  20.82
+E11R_POST f= 96 fp= +13.22 soleR=   +2.99 soleL=  +6.07 kneeR= 357.10 ankR= 110.12 toeRtail=  20.52
+E11R_POST f= 97 fp= +12.26 soleR=   +3.00 soleL=  +5.05 kneeR= 367.17 ankR= 105.03 toeRtail=  20.25
+E11R_POST f= 98 fp= +11.18 soleR=   +2.99 soleL=  +4.13 kneeR= 376.50 ankR= 100.30 toeRtail=  20.27
+E11R_POST f= 99 fp= +10.07 soleR=   +2.99 soleL=  +3.31 kneeR= 385.28 ankR=  95.94 toeRtail=  20.34
+E11R_POST f=100 fp=  +8.96 soleR=   +2.99 soleL=  +2.60 kneeR= 393.70 ankR=  91.96 toeRtail=  20.41
+E11R_POST f=101 fp=  +6.61 soleR=   +3.01 soleL=  +2.01 kneeR= 401.91 ankR=  87.03 toeRtail=  20.86
+E11R_POST f=102 fp=  +0.79 soleR=   +3.00 soleL=  +1.54 kneeR= 410.19 ankR=  83.36 toeRtail=  33.06
+E11R_POST f=103 fp= -89.99 soleR=  -23.32 soleL=  +1.19 kneeR= 418.87 ankR=  80.96 toeRtail= 272.58
+E11R_STEP max_dfp=90.79 @f103
+# ============ E11R 压缩成关键帧表（每 4 帧 + 端点） ============
+E11R_KEY (  0,  -15.00),
+E11R_KEY (  4,  -15.00),
+E11R_KEY (  8,  -15.00),
+E11R_KEY ( 12,  -15.00),
+E11R_KEY ( 16,  -15.00),
+E11R_KEY ( 20,  -13.00),
+E11R_KEY ( 24,  -11.00),
+E11R_KEY ( 28,   -9.00),
+E11R_KEY ( 32,   -6.86),
+E11R_KEY ( 36,   -4.57),
+E11R_KEY ( 40,   -2.29),
+E11R_KEY ( 44,   +0.00),
+E11R_KEY ( 48,   +7.00),
+E11R_KEY ( 52,  +14.00),
+E11R_KEY ( 56,  +22.79),
+E11R_KEY ( 60,  +21.14),
+E11R_KEY ( 64,  +19.51),
+E11R_KEY ( 68,  +17.96),
+E11R_KEY ( 72,  +16.37),
+E11R_KEY ( 76,  +79.99),
+E11R_KEY ( 80,  +16.37),
+E11R_KEY ( 84,  +16.37),
+E11R_KEY ( 88,  +16.04),
+E11R_KEY ( 92,  +15.71),
+E11R_KEY ( 96,  +13.22),
+E11R_KEY (100,   +8.96),
+E11R_KEY (103,  -89.99),
+E11R_KEY (104,   +0.00),
+E11R_KEY (108,   +0.00),
+E11R_KEY (112,   +0.00),
+E11R_KEY (116,   +0.00),
+E11R_KEY (120,   +0.00),
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

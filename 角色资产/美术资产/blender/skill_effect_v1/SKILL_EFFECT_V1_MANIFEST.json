@@ -1,0 +1,47 @@
+{
+  "scene": "SkillEffect_V1",
+  "frames": [
+    1,
+    160
+  ],
+  "fps": 30,
+  "resolution": [
+    720,
+    720
+  ],
+  "engine": "BLENDER_EEVEE_NEXT",
+  "collections": [
+    "BG",
+    "SKILL_EFFECT"
+  ],
+  "effect_objects": 329,
+  "animation_phases": {
+    "awaken": [
+      1,
+      30
+    ],
+    "vortex": [
+      25,
+      70
+    ],
+    "sigil_form": [
+      62,
+      104
+    ],
+    "burst": [
+      92,
+      138
+    ],
+    "settle": [
+      138,
+      160
+    ]
+  },
+  "main_objects": [
+    "CTRL_CoreAssembly",
+    "CTRL_MainVortex",
+    "CTRL_FaceAssembly",
+    "CTRL_BurstAssembly",
+    "CTRL_Shards"
+  ]
+}

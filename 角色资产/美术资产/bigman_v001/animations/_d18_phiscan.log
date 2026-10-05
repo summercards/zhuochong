@@ -1,0 +1,30 @@
+D18_LAYOUT {"total_frames": 36, "seconds": 0.6, "legs_down": 4, "plant": 8, "chest_up": 12, "hand_off": 17, "tuck": 21, "foot_set": 25, "rise_mid": 30, "stand": 34, "vertical_channel": {"shape": "★ **无弹道段**：骨盆沿单调上升曲线 128 → 830 mm（四段支点：背/臀→掌→脚→双腿）", "pelvis_z_keys": [[0, 128.0], [4, 152.0], [8, 172.0], [12, 250.0], [17, 420.0], [21, 520.0], [25, 620.0], [30, 730.0], [34, 830.0], [36, 830.0]], "pelvis_y_keys": [[0, 470.0], [4, 452.0], [8, 430.0], [12, 398.0], [17, 350.0], [21, 290.0], [25, 220.0], [30, 110.0], [34, 0.0], [36, 0.0]]}, "seam": {"action": "Knockdown_B", "frame": 20, "src": {"action": "Knockdown_B", "found": true, "frame": 20, "rot_bones": 53, "loc_bones": ["pelvis"], "frame_range": [0, 20]}}, "end": {"action": "Idle_01", "frame": 0, "src": {"action": "Idle_01", "found": true, "frame": 0, "rot_bones": 52, "loc_bones": ["pelvis"], "frame_range": [0, 180]}}, "measured": {"seam_pelvis_z_mm": 128.0, "end_pelvis_z_mm": 830.0, "rise_mm": 702.0, "seam_ankle_mm": {"L": [329.978, 231.262, 300.001], "R": [-329.982, 228.703, 299.997]}, "end_ankle_mm": {"L": [143.178, -169.571, 79.76], "R": [-141.579, 140.432, 79.827]}, "seam_fist_mm": {"L": [595.461, 1275.328, -42.735], "R": [-635.184, 1255.257, -31.84]}, "seam_shoulder_mm": null, "end_off_mm": {"L": [-6.173, -256.577, -41.816], "R": [21.12, -222.327, -14.704]}}, "chest_tail_at_chest_up_mm": 441.698, "roll_weight_mode": "always", "note": "D18 背面起身：零位 = **`Knockdown_B@20` 落盘帧**；终点 = **`Idle_01@0` 落盘帧**（跨族接缝）。竖直通道**无弹道段**，骨盆单调升 **702 mm**；支点**背/臀 → 掌 → 脚**，换**两次**。"}
+D18_PHISCAN [{"framestep": 33, "bone": "hand.R", "now": 61.421, "best": 26.708, "kind": "真几何", "phi": [45.0, 80.0]}, {"framestep": 32, "bone": "hand.R", "now": 61.421, "best": 23.613, "kind": "表示可救", "phi": [110.0, 155.0]}, {"framestep": 33, "bone": "forearm.L", "now": 57.488, "best": 6.96, "kind": "表示可救", "phi": [335.0, 265.0]}, {"framestep": 32, "bone": "forearm.L", "now": 57.488, "best": 51.632, "kind": "真几何", "phi": [280.0, 255.0]}, {"framestep": 33, "bone": "hand.L", "now": 56.686, "best": 28.06, "kind": "真几何", "phi": [105.0, 90.0]}, {"framestep": 32, "bone": "hand.L", "now": 56.686, "best": 28.165, "kind": "真几何", "phi": [275.0, 260.0]}, {"framestep": 23, "bone": "shin.R", "now": 37.052, "best": 11.353, "kind": "表示可救", "phi": [170.0, 210.0]}, {"framestep": 33, "bone": "forearm.R", "now": 36.271, "best": 30.488, "kind": "真几何", "phi": [275.0, 290.0]}, {"framestep": 32, "bone": "forearm.R", "now": 36.271, "best": 17.108, "kind": "表示可救", "phi": [40.0, 70.0]}, {"framestep": 17, "bone": "forearm.R", "now": 34.624, "best": 16.518, "kind": "表示可救", "phi": [160.0, 175.0]}, {"framestep": 21, "bone": "thigh.L", "now": 34.414, "best": 32.448, "kind": "真几何", "phi": [160.0, 160.0]}, {"framestep": 24, "bone": "shin.R", "now": 34.075, "best": 10.903, "kind": "表示可救", "phi": [185.0, 225.0]}, {"framestep": 23, "bone": "foot.R", "now": 33.585, "best": 15.397, "kind": "表示可救", "phi": [240.0, 225.0]}, {"framestep": 16, "bone": "hand.R", "now": 29.665, "best": 26.069, "kind": "真几何", "phi": [165.0, 170.0]}, {"framestep": 16, "bone": "forearm.R", "now": 29.451, "best": 13.552, "kind": "表示可救", "phi": [145.0, 170.0]}, {"framestep": 34, "bone": "hand.R", "now": 27.919, "best": 13.551, "kind": "表示可救", "phi": [85.0, 90.0]}, {"framestep": 31, "bone": "hand.R", "now": 27.919, "best": 9.215, "kind": "表示可救", "phi": [115.0, 135.0]}, {"framestep": 27, "bone": "hand.R", "now": 27.886, "best": 13.01, "kind": "表示可救", "phi": [100.0, 115.0]}, {"framestep": 17, "bone": "hand.R", "now": 26.482, "best": 25.606, "kind": "真几何", "phi": [105.0, 70.0]}, {"framestep": 34, "bone": "forearm.L", "now": 26.131, "best": 13.483, "kind": "表示可救", "phi": [280.0, 255.0]}, {"framestep": 31, "bone": "forearm.L", "now": 26.131, "best": 20.39, "kind": "表示可救", "phi": [300.0, 325.0]}, {"framestep": 31, "bone": "hand.L", "now": 25.767, "best": 12.343, "kind": "表示可救", "phi": [270.0, 260.0]}, {"framestep": 34, "bone": "hand.L", "now": 25.767, "best": 14.095, "kind": "表示可救", "phi": [55.0, 45.0]}]
+  f33 hand.R       now= 61.421  best= 26.708  真几何  phi=[45.0, 80.0]
+  f32 hand.R       now= 61.421  best= 23.613  表示可救  phi=[110.0, 155.0]
+  f33 forearm.L    now= 57.488  best=  6.960  表示可救  phi=[335.0, 265.0]
+  f32 forearm.L    now= 57.488  best= 51.632  真几何  phi=[280.0, 255.0]
+  f33 hand.L       now= 56.686  best= 28.060  真几何  phi=[105.0, 90.0]
+  f32 hand.L       now= 56.686  best= 28.165  真几何  phi=[275.0, 260.0]
+  f23 shin.R       now= 37.052  best= 11.353  表示可救  phi=[170.0, 210.0]
+  f33 forearm.R    now= 36.271  best= 30.488  真几何  phi=[275.0, 290.0]
+  f32 forearm.R    now= 36.271  best= 17.108  表示可救  phi=[40.0, 70.0]
+  f17 forearm.R    now= 34.624  best= 16.518  表示可救  phi=[160.0, 175.0]
+  f21 thigh.L      now= 34.414  best= 32.448  真几何  phi=[160.0, 160.0]
+  f24 shin.R       now= 34.075  best= 10.903  表示可救  phi=[185.0, 225.0]
+  f23 foot.R       now= 33.585  best= 15.397  表示可救  phi=[240.0, 225.0]
+  f16 hand.R       now= 29.665  best= 26.069  真几何  phi=[165.0, 170.0]
+  f16 forearm.R    now= 29.451  best= 13.552  表示可救  phi=[145.0, 170.0]
+  f34 hand.R       now= 27.919  best= 13.551  表示可救  phi=[85.0, 90.0]
+  f31 hand.R       now= 27.919  best=  9.215  表示可救  phi=[115.0, 135.0]
+  f27 hand.R       now= 27.886  best= 13.010  表示可救  phi=[100.0, 115.0]
+  f17 hand.R       now= 26.482  best= 25.606  真几何  phi=[105.0, 70.0]
+  f34 forearm.L    now= 26.131  best= 13.483  表示可救  phi=[280.0, 255.0]
+  f31 forearm.L    now= 26.131  best= 20.390  表示可救  phi=[300.0, 325.0]
+  f31 hand.L       now= 25.767  best= 12.343  表示可救  phi=[270.0, 260.0]
+  f34 hand.L       now= 25.767  best= 14.095  表示可救  phi=[55.0, 45.0]
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

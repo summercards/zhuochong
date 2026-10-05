@@ -1,0 +1,63 @@
+C11_LAYOUT {"total_frames": 104, "seconds": 1.733, "ease_end": 4, "coil_end": 16, "coil_hold_end": 19, "rel_end": 23, "hit": 46, "hold_end": 49, "plant": 52, "settle": 92, "cancel": 96, "spin_steps": 23, "spin_turn_deg": 360.0, "coil_deg": -30.0, "pelvis_world_turn_deg": 390.0, "pivot_key": ["Shoe_Sole_R", 141], "pivot_world_mm": [-147.579, -65.568, 12.327], "pelvis_z0_mm": 830.0, "ankle0_mm": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "idle_hand_mm": {"L": [144.52, -307.73, 1271.06], "R": [-129.58, -273.48, 1298.18]}, "note": "旋转重拳：16 帧反相拧身（骨盆局部 yaw -30° 而头只看 −16°）→ 反相停顿 3 帧 → 4 帧髋部释放 → 23 步转体出拳（root yaw 0→360°，峰值角速度在第 28 帧）→ 命停 4 帧→ 收招回「战斗待机」。骨盆世界 yaw 累计 390° 全程单向。"}
+C11_BLEND {"delta_deg": {"chest": 9.861, "foot.L": 9.701, "foot.R": 6.319, "forearm.L": 11.749, "forearm.R": 44.603, "hand.L": 21.177, "hand.R": 24.558, "head": 10.847, "index_01.L": 0.0, "index_01.R": 0.0, "index_02.L": 0.0, "index_02.R": 0.0, "index_03.L": 0.0, "index_03.R": 0.0, "middle_01.L": 0.0, "middle_01.R": 0.0, "middle_02.L": 0.0, "middle_02.R": 0.0, "middle_03.L": 0.0, "middle_03.R": 0.0, "neck": 10.847, "pelvis": 4.93, "pinky_01.L": 0.0, "pinky_01.R": 0.0, "pinky_02.L": 0.0, "pinky_02.R": 0.0, "pinky_03.L": 0.0, "pinky_03.R": 0.0, "ring_01.L": 0.0, "ring_01.R": 0.0, "ring_02.L": 0.0, "ring_02.R": 0.0, "ring_03.L": 0.0, "ring_03.R": 0.0, "root": 0.0, "shin.L": 19.131, "shin.R": 11.71, "shoulder.L": 3.944, "shoulder.R": 3.944, "spine_01": 7.889, "spine_02": 7.889, "thigh.L": 8.378, "thigh.R": 10.284, "thumb_01.L": 0.0, "thumb_01.R": 0.0, "thumb_02.L": 0.0, "thumb_02.R": 0.0, "thumb_03.L": 0.0, "thumb_03.R": 0.0, "upperarm.L": 41.009, "upperarm.R": 59.288}}
+C11_PLANT_DIAG {"f": 52, "dL": 0.0, "dR": 0.0, "zL": 79.38, "zR": 81.255, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 53, "dL": 0.025, "dR": 0.012, "zL": 79.355, "zR": 81.243, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 54, "dL": 0.059, "dR": 0.025, "zL": 79.321, "zR": 81.23, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 55, "dL": 0.102, "dR": 0.037, "zL": 79.277, "zR": 81.218, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 56, "dL": 0.154, "dR": 0.05, "zL": 79.225, "zR": 81.205, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 57, "dL": 0.216, "dR": 0.062, "zL": 79.163, "zR": 81.193, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 58, "dL": 0.26, "dR": 0.075, "zL": 79.12, "zR": 81.18, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 59, "dL": 0.31, "dR": 0.087, "zL": 79.07, "zR": 81.168, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 60, "dL": 0.376, "dR": 0.1, "zL": 79.004, "zR": 81.155, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 61, "dL": 0.403, "dR": 0.112, "zL": 78.977, "zR": 81.143, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 62, "dL": 0.384, "dR": 0.124, "zL": 78.996, "zR": 81.131, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 63, "dL": 0.348, "dR": 0.137, "zL": 79.032, "zR": 81.118, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 64, "dL": 0.334, "dR": 0.149, "zL": 79.046, "zR": 81.106, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 65, "dL": 0.349, "dR": 0.161, "zL": 79.031, "zR": 81.094, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 66, "dL": 0.363, "dR": 0.174, "zL": 79.017, "zR": 81.081, "soleL": 0.0, "soleR": -0.0}
+C11_PLANT_DIAG {"f": 67, "dL": 0.42, "dR": 0.192, "zL": 78.96, "zR": 81.063, "soleL": -0.039, "soleR": -0.006}
+C11_PLANT_DIAG {"f": 68, "dL": 0.544, "dR": 0.222, "zL": 78.836, "zR": 81.033, "soleL": -0.142, "soleR": -0.024}
+C11_PLANT_DIAG {"f": 69, "dL": 0.717, "dR": 0.265, "zL": 78.664, "zR": 80.991, "soleL": -0.292, "soleR": -0.054}
+C11_PLANT_DIAG {"f": 70, "dL": 0.919, "dR": 0.318, "zL": 78.463, "zR": 80.937, "soleL": -0.473, "soleR": -0.094}
+C11_PLANT_DIAG {"f": 71, "dL": 1.135, "dR": 0.381, "zL": 78.251, "zR": 80.875, "soleL": -0.665, "soleR": -0.144}
+C11_PLANT_DIAG {"f": 72, "dL": 1.35, "dR": 0.454, "zL": 78.04, "zR": 80.803, "soleL": -0.855, "soleR": -0.203}
+C11_PLANT_DIAG {"f": 73, "dL": 1.555, "dR": 0.533, "zL": 77.843, "zR": 80.724, "soleL": -1.032, "soleR": -0.269}
+C11_PLANT_DIAG {"f": 74, "dL": 1.739, "dR": 0.619, "zL": 77.668, "zR": 80.639, "soleL": -1.187, "soleR": -0.341}
+C11_PLANT_DIAG {"f": 75, "dL": 1.898, "dR": 0.708, "zL": 77.52, "zR": 80.55, "soleL": -1.315, "soleR": -0.417}
+C11_PLANT_DIAG {"f": 76, "dL": 2.026, "dR": 0.798, "zL": 77.405, "zR": 80.46, "soleL": -1.411, "soleR": -0.494}
+C11_PLANT_DIAG {"f": 77, "dL": 2.121, "dR": 0.89, "zL": 77.325, "zR": 80.369, "soleL": -1.473, "soleR": -0.573}
+C11_PLANT_DIAG {"f": 78, "dL": 2.179, "dR": 0.979, "zL": 77.282, "zR": 80.28, "soleL": -1.5, "soleR": -0.649}
+C11_PLANT_DIAG {"f": 79, "dL": 2.2, "dR": 1.065, "zL": 77.276, "zR": 80.194, "soleL": -1.492, "soleR": -0.723}
+C11_PLANT_DIAG {"f": 80, "dL": 2.182, "dR": 1.146, "zL": 77.307, "zR": 80.113, "soleL": -1.448, "soleR": -0.791}
+C11_PLANT_DIAG {"f": 81, "dL": 2.125, "dR": 1.221, "zL": 77.375, "zR": 80.038, "soleL": -1.369, "soleR": -0.854}
+C11_PLANT_DIAG {"f": 82, "dL": 2.029, "dR": 1.288, "zL": 77.478, "zR": 79.971, "soleL": -1.255, "soleR": -0.909}
+C11_PLANT_DIAG {"f": 83, "dL": 1.894, "dR": 1.346, "zL": 77.617, "zR": 79.913, "soleL": -1.108, "soleR": -0.956}
+C11_PLANT_DIAG {"f": 84, "dL": 1.722, "dR": 1.394, "zL": 77.79, "zR": 79.864, "soleL": -0.929, "soleR": -0.994}
+C11_PLANT_DIAG {"f": 85, "dL": 1.515, "dR": 1.432, "zL": 77.994, "zR": 79.826, "soleL": -0.72, "soleR": -1.021}
+C11_PLANT_DIAG {"f": 86, "dL": 1.276, "dR": 1.459, "zL": 78.226, "zR": 79.798, "soleL": -0.485, "soleR": -1.038}
+C11_PLANT_DIAG {"f": 87, "dL": 1.011, "dR": 1.475, "zL": 78.481, "zR": 79.781, "soleL": -0.227, "soleR": -1.046}
+C11_PLANT_DIAG {"f": 88, "dL": 0.727, "dR": 1.482, "zL": 78.754, "zR": 79.774, "soleL": 0.048, "soleR": -1.043}
+C11_PLANT_DIAG {"f": 89, "dL": 0.439, "dR": 1.478, "zL": 79.036, "zR": 79.778, "soleL": 0.33, "soleR": -1.031}
+C11_PLANT_DIAG {"f": 90, "dL": 0.184, "dR": 1.466, "zL": 79.315, "zR": 79.789, "soleL": 0.609, "soleR": -1.012}
+C11_PLANT_DIAG {"f": 91, "dL": 0.206, "dR": 1.448, "zL": 79.571, "zR": 79.807, "soleL": 0.866, "soleR": -0.986}
+C11_PLANT_DIAG {"f": 92, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 93, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 94, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 95, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 96, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 97, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 98, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 99, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 100, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 101, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 102, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 103, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_PLANT_DIAG {"f": 104, "dL": 0.381, "dR": 1.428, "zL": 79.76, "zR": 79.827, "soleL": 1.055, "soleR": -0.962}
+C11_REPORT {"loop_seamless": null, "ground_min_mm": -1.5, "ground_contact_ok": true, "max_frame_step_deg": 23.905, "max_frame_step_at": [50, "shin.L"], "no_teleport": true, "bone_travel_mm": {"pelvis": 326.86, "chest": 305.21, "head": 330.45, "hand.L": 729.52, "hand.R": 623.35}, "skill_start_delta_deg": 0.0, "skill_start_ok": true, "windup_turn_deg": -30.0, "windup_monotone_ok": true, "windup_turn_ok": true, "spin_turn_deg": 390.0, "spin_monotone_ok": true, "spin_turn_ok": true, "spin_end_yaw_deg": 0.0, "spin_end_yaw_ok": true, "spin_peak_step_deg": 22.862, "spin_peak_frame": 30, "spin_peak_plateau": [29, 30], "spin_peak_allow_frame": 30.67, "spin_peak_early_ok": true, "spin_hit_step_deg": 5.209, "spin_hit_ratio": 0.2278, "spin_decel_ok": true, "spin_accel_ok": true, "spin_speed_ok": true, "foot_pivot_drift_mm": 0.004, "foot_pivot_drift_at": 19, "foot_pivot_ok": true, "plant_L_pre_mm": 1.06, "plant_R_pre_mm": 1.606, "plant_L_post_mm": 2.2, "plant_R_post_mm": 1.482, "plant_ok": true, "chain_peak_mmps": {"hip": 2075.5, "shoulder": 2241.3, "fist": 12345.0}, "chain_peak_frame": {"hip": 29, "shoulder": 33, "fist": 33}, "chain_window_peak_mmps": {"hip": 2075.5, "shoulder": 2241.3, "fist": 12345.0}, "chain_window_frame": {"hip": 29, "shoulder": 33, "fist": 33}, "chain_order_ok": true, "chain_window_order_ok": true, "chain_magnitude_ok": true, "chain_in_window_ok": true, "punch_chain_ok": true, "hit_glove_front_mm": {"L": -297.0, "R": -662.42}, "punch_front_lead_mm": 365.42, "punch_frontmost_ok": true, "root_span_h_mm": 453.78, "root_span_z_mm": 54.0, "root_motion_ok": true, "windup_frames": 12, "windup_time_ok": true, "swing_lift_mm": 237.43, "swing_lift_ok": true, "leg_reach_worst_ratio": 0.93857, "leg_reach_worst_at": [1, "L"], "leg_reach_ok": true, "arm_clamp": {"L": {"any": false, "worst_frame": 1, "worst_ratio": 0.38932, "worst_over_mm": 0.0, "limit_mm": 649.675}, "R": {"any": false, "worst_frame": 48, "worst_ratio": 0.81214, "worst_over_mm": 0.0, "limit_mm": 649.675}}, "arm_reach_ok": true, "hitstop_frames": 4, "hitstop_worst_step_deg": 0.0, "hitstop_ok": true, "end_pose_delta_mm": 0.0001, "end_pose_ok": true, "low_bad_frames": {}, "meta": {"anim_id": "Skill_03", "loop": false, "category": "连招与特殊技", "note": "旋转重拳：反相拧身 → 髋部释放 → 360° 单向转体出拳 → 命停 4 帧→ 收招。骨盆世界 yaw 累计 390°。", "antic_frame": 16, "hit_frame": 46, "cancel_frame": 96, "hitstop_frames": 4, "root_motion_m": [0.0, 0.0], "inherit_from": null, "segments": {"ease": [0, 4], "coil": [4, 16], "coil_hold": [16, 19], "release": [19, 23], "spin": [23, 46], "hitstop": [46, 49], "recover": [49, 104]}, "spin_axis": "world +Z (root.rotation_euler.y)", "spin_turn_deg": 360.0, "pelvis_world_turn_deg": 390.0, "pivot_foot": "R", "pivot_vertex": ["Shoe_Sole_R", 141], "pivot_world_m": [-0.147579, -0.065568, 0.012327], "punch_side": "R", "end_pose_deg": {"chest": [1.0, 0.0, 0.0], "eye.L": [0.0, 0.0, 0.0], "eye.R": [0.0, 0.0, 0.0], "foot.L": [-7.6839, -3.9838, 1.439], "foot.R": [-31.959, 4.5114, 0.2636], "forearm.L": [5.1333, 13.2682, -137.8453], "forearm.R": [2.7012, -8.9002, 146.2917], "glasses": [0.0, 0.0, 0.0], "hand.L": [2.5403, -0.475, 21.1772], "hand.R": [8.5064, 1.8547, -24.5583], "head": [5.0, 0.0, 0.0], "index_01.L": [-78.0, 0.0, 0.0], "index_01.R": [-78.0, 0.0, 0.0], "index_02.L": [-88.0, 0.0, 0.0], "index_02.R": [-88.0, 0.0, 0.0], "index_03.L": [-62.0, 0.0, 0.0], "index_03.R": [-62.0, 0.0, 0.0], "jaw": [0.0, 0.0, 0.0], "middle_01.L": [-78.0, 0.0, 0.0], "middle_01.R": [-78.0, 0.0, 0.0], "middle_02.L": [-88.0, 0.0, 0.0], "middle_02.R": [-88.0, 0.0, 0.0], "middle_03.L": [-62.0, 0.0, 0.0], "middle_03.R": [-62.0, 0.0, 0.0], "neck": [-6.0, 0.0, 0.0], "pelvis": [4.0, 0.0, 0.0], "pinky_01.L": [-78.0, 0.0, 0.0], "pinky_01.R": [-78.0, 0.0, 0.0], "pinky_02.L": [-88.0, 0.0, 0.0], "pinky_02.R": [-88.0, 0.0, 0.0], "pinky_03.L": [-62.0, 0.0, 0.0], "pinky_03.R": [-62.0, 0.0, 0.0], "ring_01.L": [-78.0, 0.0, 0.0], "ring_01.R": [-78.0, 0.0, 0.0], "ring_02.L": [-88.0, 0.0, 0.0], "ring_02.R": [-88.0, 0.0, 0.0], "ring_03.L": [-62.0, 0.0, 0.0], "ring_03.R": [-62.0, 0.0, 0.0], "root": [0.0, 360.0, 0.0], "shin.L": [40.5875, 0.0, 0.0], "shin.R": [42.9554, 0.0, 0.0], "shoulder.L": [-18.0, 0.0, 0.0], "shoulder.R": [-18.0, 0.0, 0.0], "spine_01": [2.0, 0.0, 0.0], "spine_02": [2.0, 0.0, 0.0], "thigh.L": [-37.0837, 0.0, -4.3], "thigh.R": [-14.9865, 0.0, 4.3], "thumb_01.L": [-34.0, 0.0, 0.0], "thumb_01.R": [-34.0, 0.0, 0.0], "thumb_02.L": [-26.0, 0.0, 0.0], "thumb_02.R": [-26.0, 0.0, 0.0], "thumb_03.L": [-22.0, 0.0, 0.0], "thumb_03.R": [-22.0, 0.0, 0.0], "toe.L": [0.0, 0.0, 0.0], "toe.R": [0.0, 0.0, 0.0], "upperarm.L": [-50.2361, -13.165, -27.6556], "upperarm.R": [-50.0546, 15.1944, 31.8868]}, "fps": 60, "frames": [0, 104]}, "failed": [], "non_ok_bools": []}
+C11_DONE failed=[]
+C11_DONE non_ok_bools=[]
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

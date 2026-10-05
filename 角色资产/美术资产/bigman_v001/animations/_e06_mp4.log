@@ -1,0 +1,974 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+Fra:0 Mem:120.16M (Peak 123.35M) | Time:00:00.58 | Rendering 1 / 64 samples
+Fra:0 Mem:120.16M (Peak 123.35M) | Time:00:00.62 | Rendering 25 / 64 samples
+Fra:0 Mem:120.16M (Peak 123.35M) | Time:00:00.66 | Rendering 50 / 64 samples
+Fra:0 Mem:120.16M (Peak 123.35M) | Time:00:00.68 | Rendering 64 / 64 samples
+Fra:0 Mem:88.12M (Peak 133.26M) | Time:00:00.71 | Compositing
+Append frame 0
+Time: 00:00.74 (Saving: 00:00.02)
+
+Fra:1 Mem:122.19M (Peak 133.26M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:122.19M (Peak 133.26M) | Time:00:00.18 | Rendering 25 / 64 samples
+Fra:1 Mem:122.19M (Peak 133.26M) | Time:00:00.22 | Rendering 50 / 64 samples
+Fra:1 Mem:122.19M (Peak 133.26M) | Time:00:00.24 | Rendering 64 / 64 samples
+Fra:1 Mem:90.14M (Peak 135.28M) | Time:00:00.26 | Compositing
+Append frame 1
+Time: 00:00.29 (Saving: 00:00.01)
+
+Fra:2 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:2 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:2 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:2 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:2 Mem:90.14M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 2
+Time: 00:00.27 (Saving: 00:00.01)
+
+Fra:3 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:3 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:3 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:3 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:3 Mem:90.14M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 3
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:4 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:4 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:4 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:4 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:4 Mem:90.14M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 4
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:5 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 1 / 64 samples
+Fra:5 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 25 / 64 samples
+Fra:5 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 50 / 64 samples
+Fra:5 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:5 Mem:90.14M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 5
+Time: 00:00.28 (Saving: 00:00.01)
+
+Fra:6 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:6 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:6 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:6 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:6 Mem:90.14M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 6
+Time: 00:00.27 (Saving: 00:00.01)
+
+Fra:7 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:7 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:7 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:7 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:7 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 7
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:8 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:8 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:8 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:8 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:8 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 8
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:9 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:9 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:9 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:9 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:9 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 9
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:10 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:10 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:10 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:10 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:10 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 10
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:11 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:11 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:11 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:11 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:11 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 11
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:12 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:12 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:12 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:12 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:12 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 12
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:13 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:13 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:13 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:13 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:13 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 13
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:14 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:14 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:14 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:14 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:14 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 14
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:15 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:15 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:15 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:15 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:15 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 15
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:16 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:16 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:16 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 50 / 64 samples
+Fra:16 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:16 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 16
+Time: 00:00.27 (Saving: 00:00.01)
+
+Fra:17 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:17 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:17 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:17 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:17 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 17
+Time: 00:00.27 (Saving: 00:00.01)
+
+Fra:18 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:18 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:18 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:18 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:18 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 18
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:19 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:19 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:19 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:19 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:19 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 19
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:20 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:20 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:20 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:20 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:20 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 20
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:21 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:21 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:21 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:21 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:21 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 21
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:22 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:22 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:22 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:22 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:22 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 22
+Time: 00:00.26 (Saving: 00:00.02)
+
+Fra:23 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:23 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:23 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:23 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:23 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 23
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:24 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:24 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:24 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:24 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:24 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 24
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:25 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:25 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:25 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:25 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:25 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 25
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:26 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:26 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:26 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:26 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:26 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 26
+Time: 00:00.27 (Saving: 00:00.02)
+
+Fra:27 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:27 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:27 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:27 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:27 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 27
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:28 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:28 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:28 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:28 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:28 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 28
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:29 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:29 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:29 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:29 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:29 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 29
+Time: 00:00.27 (Saving: 00:00.01)
+
+Fra:30 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:30 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:30 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:30 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:30 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 30
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:31 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:31 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:31 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:31 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:31 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 31
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:32 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:32 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:32 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:32 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:32 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 32
+Time: 00:00.27 (Saving: 00:00.01)
+
+Fra:33 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:33 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:33 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:33 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:33 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 33
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:34 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:34 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:34 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:34 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:34 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 34
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:35 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:35 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:35 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:35 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:35 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 35
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:36 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:36 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:36 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:36 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:36 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 36
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:37 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:37 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:37 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:37 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:37 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 37
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:38 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:38 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:38 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:38 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:38 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 38
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:39 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:39 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:39 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:39 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:39 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 39
+Time: 00:00.22 (Saving: 00:00.01)
+
+Fra:40 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:40 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 25 / 64 samples
+Fra:40 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:40 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:40 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 40
+Time: 00:00.22 (Saving: 00:00.01)
+
+Fra:41 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:41 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:41 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:41 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:41 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 41
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:42 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:42 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:42 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:42 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:42 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 42
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:43 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:43 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:43 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:43 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:43 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 43
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:44 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:44 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:44 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:44 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:44 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 44
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:45 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:45 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:45 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:45 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:45 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 45
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:46 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:46 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:46 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:46 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:46 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 46
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:47 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:47 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:47 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:47 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:47 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 47
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:48 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:48 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:48 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:48 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:48 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 48
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:49 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:49 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:49 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:49 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:49 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 49
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:50 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:50 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:50 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:50 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:50 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 50
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:51 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:51 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:51 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:51 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:51 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 51
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:52 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:52 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:52 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:52 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:52 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 52
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:53 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:53 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:53 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:53 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:53 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 53
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:54 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:54 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:54 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:54 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:54 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 54
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:55 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:55 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:55 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:55 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:55 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 55
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:56 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:56 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:56 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:56 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:56 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 56
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:57 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:57 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:57 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:57 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:57 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 57
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:58 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:58 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:58 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:58 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:58 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 58
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:59 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:59 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:59 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:59 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:59 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 59
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:60 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:60 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:60 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:60 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:60 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 60
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:61 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:61 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:61 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:61 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:61 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 61
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:62 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:62 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:62 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:62 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:62 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 62
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:63 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:63 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:63 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:63 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:63 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 63
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:64 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:64 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:64 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:64 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:64 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 64
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:65 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:65 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:65 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:65 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:65 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 65
+Time: 00:00.26 (Saving: 00:00.00)
+
+Fra:66 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:66 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:66 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:66 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:66 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 66
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:67 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:67 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:67 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:67 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:67 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 67
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:68 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:68 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:68 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:68 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:68 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 68
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:69 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:69 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:69 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:69 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:69 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 69
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:70 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:70 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:70 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:70 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:70 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 70
+Time: 00:00.26 (Saving: 00:00.00)
+
+Fra:71 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:71 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:71 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:71 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:71 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 71
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:72 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:72 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:72 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:72 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:72 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 72
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:73 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:73 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:73 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:73 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:73 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 73
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:74 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:74 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:74 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:74 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:74 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 74
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:75 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:75 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:75 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:75 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:75 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 75
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:76 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:76 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:76 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:76 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:76 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 76
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:77 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:77 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:77 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:77 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:77 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 77
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:78 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:78 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:78 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:78 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:78 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 78
+Time: 00:00.25 (Saving: 00:00.01)
+
+Fra:79 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:79 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:79 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:79 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:79 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 79
+Time: 00:00.31 (Saving: 00:00.01)
+
+Fra:80 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:80 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:80 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:80 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:80 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 80
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:81 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:81 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:81 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:81 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:81 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 81
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:82 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:82 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:82 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:82 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:82 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 82
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:83 Mem:122.19M (Peak 135.28M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:83 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 25 / 64 samples
+Fra:83 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:83 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:83 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 83
+Time: 00:00.21 (Saving: 00:00.00)
+
+Fra:84 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:84 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:84 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:84 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:84 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 84
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:85 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:85 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:85 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:85 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:85 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 85
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:86 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:86 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:86 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:86 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:86 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 86
+Time: 00:00.26 (Saving: 00:00.01)
+
+Fra:87 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:87 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:87 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:87 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:87 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 87
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:88 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:88 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:88 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:88 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:88 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 88
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:89 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:89 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:89 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:89 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:89 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 89
+Time: 00:00.22 (Saving: 00:00.00)
+
+Fra:90 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:90 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:90 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:90 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:90 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 90
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:91 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:91 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:91 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:91 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:91 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 91
+Time: 00:00.22 (Saving: 00:00.00)
+
+Fra:92 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:92 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:92 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:92 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:92 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 92
+Time: 00:00.26 (Saving: 00:00.00)
+
+Fra:93 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:93 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:93 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:93 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:93 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 93
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:94 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 1 / 64 samples
+Fra:94 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:94 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 50 / 64 samples
+Fra:94 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:94 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 94
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:95 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:95 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:95 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:95 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:95 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 95
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:96 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:96 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:96 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:96 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:96 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 96
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:97 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:97 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:97 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 50 / 64 samples
+Fra:97 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:97 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 97
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:98 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:98 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:98 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:98 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:98 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 98
+Time: 00:00.21 (Saving: 00:00.00)
+
+Fra:99 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 1 / 64 samples
+Fra:99 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:99 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 50 / 64 samples
+Fra:99 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:99 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 99
+Time: 00:00.26 (Saving: 00:00.00)
+
+Fra:100 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:100 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:100 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:100 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:100 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 100
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:101 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:101 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:101 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:101 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:101 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 101
+Time: 00:00.22 (Saving: 00:00.00)
+
+Fra:102 Mem:122.19M (Peak 135.28M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:102 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 25 / 64 samples
+Fra:102 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 50 / 64 samples
+Fra:102 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 64 / 64 samples
+Fra:102 Mem:90.15M (Peak 135.28M) | Time:00:00.18 | Compositing
+Append frame 102
+Time: 00:00.20 (Saving: 00:00.00)
+
+Fra:103 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:103 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:103 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 50 / 64 samples
+Fra:103 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:103 Mem:90.15M (Peak 135.28M) | Time:00:00.25 | Compositing
+Append frame 103
+Time: 00:00.26 (Saving: 00:00.00)
+
+Fra:104 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:104 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 25 / 64 samples
+Fra:104 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:104 Mem:122.19M (Peak 135.28M) | Time:00:00.23 | Rendering 64 / 64 samples
+Fra:104 Mem:90.15M (Peak 135.28M) | Time:00:00.24 | Compositing
+Append frame 104
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:105 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:105 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:105 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:105 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:105 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 105
+Time: 00:00.23 (Saving: 00:00.01)
+
+Fra:106 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:106 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:106 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:106 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:106 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 106
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:107 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:107 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:107 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:107 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:107 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 107
+Time: 00:00.21 (Saving: 00:00.00)
+
+Fra:108 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:108 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:108 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:108 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:108 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 108
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:109 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:109 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:109 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:109 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:109 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 109
+Time: 00:00.24 (Saving: 00:00.00)
+
+Fra:110 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:110 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:110 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:110 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:110 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 110
+Time: 00:00.21 (Saving: 00:00.00)
+
+Fra:111 Mem:122.19M (Peak 135.28M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:111 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 25 / 64 samples
+Fra:111 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 50 / 64 samples
+Fra:111 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 64 / 64 samples
+Fra:111 Mem:90.15M (Peak 135.28M) | Time:00:00.18 | Compositing
+Append frame 111
+Time: 00:00.20 (Saving: 00:00.00)
+
+Fra:112 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:112 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 25 / 64 samples
+Fra:112 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:112 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:112 Mem:90.15M (Peak 135.28M) | Time:00:00.19 | Compositing
+Append frame 112
+Time: 00:00.20 (Saving: 00:00.00)
+
+Fra:113 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:113 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:113 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:113 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:113 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 113
+Time: 00:00.24 (Saving: 00:00.01)
+
+Fra:114 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:114 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:114 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:114 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:114 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 114
+Time: 00:00.21 (Saving: 00:00.00)
+
+Fra:115 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:115 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 25 / 64 samples
+Fra:115 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 50 / 64 samples
+Fra:115 Mem:122.19M (Peak 135.28M) | Time:00:00.22 | Rendering 64 / 64 samples
+Fra:115 Mem:90.15M (Peak 135.28M) | Time:00:00.23 | Compositing
+Append frame 115
+Time: 00:00.25 (Saving: 00:00.00)
+
+Fra:116 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:116 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 25 / 64 samples
+Fra:116 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:116 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:116 Mem:90.15M (Peak 135.28M) | Time:00:00.19 | Compositing
+Append frame 116
+Time: 00:00.20 (Saving: 00:00.00)
+
+Fra:117 Mem:122.19M (Peak 135.28M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:117 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:117 Mem:122.19M (Peak 135.28M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:117 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:117 Mem:90.15M (Peak 135.28M) | Time:00:00.20 | Compositing
+Append frame 117
+Time: 00:00.21 (Saving: 00:00.01)
+
+Fra:118 Mem:122.19M (Peak 135.28M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:118 Mem:122.19M (Peak 135.28M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:118 Mem:122.19M (Peak 135.28M) | Time:00:00.18 | Rendering 50 / 64 samples
+Fra:118 Mem:122.19M (Peak 135.28M) | Time:00:00.20 | Rendering 64 / 64 samples
+Fra:118 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 118
+Time: 00:00.23 (Saving: 00:00.00)
+
+Fra:119 Mem:122.19M (Peak 135.28M) | Time:00:00.10 | Rendering 1 / 64 samples
+Fra:119 Mem:122.19M (Peak 135.28M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:119 Mem:122.19M (Peak 135.28M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:119 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 64 / 64 samples
+Fra:119 Mem:90.15M (Peak 135.28M) | Time:00:00.21 | Compositing
+Append frame 119
+Time: 00:00.21 (Saving: 00:00.00)
+
+Fra:120 Mem:122.19M (Peak 135.28M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:120 Mem:122.19M (Peak 135.28M) | Time:00:00.15 | Rendering 25 / 64 samples
+Fra:120 Mem:122.19M (Peak 135.28M) | Time:00:00.19 | Rendering 50 / 64 samples
+Fra:120 Mem:122.19M (Peak 135.28M) | Time:00:00.21 | Rendering 64 / 64 samples
+Fra:120 Mem:90.15M (Peak 135.28M) | Time:00:00.22 | Compositing
+Append frame 120
+Time: 00:00.23 (Saving: 00:00.00)
+
+MP4_DONE I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\Victory_01_side.mp4
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

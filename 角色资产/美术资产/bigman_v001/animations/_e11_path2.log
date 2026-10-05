@@ -1,0 +1,169 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+# ================= E11P_TAIL 尾段交接 =================
+E11P_TAIL f= 88 step=  0.000(None) vs_Idle= 912.256 mm soleL= +10.32 soleR= -44.02
+E11P_TAIL f= 89 step=  2.865(thigh.L) vs_Idle= 893.717 mm soleL= +10.03 soleR= -42.24
+E11P_TAIL f= 90 step=  2.893(thigh.L) vs_Idle= 875.322 mm soleL=  +9.73 soleR= -40.43
+E11P_TAIL f= 91 step=  2.920(thigh.L) vs_Idle= 857.075 mm soleL=  +9.45 soleR= -38.58
+E11P_TAIL f= 92 step=  2.947(thigh.L) vs_Idle= 838.977 mm soleL=  +9.18 soleR= -36.69
+E11P_TAIL f= 93 step= 11.385(forearm.R) vs_Idle= 792.575 mm soleL=  +9.77 soleR= -30.13
+E11P_TAIL f= 94 step= 11.542(forearm.R) vs_Idle= 739.007 mm soleL=  +8.43 soleR= -26.29
+E11P_TAIL f= 95 step= 11.659(forearm.R) vs_Idle= 678.943 mm soleL=  +7.20 soleR= -22.23
+E11P_TAIL f= 96 step= 11.768(forearm.R) vs_Idle= 613.162 mm soleL=  +6.07 soleR= -18.06
+E11P_TAIL f= 97 step= 11.888(forearm.R) vs_Idle= 542.545 mm soleL=  +5.05 soleR= -13.68
+E11P_TAIL f= 98 step= 12.029(forearm.R) vs_Idle= 468.058 mm soleL=  +4.13 soleR=  -9.15
+E11P_TAIL f= 99 step= 12.181(forearm.R) vs_Idle= 390.735 mm soleL=  +3.31 soleR=  -4.51
+E11P_TAIL f=100 step= 12.324(forearm.R) vs_Idle= 311.658 mm soleL=  +2.60 soleR=  -0.27
+E11P_TAIL f=101 step= 12.434(forearm.R) vs_Idle= 231.936 mm soleL=  +2.01 soleR=  +0.45
+E11P_TAIL f=102 step= 12.491(forearm.R) vs_Idle= 152.681 mm soleL=  +1.54 soleR=  +1.09
+E11P_TAIL f=103 step= 12.488(forearm.R) vs_Idle=  74.998 mm soleL=  +1.19 soleR=  -0.16
+E11P_TAIL f=104 step= 12.436(forearm.R) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=105 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=106 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=107 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=108 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=109 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=110 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=111 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=112 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=113 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=114 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=115 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=116 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=117 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=118 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=119 step=  0.000(None) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+E11P_TAIL f=120 step=  0.000(hand.L) vs_Idle=   0.000 mm soleL=  +1.06 soleR=  -0.96
+# ================= E11P_SCAN 全程逐帧 =================
+E11P_SCAN f=  0 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -4.80(Hair_Mass         ) head=  157.8 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=  1 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  160.1 dk=  0.07 da=  0.00 de=  0.44
+E11P_SCAN f=  2 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  162.4 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  3 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  164.6 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  4 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  166.9 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  5 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  169.2 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  6 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  171.5 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  7 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  173.8 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  8 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  176.0 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f=  9 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  178.3 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 10 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  180.6 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 11 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  182.9 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 12 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  185.2 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 13 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  187.4 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 14 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  189.7 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 15 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  192.0 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 16 pel= 141.00 kneeL= 140.47 kneeR= 140.47 ankL= 113.91 ankR= 113.91 soleL=  -0.52 soleR=  -0.52 low=  -0.52(Shoe_Sole_L       ) head=  194.3 dk=  0.00 da=  0.00 de=  0.44
+E11P_SCAN f= 17 pel= 143.07 kneeL= 167.30 kneeR= 164.95 ankL= 114.19 ankR= 114.29 soleL=  -0.52 soleR=  -0.41 low=  -0.52(Shoe_Sole_L       ) head=  225.4 dk= 26.96 da=  1.58 de=  7.17
+E11P_SCAN f= 18 pel= 145.14 kneeL= 183.33 kneeR= 179.98 ankL= 114.48 ankR= 114.67 soleL=  -0.32 soleR=  -0.12 low=  -0.32(Shoe_Sole_L       ) head=  256.4 dk= 16.20 da=  1.59 de=  4.17
+E11P_SCAN f= 19 pel= 147.21 kneeL= 196.00 kneeR= 191.90 ankL= 114.78 ankR= 115.06 soleL=  -0.06 soleR=  +0.23 low=  -0.06(Shoe_Sole_L       ) head=  287.1 dk= 12.86 da=  1.59 de=  3.54
+E11P_SCAN f= 20 pel= 149.29 kneeL= 206.86 kneeR= 202.15 ankL= 115.07 ankR= 115.45 soleL=  +0.26 soleR=  +0.64 low=  +0.26(Shoe_Sole_L       ) head=  317.6 dk= 11.09 da=  1.59 de=  3.29
+E11P_SCAN f= 21 pel= 151.36 kneeL= 216.55 kneeR= 211.32 ankL= 115.36 ankR= 115.84 soleL=  +0.60 soleR=  +1.08 low=  +0.60(Shoe_Sole_L       ) head=  347.7 dk=  9.95 da=  1.59 de=  3.13
+E11P_SCAN f= 22 pel= 153.43 kneeL= 225.40 kneeR= 219.70 ankL= 115.66 ankR= 116.22 soleL=  +0.98 soleR=  +1.55 low=  +0.98(Shoe_Sole_L       ) head=  377.4 dk=  9.13 da=  1.59 de=  3.02
+E11P_SCAN f= 23 pel= 155.50 kneeL= 233.61 kneeR= 227.49 ankL= 115.95 ankR= 116.61 soleL=  +1.38 soleR=  +2.04 low=  +1.38(Shoe_Sole_L       ) head=  406.7 dk=  8.51 da=  1.59 de=  2.93
+E11P_SCAN f= 24 pel= 157.57 kneeL= 241.30 kneeR= 234.81 ankL= 116.24 ankR= 117.00 soleL=  +1.80 soleR=  +2.57 low=  +1.80(Shoe_Sole_L       ) head=  435.4 dk=  8.02 da=  1.59 de=  2.86
+E11P_SCAN f= 25 pel= 159.64 kneeL= 248.58 kneeR= 241.52 ankL= 116.53 ankR= 116.87 soleL=  +2.25 soleR=  +2.60 low=  +2.25(Shoe_Sole_L       ) head=  463.6 dk=  7.61 da=  1.59 de=  2.80
+E11P_SCAN f= 26 pel= 161.71 kneeL= 255.49 kneeR= 247.90 ankL= 116.83 ankR= 116.75 soleL=  +2.71 soleR=  +2.67 low=  +2.67(Shoe_Sole_R       ) head=  491.2 dk=  7.28 da=  1.59 de=  2.75
+E11P_SCAN f= 27 pel= 163.79 kneeL= 262.10 kneeR= 253.98 ankL= 117.12 ankR= 116.63 soleL=  +3.19 soleR=  +2.75 low=  +2.75(Shoe_Sole_R       ) head=  518.1 dk=  6.99 da=  1.59 de=  2.71
+E11P_SCAN f= 28 pel= 165.86 kneeL= 268.44 kneeR= 259.81 ankL= 117.41 ankR= 116.50 soleL=  +3.69 soleR=  +2.86 low=  +2.86(Shoe_Sole_R       ) head=  544.3 dk=  6.74 da=  1.59 de=  2.68
+E11P_SCAN f= 29 pel= 167.93 kneeL= 274.55 kneeR= 265.41 ankL= 117.71 ankR= 116.37 soleL=  +4.21 soleR=  +2.99 low=  +2.99(Shoe_Sole_R       ) head=  569.7 dk=  6.53 da=  1.59 de=  2.64
+E11P_SCAN f= 30 pel= 170.00 kneeL= 280.44 kneeR= 270.82 ankL= 118.00 ankR= 116.25 soleL=  +4.74 soleR=  +3.13 low=  +3.13(Shoe_Sole_R       ) head=  594.2 dk=  6.33 da=  1.59 de=  2.62
+E11P_SCAN f= 31 pel= 173.43 kneeL= 289.17 kneeR= 279.83 ankL= 117.57 ankR= 116.12 soleL=  +4.67 soleR=  +3.43 low=  +3.43(Shoe_Sole_R       ) head=  620.2 dk=  9.85 da=  1.36 de=  3.00
+E11P_SCAN f= 32 pel= 176.86 kneeL= 297.46 kneeR= 288.38 ankL= 117.14 ankR= 116.00 soleL=  +4.62 soleR=  +3.75 low=  +3.75(Shoe_Sole_R       ) head=  645.2 dk=  9.45 da=  1.36 de=  2.94
+E11P_SCAN f= 33 pel= 180.29 kneeL= 305.37 kneeR= 297.23 ankL= 116.71 ankR= 116.25 soleL=  +4.60 soleR=  +4.50 low=  +4.50(Shoe_Sole_R       ) head=  669.2 dk=  9.66 da=  1.36 de=  2.98
+E11P_SCAN f= 34 pel= 183.71 kneeL= 312.94 kneeR= 305.68 ankL= 116.29 ankR= 116.50 soleL=  +4.60 soleR=  +5.27 low=  +4.60(Shoe_Sole_L       ) head=  692.1 dk=  9.31 da=  1.36 de=  2.93
+E11P_SCAN f= 35 pel= 187.14 kneeL= 320.20 kneeR= 313.78 ankL= 115.86 ankR= 116.75 soleL=  +4.62 soleR=  +6.05 low=  +4.62(Shoe_Sole_L       ) head=  713.8 dk=  9.01 da=  1.36 de=  2.88
+E11P_SCAN f= 36 pel= 190.57 kneeL= 327.19 kneeR= 321.57 ankL= 115.43 ankR= 117.00 soleL=  +4.63 soleR=  +6.83 low=  +4.63(Shoe_Sole_L       ) head=  734.5 dk=  8.75 da=  1.36 de=  2.84
+E11P_SCAN f= 37 pel= 194.00 kneeL= 333.93 kneeR= 329.08 ankL= 115.00 ankR= 117.25 soleL=  +4.65 soleR=  +7.65 low=  +4.65(Shoe_Sole_L       ) head=  753.9 dk=  8.53 da=  1.36 de=  2.80
+E11P_SCAN f= 38 pel= 197.43 kneeL= 340.44 kneeR= 336.34 ankL= 114.57 ankR= 117.50 soleL=  +4.69 soleR=  +8.49 low=  +4.69(Shoe_Sole_L       ) head=  772.1 dk=  8.32 da=  1.36 de=  2.76
+E11P_SCAN f= 39 pel= 200.86 kneeL= 346.73 kneeR= 343.36 ankL= 114.14 ankR= 117.75 soleL=  +4.75 soleR=  +9.36 low=  +4.75(Shoe_Sole_L       ) head=  789.1 dk=  8.14 da=  1.36 de=  2.73
+E11P_SCAN f= 40 pel= 204.29 kneeL= 352.82 kneeR= 350.17 ankL= 113.71 ankR= 118.00 soleL=  +4.84 soleR= +10.26 low=  +4.84(Shoe_Sole_L       ) head=  804.8 dk=  7.98 da=  1.36 de=  2.70
+E11P_SCAN f= 41 pel= 207.71 kneeL= 358.73 kneeR= 379.32 ankL= 113.29 ankR= 122.00 soleL=  +4.94 soleR= +15.94 low=  +4.94(Shoe_Sole_L       ) head=  819.1 dk= 29.66 da= 24.58 de=  8.26
+E11P_SCAN f= 42 pel= 211.14 kneeL= 364.45 kneeR= 404.78 ankL= 112.86 ankR= 126.00 soleL=  +5.06 soleR= +21.67 low=  +5.06(Shoe_Sole_L       ) head=  832.2 dk= 26.08 da= 24.58 de=  7.38
+E11P_SCAN f= 43 pel= 214.57 kneeL= 370.01 kneeR= 427.49 ankL= 112.43 ankR= 130.00 soleL=  +5.21 soleR= +27.46 low=  +5.21(Shoe_Sole_L       ) head=  843.9 dk= 23.41 da= 24.58 de=  6.75
+E11P_SCAN f= 44 pel= 218.00 kneeL= 375.42 kneeR= 448.02 ankL= 112.00 ankR= 134.00 soleL=  +5.37 soleR= +33.32 low=  +5.37(Shoe_Sole_L       ) head=  854.2 dk= 21.29 da= 24.58 de=  6.28
+E11P_SCAN f= 45 pel= 223.86 kneeL= 381.80 kneeR= 468.08 ankL= 111.00 ankR= 138.00 soleL=  +5.09 soleR= +39.93 low=  +5.09(Shoe_Sole_L       ) head=  865.6 dk= 20.40 da= 24.58 de=  6.03
+E11P_SCAN f= 46 pel= 229.71 kneeL= 387.96 kneeR= 486.44 ankL= 110.00 ankR= 142.00 soleL=  +4.83 soleR= +46.72 low=  +4.83(Shoe_Sole_L       ) head=  875.7 dk= 18.65 da= 24.58 de=  5.71
+E11P_SCAN f= 47 pel= 235.57 kneeL= 393.88 kneeR= 503.28 ankL= 109.00 ankR= 146.00 soleL=  +4.60 soleR= +47.64 low=  +4.60(Shoe_Sole_L       ) head=  884.5 dk= 17.07 da= 24.58 de=  5.44
+E11P_SCAN f= 48 pel= 241.43 kneeL= 399.59 kneeR= 518.72 ankL= 108.00 ankR= 150.00 soleL=  +4.39 soleR= +47.28 low=  +4.39(Shoe_Sole_L       ) head=  892.0 dk= 15.59 da= 24.58 de=  5.20
+E11P_SCAN f= 49 pel= 247.29 kneeL= 405.09 kneeR= 530.88 ankL= 107.00 ankR= 150.00 soleL=  +4.19 soleR= +42.57 low=  +4.19(Shoe_Sole_L       ) head=  898.3 dk= 12.18 da= 27.50 de=  5.39
+E11P_SCAN f= 50 pel= 253.14 kneeL= 410.38 kneeR= 541.16 ankL= 106.00 ankR= 150.00 soleL=  +3.97 soleR= +37.68 low=  +3.97(Shoe_Sole_L       ) head=  903.2 dk= 10.50 da= 27.50 de=  5.14
+E11P_SCAN f= 51 pel= 259.00 kneeL= 415.46 kneeR= 549.42 ankL= 105.00 ankR= 150.00 soleL=  +3.75 soleR= +32.86 low=  +3.75(Shoe_Sole_L       ) head=  906.8 dk=  9.21 da= 27.50 de=  4.90
+E11P_SCAN f= 52 pel= 264.86 kneeL= 420.35 kneeR= 555.37 ankL= 104.00 ankR= 150.00 soleL=  +3.56 soleR= +27.75 low=  +3.56(Shoe_Sole_L       ) head=  909.1 dk=  8.74 da= 27.50 de=  4.65
+E11P_SCAN f= 53 pel= 270.71 kneeL= 425.04 kneeR= 558.56 ankL= 103.00 ankR= 150.00 soleL=  +3.39 soleR= +21.86 low=  +3.39(Shoe_Sole_L       ) head=  910.2 dk=  9.73 da= 27.50 de=  4.37
+E11P_SCAN f= 54 pel= 276.57 kneeL= 429.54 kneeR= 558.26 ankL= 102.00 ankR= 150.00 soleL=  +3.25 soleR= +16.12 low=  +3.25(Shoe_Sole_L       ) head=  910.0 dk= 12.53 da= 27.50 de=  4.05
+E11P_SCAN f= 55 pel= 282.43 kneeL= 433.84 kneeR= 553.39 ankL= 101.00 ankR= 150.00 soleL=  +3.12 soleR= +10.55 low=  +3.12(Shoe_Sole_L       ) head=  908.5 dk= 17.13 da= 27.50 de=  3.68
+E11P_SCAN f= 56 pel= 288.29 kneeL= 437.96 kneeR= 542.32 ankL= 100.00 ankR= 150.00 soleL=  +3.02 soleR=  +5.15 low=  +3.02(Shoe_Sole_L       ) head=  905.8 dk= 23.54 da= 27.50 de=  4.44
+E11P_SCAN f= 57 pel= 294.14 kneeL= 441.90 kneeR= 526.07 ankL=  99.00 ankR= 148.75 soleL=  +2.88 soleR=  -1.31 low=  -1.31(Shoe_Sole_R       ) head=  901.9 dk= 28.11 da= 19.42 de=  3.75
+E11P_SCAN f= 58 pel= 300.00 kneeL= 445.64 kneeR= 503.26 ankL=  98.00 ankR= 147.50 soleL=  +2.69 soleR=  -7.76 low=  -7.76(Shoe_Sole_R       ) head=  896.8 dk= 33.56 da= 19.42 de=  4.26
+E11P_SCAN f= 59 pel= 308.43 kneeL= 450.88 kneeR= 469.82 ankL=  97.57 ankR= 146.25 soleL=  +3.09 soleR= -14.20 low= -14.20(Shoe_Sole_R       ) head=  899.6 dk= 44.30 da= 19.42 de=  5.54 <<BAND
+E11P_SCAN f= 60 pel= 316.86 kneeL= 455.83 kneeR= 427.78 ankL=  97.14 ankR= 145.00 soleL=  +3.51 soleR= -20.45 low= -20.45(Shoe_Sole_R       ) head=  902.1 dk= 49.42 da= 19.42 de=  6.09 <<BAND
+E11P_SCAN f= 61 pel= 325.29 kneeL= 460.49 kneeR= 378.77 ankL=  96.71 ankR= 143.75 soleL=  +3.94 soleR= -24.71 low= -24.71(Shoe_Sole_R       ) head=  904.3 dk= 52.90 da= 19.42 de=  7.21 <<BAND
+E11P_SCAN f= 62 pel= 333.71 kneeL= 464.87 kneeR= 325.95 ankL=  96.29 ankR= 142.50 soleL=  +4.38 soleR= -28.88 low= -28.88(Shoe_Sole_R       ) head=  906.1 dk= 54.06 da= 19.42 de=  7.24 <<BAND
+E11P_SCAN f= 63 pel= 342.14 kneeL= 468.97 kneeR= 273.25 ankL=  95.86 ankR= 141.25 soleL=  +4.77 soleR= -32.96 low= -32.96(Shoe_Sole_R       ) head=  907.6 dk= 52.75 da= 19.42 de=  6.99 <<BAND
+E11P_SCAN f= 64 pel= 350.57 kneeL= 472.80 kneeR= 224.20 ankL=  95.43 ankR= 140.00 soleL=  +5.17 soleR= -36.96 low= -36.96(Shoe_Sole_R       ) head=  908.8 dk= 49.44 da= 19.42 de=  6.69 <<BAND
+E11P_SCAN f= 65 pel= 359.00 kneeL= 476.34 kneeR= 201.54 ankL=  95.00 ankR= 138.75 soleL=  +5.58 soleR= -40.86 low= -40.86(Shoe_Sole_R       ) head=  909.6 dk= 22.93 da=  7.62 de=  3.06 <<BAND
+E11P_SCAN f= 66 pel= 367.43 kneeL= 479.62 kneeR= 181.89 ankL=  94.57 ankR= 137.50 soleL=  +6.00 soleR= -44.68 low= -44.68(Shoe_Sole_R       ) head=  910.1 dk= 20.29 da=  7.62 de=  2.76 <<BAND
+E11P_SCAN f= 67 pel= 375.86 kneeL= 482.62 kneeR= 165.05 ankL=  94.14 ankR= 136.25 soleL=  +6.44 soleR= -48.39 low= -48.39(Shoe_Sole_R       ) head=  910.2 dk= 17.90 da=  7.62 de=  2.76 <<BAND
+E11P_SCAN f= 68 pel= 384.29 kneeL= 485.36 kneeR= 150.78 ankL=  93.71 ankR= 135.00 soleL=  +6.88 soleR= -52.01 low= -52.01(Shoe_Sole_R       ) head=  910.1 dk= 15.78 da=  7.62 de=  2.78 <<BAND
+E11P_SCAN f= 69 pel= 392.71 kneeL= 487.83 kneeR= 138.83 ankL=  93.29 ankR= 133.75 soleL=  +7.34 soleR= -54.16 low= -54.16(Shoe_Sole_R       ) head=  909.6 dk= 13.94 da=  7.62 de=  2.80 <<BAND
+E11P_SCAN f= 70 pel= 401.14 kneeL= 490.05 kneeR= 128.97 ankL=  92.86 ankR= 132.50 soleL=  +7.76 soleR= -56.30 low= -56.30(Shoe_Sole_R       ) head=  908.8 dk= 12.36 da=  7.62 de=  2.82 <<BAND
+E11P_SCAN f= 71 pel= 409.57 kneeL= 492.01 kneeR= 120.95 ankL=  92.43 ankR= 131.25 soleL=  +8.03 soleR= -58.41 low= -58.41(Shoe_Sole_R       ) head=  907.8 dk= 11.04 da=  7.62 de=  2.83 <<BAND
+E11P_SCAN f= 72 pel= 418.00 kneeL= 493.72 kneeR= 114.57 ankL=  92.00 ankR= 130.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) head=  906.4 dk=  9.94 da=  7.62 de=  2.84 <<BAND
+E11P_SCAN f= 73 pel= 418.00 kneeL= 493.72 kneeR= 114.57 ankL=  92.00 ankR= 130.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) head=  906.4 dk=  0.00 da=  0.00 de=  0.00 <<BAND
+E11P_SCAN f= 74 pel= 418.00 kneeL= 493.72 kneeR= 114.57 ankL=  92.00 ankR= 130.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) head=  906.4 dk=  0.00 da=  0.00 de=  0.00 <<BAND
+E11P_SCAN f= 75 pel= 418.00 kneeL= 493.72 kneeR= 114.57 ankL=  92.00 ankR= 130.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) head=  906.4 dk=  0.00 da=  0.00 de=  0.00 <<BAND
+E11P_SCAN f= 76 pel= 418.00 kneeL= 493.72 kneeR= 114.57 ankL=  92.00 ankR= 130.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) head=  906.4 dk=  0.00 da=  0.00 de=  0.00 <<BAND
+E11P_SCAN f= 77 pel= 431.87 kneeL= 495.27 kneeR= 126.02 ankL=  91.00 ankR= 130.00 soleL=  +8.23 soleR= -62.51 low= -62.51(Shoe_Sole_R       ) head=  929.0 dk= 13.86 da=  7.52 de=  2.66 <<BAND
+E11P_SCAN f= 78 pel= 445.75 kneeL= 497.10 kneeR= 137.24 ankL=  90.80 ankR= 130.00 soleL=  +8.93 soleR= -60.96 low= -60.96(Shoe_Sole_R       ) head=  951.3 dk= 13.49 da=  7.52 de=  2.43 <<BAND
+E11P_SCAN f= 79 pel= 459.62 kneeL= 498.52 kneeR= 148.25 ankL=  90.60 ankR= 130.00 soleL=  +9.62 soleR= -59.36 low= -59.36(Shoe_Sole_R       ) head=  973.5 dk= 13.16 da=  7.52 de=  2.48 <<BAND
+E11P_SCAN f= 80 pel= 473.50 kneeL= 499.56 kneeR= 159.10 ankL=  90.40 ankR= 130.00 soleL= +10.30 soleR= -57.71 low= -57.71(Shoe_Sole_R       ) head=  995.4 dk= 12.85 da=  7.52 de=  2.53 <<BAND
+E11P_SCAN f= 81 pel= 487.37 kneeL= 500.24 kneeR= 169.78 ankL=  90.20 ankR= 130.00 soleL= +10.72 soleR= -56.02 low= -56.02(Shoe_Sole_R       ) head= 1017.2 dk= 12.58 da=  7.52 de=  2.58 <<BAND
+E11P_SCAN f= 82 pel= 501.25 kneeL= 500.60 kneeR= 180.34 ankL=  90.00 ankR= 130.00 soleL= +11.12 soleR= -54.29 low= -54.29(Shoe_Sole_R       ) head= 1038.7 dk= 12.33 da=  7.52 de=  2.62 <<BAND
+E11P_SCAN f= 83 pel= 515.12 kneeL= 500.67 kneeR= 190.79 ankL=  89.80 ankR= 130.00 soleL= +11.43 soleR= -52.52 low= -52.52(Shoe_Sole_R       ) head= 1060.1 dk= 12.10 da=  7.52 de=  2.67 <<BAND
+E11P_SCAN f= 84 pel= 529.00 kneeL= 500.49 kneeR= 201.14 ankL=  89.60 ankR= 130.00 soleL= +11.40 soleR= -50.70 low= -50.70(Shoe_Sole_R       ) head= 1081.2 dk= 11.89 da=  7.52 de=  2.70 <<BAND
+E11P_SCAN f= 85 pel= 542.87 kneeL= 500.10 kneeR= 214.92 ankL=  89.40 ankR= 129.75 soleL= +11.19 soleR= -49.09 low= -49.09(Shoe_Sole_R       ) head= 1102.1 dk= 17.30 da= 13.15 de=  2.74 <<BAND
+E11P_SCAN f= 86 pel= 556.75 kneeL= 499.53 kneeR= 228.39 ankL=  89.20 ankR= 129.50 soleL= +10.95 soleR= -47.44 low= -47.44(Shoe_Sole_R       ) head= 1122.8 dk= 16.78 da= 13.15 de=  2.77 <<BAND
+E11P_SCAN f= 87 pel= 570.62 kneeL= 498.81 kneeR= 241.55 ankL=  89.00 ankR= 129.25 soleL= +10.63 soleR= -45.75 low= -45.75(Shoe_Sole_R       ) head= 1143.3 dk= 16.29 da= 13.15 de=  2.81 <<BAND
+E11P_SCAN f= 88 pel= 584.50 kneeL= 497.99 kneeR= 254.42 ankL=  88.80 ankR= 129.00 soleL= +10.32 soleR= -44.02 low= -44.02(Shoe_Sole_R       ) head= 1163.6 dk= 15.82 da= 13.15 de=  2.84 <<BAND
+E11P_SCAN f= 89 pel= 598.37 kneeL= 497.08 kneeR= 267.02 ankL=  88.60 ankR= 128.75 soleL= +10.03 soleR= -42.24 low= -42.24(Shoe_Sole_R       ) head= 1183.6 dk= 15.38 da= 13.15 de=  2.87 <<BAND
+E11P_SCAN f= 90 pel= 612.25 kneeL= 496.13 kneeR= 279.37 ankL=  88.40 ankR= 128.50 soleL=  +9.73 soleR= -40.43 low= -40.43(Shoe_Sole_R       ) head= 1203.4 dk= 14.95 da= 13.15 de=  2.89 <<BAND
+E11P_SCAN f= 91 pel= 626.12 kneeL= 495.16 kneeR= 291.47 ankL=  88.20 ankR= 128.25 soleL=  +9.45 soleR= -38.58 low= -38.58(Shoe_Sole_R       ) head= 1223.0 dk= 14.54 da= 13.15 de=  2.92 <<BAND
+E11P_SCAN f= 92 pel= 640.00 kneeL= 494.20 kneeR= 303.35 ankL=  88.00 ankR= 128.00 soleL=  +9.18 soleR= -36.69 low= -36.69(Shoe_Sole_R       ) head= 1242.3 dk= 14.14 da= 13.15 de=  2.95 <<BAND
+E11P_SCAN f= 93 pel= 655.83 kneeL= 493.05 kneeR= 320.52 ankL=  89.60 ankR= 127.59 soleL=  +9.77 soleR= -30.13 low= -30.13(Shoe_Sole_R       ) head= 1264.8 dk= 22.34 da= 22.96 de= 11.38 <<BAND
+E11P_SCAN f= 94 pel= 671.67 kneeL= 491.09 kneeR= 333.96 ankL=  88.21 ankR= 121.41 soleL=  +8.43 soleR= -26.29 low= -26.29(Shoe_Sole_R       ) head= 1287.0 dk= 16.28 da= 21.24 de= 11.54 <<BAND
+E11P_SCAN f= 95 pel= 687.50 kneeL= 489.36 kneeR= 346.09 ankL=  86.91 ankR= 115.58 soleL=  +7.20 soleR= -22.23 low= -22.23(Shoe_Sole_R       ) head= 1308.7 dk= 14.06 da= 19.47 de= 11.66 <<BAND
+E11P_SCAN f= 96 pel= 703.33 kneeL= 487.88 kneeR= 357.10 ankL=  85.71 ankR= 110.12 soleL=  +6.07 soleR= -18.06 low= -18.06(Shoe_Sole_R       ) head= 1330.1 dk= 12.14 da= 17.71 de= 11.77 <<BAND
+E11P_SCAN f= 97 pel= 719.17 kneeL= 486.69 kneeR= 367.17 ankL=  84.60 ankR= 105.03 soleL=  +5.05 soleR= -13.68 low= -13.68(Shoe_Sole_R       ) head= 1351.0 dk= 10.58 da= 15.97 de= 11.89 <<BAND
+E11P_SCAN f= 98 pel= 735.00 kneeL= 485.79 kneeR= 376.50 ankL=  83.60 ankR= 100.30 soleL=  +4.13 soleR=  -9.15 low=  -9.15(Shoe_Sole_R       ) head= 1371.5 dk=  9.45 da= 14.25 de= 12.03 <<BAND
+E11P_SCAN f= 99 pel= 750.83 kneeL= 485.21 kneeR= 385.28 ankL=  82.69 ankR=  95.94 soleL=  +3.31 soleR=  -4.51 low=  -4.51(Shoe_Sole_R       ) head= 1391.6 dk=  8.88 da= 12.56 de= 12.18
+E11P_SCAN f=100 pel= 766.67 kneeL= 484.95 kneeR= 393.70 ankL=  81.89 ankR=  91.96 soleL=  +2.60 soleR=  -0.27 low=  -0.27(Shoe_Sole_R       ) head= 1411.2 dk=  9.01 da= 10.92 de= 12.32
+E11P_SCAN f=101 pel= 782.50 kneeL= 485.02 kneeR= 401.91 ankL=  81.20 ankR=  87.03 soleL=  +2.01 soleR=  +0.45 low=  +0.45(Shoe_Sole_R       ) head= 1430.4 dk=  9.93 da= 11.04 de= 12.43
+E11P_SCAN f=102 pel= 798.33 kneeL= 485.42 kneeR= 410.19 ankL=  80.61 ankR=  83.36 soleL=  +1.54 soleR=  +1.09 low=  +1.09(Shoe_Sole_R       ) head= 1449.2 dk= 11.67 da=  8.42 de= 12.49
+E11P_SCAN f=103 pel= 814.17 kneeL= 486.14 kneeR= 418.87 ankL=  80.13 ankR=  80.96 soleL=  +1.19 soleR=  -0.16 low=  -0.16(Shoe_Sole_R       ) head= 1467.6 dk= 14.15 da=  6.14 de= 12.49
+E11P_SCAN f=104 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk= 17.48 da=  4.72 de= 12.44
+E11P_SCAN f=105 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=106 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=107 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=108 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=109 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=110 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=111 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=112 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=113 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=114 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=115 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=116 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=117 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=118 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=119 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+E11P_SCAN f=120 pel= 830.00 kneeL= 487.14 kneeR= 428.35 ankL=  79.76 ankR=  79.83 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) head= 1485.5 dk=  0.00 da=  0.00 de=  0.00
+# ================= E11P_SUM 汇总 =================
+E11P_SUM body_low_min=-62.51 body_low_max=+5.37 (band (-8.0, 10.0))
+E11P_SUM sole_min=-62.51 sole_max=+47.64 (band (-2.0, 6.0)) | 站姿窗 [104,120] 内 min=-0.96 max=+1.06
+E11P_SUM knee_min= 114.57 @f72 (需 ≥ 100.7)
+E11P_SUM limb_step_max=  54.06 @f62 | euler_step_max=  12.49 @f102(forearm.R)
+E11P_SUM halfkneel f74: kneeL= 493.72 kneeR= 114.57 (低≤160 高≥280)
+E11P_SUM stand f120: pel= 830.00 head= 1485.5 (pel (820.0, 840.0), head ≥ 1400)
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

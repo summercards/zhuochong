@@ -1,0 +1,21 @@
+D18_LAYOUT {"total_frames": 36, "seconds": 0.6, "legs_down": 4, "plant": 8, "chest_up": 12, "hand_off": 17, "tuck": 21, "foot_set": 25, "rise_mid": 30, "stand": 34, "vertical_channel": {"shape": "★ **无弹道段**：骨盆沿单调上升曲线 128 → 830 mm（四段支点：背/臀→掌→脚→双腿）", "pelvis_z_keys": [[0, 128.0], [4, 152.0], [8, 172.0], [12, 250.0], [17, 420.0], [21, 520.0], [25, 620.0], [30, 730.0], [34, 830.0], [36, 830.0]], "pelvis_y_keys": [[0, 470.0], [4, 452.0], [8, 430.0], [12, 398.0], [17, 350.0], [21, 290.0], [25, 220.0], [30, 110.0], [34, 0.0], [36, 0.0]]}, "seam": {"action": "Knockdown_B", "frame": 20, "src": {"action": "Knockdown_B", "found": true, "frame": 20, "rot_bones": 53, "loc_bones": ["pelvis"], "frame_range": [0, 20]}}, "end": {"action": "Idle_01", "frame": 0, "src": {"action": "Idle_01", "found": true, "frame": 0, "rot_bones": 52, "loc_bones": ["pelvis"], "frame_range": [0, 180]}}, "measured": {"seam_pelvis_z_mm": 128.0, "end_pelvis_z_mm": 830.0, "rise_mm": 702.0, "seam_ankle_mm": {"L": [329.978, 231.262, 300.001], "R": [-329.982, 228.703, 299.997]}, "end_ankle_mm": {"L": [143.178, -169.571, 79.76], "R": [-141.579, 140.432, 79.827]}, "seam_fist_mm": {"L": [595.461, 1275.328, -42.735], "R": [-635.184, 1255.257, -31.84]}, "seam_shoulder_mm": null, "end_off_mm": {"L": [-6.173, -256.577, -41.816], "R": [21.12, -222.327, -14.704]}}, "chest_tail_at_chest_up_mm": 441.698, "roll_weight_mode": "always", "note": "D18 背面起身：零位 = **`Knockdown_B@20` 落盘帧**；终点 = **`Idle_01@0` 落盘帧**（跨族接缝）。竖直通道**无弹道段**，骨盆单调升 **702 mm**；支点**背/臀 → 掌 → 脚**，换**两次**。"}
+D18_SHIN2 {"f": 22, "eul": [272.23, -117.37, -75.7], "w_self": 126.78, "w_thigh": 56.87, "w_foot": 110.13, "w_toe": 110.13, "dir": 77.54, "roll": 109.87}
+D18_SHIN2 {"f": 23, "eul": [291.4, -131.16, -94.22], "w_self": 102.61, "w_thigh": 70.77, "w_foot": 53.24, "w_toe": 53.24, "dir": 48.13, "roll": 93.58}
+D18_SHIN2 {"f": 24, "eul": [294.06, -153.09, -96.8], "w_self": 82.83, "w_thigh": 73.75, "w_foot": 13.51, "w_toe": 13.51, "dir": 30.35, "roll": 78.02}
+D18_SHIN2 {"f": 25, "eul": [292.68, -172.92, -92.98], "w_self": 73.94, "w_thigh": 67.64, "w_foot": 3.4, "w_toe": 3.4, "dir": 22.12, "roll": 71.01}
+D18_SHIN2 {"f": 26, "eul": [292.3, -176.8, -92.47], "w_self": 73.52, "w_thigh": 62.6, "w_foot": 3.25, "w_toe": 3.25, "dir": 19.79, "roll": 71.17}
+D18_SHIN2 {"f": 27, "eul": [289.51, -182.87, -97.81], "w_self": 68.48, "w_thigh": 54.75, "w_foot": 2.89, "w_toe": 357.11, "dir": 16.66, "roll": 66.67}
+D18_SHIN2 {"f": 28, "eul": [283.37, -189.57, -109.36], "w_self": 58.74, "w_thigh": 45.58, "w_foot": 2.39, "w_toe": 2.39, "dir": 13.64, "roll": 57.27}
+D18_SHIN2 {"f": 29, "eul": [273.53, -194.03, -126.49], "w_self": 45.28, "w_thigh": 36.29, "w_foot": 1.87, "w_toe": 1.87, "dir": 11.15, "roll": 43.96}
+D18_SHIN2 {"f": 30, "eul": [261.76, -193.74, -146.24], "w_self": 30.19, "w_thigh": 27.7, "w_foot": 1.43, "w_toe": 1.43, "dir": 9.19, "roll": 28.79}
+D18_SHIN2 {"f": 31, "eul": [249.74, -189.36, -164.06], "w_self": 16.18, "w_thigh": 19.12, "w_foot": 0.99, "w_toe": 359.01, "dir": 7.25, "roll": 14.48}
+D18_SHIN2 {"f": 32, "eul": [238.04, -183.23, -176.03], "w_self": 6.13, "w_thigh": 10.45, "w_foot": 0.52, "w_toe": 0.52, "dir": 4.67, "roll": 3.96}
+D18_SHIN2 {"f": 33, "eul": [227.85, -179.93, -179.99], "w_self": 1.65, "w_thigh": 3.25, "w_foot": 0.15, "w_toe": 0.15, "dir": 1.65, "roll": 0.0}
+D18_SHIN2 {"f": 34, "eul": [222.96, -180.0, -180.0], "w_self": 0.0, "w_thigh": 0.0, "w_foot": 0.0, "w_toe": 0.0, "dir": 0.0, "roll": 0.0}
+D18_SHIN2 {"f": 35, "eul": [222.96, -180.0, -180.0], "w_self": 0.0, "w_thigh": 0.0, "w_foot": 0.0, "w_toe": 0.0, "dir": 0.0, "roll": 0.0}
+D18_SHIN2 {"f": 36, "eul": [222.96, -180.0, -180.0], "w_self": 0.0, "w_thigh": 0.0, "w_foot": 0.0, "w_toe": 0.0, "dir": 0.0, "roll": 0.0}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

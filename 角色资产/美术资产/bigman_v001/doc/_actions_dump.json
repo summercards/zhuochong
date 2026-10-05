@@ -1,0 +1,5384 @@
+{
+ "blend": "I:\\工作项目\\BIGMANFIGHT\\角色资产\\美术资产\\bigman_v001\\bigman_anim_v001.blend",
+ "fps": 60.0,
+ "scene_frame_range": [
+  1,
+  250
+ ],
+ "armatures": [
+  {
+   "object": "Character_Rig",
+   "data": "BigMan_Rig",
+   "bone_count": 57,
+   "bones": [
+    {
+     "name": "root",
+     "parent": null,
+     "head": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      0.2
+     ],
+     "length": 0.2
+    },
+    {
+     "name": "pelvis",
+     "parent": "root",
+     "head": [
+      0.0,
+      0.0,
+      0.9
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      1.02
+     ],
+     "length": 0.12
+    },
+    {
+     "name": "spine_01",
+     "parent": "pelvis",
+     "head": [
+      0.0,
+      0.0,
+      1.02
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      1.14
+     ],
+     "length": 0.12
+    },
+    {
+     "name": "spine_02",
+     "parent": "spine_01",
+     "head": [
+      0.0,
+      0.0,
+      1.14
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      1.26
+     ],
+     "length": 0.12
+    },
+    {
+     "name": "chest",
+     "parent": "spine_02",
+     "head": [
+      0.0,
+      0.0,
+      1.26
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      1.44
+     ],
+     "length": 0.18
+    },
+    {
+     "name": "neck",
+     "parent": "chest",
+     "head": [
+      0.0,
+      0.0,
+      1.44
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      1.56
+     ],
+     "length": 0.12
+    },
+    {
+     "name": "head",
+     "parent": "neck",
+     "head": [
+      0.0,
+      0.0,
+      1.56
+     ],
+     "tail": [
+      0.0,
+      0.0,
+      1.79
+     ],
+     "length": 0.23
+    },
+    {
+     "name": "jaw",
+     "parent": "head",
+     "head": [
+      0.0,
+      0.03,
+      1.64
+     ],
+     "tail": [
+      0.0,
+      -0.07,
+      1.572
+     ],
+     "length": 0.12093
+    },
+    {
+     "name": "glasses",
+     "parent": "head",
+     "head": [
+      0.0,
+      -0.0885,
+      1.7
+     ],
+     "tail": [
+      0.0,
+      -0.0885,
+      1.724
+     ],
+     "length": 0.024
+    },
+    {
+     "name": "eye.L",
+     "parent": "head",
+     "head": [
+      0.0335,
+      -0.0665,
+      1.7
+     ],
+     "tail": [
+      0.0335,
+      -0.1,
+      1.7
+     ],
+     "length": 0.0335
+    },
+    {
+     "name": "eye.R",
+     "parent": "head",
+     "head": [
+      -0.0335,
+      -0.0665,
+      1.7
+     ],
+     "tail": [
+      -0.0335,
+      -0.1,
+      1.7
+     ],
+     "length": 0.0335
+    },
+    {
+     "name": "shoulder.L",
+     "parent": "chest",
+     "head": [
+      0.04,
+      0.0,
+      1.4
+     ],
+     "tail": [
+      0.15,
+      0.0,
+      1.42
+     ],
+     "length": 0.111803
+    },
+    {
+     "name": "upperarm.L",
+     "parent": "shoulder.L",
+     "head": [
+      0.15,
+      0.0,
+      1.42
+     ],
+     "tail": [
+      0.478,
+      0.0,
+      1.42
+     ],
+     "length": 0.328
+    },
+    {
+     "name": "forearm.L",
+     "parent": "upperarm.L",
+     "head": [
+      0.478,
+      0.0,
+      1.42
+     ],
+     "tail": [
+      0.702,
+      0.0,
+      1.42
+     ],
+     "length": 0.224
+    },
+    {
+     "name": "hand.L",
+     "parent": "forearm.L",
+     "head": [
+      0.702,
+      0.0,
+      1.42
+     ],
+     "tail": [
+      0.8,
+      0.0,
+      1.42
+     ],
+     "length": 0.098
+    },
+    {
+     "name": "index_01.L",
+     "parent": "hand.L",
+     "head": [
+      0.8,
+      -0.03,
+      1.42
+     ],
+     "tail": [
+      0.8296,
+      -0.03,
+      1.42
+     ],
+     "length": 0.0296
+    },
+    {
+     "name": "index_02.L",
+     "parent": "index_01.L",
+     "head": [
+      0.8296,
+      -0.03,
+      1.42
+     ],
+     "tail": [
+      0.85328,
+      -0.03,
+      1.42
+     ],
+     "length": 0.02368
+    },
+    {
+     "name": "index_03.L",
+     "parent": "index_02.L",
+     "head": [
+      0.85328,
+      -0.03,
+      1.42
+     ],
+     "tail": [
+      0.874,
+      -0.03,
+      1.42
+     ],
+     "length": 0.02072
+    },
+    {
+     "name": "middle_01.L",
+     "parent": "hand.L",
+     "head": [
+      0.8,
+      -0.01,
+      1.42
+     ],
+     "tail": [
+      0.832,
+      -0.01,
+      1.42
+     ],
+     "length": 0.032
+    },
+    {
+     "name": "middle_02.L",
+     "parent": "middle_01.L",
+     "head": [
+      0.832,
+      -0.01,
+      1.42
+     ],
+     "tail": [
+      0.8576,
+      -0.01,
+      1.42
+     ],
+     "length": 0.0256
+    },
+    {
+     "name": "middle_03.L",
+     "parent": "middle_02.L",
+     "head": [
+      0.8576,
+      -0.01,
+      1.42
+     ],
+     "tail": [
+      0.88,
+      -0.01,
+      1.42
+     ],
+     "length": 0.0224
+    },
+    {
+     "name": "ring_01.L",
+     "parent": "hand.L",
+     "head": [
+      0.8,
+      0.011,
+      1.42
+     ],
+     "tail": [
+      0.8292,
+      0.011,
+      1.42
+     ],
+     "length": 0.0292
+    },
+    {
+     "name": "ring_02.L",
+     "parent": "ring_01.L",
+     "head": [
+      0.8292,
+      0.011,
+      1.42
+     ],
+     "tail": [
+      0.85256,
+      0.011,
+      1.42
+     ],
+     "length": 0.02336
+    },
+    {
+     "name": "ring_03.L",
+     "parent": "ring_02.L",
+     "head": [
+      0.85256,
+      0.011,
+      1.42
+     ],
+     "tail": [
+      0.873,
+      0.011,
+      1.42
+     ],
+     "length": 0.02044
+    },
+    {
+     "name": "pinky_01.L",
+     "parent": "hand.L",
+     "head": [
+      0.8,
+      0.031,
+      1.42
+     ],
+     "tail": [
+      0.8232,
+      0.031,
+      1.42
+     ],
+     "length": 0.0232
+    },
+    {
+     "name": "pinky_02.L",
+     "parent": "pinky_01.L",
+     "head": [
+      0.8232,
+      0.031,
+      1.42
+     ],
+     "tail": [
+      0.84176,
+      0.031,
+      1.42
+     ],
+     "length": 0.01856
+    },
+    {
+     "name": "pinky_03.L",
+     "parent": "pinky_02.L",
+     "head": [
+      0.84176,
+      0.031,
+      1.42
+     ],
+     "tail": [
+      0.858,
+      0.031,
+      1.42
+     ],
+     "length": 0.01624
+    },
+    {
+     "name": "thumb_01.L",
+     "parent": "hand.L",
+     "head": [
+      0.726,
+      -0.042,
+      1.41
+     ],
+     "tail": [
+      0.744,
+      -0.062,
+      1.415
+     ],
+     "length": 0.027368
+    },
+    {
+     "name": "thumb_02.L",
+     "parent": "thumb_01.L",
+     "head": [
+      0.744,
+      -0.062,
+      1.415
+     ],
+     "tail": [
+      0.76,
+      -0.08,
+      1.417
+     ],
+     "length": 0.024166
+    },
+    {
+     "name": "thumb_03.L",
+     "parent": "thumb_02.L",
+     "head": [
+      0.76,
+      -0.08,
+      1.417
+     ],
+     "tail": [
+      0.77,
+      -0.093,
+      1.418
+     ],
+     "length": 0.016432
+    },
+    {
+     "name": "shoulder.R",
+     "parent": "chest",
+     "head": [
+      -0.04,
+      0.0,
+      1.4
+     ],
+     "tail": [
+      -0.15,
+      0.0,
+      1.42
+     ],
+     "length": 0.111803
+    },
+    {
+     "name": "upperarm.R",
+     "parent": "shoulder.R",
+     "head": [
+      -0.15,
+      0.0,
+      1.42
+     ],
+     "tail": [
+      -0.478,
+      0.0,
+      1.42
+     ],
+     "length": 0.328
+    },
+    {
+     "name": "forearm.R",
+     "parent": "upperarm.R",
+     "head": [
+      -0.478,
+      0.0,
+      1.42
+     ],
+     "tail": [
+      -0.702,
+      0.0,
+      1.42
+     ],
+     "length": 0.224
+    },
+    {
+     "name": "hand.R",
+     "parent": "forearm.R",
+     "head": [
+      -0.702,
+      0.0,
+      1.42
+     ],
+     "tail": [
+      -0.8,
+      0.0,
+      1.42
+     ],
+     "length": 0.098
+    },
+    {
+     "name": "index_01.R",
+     "parent": "hand.R",
+     "head": [
+      -0.8,
+      -0.03,
+      1.42
+     ],
+     "tail": [
+      -0.8296,
+      -0.03,
+      1.42
+     ],
+     "length": 0.0296
+    },
+    {
+     "name": "index_02.R",
+     "parent": "index_01.R",
+     "head": [
+      -0.8296,
+      -0.03,
+      1.42
+     ],
+     "tail": [
+      -0.85328,
+      -0.03,
+      1.42
+     ],
+     "length": 0.02368
+    },
+    {
+     "name": "index_03.R",
+     "parent": "index_02.R",
+     "head": [
+      -0.85328,
+      -0.03,
+      1.42
+     ],
+     "tail": [
+      -0.874,
+      -0.03,
+      1.42
+     ],
+     "length": 0.02072
+    },
+    {
+     "name": "middle_01.R",
+     "parent": "hand.R",
+     "head": [
+      -0.8,
+      -0.01,
+      1.42
+     ],
+     "tail": [
+      -0.832,
+      -0.01,
+      1.42
+     ],
+     "length": 0.032
+    },
+    {
+     "name": "middle_02.R",
+     "parent": "middle_01.R",
+     "head": [
+      -0.832,
+      -0.01,
+      1.42
+     ],
+     "tail": [
+      -0.8576,
+      -0.01,
+      1.42
+     ],
+     "length": 0.0256
+    },
+    {
+     "name": "middle_03.R",
+     "parent": "middle_02.R",
+     "head": [
+      -0.8576,
+      -0.01,
+      1.42
+     ],
+     "tail": [
+      -0.88,
+      -0.01,
+      1.42
+     ],
+     "length": 0.0224
+    },
+    {
+     "name": "ring_01.R",
+     "parent": "hand.R",
+     "head": [
+      -0.8,
+      0.011,
+      1.42
+     ],
+     "tail": [
+      -0.8292,
+      0.011,
+      1.42
+     ],
+     "length": 0.0292
+    },
+    {
+     "name": "ring_02.R",
+     "parent": "ring_01.R",
+     "head": [
+      -0.8292,
+      0.011,
+      1.42
+     ],
+     "tail": [
+      -0.85256,
+      0.011,
+      1.42
+     ],
+     "length": 0.02336
+    },
+    {
+     "name": "ring_03.R",
+     "parent": "ring_02.R",
+     "head": [
+      -0.85256,
+      0.011,
+      1.42
+     ],
+     "tail": [
+      -0.873,
+      0.011,
+      1.42
+     ],
+     "length": 0.02044
+    },
+    {
+     "name": "pinky_01.R",
+     "parent": "hand.R",
+     "head": [
+      -0.8,
+      0.031,
+      1.42
+     ],
+     "tail": [
+      -0.8232,
+      0.031,
+      1.42
+     ],
+     "length": 0.0232
+    },
+    {
+     "name": "pinky_02.R",
+     "parent": "pinky_01.R",
+     "head": [
+      -0.8232,
+      0.031,
+      1.42
+     ],
+     "tail": [
+      -0.84176,
+      0.031,
+      1.42
+     ],
+     "length": 0.01856
+    },
+    {
+     "name": "pinky_03.R",
+     "parent": "pinky_02.R",
+     "head": [
+      -0.84176,
+      0.031,
+      1.42
+     ],
+     "tail": [
+      -0.858,
+      0.031,
+      1.42
+     ],
+     "length": 0.01624
+    },
+    {
+     "name": "thumb_01.R",
+     "parent": "hand.R",
+     "head": [
+      -0.726,
+      -0.042,
+      1.41
+     ],
+     "tail": [
+      -0.744,
+      -0.062,
+      1.415
+     ],
+     "length": 0.027368
+    },
+    {
+     "name": "thumb_02.R",
+     "parent": "thumb_01.R",
+     "head": [
+      -0.744,
+      -0.062,
+      1.415
+     ],
+     "tail": [
+      -0.76,
+      -0.08,
+      1.417
+     ],
+     "length": 0.024166
+    },
+    {
+     "name": "thumb_03.R",
+     "parent": "thumb_02.R",
+     "head": [
+      -0.76,
+      -0.08,
+      1.417
+     ],
+     "tail": [
+      -0.77,
+      -0.093,
+      1.418
+     ],
+     "length": 0.016432
+    },
+    {
+     "name": "thigh.L",
+     "parent": "pelvis",
+     "head": [
+      0.09,
+      0.0,
+      0.9
+     ],
+     "tail": [
+      0.086,
+      0.0,
+      0.49
+     ],
+     "length": 0.410019
+    },
+    {
+     "name": "shin.L",
+     "parent": "thigh.L",
+     "head": [
+      0.086,
+      0.0,
+      0.49
+     ],
+     "tail": [
+      0.084,
+      0.0,
+      0.078
+     ],
+     "length": 0.412005
+    },
+    {
+     "name": "foot.L",
+     "parent": "shin.L",
+     "head": [
+      0.084,
+      0.0,
+      0.078
+     ],
+     "tail": [
+      0.088,
+      -0.115,
+      0.02
+     ],
+     "length": 0.12886
+    },
+    {
+     "name": "toe.L",
+     "parent": "foot.L",
+     "head": [
+      0.088,
+      -0.115,
+      0.02
+     ],
+     "tail": [
+      0.088,
+      -0.19,
+      0.02
+     ],
+     "length": 0.075
+    },
+    {
+     "name": "thigh.R",
+     "parent": "pelvis",
+     "head": [
+      -0.09,
+      0.0,
+      0.9
+     ],
+     "tail": [
+      -0.086,
+      0.0,
+      0.49
+     ],
+     "length": 0.410019
+    },
+    {
+     "name": "shin.R",
+     "parent": "thigh.R",
+     "head": [
+      -0.086,
+      0.0,
+      0.49
+     ],
+     "tail": [
+      -0.084,
+      0.0,
+      0.078
+     ],
+     "length": 0.412005
+    },
+    {
+     "name": "foot.R",
+     "parent": "shin.R",
+     "head": [
+      -0.084,
+      0.0,
+      0.078
+     ],
+     "tail": [
+      -0.088,
+      -0.115,
+      0.02
+     ],
+     "length": 0.12886
+    },
+    {
+     "name": "toe.R",
+     "parent": "foot.R",
+     "head": [
+      -0.088,
+      -0.115,
+      0.02
+     ],
+     "tail": [
+      -0.088,
+      -0.19,
+      0.02
+     ],
+     "length": 0.075
+    }
+   ],
+   "mesh_children": [
+    "Collar_Point_L",
+    "Collar_Point_R",
+    "Ear_Inner_L",
+    "Ear_Inner_R",
+    "Ear_L",
+    "Ear_Lobe_L",
+    "Ear_Lobe_R",
+    "Ear_R",
+    "Eye_Glint_L",
+    "Eye_Glint_R",
+    "Eye_Line_Upper_L",
+    "Eye_Line_Upper_R",
+    "Eye_White_L",
+    "Eye_White_R",
+    "Eyebrow_L",
+    "Eyebrow_R",
+    "Eyelid_Lower_L",
+    "Eyelid_Lower_R",
+    "Eyelid_Upper_L",
+    "Eyelid_Upper_R",
+    "Finger_Index_L",
+    "Finger_Index_R",
+    "Finger_Middle_L",
+    "Finger_Middle_R",
+    "Finger_Pinky_L",
+    "Finger_Pinky_R",
+    "Finger_Ring_L",
+    "Finger_Ring_R",
+    "Glasses_Bridge",
+    "Glasses_Frame_L",
+    "Glasses_Frame_R",
+    "Glasses_Temple_L",
+    "Glasses_Temple_R",
+    "Hair_Mass",
+    "Hair_Sweep",
+    "Hand_Palm_L",
+    "Hand_Palm_R",
+    "Head",
+    "Iris_L",
+    "Iris_R",
+    "Iris_Ring_L",
+    "Iris_Ring_R",
+    "Jacket_Back_Seam",
+    "Jacket_Button_1",
+    "Jacket_Button_2",
+    "Jacket_Collar",
+    "Jacket_Lapel_L",
+    "Jacket_Lapel_R",
+    "Jacket_Vent",
+    "Lapel_Fold_L",
+    "Lapel_Fold_R",
+    "Lapel_Notch_L",
+    "Lapel_Notch_R",
+    "Lower_Lip",
+    "Mouth_Line",
+    "Neck",
+    "Nose",
+    "Nose_Wing_L",
+    "Nose_Wing_R",
+    "Pocket_Flap_L",
+    "Pocket_Flap_R",
+    "Pupil_L",
+    "Pupil_R",
+    "Shirt_Collar",
+    "Shirt_Cuff_L",
+    "Shirt_Cuff_R",
+    "Shirt_Front",
+    "Shoe_Heel_L",
+    "Shoe_Heel_R",
+    "Shoe_Sole_L",
+    "Shoe_Sole_R",
+    "Shoe_Toe_Cap_L",
+    "Shoe_Toe_Cap_R",
+    "Shoe_Upper_L",
+    "Shoe_Upper_R",
+    "Sleeve_Button_1_L",
+    "Sleeve_Button_1_R",
+    "Sleeve_Button_2_L",
+    "Sleeve_Button_2_R",
+    "Sleeve_Button_3_L",
+    "Sleeve_Button_3_R",
+    "Sleeve_L",
+    "Sleeve_R",
+    "Suit_Torso",
+    "Thumb_L",
+    "Thumb_R",
+    "Trouser_L",
+    "Trouser_R",
+    "Upper_Lip"
+   ]
+  }
+ ],
+ "actions": {
+  "Air_Heavy": {
+   "name": "Air_Heavy",
+   "frame_range": [
+    0.0,
+    26.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "air_drift",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "counter_balance",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_scope",
+    "hitstop_span",
+    "landing_link",
+    "loop",
+    "note",
+    "pelvis_ballistic",
+    "power_chain_scale_note",
+    "root_motion_m",
+    "root_motion_note",
+    "seam_in",
+    "seam_out"
+   ],
+   "props": {
+    "anim_id": "Air_Heavy",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "空中重击：接 `Jump_Fall@0`（弹道下落中）→ 吊滞 + 双拳举过头顶蓄力 + 收膝 → 全身加速下砸（双拳相对肩下砸 ≥850 mm，落速比 ∈[1.2, 2.2]）→ f16~f18 关节冻结 3 帧 → 卸力收招（末速接上 A13 入场 67.9 mm/帧）→ 末帧逐位 = `Jump_Land@0`（交给 A13 屈膝吸收）",
+    "antic_frame": 6,
+    "hit_frame": 16,
+    "cancel_frame": 21,
+    "hitstop_frames": 3,
+    "hitstop_span": [
+     16.0,
+     18.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_note": "空中族**不许** Root Motion（清单 §0.4；C 族起才允许）。",
+    "seam_in": "Jump_Fall@0（世界矩阵逐位相同）",
+    "seam_out": "Jump_Land@0（**平移不变**姿态逐位相同 + 末速接上 A13 入场速度；骨盆已沿本支新弹道又落 813.3 mm）",
+    "pelvis_ballistic": [
+     "rule",
+     "change_allowed",
+     "conservation"
+    ],
+    "air_drift": [
+     "rule",
+     "why"
+    ],
+    "counter_balance": [
+     "rule",
+     "why"
+    ],
+    "power_chain_scale_note": "空中无地面反力：thigh/shin 取'可见'下限 3°，A10 的 15° 是蹬地展开的量",
+    "hitstop_scope": "冻结全身关节欧拉；骨盆 location 仍走落速表（顿的是关节，不是时间）",
+    "landing_link": "末帧 = `Jump_Land@0`（A13 首帧即触地帧，`JFE.pelvis_z(24)`）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     26.0
+    ]
+   }
+  },
+  "Air_Hit": {
+   "name": "Air_Hit",
+   "frame_range": [
+    0.0,
+    18.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "fold_peak_frame",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "self_hold_frame",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Air_Hit",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "空中受击：受力与弹道完全解耦（骨盆 z = 共享解析弹道，全片单一抛物线）；受力只落躯干横折 + 四肢惯性甩动；命中停顿只冻姿态、位置继续掉；水平不新增位移；末 4 帧定格自持",
+    "antic_frame": 0,
+    "hit_frame": 2,
+    "cancel_frame": 14,
+    "stagger_end_frame": 4,
+    "fold_peak_frame": 9,
+    "self_hold_frame": 14,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 1.297438,
+    "end_vz_m_per_frame": -0.058389,
+    "ballistic_ref": "anim_jump_start.TAKEOFF_PELVIS_Z/TAKEOFF_SPEED + anim_jump_fall.G_PER_FRAME（同一解析弹道，相位续 D12 f34）",
+    "start_pose_ref": "Launch_Hit 帧 34（SELF_HOLD 锁存姿态）",
+    "end_pose_ref": "空中自持（**不回原位**；落在共享弹道上，竖速更负）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     18.0
+    ]
+   }
+  },
+  "Air_Light": {
+   "name": "Air_Light",
+   "frame_range": [
+    0.0,
+    27.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "air_drift",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "counter_balance",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_scope",
+    "hitstop_span",
+    "loop",
+    "note",
+    "pelvis_ballistic",
+    "power_chain_scale_note",
+    "root_motion_m",
+    "root_motion_note",
+    "seam_in",
+    "seam_out"
+   ],
+   "props": {
+    "anim_id": "Air_Light",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "空中攻击：接 `Jump_Fall@0`（弹道下落中）→ 收拳入怀 + 提膝预备 → 前手直拳（拳峰 −y 行程 ≥300 mm）+ 后腿膝撞（膝相对骨盆上升 ≥150 mm）→ f16~f18 关节冻结 3 帧 → 缓出收招 → f25 起收招平台（逐位 = `Jump_Fall@0` 姿态）。骨盆 z 全程 = A12 弹道（**重心不许上升**）",
+    "antic_frame": 7,
+    "hit_frame": 16,
+    "cancel_frame": 21,
+    "hitstop_frames": 3,
+    "hitstop_span": [
+     16.0,
+     18.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_note": "空中族**不许** Root Motion（清单 §0.4；C 族起才允许）。",
+    "seam_in": "Jump_Fall@0（世界矩阵逐位相同）",
+    "seam_out": "Jump_Fall@0（**平移不变**姿态逐位相同：骨盆已沿弹道又落 1025.2 mm）",
+    "pelvis_ballistic": [
+     "rule",
+     "change_allowed"
+    ],
+    "air_drift": [
+     "rule",
+     "why"
+    ],
+    "counter_balance": [
+     "rule",
+     "why"
+    ],
+    "power_chain_scale_note": "空中无地面反力：thigh/shin 取'可见'下限 3°，A10 的 15° 是蹬地展开的量",
+    "hitstop_scope": "冻结全身关节欧拉；骨盆 location 仍走弹道（顿的是关节，不是时间）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     27.0
+    ]
+   }
+  },
+  "Battle_Start": {
+   "name": "Battle_Start",
+   "frame_range": [
+    0.0,
+    96.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "clash_pair",
+    "foot_lock",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hit_frame",
+    "hit_frames",
+    "hit_point_m",
+    "hitstop_frames",
+    "hitstop_windows",
+    "loop",
+    "note",
+    "root_motion_m",
+    "root_motion_z_m",
+    "seam",
+    "seam_ends",
+    "view_note"
+   ],
+   "props": {
+    "anim_id": "Battle_Start",
+    "loop": false,
+    "category": "状态与流程",
+    "note": "开战：活动肩膀（肩绕环）→ 收拳蓄势 → 双拳在胸前中线**相击**（定格 3 帧）→ 展开摆出战斗架势 → 回战斗待机；★ 全程原地、脚锁全程",
+    "frames": [
+     0.0,
+     96.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_z_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 3,
+    "hitstop_windows": [
+     "<bpy id property array [2]>"
+    ],
+    "antic_frame": 32,
+    "hit_frame": 46,
+    "hit_frames": [
+     46.0
+    ],
+    "cancel_frame": 62,
+    "hit_point_m": [
+     0.0,
+     -0.43,
+     1.16
+    ],
+    "seam": "Idle_01@0",
+    "seam_ends": [
+     "start",
+     "end"
+    ],
+    "frame_bound_note": "★ 96 帧 = 1.6 s，**小于** E01 登记的 120 帧 / 2.0 s 上界 ⟹ 可直接沿用（显式声明，不是悄悄超）",
+    "view_note": "★ 本支取景**自立**（不照抄 E01~E04）：纵向覆盖 −0.20~2.00 m（中心 z=0.90、正交高 2.20 m），比标准站姿视图**略宽**以装下耸肩时张开的手臂；正面判碰拳贴合 + 对称，侧视 / 3Q 判肩部活动",
+    "foot_lock": [
+     "scope",
+     "reason"
+    ],
+    "clash_pair": [
+     "kind",
+     "axis",
+     "contact_max_mm",
+     "pierce_tol_mm",
+     "hit_point_m"
+    ],
+    "fps": 60
+   }
+  },
+  "Charge": {
+   "name": "Charge",
+   "frame_range": [
+    0.0,
+    110.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_arm_dirs",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "loop_partner",
+    "note",
+    "root_motion_m",
+    "segments"
+   ],
+   "props": {
+    "anim_id": "Charge",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "蓄力（三段）：起手 20f 下沉扎稳 → 循环 36f 握死蓄力 → 释放 16f 爆发上顶；命停 3 帧 14 骨全冻；收招单向减速到「半蹲戒备」。循环段另存独立 Action `Charge_Loop`（loop=true）。",
+    "antic_frame": 20,
+    "hit_frame": 72,
+    "cancel_frame": 106,
+    "hitstop_frames": 3,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "None",
+    "segments": [
+     "start",
+     "loop",
+     "release",
+     "hold",
+     "recover"
+    ],
+    "loop_partner": "Charge_Loop",
+    "hit_point_m": [
+     "frame",
+     "fist_L_m",
+     "fist_R_m",
+     "fist_mid_m",
+     "fist_span_mm",
+     "pelvis_m",
+     "head_m"
+    ],
+    "end_pose_deg": [
+     "chest",
+     "head",
+     "neck",
+     "pelvis",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02"
+    ],
+    "end_arm_dirs": [
+     "forearm.L",
+     "forearm.R",
+     "hand.L",
+     "hand.R",
+     "upperarm.L",
+     "upperarm.R"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     110.0
+    ]
+   }
+  },
+  "Charge_Loop": {
+   "name": "Charge_Loop",
+   "frame_range": [
+    0.0,
+    36.0
+   ],
+   "fcurves": 153,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_arm_dirs",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "loop_partner",
+    "note",
+    "parent_anim",
+    "parent_frames",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Charge_Loop",
+    "loop": true,
+    "category": "连招与特殊技",
+    "note": "C08 蓄力循环段：逐帧复用 `Charge` 的 [20, 56] 窗，首末帧逐位相同。",
+    "antic_frame": 20,
+    "hit_frame": 72,
+    "cancel_frame": 106,
+    "hitstop_frames": 3,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "None",
+    "loop_partner": "Charge_Loop",
+    "hit_point_m": [
+     "frame",
+     "fist_L_m",
+     "fist_R_m",
+     "fist_mid_m",
+     "fist_span_mm",
+     "pelvis_m",
+     "head_m"
+    ],
+    "end_pose_deg": [
+     "chest",
+     "head",
+     "neck",
+     "pelvis",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02"
+    ],
+    "end_arm_dirs": [
+     "forearm.L",
+     "forearm.R",
+     "hand.L",
+     "hand.R",
+     "upperarm.L",
+     "upperarm.R"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     36.0
+    ],
+    "parent_anim": "Charge",
+    "parent_frames": [
+     20.0,
+     56.0
+    ]
+   }
+  },
+  "Combo_Finish": {
+   "name": "Combo_Finish",
+   "frame_range": [
+    0.0,
+    48.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "amplitude_baseline",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Combo_Finish",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "连招终结：接 Heavy_01 可取消帧，跨步双拳过顶劈砸，Root Motion 前冲 0.900 m；幅度 ≥ 普通攻击 1.5 倍（骨盆系口径）",
+    "antic_frame": 15,
+    "hit_frame": 30,
+    "cancel_frame": 40,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     -0.9
+    ],
+    "amplitude_baseline": [
+     "fist_rel_range_mm",
+     "fist_rel_path_mm",
+     "swing_step_rel_mm",
+     "torso_pitch_range_mm"
+    ],
+    "hit_point_m": "None",
+    "fps": 60,
+    "frames": [
+     0.0,
+     48.0
+    ]
+   }
+  },
+  "Crouch": {
+   "name": "Crouch",
+   "frame_range": [
+    0.0,
+    24.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "crouch_drop_mm",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "pelvis_drop_m",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Crouch",
+    "loop": false,
+    "category": "基础移动",
+    "note": "战斗站姿 → 蹲姿：先上抬蓄势，髋先折叠带动屈膝，重心沿近直线下降 202 mm；两脚世界坐标钉死不动；手臂相对胸口保持护体架势",
+    "antic_frame": 3,
+    "hit_frame": "None",
+    "cancel_frame": 20,
+    "hitstop_frames": 0,
+    "crouch_drop_mm": 202.0,
+    "pelvis_drop_m": 0.202,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     24.0
+    ]
+   }
+  },
+  "Crouch_Idle": {
+   "name": "Crouch_Idle",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "breath_chest_deg",
+    "breath_pelvis_z_mm",
+    "breath_shoulder_deg",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Crouch_Idle",
+    "loop": true,
+    "category": "基础移动",
+    "note": "蹲姿呼吸循环：首帧逐位接 Crouch@24；呼吸只归胸腔与肩，骨盆倾角恒定、踝世界坐标钉死；吸 0.8 s / 停 0.3 s / 呼 0.9 s",
+    "antic_frame": "None",
+    "hit_frame": "None",
+    "cancel_frame": "None",
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "Crouch@24",
+    "breath_chest_deg": 2.1,
+    "breath_shoulder_deg": 3.0,
+    "breath_pelvis_z_mm": 3.0,
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Dash_Attack": {
+   "name": "Dash_Attack",
+   "frame_range": [
+    0.0,
+    42.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "decel_g",
+    "entry_speed_mps",
+    "exit_speed_mps",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Dash_Attack",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "冲刺冲拳：奔跑直接接后手直拳，Root Motion 前冲 1.0001 m；起步接 Run 的 2.75 m/s、全程单调减速到 ~0；支撑脚世界钉死，后脚落地 = 命中帧",
+    "antic_frame": 9,
+    "hit_frame": 20,
+    "cancel_frame": 32,
+    "hitstop_frames": 3,
+    "root_motion_m": [
+     0.0,
+     -1.0
+    ],
+    "entry_speed_mps": 2.75,
+    "exit_speed_mps": 0.1072,
+    "decel_g": 0.3944,
+    "hit_point_m": "None",
+    "fps": 60,
+    "frames": [
+     0.0,
+     42.0
+    ]
+   }
+  },
+  "Death": {
+   "name": "Death",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "distinct_from",
+    "end_pose",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "seam_in",
+    "terminal_pelvis_m"
+   ],
+   "props": {
+    "anim_id": "Death",
+    "loop": false,
+    "category": "状态与战斗流程",
+    "note": "死亡：失去支撑直接后倒（无跪姿段）→ 背/臀重摔（触地 4 帧冻结）→ 头/四肢二次落地（回弹）→ 沉降 → 尸僵稳定（零微动）。起点 = Idle_01@0 逐位，终点 = **仰卧尸体 Pose**（不是 E09 的伏地）",
+    "frame_bound_note": "★ 沿用 E01 登记的 E 族上界 120 帧 / 2.0 s",
+    "hitstop_frames": "land[26,30]（★ 单段重摔 ⟹ 只有一个窗口）",
+    "seam_in": "Idle_01@0",
+    "end_pose": "supine_corpse_zero_motion",
+    "terminal_pelvis_m": [
+     0.64,
+     0.141
+    ],
+    "root_motion_m": [
+     0.0,
+     0.64
+    ],
+    "distinct_from": "E09 Defeat（仰卧 vs 俯卧）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Defeat": {
+   "name": "Defeat",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "end_pose",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hitstop_frames",
+    "kneel_drop_mm",
+    "loop",
+    "note",
+    "root_motion_m",
+    "seam_in",
+    "terminal_pelvis_m"
+   ],
+   "props": {
+    "anim_id": "Defeat",
+    "loop": false,
+    "category": "状态与战斗流程",
+    "note": "战败：下沉跪落（膝触地 4 帧冻结）→ 跪姿失力 → 前扑伏地（触地 4 帧冻结）→ 伏地呼吸 2 周期。起点 = Idle_01@0 逐位，终点 = 稳定伏地 Pose（不是 Idle_01@0）",
+    "frame_bound_note": "★ 沿用 E01 登记的 E 族上界 120 帧 / 2.0 s",
+    "hitstop_frames": "knee[28,32] land[66,70]",
+    "seam_in": "Idle_01@0",
+    "end_pose": "stable_prone_grounded",
+    "kneel_drop_mm": 388.0,
+    "terminal_pelvis_m": [
+     -0.1,
+     0.108
+    ],
+    "root_motion_m": [
+     0.0,
+     -0.1
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Exhausted": {
+   "name": "Exhausted",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "bend_deg",
+    "breath_cycles",
+    "category",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hand_knee_max_mm",
+    "hitstop_frames",
+    "loop",
+    "loop_frames",
+    "note",
+    "root_motion_m",
+    "seam"
+   ],
+   "props": {
+    "anim_id": "Exhausted",
+    "loop": true,
+    "category": "状态与流程",
+    "note": "虚弱：迈步下沉 → 弯腰 74° 双手扶膝 → 重喘 2 周期 → 直身站架；hold 段双脚锁死（≤0.5 mm）",
+    "loop_frames": [
+     0.0,
+     120.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 0,
+    "bend_deg": 74.0,
+    "breath_cycles": 2.0,
+    "hand_knee_max_mm": 140.0,
+    "seam": "Idle_01@0",
+    "frame_bound_note": "★ 沿用 E01 登记的 120 帧 / 2.0 s 上界（循环状态）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "GetUp_B": {
+   "name": "GetUp_B",
+   "frame_range": [
+    0.0,
+    40.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "chest_up_frame",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "foot_set_frame",
+    "fps",
+    "frames",
+    "hand_off_frame",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "land_frame",
+    "legs_down_frame",
+    "loop",
+    "note",
+    "plant_frame",
+    "rise_mid_frame",
+    "root_motion_m",
+    "self_hold_frame",
+    "stand_frame",
+    "start_pose_ref",
+    "tuck_frame",
+    "warp_out_total",
+    "warp_src_total"
+   ],
+   "props": {
+    "anim_id": "GetUp_B",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "背面起身（仰卧 → 双掌在身侧/身后撑地推起 → 收腿 → 战斗站姿）：竖直通道**无弹道段**，骨盆**单调升 702 mm**；支点**背/臀 → 掌 → 脚**换两次；末帧**逐位 = `Idle_01@0`**（跨族接缝）；★ 时间轴经**路径保持重采样**（源 40 帧 → 输出 40 帧）",
+    "antic_frame": 4,
+    "hit_frame": "None",
+    "land_frame": 30,
+    "cancel_frame": 38,
+    "legs_down_frame": 4,
+    "plant_frame": 7,
+    "chest_up_frame": 11,
+    "hand_off_frame": 20,
+    "tuck_frame": 22,
+    "foot_set_frame": 30,
+    "rise_mid_frame": 34,
+    "stand_frame": 38,
+    "self_hold_frame": 38,
+    "warp_src_total": 40,
+    "warp_out_total": 40,
+    "hitstop_frames": 0,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     -0.47
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 0.83,
+    "end_vz_m_per_frame": 0.0,
+    "start_pose_ref": "Knockdown_B 帧 20（仰卧，脸朝上）",
+    "end_pose_ref": "Idle_01 帧 0（战斗站姿）",
+    "ballistic_ref": "无（★ 本支竖直通道不含弹道段）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     40.0
+    ]
+   }
+  },
+  "GetUp_F": {
+   "name": "GetUp_F",
+   "frame_range": [
+    0.0,
+    36.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "chest_up_frame",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "foot_set_frame",
+    "fps",
+    "frames",
+    "hand_off_frame",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "land_frame",
+    "loop",
+    "note",
+    "push_frame",
+    "rise_mid_frame",
+    "root_motion_m",
+    "self_hold_frame",
+    "stand_frame",
+    "start_pose_ref",
+    "tuck_frame"
+   ],
+   "props": {
+    "anim_id": "GetUp_F",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "正面起身（俯卧 → 双掌撑地推起 → 收腿 → 战斗站姿）：竖直通道**无弹道段**，骨盆**单调升 610 mm**；支点**掌 → 脚**只换一次；末帧**逐位 = `Idle_01@0`**（跨族接缝）",
+    "antic_frame": 4,
+    "hit_frame": "None",
+    "land_frame": 20,
+    "cancel_frame": 34,
+    "push_frame": 4,
+    "chest_up_frame": 6,
+    "hand_off_frame": 9,
+    "tuck_frame": 14,
+    "foot_set_frame": 20,
+    "rise_mid_frame": 27,
+    "stand_frame": 34,
+    "self_hold_frame": 34,
+    "hitstop_frames": 0,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.55
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 0.83,
+    "end_vz_m_per_frame": 0.0,
+    "start_pose_ref": "Knockdown_F 帧 20（俯卧，脸朝下）",
+    "end_pose_ref": "Idle_01 帧 0（战斗站姿）",
+    "ballistic_ref": "无（★ 本支竖直通道不含弹道段）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     36.0
+    ]
+   }
+  },
+  "Grab_Hold": {
+   "name": "Grab_Hold",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "breath_chest_deg",
+    "breath_finger_amp",
+    "breath_pelvis_z_mm",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "grab_frame",
+    "grab_hold_frame",
+    "grabbed_point_L_m",
+    "grabbed_point_R_m",
+    "hit_frame",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Grab_Hold",
+    "loop": true,
+    "category": "连招与特殊技",
+    "note": "抓住循环：接 `Grab_Start@54`（首末帧逐位一致）；双手位置逆解钉死在世界抓取点（漂移≤3 mm）；双腿逆解钉死踝世界目标；呼吸走胸腔前倾 + 骨盆竖向升降，手指做握力周期。",
+    "antic_frame": "None",
+    "hit_frame": "None",
+    "cancel_frame": "None",
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "Grab_Start@54",
+    "grab_frame": 28,
+    "grab_hold_frame": 31,
+    "grabbed_point_L_m": [
+     0.33535,
+     -1.373329,
+     1.136036
+    ],
+    "grabbed_point_R_m": [
+     -0.314644,
+     -1.374606,
+     1.134682
+    ],
+    "breath_pelvis_z_mm": 5.0,
+    "breath_chest_deg": 0.9,
+    "breath_finger_amp": 0.15,
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Grab_Start": {
+   "name": "Grab_Start",
+   "frame_range": [
+    0.0,
+    54.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "grab_frame",
+    "grab_hold_drift_max_mm",
+    "grab_hold_frame",
+    "grab_reach_ratio",
+    "grabbed_point_L_m",
+    "grabbed_point_R_m",
+    "grabbed_points_m",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Grab_Start",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "抓取：接 Heavy_01 可取消帧；双手回收张开 → 跨步突进 → 双手自身侧外抡到身前抓取点、手指合拢 → 命中 4 帧抓取停顿（髋继续前压 12 mm）→ 抓握保持（双手位置逆解钉死在世界抓取点）。Root Motion 前冲 0.450 m。下游 C05 `Grab_Hold` 直接引用 grabbed_points_m。",
+    "antic_frame": 20,
+    "hit_frame": 28,
+    "cancel_frame": 44,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     -0.45
+    ],
+    "grab_frame": 28,
+    "grab_hold_frame": 31,
+    "grabbed_points_m": [
+     "L",
+     "R"
+    ],
+    "grabbed_point_L_m": [
+     0.33535,
+     -1.373329,
+     1.136036
+    ],
+    "grabbed_point_R_m": [
+     -0.314644,
+     -1.374606,
+     1.134682
+    ],
+    "grab_reach_ratio": [
+     "L",
+     "R"
+    ],
+    "grab_hold_drift_max_mm": 3.0,
+    "hit_point_m": "None",
+    "fps": 60,
+    "frames": [
+     0.0,
+     54.0
+    ]
+   }
+  },
+  "Ground_Hit": {
+   "name": "Ground_Hit",
+   "frame_range": [
+    0.0,
+    20.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "bounce_peak_frame",
+    "cancel_frame",
+    "category",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "land_frame",
+    "loop",
+    "note",
+    "root_motion_m",
+    "self_hold_frame",
+    "settle_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Ground_Hit",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "地面受击（仰面躺地被补刀）：竖直通道**无弹道段**，骨盆 z 逐位固定；上身**局部弹起**走姿态层（单峰，峰位在 (HIT, SETTLE) 内部）；命中 2 帧上身停顿；腿层**抖一下再落下**",
+    "antic_frame": "None",
+    "hit_frame": 2,
+    "land_frame": "None",
+    "cancel_frame": 16,
+    "bounce_peak_frame": 6,
+    "settle_frame": 12,
+    "self_hold_frame": 16,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 0.128,
+    "end_vz_m_per_frame": 0.0,
+    "start_pose_ref": "Knockdown_B 帧 20（仰面贴地自持姿态）",
+    "end_pose_ref": "仰面贴地自持（与 D15 末帧同位；D18 GetUp_B 的起点）",
+    "ballistic_ref": "无（★ 本支竖直通道不含弹道段）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     20.0
+    ]
+   }
+  },
+  "Ground_Smash": {
+   "name": "Ground_Smash",
+   "frame_range": [
+    0.0,
+    60.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_arm_dirs",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Ground_Smash",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "地面砸击：首帧 = `Idle_01@0`（逐位）；双拳高举过顶再砸到身前地面；命停 4 帧 14 骨全冻；收招单向减速到「半蹲起势」。原地动作，无 Root Motion。",
+    "antic_frame": 20,
+    "hit_frame": 36,
+    "cancel_frame": 56,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "None",
+    "hit_point_m": [
+     "frame",
+     "fist_L_m",
+     "fist_R_m",
+     "fist_mid_m",
+     "fist_span_mm",
+     "pelvis_m"
+    ],
+    "end_pose_deg": [
+     "chest",
+     "head",
+     "neck",
+     "pelvis",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02"
+    ],
+    "end_arm_dirs": [
+     "forearm.L",
+     "forearm.R",
+     "hand.L",
+     "hand.R",
+     "upperarm.L",
+     "upperarm.R"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     60.0
+    ]
+   }
+  },
+  "Guard_Break": {
+   "name": "Guard_Break",
+   "frame_range": [
+    0.0,
+    60.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Guard_Break",
+    "loop": false,
+    "category": "防御",
+    "note": "破防：双臂被震开（横向外张 + 后收）、身体后仰、明显硬直；脚不动（零位 = D01 举防定格），0 命中点、0 位移",
+    "antic_frame": 4,
+    "hit_frame": 4,
+    "cancel_frame": 54,
+    "stagger_end_frame": 14,
+    "hitstop_frames": 10,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "D01 Guard_Start 末帧",
+    "end_pose_ref": "D01 Guard_Start 末帧（破防恢复后回到护架，可接 Guard_Loop）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     60.0
+    ]
+   }
+  },
+  "Guard_Hit": {
+   "name": "Guard_Hit",
+   "frame_range": [
+    0.0,
+    36.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "hold_end_frame",
+    "impact_frame",
+    "loop",
+    "note",
+    "recover_frame",
+    "root_motion_m",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Guard_Hit",
+    "loop": false,
+    "category": "防御",
+    "note": "防御受击：上身后仰、双臂被压回、脚不动（零位 = D01 举防定格），0 命中点、0 位移",
+    "impact_frame": 4,
+    "hold_end_frame": 6,
+    "recover_frame": 32,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "D01 Guard_Start 末帧",
+    "end_pose_ref": "D01 Guard_Start 末帧（回到护架，可接 Guard_Loop）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     36.0
+    ]
+   }
+  },
+  "Guard_Loop": {
+   "name": "Guard_Loop",
+   "frame_range": [
+    0.0,
+    72.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "fps",
+    "frames",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "press_peak_frame",
+    "root_motion_m",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Guard_Loop",
+    "loop": true,
+    "category": "防御",
+    "note": "防御：稳定循环，身体持续承受压力（零位 = D01 举防定格），0 命中点、0 位移",
+    "press_peak_frame": 36,
+    "hitstop_frames": 0,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "D01 Guard_Start 末帧",
+    "fps": 60,
+    "frames": [
+     0.0,
+     72.0
+    ]
+   }
+  },
+  "Guard_Start": {
+   "name": "Guard_Start",
+   "frame_range": [
+    0.0,
+    24.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "guard_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Guard_Start",
+    "loop": false,
+    "category": "防御",
+    "note": "举防：双臂快速挡住头胸（肘内收、拳分列脸两侧），0 命中点、0 位移",
+    "antic_frame": 5,
+    "guard_frame": 13,
+    "cancel_frame": 20,
+    "hitstop_frames": 0,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "end_pose_ref": "D02 Guard_Loop f0",
+    "fps": 60,
+    "frames": [
+     0.0,
+     24.0
+    ]
+   }
+  },
+  "Heavy_01": {
+   "name": "Heavy_01",
+   "frame_range": [
+    0.0,
+    48.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "amplitude_vs_b03",
+    "anim_id",
+    "antic_frame",
+    "burst_span_clock",
+    "cancel_frame",
+    "category",
+    "cross_step",
+    "follow_frame",
+    "follow_through",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "link_next",
+    "link_prev",
+    "loop",
+    "motion_clock_hold_frames",
+    "note",
+    "phase_path",
+    "power_chain_scale_note",
+    "punch_hand",
+    "root_motion_m",
+    "root_motion_note"
+   ],
+   "props": {
+    "anim_id": "Heavy_01",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "重拳（单发）：后手 R 明显后拉蓄力（重心后坐 28 mm、拳拉到身后胯侧340 mm / 肘弯 47.5°）→ 跨步 160 mm 轰拳（hit_frame 26，拳峰 0.96×臂长 出手）→ 身体随拳打透（命中后躯干 ry 继续前送，峰值在 clock 31）→ f26~f29 冻结 4 帧 → 回收停在前压姿态（末帧不回 idle）",
+    "antic_frame": 14,
+    "hit_frame": 26,
+    "cancel_frame": 36,
+    "follow_frame": 31,
+    "burst_span_clock": [
+     12.0,
+     26.0
+    ],
+    "hitstop_frames": 4,
+    "hitstop_span": [
+     26.0,
+     29.0
+    ],
+    "motion_clock_hold_frames": 3,
+    "punch_hand": "R",
+    "root_motion_m": [
+     0.0,
+     -0.076
+    ],
+    "root_motion_note": "跨步已烘进姿态：前脚前移 160 mm、骨盆净前移 76 mm（世界 −Y 为正面）。**引擎不得再叠加位移**，否则跨步会翻倍。清单 §0.4 已登记。",
+    "cross_step": [
+     "front_foot",
+     "front_step_mm",
+     "step_window_clock",
+     "rear_foot_move_mm",
+     "why"
+    ],
+    "amplitude_vs_b03": [
+     "fist_travel_mm",
+     "shoulder_sweep_deg",
+     "power_chain_six_segments"
+    ],
+    "follow_through": [
+     "window",
+     "peak_clock",
+     "why"
+    ],
+    "phase_path": [
+     "guard",
+     "chamber",
+     "strike",
+     "follow",
+     "end",
+     "burst_start",
+     "powers",
+     "why"
+    ],
+    "link_prev": "Idle_01@0（**首帧**逐位相等；起手不闪）",
+    "link_next": "末帧 = 自持前压姿态（不回 idle）⟹ 可直接接后摇/硬直；B05 起沿用这个范式",
+    "power_chain_scale_note": "出拳量级：时序判据 t_髋 ≤ t_肩 ≤ t_手（非 A10 蹬地尺子）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     48.0
+    ]
+   }
+  },
+  "Heavy_02": {
+   "name": "Heavy_02",
+   "frame_range": [
+    0.0,
+    52.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "amplitude_vs_b04",
+    "anim_id",
+    "antic_frame",
+    "burst_span_clock",
+    "cancel_frame",
+    "category",
+    "dual_arm_sync",
+    "follow_frame",
+    "follow_through",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "knee_drop",
+    "link_next",
+    "link_prev",
+    "loop",
+    "motion_clock_hold_frames",
+    "note",
+    "phase_path",
+    "power_chain_scale_note",
+    "root_motion_m",
+    "root_motion_note",
+    "strike_style"
+   ],
+   "props": {
+    "anim_id": "Heavy_02",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "重击（双手锤击）：双拳过顶（拳峰 z 峰值 >1450 mm）+ 屈膝下沉 78 mm → 双臂合力下砸（hit_frame 26，命中拳峰 z < 900 mm，打在腰以下）→ 躯干继续前折打透（峰值 clock 31）→ f26~f29 冻结 4 帧 → 回收停在身前下方的「砸完」姿态（末帧不回 idle）",
+    "antic_frame": 14,
+    "hit_frame": 26,
+    "cancel_frame": 38,
+    "follow_frame": 31,
+    "burst_span_clock": [
+     14.0,
+     26.0
+    ],
+    "hitstop_frames": 4,
+    "hitstop_span": [
+     26.0,
+     29.0
+    ],
+    "motion_clock_hold_frames": 3,
+    "strike_style": "dual_overhead_hammer",
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_note": "**原地**（清单 §0.4：普通攻击不许 Root Motion）。本支没有跨步，只有骨盆 z 下沉；引擎位移由程序控制",
+    "knee_drop": [
+     "pelvis_drop_mm",
+     "feet_travel_mm",
+     "why"
+    ],
+    "amplitude_vs_b04": [
+     "fist_travel_mm",
+     "shoulder_sweep_deg",
+     "fist_height_span_mm",
+     "power_chain_six_segments"
+    ],
+    "follow_through": [
+     "window",
+     "peak_clock",
+     "channel",
+     "why"
+    ],
+    "phase_path": [
+     "guard",
+     "apex",
+     "strike",
+     "follow",
+     "end",
+     "burst_start",
+     "powers",
+     "why"
+    ],
+    "dual_arm_sync": "双拳 z 差 ≤40（命中帧 ≤30）+ 双臂峰值帧差 ≤1 帧",
+    "link_prev": "Idle_01@0（**首帧**逐位相等；起手不闪）",
+    "link_next": "末帧 = 自持「砸完」姿态（不回 idle）⟹ 可直接接后摇/硬直；B06 起沿用这个范式",
+    "power_chain_scale_note": "出拳量级：时序判据 t_髋 ≤ t_肩 ≤ t_手（非 A10 蹬地尺子）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     52.0
+    ]
+   }
+  },
+  "Hit_Body": {
+   "name": "Hit_Body",
+   "frame_range": [
+    0.0,
+    38.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Hit_Body",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "腹部受击：中段受力，躯干前折（脊柱递减分工）+ 头颈滞后（头峰晚于胸峰 ≥2 帧、回落段反向回补）；髋后移+下沉、脚全程钉住、膝被动吸收；末帧逐位回零位（含位置）",
+    "antic_frame": 0,
+    "hit_frame": 3,
+    "cancel_frame": 30,
+    "stagger_end_frame": 6,
+    "hitstop_frames": 3,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0（**逐位回原位**）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     38.0
+    ]
+   }
+  },
+  "Hit_Head": {
+   "name": "Hit_Head",
+   "frame_range": [
+    0.0,
+    34.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Hit_Head",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "头部受击：局部受力，躯干清 0、只头颈后甩（neck : head = 1 : 0.35），峰值后反向过冲 8~12% 再微抖归零；腿无步态、脚全程钉住；末帧逐位回零位（含位置）",
+    "antic_frame": 0,
+    "hit_frame": 3,
+    "cancel_frame": 30,
+    "stagger_end_frame": 6,
+    "hitstop_frames": 3,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0（**逐位回原位**）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     34.0
+    ]
+   }
+  },
+  "Hit_Heavy_B": {
+   "name": "Hit_Heavy_B",
+   "frame_range": [
+    0.0,
+    42.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref",
+    "step_back_m"
+   ],
+   "props": {
+    "anim_id": "Hit_Heavy_B",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "背面重受击：大幅前折 + 头前甩 + **迈 1 步**（迈步脚 L 世界前移 0.387 m 带离地弧、蹭地脚 R 只前蹭）；骨盆被推走 0.25 m（root_motion 为负）；拳被往前/外带开但双臂保持防御形状；末帧躯干+臂逐位回零位形状、脚站新站位",
+    "antic_frame": 0,
+    "hit_frame": 4,
+    "cancel_frame": 34,
+    "stagger_end_frame": 8,
+    "hitstop_frames": 4,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     -0.25
+    ],
+    "hit_point_m": "None",
+    "step_back_m": 0.387,
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0 的**姿态形状** + 整体前移 0.250 m（新站位）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     42.0
+    ]
+   }
+  },
+  "Hit_Heavy_F": {
+   "name": "Hit_Heavy_F",
+   "frame_range": [
+    0.0,
+    42.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref",
+    "step_back_m"
+   ],
+   "props": {
+    "anim_id": "Hit_Heavy_F",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "正面重受击：大幅后仰 + 头后甩 + **退 1 步**（后脚后移 0.387 m 带离地弧、前脚只蹭）；骨盆被推走 0.25 m（root_motion）；拳被往后/外带开但双臂保持防御形状；末帧躯干+臂逐位回零位形状、脚站新站位",
+    "antic_frame": 0,
+    "hit_frame": 4,
+    "cancel_frame": 34,
+    "stagger_end_frame": 8,
+    "hitstop_frames": 4,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.25
+    ],
+    "hit_point_m": "None",
+    "step_back_m": 0.387,
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0 的**姿态形状** + 整体后移 0.250 m（新站位）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     42.0
+    ]
+   }
+  },
+  "Hit_Leg": {
+   "name": "Hit_Leg",
+   "frame_range": [
+    0.0,
+    38.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Hit_Leg",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "腿部受击：下盘先动（骨盆侧移+侧倾往受力侧、受力侧膝被动屈曲），上身由 sway 滞后带动（命中帧反向、峰值晚于骨盆 ≥2 帧、回落反向回补）；脚全程钉住；末帧逐位回零位（含位置）",
+    "antic_frame": 0,
+    "hit_frame": 3,
+    "cancel_frame": 30,
+    "stagger_end_frame": 6,
+    "hitstop_frames": 3,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0（**逐位回原位**）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     38.0
+    ]
+   }
+  },
+  "Hit_Light_B": {
+   "name": "Hit_Light_B",
+   "frame_range": [
+    0.0,
+    24.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Hit_Light_B",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "背面轻受击：头/胸小幅前折 + 躯干轻微偏转侧移，快速恢复；拳被往前/外带走（不后收）、双臂保持防御形状、脚不动、膝几乎不弯；0 命中点、0 位移",
+    "antic_frame": 0,
+    "hit_frame": 3,
+    "cancel_frame": 18,
+    "stagger_end_frame": 5,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0（受击结束回到战斗待机，可接 Idle_01 / Idle_02）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     24.0
+    ]
+   }
+  },
+  "Hit_Light_F": {
+   "name": "Hit_Light_F",
+   "frame_range": [
+    0.0,
+    24.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_ref",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Hit_Light_F",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "正面轻受击：头/胸小幅后仰 + 躯干轻微偏转侧移，快速恢复；双臂保持防御形状、脚不动、膝几乎不弯；0 命中点、0 位移",
+    "antic_frame": 0,
+    "hit_frame": 3,
+    "cancel_frame": 18,
+    "stagger_end_frame": 5,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "Idle_01 帧 0（受击结束回到战斗待机，可接 Idle_01 / Idle_02）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     24.0
+    ]
+   }
+  },
+  "Idle_01": {
+   "name": "Idle_01",
+   "frame_range": [
+    0.0,
+    180.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "fps",
+    "frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Idle_01",
+    "loop": true,
+    "category": "基础移动",
+    "note": "战斗待机：宽站低重心，拳护胸前，胸腹呼吸，脚不动",
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     180.0
+    ]
+   }
+  },
+  "Idle_02": {
+   "name": "Idle_02",
+   "frame_range": [
+    0.0,
+    210.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "fps",
+    "frames",
+    "loop",
+    "note",
+    "returns_at_breath",
+    "returns_to",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Idle_02",
+    "loop": false,
+    "category": "基础移动",
+    "note": "待机变化：转头 → 捏拳 → 甩肩 → 收势，首末帧回到 Idle_01 呼气末",
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "returns_to": "Idle_01",
+    "returns_at_breath": 0.0,
+    "fps": 60,
+    "frames": [
+     0.0,
+     210.0
+    ]
+   }
+  },
+  "Jump_Fall": {
+   "name": "Jump_Fall",
+   "frame_range": [
+    0.0,
+    24.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pelvis_z_m",
+    "end_vertical_speed_mps",
+    "fall_m",
+    "fps",
+    "frames",
+    "ground_contact_skipped",
+    "hit_frame",
+    "hitstop_frames",
+    "link_next",
+    "link_prev",
+    "loop",
+    "note",
+    "power_chain_scale_note",
+    "root_motion_m",
+    "start_pelvis_z_m",
+    "start_vertical_speed_mps"
+   ],
+   "props": {
+    "anim_id": "Jump_Fall",
+    "loop": false,
+    "category": "基础移动",
+    "note": "下落：接 Jump_Up@12（离散顶点）的同一解析弹道，24 帧落 813 mm、末帧竖速 -65.2 mm/帧；双腿由收展开（竖距 L +142 / R +150 mm）寻找落点、脚背略勾；双臂从护体架势外张到体侧；屈膝留给 A13",
+    "antic_frame": "None",
+    "hit_frame": "None",
+    "cancel_frame": "None",
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "start_pelvis_z_m": 1.952889,
+    "end_pelvis_z_m": 1.139556,
+    "fall_m": 0.8133,
+    "start_vertical_speed_mps": -0.155,
+    "end_vertical_speed_mps": -3.9117,
+    "link_prev": "A11 Jump_Up@12（弹道离散顶点）",
+    "link_next": "A13 Jump_Land（从末帧的 -65.2 mm/帧 继续，接触后屈膝吸收）",
+    "ground_contact_skipped": "全段离地",
+    "power_chain_scale_note": "空中无地面反力：thigh/shin 判据取'可见'下限 3°，A13 落地时必须换回 A10 的蹬地尺子",
+    "fps": 60,
+    "frames": [
+     0.0,
+     24.0
+    ]
+   }
+  },
+  "Jump_Land": {
+   "name": "Jump_Land",
+   "frame_range": [
+    0.0,
+    30.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "absorb_depth_m",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "deepest_pelvis_z_m",
+    "end_pelvis_z_m",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "impact_speed_mps",
+    "landing_impact_mps",
+    "link_next",
+    "link_prev",
+    "loop",
+    "note",
+    "planted_z_off_mm",
+    "power_chain_scale_note",
+    "root_motion_m",
+    "touch_frame"
+   ],
+   "props": {
+    "anim_id": "Jump_Land",
+    "loop": false,
+    "category": "基础移动",
+    "note": "落地：接 Jump_Fall@24 的 76 mm/帧 冲击，帧 4 触地（鞋底到 0）、命中停顿 3 帧、屈膝吸收（骨盆再沉 226 mm 到 626 mm）、上身被惯性压折 9°→31°，随后收回战斗站姿（末帧逐位 = Idle_01@0）",
+    "antic_frame": "None",
+    "hit_frame": 4,
+    "cancel_frame": 17,
+    "hitstop_frames": 3,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "touch_frame": 4,
+    "hitstop_span": [
+     4.0,
+     6.0
+    ],
+    "impact_speed_mps": -4.565,
+    "landing_impact_mps": 9.13,
+    "absorb_depth_m": 0.2256,
+    "deepest_pelvis_z_m": 0.626,
+    "end_pelvis_z_m": 0.8299999833106995,
+    "link_prev": "A12 Jump_Fall@24（末帧竖速 −65.2 mm/帧）",
+    "link_next": "A01 Idle_01@0（末帧逐位相等）→ B 族普通攻击",
+    "planted_z_off_mm": [
+     "L",
+     "R"
+    ],
+    "power_chain_scale_note": "落地有真实地面反力：换回 A10 的蹬地尺子（≥15°）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     30.0
+    ]
+   }
+  },
+  "Jump_Start": {
+   "name": "Jump_Start",
+   "frame_range": [
+    0.0,
+    36.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "apex_rise_m",
+    "cancel_frame",
+    "category",
+    "crouch_drop_m",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "launch_frames",
+    "launch_rise_m",
+    "link_next",
+    "loop",
+    "note",
+    "root_motion_m",
+    "takeoff_frame",
+    "takeoff_pelvis_z_m",
+    "takeoff_speed_mps"
+   ],
+   "props": {
+    "anim_id": "Jump_Start",
+    "loop": false,
+    "category": "基础移动",
+    "note": "起跳：反向预备 → 深蹲蓄力 210 mm → 绕鞋底前端碾地爆发（6 帧幂律 τ^1.5 升 300 mm，起跳初速 4.50 m/s）→ 离地后按弹道继续",
+    "antic_frame": 14,
+    "hit_frame": "None",
+    "cancel_frame": "None",
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "crouch_drop_m": 0.21,
+    "launch_frames": 6,
+    "launch_rise_m": 0.3,
+    "takeoff_frame": 20,
+    "takeoff_pelvis_z_m": 0.92,
+    "takeoff_speed_mps": 4.5,
+    "apex_rise_m": 1.0332,
+    "link_next": "A11 Jump_Up（从 f36 的 82.4% 弹道高度继续上升到顶点）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     36.0
+    ]
+   }
+  },
+  "Jump_Up": {
+   "name": "Jump_Up",
+   "frame_range": [
+    0.0,
+    12.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "apex_rise_from_takeoff_m",
+    "cancel_frame",
+    "category",
+    "end_pelvis_z_m",
+    "end_vertical_speed_mps",
+    "fps",
+    "frames",
+    "ground_contact_skipped",
+    "hit_frame",
+    "hitstop_frames",
+    "link_next",
+    "link_prev",
+    "loop",
+    "note",
+    "power_chain_scale_note",
+    "rise_m",
+    "root_motion_m",
+    "start_pelvis_z_m",
+    "start_vertical_speed_mps"
+   ],
+   "props": {
+    "anim_id": "Jump_Up",
+    "loop": false,
+    "category": "基础移动",
+    "note": "空中上升：接 Jump_Start@36 的弹道（还剩 11.55 帧到顶点），骨盆继续升 181 mm、竖速 1.887 → 0 m/s；双腿续收（膝弯 +12°）、双臂从前上高位收到体侧护体架势（55%）；末帧即离散顶点",
+    "antic_frame": "None",
+    "hit_frame": "None",
+    "cancel_frame": "None",
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "rise_m": 0.1813,
+    "start_pelvis_z_m": 1.771556,
+    "end_pelvis_z_m": 1.952889,
+    "start_vertical_speed_mps": 1.805,
+    "end_vertical_speed_mps": 0.0083,
+    "apex_rise_from_takeoff_m": 1.0332,
+    "link_prev": "A10 Jump_Start@36",
+    "link_next": "A12 Jump_Fall（从顶点 0 m/s 开始下落）",
+    "ground_contact_skipped": "全段离地",
+    "power_chain_scale_note": "空中无地面反力：thigh/shin 判据取'可见'下限 3°，A10 的 15° 是蹬地展开的量",
+    "fps": 60,
+    "frames": [
+     0.0,
+     12.0
+    ]
+   }
+  },
+  "Knockdown_Attack": {
+   "name": "Knockdown_Attack",
+   "frame_range": [
+    0.0,
+    54.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "amplitude_baseline",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Knockdown_Attack",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "击倒技：接 Heavy_01 可取消帧，后手高举过头后方蓄力 → 跨步前冲 + 屈膝沉髋 → 斜下劈到身前膝高，力向**向下 + 向前**；命中 4 帧爆发停顿（髋继续前压 30 mm）；Root Motion 前冲 0.250 m",
+    "antic_frame": 20,
+    "hit_frame": 32,
+    "cancel_frame": 44,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     -0.64
+    ],
+    "amplitude_baseline": [
+     "combo_finish_z_drop_mm",
+     "combo_finish_z_drop_rel_mm",
+     "combo_finish_fwd_mm",
+     "combo_finish_fwd_ratio_net",
+     "launcher_fwd_ratio_net"
+    ],
+    "hit_point_m": "None",
+    "fps": 60,
+    "frames": [
+     0.0,
+     54.0
+    ]
+   }
+  },
+  "Knockdown_B": {
+   "name": "Knockdown_B",
+   "frame_range": [
+    0.0,
+    20.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "compress_peak_frame",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "land_frame",
+    "loop",
+    "note",
+    "root_motion_m",
+    "self_hold_frame",
+    "start_pose_ref",
+    "supine_peak_frame"
+   ],
+   "props": {
+    "anim_id": "Knockdown_B",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "后倒（背面倒地）：前段沿用共享解析弹道，触地帧后换落地曲线（骨盆 z 单调不升、末端固定）；后倒俯仰走姿态层（**负值**）；触地 2 帧上身停顿；`f ≥ LAND` 双腿**抬起**（随髋 + 绝对抬高）",
+    "antic_frame": 0,
+    "hit_frame": 7,
+    "land_frame": 7,
+    "cancel_frame": 16,
+    "compress_peak_frame": 11,
+    "supine_peak_frame": 15,
+    "self_hold_frame": 16,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.444
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 0.128,
+    "end_vz_m_per_frame": 0.0,
+    "start_pose_ref": "Air_Hit 帧 18（空中自持姿态）",
+    "end_pose_ref": "后倒仰面躺地（贴地自持；D16 Ground_Hit / D18 GetUp_B 的起点）",
+    "ballistic_ref": "anim_jump_start.TAKEOFF_PELVIS_Z/TAKEOFF_SPEED + anim_jump_fall.G_PER_FRAME（相位续 D13 f18）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     20.0
+    ]
+   }
+  },
+  "Knockdown_F": {
+   "name": "Knockdown_F",
+   "frame_range": [
+    0.0,
+    20.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "compress_peak_frame",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "land_frame",
+    "loop",
+    "note",
+    "prone_peak_frame",
+    "root_motion_m",
+    "self_hold_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Knockdown_F",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "前倒（正面倒地）：前段沿用共享解析弹道，触地帧后换落地曲线（骨盆 z 单调不升、末端固定）；前倒俯仰走姿态层；触地 2 帧上身停顿；双脚 `f ≥ LAND` 钉在固定世界足迹上（不滑）",
+    "antic_frame": 0,
+    "hit_frame": 7,
+    "land_frame": 7,
+    "cancel_frame": 16,
+    "compress_peak_frame": 11,
+    "prone_peak_frame": 15,
+    "self_hold_frame": 16,
+    "hitstop_frames": 2,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     -0.576
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 0.22,
+    "end_vz_m_per_frame": 0.0,
+    "start_pose_ref": "Air_Hit 帧 18（空中自持姿态）",
+    "end_pose_ref": "前倒趴地（贴地自持；D15/D16/D17 的起点）",
+    "ballistic_ref": "anim_jump_start.TAKEOFF_PELVIS_Z/TAKEOFF_SPEED + anim_jump_fall.G_PER_FRAME（相位续 D13 f18）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     20.0
+    ]
+   }
+  },
+  "Launch_Hit": {
+   "name": "Launch_Hit",
+   "frame_range": [
+    0.0,
+    34.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "air_entry_frame",
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "self_hold_frame",
+    "stagger_end_frame",
+    "start_pose_ref"
+   ],
+   "props": {
+    "anim_id": "Launch_Hit",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "被击飞：腰部首先受力（骨盆被顶起 + 世界后仰领先），上身滞后后折；f12 起骨盆 z = 共享解析弹道（同 A10/A11/A12/B08）；水平不烘位移；末 9 帧定格自持（刚性平移；f25 起）",
+    "antic_frame": 0,
+    "hit_frame": 3,
+    "cancel_frame": 30,
+    "stagger_end_frame": 6,
+    "air_entry_frame": 12,
+    "self_hold_frame": 25,
+    "hitstop_frames": 3,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hit_point_m": "None",
+    "end_pelvis_z_m": 1.931938,
+    "end_vz_m_per_frame": -0.01075,
+    "ballistic_ref": "anim_jump_start.TAKEOFF_PELVIS_Z/TAKEOFF_SPEED + anim_jump_fall.G_PER_FRAME（同一解析弹道，相位 T_ORIGIN=2.50）",
+    "start_pose_ref": "Idle_01 帧 0（战斗待机）",
+    "end_pose_ref": "空中定格（**不回原位**；落在共享弹道上）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     34.0
+    ]
+   }
+  },
+  "Launcher": {
+   "name": "Launcher",
+   "frame_range": [
+    0.0,
+    52.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "amplitude_baseline",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Launcher",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "击飞技：接 Heavy_01 可取消帧，深蹲蓄力 → 双踮脚蹬伸 → 后手上挑贯拳至头顶前上方，4 帧爆发停顿，Root Motion 前冲 0.200 m；纵向幅度 ≥ 最强地面普通攻击（Uppercut）",
+    "antic_frame": 18,
+    "hit_frame": 30,
+    "cancel_frame": 42,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     -0.2
+    ],
+    "amplitude_baseline": [
+     "pelvis_z_rise_mm",
+     "fist_z_rise_mm",
+     "fist_z_peak_mm"
+    ],
+    "hit_point_m": "None",
+    "fps": 60,
+    "frames": [
+     0.0,
+     52.0
+    ]
+   }
+  },
+  "Light_01": {
+   "name": "Light_01",
+   "frame_range": [
+    0.0,
+    18.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "link_next",
+    "link_prev",
+    "loop",
+    "motion_clock_hold_frames",
+    "note",
+    "power_chain_scale_note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Light_01",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "轻拳1 前手直拳：clock 0~6 肘 143°→13.7° 加速伸出（峰值步长在末帧），躯干/肩带反向预备 + 上臂 rz 反向偏移造「拳略后收」（收肘做不到，见文件头 1c），f6 命中（共线比 ≥0.92）、f6~f7 冻结 2 帧、f7~f18 单调衰减收回护体架势",
+    "antic_frame": 4,
+    "hit_frame": 6,
+    "cancel_frame": 10,
+    "hitstop_frames": 2,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_span": [
+     6.0,
+     7.0
+    ],
+    "motion_clock_hold_frames": 1,
+    "link_prev": "Idle_01@0（首帧逐位相等）",
+    "link_next": "Idle_01@0（末帧逐位相等）→ B02 Light_02 后手横拳",
+    "power_chain_scale_note": "出拳量级：时序判据 t_髋 ≤ t_肩 ≤ t_手（非 A10 蹬地尺子）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     18.0
+    ]
+   }
+  },
+  "Light_02": {
+   "name": "Light_02",
+   "frame_range": [
+    0.0,
+    22.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "link_next",
+    "link_prev",
+    "loop",
+    "motion_clock_hold_frames",
+    "note",
+    "power_chain_scale_note",
+    "punch_hand",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Light_02",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "轻拳2 后手横拳：clock 0~8 后手横摆过身体中线（肘 → 近乎伸直，峰值步长在末帧），髋/胸先反向扭 −16/−21° 再前送 +16/+21°（肩髋联动），上臂 rz 反向预载造「拳后收」，f8 命中（横向位移 ≥320 mm）、f8~f10 冻结 **3 帧**、f10~f22 单调衰减收回护体架势",
+    "antic_frame": 5,
+    "hit_frame": 8,
+    "cancel_frame": 13,
+    "hitstop_frames": 3,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_span": [
+     8.0,
+     10.0
+    ],
+    "motion_clock_hold_frames": 2,
+    "punch_hand": "R",
+    "link_prev": "Idle_01@0（首帧逐位相等；接 B01 Light_01 末帧）",
+    "link_next": "Idle_01@0（末帧逐位相等）→ B03 Light_03 重摆拳/勾拳",
+    "power_chain_scale_note": "出拳量级：时序判据 t_髋 ≤ t_肩 ≤ t_手（非 A10 蹬地尺子）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     22.0
+    ]
+   }
+  },
+  "Light_03": {
+   "name": "Light_03",
+   "frame_range": [
+    0.0,
+    26.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "amplitude_vs_b02",
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "knockback",
+    "link_next",
+    "link_prev",
+    "loop",
+    "motion_clock_hold_frames",
+    "note",
+    "power_chain_scale_note",
+    "punch_hand",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Light_03",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "轻拳3 重摆拳/勾拳·连击终结：clock 0~10 前手摆拳过身体中线到对侧（行程最大），髋/胸先反向扭 +9/+9° 再前送 −14/−14°（肩髋联动），上臂 rz 反向预载 13° 造「拳后收」撑大行程，f10 命中（前伸 636.5 mm / 横向 383.3 mm，均 > B02）、f10~f13 冻结 **4 帧**（上限）、f13~f26 单调衰减收回护体架势",
+    "antic_frame": 6,
+    "hit_frame": 10,
+    "cancel_frame": 17,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_span": [
+     10.0,
+     13.0
+    ],
+    "motion_clock_hold_frames": 3,
+    "punch_hand": "L",
+    "amplitude_vs_b02": [
+     "fist_travel_mm",
+     "shoulder_sweep_deg",
+     "hit_reach_mm",
+     "lateral_mm"
+    ],
+    "knockback": [
+     "type",
+     "applied_by_engine",
+     "push_frames",
+     "suggested_m",
+     "formula",
+     "note"
+    ],
+    "link_prev": "Idle_01@0（首帧逐位相等；接 B02 Light_02 末帧）",
+    "link_next": "Idle_01@0（末帧逐位相等）→ B04 Heavy_01 重拳（单发，允许不回 idle）",
+    "power_chain_scale_note": "出拳量级：时序判据 t_髋 ≤ t_肩 ≤ t_手（非 A10 蹬地尺子）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     26.0
+    ]
+   }
+  },
+  "Low_Attack": {
+   "name": "Low_Attack",
+   "frame_range": [
+    0.0,
+    46.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "attack_leg",
+    "burst_span_clock",
+    "cancel_frame",
+    "category",
+    "follow_frame",
+    "follow_through",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "knee_drop",
+    "leg_amplitude",
+    "link_next",
+    "link_prev",
+    "loop",
+    "low_height",
+    "motion_clock_hold_frames",
+    "note",
+    "phase_path",
+    "power_chain_scale_note",
+    "root_motion_m",
+    "root_motion_note",
+    "strike_style",
+    "support_foot_pinned",
+    "support_leg",
+    "upper_body_balance"
+   ],
+   "props": {
+    "anim_id": "Low_Attack",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "下段攻击（前腿低踢）：攻击腿后压 220 mm 做反向预备 → 抬腿前引（膝抬到 z≈690 mm）→ 小腿甩出（hit_frame 20，命中踝 z ≈425 mm，**低于腰线 290 mm**）→ 上身反向配重并继续后仰打透 → f20~f23 冻结 4 帧 → 收腿落地停在自持「收势」（末帧不回 idle）",
+    "antic_frame": 10,
+    "hit_frame": 20,
+    "cancel_frame": 30,
+    "follow_frame": 25,
+    "burst_span_clock": [
+     10.0,
+     20.0
+    ],
+    "hitstop_frames": 4,
+    "hitstop_span": [
+     20.0,
+     23.0
+    ],
+    "motion_clock_hold_frames": 3,
+    "strike_style": "front_leg_low_kick",
+    "support_leg": "R",
+    "attack_leg": "L",
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_note": "**原地**（清单 §0.4：普通攻击不许 Root Motion，C 族起才允许）。本支没有跨步，只有骨盆下沉 + 20 mm 后移；引擎位移由程序控制",
+    "support_foot_pinned": [
+     "ankle_travel_mm",
+     "sole_mm",
+     "attack_leg_excluded",
+     "why"
+    ],
+    "low_height": [
+     "rule",
+     "pelvis_z_mm",
+     "pelvis_drop_mm"
+    ],
+    "leg_amplitude": [
+     "path_len_mm",
+     "chord_mm",
+     "hip_sweep_deg"
+    ],
+    "upper_body_balance": [
+     "rule",
+     "why"
+    ],
+    "knee_drop": [
+     "pelvis_drop_mm",
+     "pelvis_xy_mm",
+     "support_foot_mm"
+    ],
+    "follow_through": [
+     "window",
+     "peak_clock",
+     "channel",
+     "why"
+    ],
+    "phase_path": [
+     "guard",
+     "load",
+     "chamber",
+     "strike",
+     "follow",
+     "end",
+     "powers",
+     "why"
+    ],
+    "power_chain_scale_note": "B06 口径：foot / leg 两段（与 B05 同一物理量）**严格要求 > B05**（23.53 / 44.91）；其余四段（hip/waist/shoulder/hand）在 B05 里是锤击的躯干折叠与手腕翻转挣来的，与踢腿不是同一物理量 ⟹ 改为非退化（≥3°）+ 时序 + 攻击肢体占优（> 支撑腿 ×1.5）。**换尺子，不是放宽**：六段数值全部照实列出（power_chain_vs_b05）",
+    "link_prev": "Idle_01@0（**首帧**逐位相等；起手不闪）",
+    "link_next": "末帧 = 自持「收势」姿态（收腿落地站稳、骨盆仍沉 40 mm，不回 idle）⟹ 可直接接后摇/硬直",
+    "fps": 60,
+    "frames": [
+     0.0,
+     46.0
+    ]
+   }
+  },
+  "Rage": {
+   "name": "Rage",
+   "frame_range": [
+    0.0,
+    96.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hit_frame",
+    "hit_frames",
+    "hit_point_m",
+    "hitstop_frames",
+    "hitstop_windows",
+    "loop",
+    "note",
+    "root_motion_m",
+    "seam",
+    "view_note"
+   ],
+   "props": {
+    "anim_id": "Rage",
+    "loop": false,
+    "category": "状态与流程",
+    "note": "狂暴起手：下沉含胸蓄力 → 双拳捶胸（2 次，各定格 3 帧）→ 仰头怒吼（后仰峰值）→ 收势回战斗架势；全程锁踝不迈步",
+    "frames": [
+     0.0,
+     96.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 3,
+    "hitstop_windows": [
+     "<bpy id property array [2]>",
+     "<bpy id property array [2]>"
+    ],
+    "antic_frame": 20,
+    "hit_frame": 28,
+    "hit_frames": [
+     28.0,
+     52.0
+    ],
+    "cancel_frame": 66,
+    "hit_point_m": "None",
+    "seam": "Idle_01@0",
+    "frame_bound_note": "★ 96 帧 = 1.6 s，**短于** E01 登记的 120 帧 / 2.0 s 上界 ⟹ 沿用合规（显式声明，不是悄悄超）",
+    "view_note": "★ 本支**双机位**：正面 = 捶胸（横向 X），侧视 = 仰头（矢状面 YZ）；两条尺子各占一个机位，**新立并登记**",
+    "fps": 60
+   }
+  },
+  "Revive": {
+   "name": "Revive",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "distinct_from",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "half_kneel_frame",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "seam_in",
+    "seam_out"
+   ],
+   "props": {
+    "anim_id": "Revive",
+    "loop": false,
+    "category": "状态与战斗流程",
+    "note": "复活：从 Death 末姿（仰卧尸僵）撑起 → 收腿半跪（4 帧停顿）→ 站起 → 收回 Idle_01@0。★ 全链唯一一次首尾闭合。",
+    "frame_bound_note": "★ 沿用 E01 登记的 E 族上界 120 帧 / 2.0 s",
+    "hitstop_frames": "none（非攻击动作 ⟹ 无命中帧；代之以半跪 4 帧停顿）",
+    "seam_in": "Death@120（E10 末姿，逐位）",
+    "seam_out": "Idle_01@0（A01 站架，逐位）",
+    "half_kneel_frame": 74,
+    "root_motion_m": [
+     0.0,
+     -0.64
+    ],
+    "distinct_from": "D18 GetUp_B（姿态分界：半跪姿 vs D18 全帧 ≥15°）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Run": {
+   "name": "Run",
+   "frame_range": [
+    0.0,
+    48.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "fps",
+    "frames",
+    "locomotion_mps",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stance_ratio",
+    "stance_slide_m",
+    "step_length_m"
+   ],
+   "props": {
+    "anim_id": "Run",
+    "loop": true,
+    "category": "基础移动",
+    "note": "奔跑：前压、有腾空、单脚跨度 0.78m、2.75 m/s；原地动画，位移由程序给",
+    "locomotion_mps": 2.75,
+    "step_length_m": 1.1,
+    "stance_slide_m": 0.7792,
+    "stance_ratio": 0.3542,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     48.0
+    ]
+   }
+  },
+  "Run_Stop": {
+   "name": "Run_Stop",
+   "frame_range": [
+    0.0,
+    54.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "entry_speed_mps",
+    "exit_speed_mps",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Run_Stop",
+    "loop": false,
+    "category": "基础移动",
+    "note": "急停：后脚前跨制动 + 前脚收回，骨盆前冲 74 mm 后拉回；支撑脚世界钉死（≤3 mm）",
+    "entry_speed_mps": 2.75,
+    "exit_speed_mps": 0.0,
+    "antic_frame": "None",
+    "hit_frame": "None",
+    "cancel_frame": 34,
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     54.0
+    ]
+   }
+  },
+  "Skill_01": {
+   "name": "Skill_01",
+   "frame_range": [
+    0.0,
+    96.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_arm_dirs",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_side",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "root_motion_m",
+    "segments"
+   ],
+   "props": {
+    "anim_id": "Skill_01",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "肩撞：起步 8f → 加速前冲 28f（Root Motion 560 mm）→ 命中（左肩为命中点）→ 命停 4 帧 14 骨全冻、骨盆继续前压 → 收招单向减速回「战斗待机」。",
+    "antic_frame": 8,
+    "hit_frame": 36,
+    "cancel_frame": 92,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     -0.545
+    ],
+    "inherit_from": "None",
+    "segments": [
+     "start",
+     "dash",
+     "hold",
+     "recover"
+    ],
+    "hit_side": "L",
+    "hit_point_m": [
+     "frame",
+     "side",
+     "shoulder_m",
+     "fist_L_m",
+     "fist_R_m",
+     "shoulder_lead_mm",
+     "pelvis_m",
+     "head_m",
+     "contact_m",
+     "rivals_m"
+    ],
+    "end_pose_deg": [
+     "chest",
+     "head",
+     "neck",
+     "pelvis",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02"
+    ],
+    "end_arm_dirs": [
+     "upperarm.L",
+     "forearm.L",
+     "hand.L",
+     "upperarm.R",
+     "forearm.R",
+     "hand.R"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     96.0
+    ]
+   }
+  },
+  "Skill_02": {
+   "name": "Skill_02",
+   "frame_range": [
+    0.0,
+    114.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "carry_point_m",
+    "category",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "grab_point_m",
+    "hit_frame",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "root_motion_m",
+    "segments",
+    "slam_point_m",
+    "victim_anchor_m"
+   ],
+   "props": {
+    "anim_id": "Skill_02",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "抱摔：抓取 → 抱起（指尖抬升 680 mm）→ 顶住 → 砸地（对手落点 z = 350 mm）→ 命停 3 帧 → 收招回「战斗待机」；受招方锚点三相位登记。",
+    "antic_frame": 3,
+    "hit_frame": 68,
+    "cancel_frame": 110,
+    "hitstop_frames": 3,
+    "root_motion_m": [
+     0.0,
+     -0.38
+    ],
+    "inherit_from": "None",
+    "segments": [
+     "grab",
+     "lift",
+     "carry",
+     "slam",
+     "hold",
+     "recover"
+    ],
+    "victim_anchor_m": [
+     "carry",
+     "grab",
+     "slam"
+    ],
+    "grab_point_m": [
+     -0.0,
+     -0.64,
+     0.9
+    ],
+    "carry_point_m": [
+     -0.0,
+     -0.46,
+     1.58
+    ],
+    "slam_point_m": [
+     0.0,
+     -0.78,
+     0.35
+    ],
+    "end_pose_deg": [
+     "chest",
+     "head",
+     "neck",
+     "pelvis",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     114.0
+    ]
+   }
+  },
+  "Skill_03": {
+   "name": "Skill_03",
+   "frame_range": [
+    0.0,
+    104.0
+   ],
+   "fcurves": 177,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "pelvis_world_turn_deg",
+    "pivot_foot",
+    "pivot_world_m",
+    "punch_side",
+    "root_motion_m",
+    "segments",
+    "spin_axis",
+    "spin_turn_deg"
+   ],
+   "props": {
+    "anim_id": "Skill_03",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "旋转重拳：反相拧身 → 髋部释放 → 360° 单向转体出拳 → 命停 4 帧→ 收招。骨盆世界 yaw 累计 390°。",
+    "antic_frame": 16,
+    "hit_frame": 46,
+    "cancel_frame": 96,
+    "hitstop_frames": 4,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "None",
+    "segments": [
+     "ease",
+     "coil",
+     "coil_hold",
+     "release",
+     "spin",
+     "hitstop",
+     "recover"
+    ],
+    "spin_axis": "world +Z (root.rotation_euler.y)",
+    "spin_turn_deg": 360.0,
+    "pelvis_world_turn_deg": 390.0,
+    "pivot_foot": "R",
+    "pivot_world_m": [
+     -0.147579,
+     -0.065568,
+     0.012327
+    ],
+    "punch_side": "R",
+    "end_pose_deg": [
+     "chest",
+     "eye.L",
+     "eye.R",
+     "foot.L",
+     "foot.R",
+     "forearm.L",
+     "forearm.R",
+     "glasses",
+     "hand.L",
+     "hand.R",
+     "head",
+     "index_01.L",
+     "index_01.R",
+     "index_02.L",
+     "index_02.R",
+     "index_03.L",
+     "index_03.R",
+     "jaw",
+     "middle_01.L",
+     "middle_01.R",
+     "middle_02.L",
+     "middle_02.R",
+     "middle_03.L",
+     "middle_03.R",
+     "neck",
+     "pelvis",
+     "pinky_01.L",
+     "pinky_01.R",
+     "pinky_02.L",
+     "pinky_02.R",
+     "pinky_03.L",
+     "pinky_03.R",
+     "ring_01.L",
+     "ring_01.R",
+     "ring_02.L",
+     "ring_02.R",
+     "ring_03.L",
+     "ring_03.R",
+     "root",
+     "shin.L",
+     "shin.R",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02",
+     "thigh.L",
+     "thigh.R",
+     "thumb_01.L",
+     "thumb_01.R",
+     "thumb_02.L",
+     "thumb_02.R",
+     "thumb_03.L",
+     "thumb_03.R",
+     "toe.L",
+     "toe.R",
+     "upperarm.L",
+     "upperarm.R"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     104.0
+    ]
+   }
+  },
+  "Spawn": {
+   "name": "Spawn",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hit_frame",
+    "hit_frames",
+    "hit_point_m",
+    "hitstop_frames",
+    "hitstop_windows",
+    "loop",
+    "note",
+    "phased_foot_lock",
+    "root_motion_m",
+    "root_motion_z_m",
+    "seam",
+    "seam_ends",
+    "view_note"
+   ],
+   "props": {
+    "anim_id": "Spawn",
+    "loop": false,
+    "category": "状态与流程",
+    "note": "入场：站架 → 沉髋蓄力 → 蹬地起跳（腾空 400 mm）→ 落地冲击（下沉 175 mm、定格 3 帧）→ 起身回战斗架势；★ 分段脚锁：地面段锁踝、空中段随根抬起",
+    "frames": [
+     0.0,
+     120.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_z_m": [
+     0.4,
+     0.0
+    ],
+    "hitstop_frames": 3,
+    "hitstop_windows": [
+     "<bpy id property array [2]>"
+    ],
+    "antic_frame": 16,
+    "hit_frame": 60,
+    "hit_frames": [
+     60.0
+    ],
+    "cancel_frame": 78,
+    "hit_point_m": "None",
+    "seam": "Idle_01@0",
+    "seam_ends": [
+     "start",
+     "end"
+    ],
+    "frame_bound_note": "★ 120 帧 = 2.0 s，**等于** E01 登记的 120 帧 / 2.0 s 上界 ⟹ 沿用合规（显式声明，不是悄悄超）",
+    "view_note": "★ 本支取景**自立**（A12 `Launch_Hit` 的教训：高跳会被标准视图切掉头脚）：纵向覆盖 −0.30~2.70 m（中心 z=1.20、正交高 3.00 m），侧视判下沉/腾空、正面判双脚对称",
+    "phased_foot_lock": [
+     "ground",
+     "airborne",
+     "reason"
+    ],
+    "fps": 60
+   }
+  },
+  "Stun": {
+   "name": "Stun",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "foot_lock_mm",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hitstop_frames",
+    "loop",
+    "loop_frames",
+    "note",
+    "root_motion_m",
+    "seam",
+    "sway_cycles",
+    "sway_fwd_deg",
+    "sway_lat_deg"
+   ],
+   "props": {
+    "anim_id": "Stun",
+    "loop": true,
+    "category": "状态与流程",
+    "note": "眩晕：站姿下身体持续摇晃（左右为主 + 前后为辅），双脚**钉在首帧原位**（≤0.5 mm），拳架随晃松散",
+    "loop_frames": [
+     0.0,
+     120.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 0,
+    "sway_cycles": 2.0,
+    "sway_lat_deg": 13.0,
+    "sway_fwd_deg": 7.0,
+    "foot_lock_mm": 0.5,
+    "seam": "Idle_01@0",
+    "frame_bound_note": "★ 本支登记**新上界 120 帧 / 2.0 s**（循环状态，见文件头）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Throw": {
+   "name": "Throw",
+   "frame_range": [
+    0.0,
+    60.0
+   ],
+   "fcurves": 174,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "end_pose_deg",
+    "fps",
+    "frames",
+    "grabbed_point_L_m",
+    "grabbed_point_R_m",
+    "hit_frame",
+    "hit_point_m",
+    "hitstop_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "release_frame",
+    "root_motion_m"
+   ],
+   "props": {
+    "anim_id": "Throw",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "投掷：接 `Grab_Hold@120`（逐位）；双手位置逆解钉死在 C04 登记的世界抓取点到释放帧（f31）；髋部 ry −20° → +26° 为发力主通道；释放后双臂单向减速伸展到「跟随姿」（不许过冲，故不回 Idle）。Root Motion 前冲 0.270 m。",
+    "antic_frame": 20,
+    "hit_frame": 28,
+    "cancel_frame": 52,
+    "hitstop_frames": 3,
+    "release_frame": 31,
+    "root_motion_m": [
+     0.0,
+     -0.27
+    ],
+    "inherit_from": "Grab_Hold@120",
+    "grabbed_point_L_m": [
+     0.33535,
+     -1.373329,
+     1.136036
+    ],
+    "grabbed_point_R_m": [
+     -0.314644,
+     -1.374606,
+     1.134682
+    ],
+    "hit_point_m": "None",
+    "end_pose_deg": [
+     "chest",
+     "head",
+     "neck",
+     "pelvis",
+     "shoulder.L",
+     "shoulder.R",
+     "spine_01",
+     "spine_02"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     60.0
+    ]
+   }
+  },
+  "Turn": {
+   "name": "Turn",
+   "frame_range": [
+    0.0,
+    30.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "pivot_foot",
+    "pivot_plant_frame",
+    "root_motion_m",
+    "turn_deg"
+   ],
+   "props": {
+    "anim_id": "Turn",
+    "loop": false,
+    "category": "基础移动",
+    "note": "原地转身 90°：头/眼先转 → 髋领先胸 2 帧 → 非轴心脚绕轴心脚跨过去；轴心脚踝世界钉死 ≤3 mm",
+    "turn_deg": 90.0,
+    "pivot_foot": "R",
+    "pivot_plant_frame": 6,
+    "antic_frame": 7,
+    "hit_frame": "None",
+    "cancel_frame": 24,
+    "hitstop_frames": 0,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     30.0
+    ]
+   }
+  },
+  "Ultimate_Attack": {
+   "name": "Ultimate_Attack",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 183,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "cancel_frame",
+    "category",
+    "foot_lift_note",
+    "fps",
+    "frames",
+    "hit_frames",
+    "hits",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "pelvis_press_note",
+    "root_motion_m",
+    "seg_len",
+    "segments",
+    "settle_end"
+   ],
+   "props": {
+    "anim_id": "Ultimate_Attack",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "大招攻击：4 段重击（右刺拳 / 左摆拳 / 右上勾 / 双拳全身下砸），段间隔 [10, 14, 10, 30] 不平均；每段命中 3~4 帧完全停顿；原地连招，位移由骨盆前压承担。",
+    "hits": "[{\"index\": 1, \"frame\": 10, \"side\": \"R\", \"part\": \"hand.R\", \"point_m\": [-0.1296, -0.2735, 1.2982], \"hitstop\": [10, 12]}, {\"index\": 2, \"frame\": 24, \"side\": \"L\", \"part\": \"hand.L\", \"point_m\": [0.1445, -0.3077, 1.2711], \"hitstop\": [24, 26]}, {\"index\": 3, \"frame\": 34, \"side\": \"R\", \"part\": \"hand.R\", \"point_m\": [-0.1296, -0.2735, 1.2982], \"hitstop\": [34, 36]}, {\"index\": 4, \"frame\": 64, \"side\": \"R\", \"part\": \"hand.R\", \"point_m\": [-0.1296, -0.2735, 1.2982], \"hitstop\": [64, 67]}]",
+    "segments": [
+     "ease",
+     "seg1",
+     "hold1",
+     "seg2",
+     "seg3",
+     "charge",
+     "charge_hold",
+     "seg4",
+     "follow",
+     "recover",
+     "rest"
+    ],
+    "hit_frames": [
+     10.0,
+     24.0,
+     34.0,
+     64.0
+    ],
+    "hitstop_frames": [
+     3.0,
+     3.0,
+     3.0,
+     4.0
+    ],
+    "seg_len": [
+     10.0,
+     14.0,
+     10.0,
+     30.0
+    ],
+    "cancel_frame": 108,
+    "settle_end": 114,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "pelvis_press_note": "位移由骨盆前压承担（世界 −Y），脚不迈步",
+    "foot_lift_note": "抬跟（foot.rx）为 chain 的「脚」节点提供位移；水平位移=0",
+    "fps": 60,
+    "frames": [
+     0.0,
+     120.0
+    ]
+   }
+  },
+  "Ultimate_End": {
+   "name": "Ultimate_End",
+   "frame_range": [
+    0.0,
+    72.0
+   ],
+   "fcurves": 183,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hem_excluded",
+    "hero_pose_source",
+    "hit_count",
+    "hold_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "pose_frame",
+    "root_motion_m",
+    "segments",
+    "settle_end",
+    "silhouette_axis",
+    "start_basis"
+   ],
+   "props": {
+    "anim_id": "Ultimate_End",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "大招收尾：沉收 → 爆发起身成英雄 Pose → 定格 29 帧（逐位冻结）→ 收招回待机。0 命中点、0.0 mm 位移、1 段。",
+    "antic_frame": 10,
+    "pose_frame": 22,
+    "hold_frames": 29,
+    "cancel_frame": 60,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "None",
+    "start_basis": "Idle_01@0",
+    "hit_count": 0,
+    "segments": [
+     "ease",
+     "sink",
+     "sink_hold",
+     "rise",
+     "hold",
+     "recover",
+     "rest"
+    ],
+    "settle_end": 66,
+    "silhouette_axis": "正视图（相机 −Y）：横轴 = 世界 X，纵轴 = 世界 Z",
+    "hem_excluded": [
+     "Jacket_Hem",
+     "Jacket_Hem_Line"
+    ],
+    "hero_pose_source": "probe_c14_pose.py 第 16 轮 C14_PROBE_FINAL y38_fin（先量再定）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     72.0
+    ]
+   }
+  },
+  "Ultimate_Start": {
+   "name": "Ultimate_Start",
+   "frame_range": [
+    0.0,
+    62.0
+   ],
+   "fcurves": 177,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "fps",
+    "frames",
+    "hem_excluded",
+    "hold_frames",
+    "inherit_from",
+    "loop",
+    "note",
+    "pose_frame",
+    "root_motion_m",
+    "segments",
+    "settle_end",
+    "silhouette_axis"
+   ],
+   "props": {
+    "anim_id": "Ultimate_Start",
+    "loop": false,
+    "category": "连招与特殊技",
+    "note": "大招起手：沉收 → 爆发展开成强 Pose → 静止窗 15 帧 → 收招。无命中、无位移（原地起 Pose）。",
+    "antic_frame": 16,
+    "pose_frame": 38,
+    "cancel_frame": 56,
+    "hold_frames": 15,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "inherit_from": "None",
+    "segments": [
+     "ease",
+     "sink",
+     "sink_hold",
+     "flare",
+     "hold",
+     "recover",
+     "rest"
+    ],
+    "settle_end": 60,
+    "silhouette_axis": "正视图（相机 −Y）：横轴 = 世界 X，纵轴 = 世界 Z",
+    "hem_excluded": [
+     "Jacket_Hem",
+     "Jacket_Hem_Line"
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     62.0
+    ]
+   }
+  },
+  "Uppercut": {
+   "name": "Uppercut",
+   "frame_range": [
+    0.0,
+    50.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "attack_arm",
+    "attack_leg",
+    "burst_span_clock",
+    "cancel_frame",
+    "category",
+    "follow_frame",
+    "fps",
+    "frames",
+    "ground_contact",
+    "hip_drive",
+    "hit_frame",
+    "hitstop_frames",
+    "hitstop_span",
+    "knee_extend",
+    "link_next",
+    "link_prev",
+    "loop",
+    "motion_clock_hold_frames",
+    "note",
+    "phase_path",
+    "power_chain_scale_note",
+    "rise",
+    "root_motion_m",
+    "root_motion_note",
+    "strike_style",
+    "support_foot",
+    "support_leg",
+    "trunk_extend",
+    "uppercut_height"
+   ],
+   "props": {
+    "anim_id": "Uppercut",
+    "loop": false,
+    "category": "普通攻击",
+    "note": "上勾拳：深蹲蓄力（骨盆沉 185 mm）→ 后腿蹬伸 + 髋前送 135 mm + 支撑脚绕鞋底最前缘滚到 32° 提踵 ⟹ **重心上升 135 mm**、拳峰冲到 1.86 m（比 B05 高 100+ mm）→ 躯干由前屈转伸展打透 → f24~f27 冻结 4 帧 → 缓出收招，停在自持「上勾完」（末帧不回 idle）",
+    "antic_frame": 14,
+    "hit_frame": 24,
+    "cancel_frame": 34,
+    "follow_frame": 30,
+    "burst_span_clock": [
+     14.0,
+     24.0
+    ],
+    "hitstop_frames": 4,
+    "hitstop_span": [
+     24.0,
+     27.0
+    ],
+    "motion_clock_hold_frames": 3,
+    "strike_style": "rear_leg_driven_uppercut",
+    "support_leg": "L",
+    "attack_leg": "R",
+    "attack_arm": "R",
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_note": "**原地**（清单 §0.4：普通攻击不许 Root Motion，C 族起才允许）。本支的「重心上升」是**腿的蹬伸**做出来的：骨盆 z 830 → 965（+135）全部来自膝伸直 + 踝跖屈 + 髋前送，root 位移为 0；引擎位移由程序控制",
+    "rise": [
+     "rule",
+     "guard_pelvis_z_mm",
+     "crouch_pelvis_z_mm",
+     "hit_pelvis_z_mm",
+     "how"
+    ],
+    "uppercut_height": [
+     "rule",
+     "why"
+    ],
+    "knee_extend": [
+     "rule",
+     "b06_reference_deg",
+     "why"
+    ],
+    "hip_drive": [
+     "rule",
+     "why"
+    ],
+    "ground_contact": [
+     "rule",
+     "why"
+    ],
+    "support_foot": [
+     "ankle_travel",
+     "contact_pin",
+     "why"
+    ],
+    "trunk_extend": [
+     "window",
+     "rule",
+     "why"
+    ],
+    "phase_path": [
+     "guard",
+     "load",
+     "crouch",
+     "strike",
+     "follow",
+     "end",
+     "powers",
+     "why"
+    ],
+    "power_chain_scale_note": "B07 口径：leg / hip 两段（与 B06 同一物理量）**严格要求 > 84.788 / 12.0**；foot 不与 B06 比（踢击甩脚背 vs 踮脚跖屈不是同一物理量）⟹ 非退化 + 踮脚 ≥12°；waist/shoulder/hand 非退化 + 时序 + 攻击臂占优（> 护手臂 ×1.5）。**换尺子，不是放宽**：六段数值全部照实列出（power_chain_vs_b06）",
+    "link_prev": "Idle_01@0（**首帧**逐位相等；起手不闪）",
+    "link_next": "末帧 = 自持「上勾完」姿态（拳在头侧上方、重心已落回 800 mm，不回 idle）⟹ 可直接接后摇/硬直",
+    "fps": 60,
+    "frames": [
+     0.0,
+     50.0
+    ]
+   }
+  },
+  "Victory_01": {
+   "name": "Victory_01",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "differentiation_vs_E03",
+    "foot_lock",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hit_frame",
+    "hit_frames",
+    "hitstop_frames",
+    "hitstop_windows",
+    "loop",
+    "note",
+    "pound",
+    "root_motion_m",
+    "root_motion_z_m",
+    "seam",
+    "seam_ends",
+    "view_note"
+   ],
+   "props": {
+    "anim_id": "Victory_01",
+    "loop": false,
+    "category": "状态与流程",
+    "note": "胜利 A（捶胸）：双拳同步**三连捶上胸**（每次都定格 3 帧）→ 张臂挺胸庆祝 → 稳定英雄姿 → 回战斗待机；★ 全程原地、脚锁全程；★ 与 E03 `Rage` 的差异：捶点高 110 mm（上胸 vs 下胸）、三捶 vs 两捶、只上扬 16° vs 怒吼 36°、新增张臂段",
+    "frames": [
+     0.0,
+     120.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_z_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 3,
+    "hitstop_windows": [
+     "<bpy id property array [2]>",
+     "<bpy id property array [2]>",
+     "<bpy id property array [2]>"
+    ],
+    "antic_frame": 14,
+    "hit_frame": 28,
+    "hit_frames": [
+     28.0,
+     42.0,
+     56.0
+    ],
+    "cancel_frame": 74,
+    "seam": "Idle_01@0",
+    "seam_ends": [
+     "start",
+     "end"
+    ],
+    "frame_bound_note": "★ 120 帧 = 2.0 s = E01 登记的**上界** ⟹ 可直接沿用（显式声明，不是悄悄超）；清单要求胜利动作 1.5~2.5 s ⟹ 落带内",
+    "view_note": "★ 本支取景**自立**（不照抄 E03/E05）：纵向 −0.15~1.95 m（中心 z=0.92、正交高 2.10 m），比标准站姿视图**略高**以装下张臂；正面判捶胸贴合 + 同步，侧视判挺胸 + 下巴上扬，3Q 判英雄姿",
+    "foot_lock": [
+     "scope",
+     "reason"
+    ],
+    "pound": [
+     "kind",
+     "site",
+     "contact_max_mm",
+     "pierce_mm",
+     "touch_off_mm",
+     "count"
+    ],
+    "differentiation_vs_E03": [
+     "site_z_mm",
+     "count",
+     "head_back_deg",
+     "extra"
+    ],
+    "fps": 60
+   }
+  },
+  "Victory_02": {
+   "name": "Victory_02",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "differentiation_vs_E06",
+    "foot_lock",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hit_frame",
+    "hit_frames",
+    "hit_point_m",
+    "hitstop_frames",
+    "hitstop_windows",
+    "loop",
+    "note",
+    "raise",
+    "root_motion_m",
+    "root_motion_z_m",
+    "seam",
+    "seam_ends",
+    "view_note"
+   ],
+   "props": {
+    "anim_id": "Victory_02",
+    "loop": false,
+    "category": "状态与流程",
+    "note": "胜利 B（举拳）：半蹲下沉 → **单臂直上过顶**（拳心 z = 1930 mm）→ 定格 4 帧 → 拳小幅上下震荡 → 挺胸下巴上扬的英雄姿 → 回战斗待机；★ 全程原地、脚锁全程；★ 与 E06 `Victory_01` 的四维差异：手的高度（过顶 vs 胸肩）、单臂 vs 双臂同步、无接触 vs 拳面贴胸、单定格 vs 三定格；★ 起手预蓄**方向相反**（拳甩身后 vs 收向身前）",
+    "frames": [
+     0.0,
+     120.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_z_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 4,
+    "hitstop_windows": [
+     "<bpy id property array [2]>"
+    ],
+    "antic_frame": 14,
+    "hit_frame": 34,
+    "hit_frames": [
+     34.0
+    ],
+    "cancel_frame": 76,
+    "hit_point_m": [
+     0.3,
+     -0.06,
+     1.93
+    ],
+    "seam": "Idle_01@0",
+    "seam_ends": [
+     "start",
+     "end"
+    ],
+    "frame_bound_note": "★ 120 帧 = 2.0 s = E01 登记的**上界** ⟹ 沿用（显式声明，不是悄悄超）；清单要求胜利动作 1.5~2.5 s ⟹ 落带内",
+    "view_note": "★ 本支取景**自立**（不照抄 E06）：纵向 −0.15~2.11 m（中心 z=0.98、正交高 2.25 m），比站姿视图**更高**以装下举拳；正面判「举拳过顶 + 单臂不对称」，侧视判挺胸 + 下巴上扬，3Q 判英雄姿",
+    "foot_lock": [
+     "scope",
+     "reason"
+    ],
+    "raise": [
+     "side",
+     "peak_z_mm",
+     "target_m",
+     "geom_limit_mm",
+     "ik_limit_mm"
+    ],
+    "differentiation_vs_E06": [
+     "fist_z_mm",
+     "symmetry",
+     "contact_mm",
+     "hitstop",
+     "windup_y_mm"
+    ],
+    "fps": 60
+   }
+  },
+  "Victory_03": {
+   "name": "Victory_03",
+   "frame_range": [
+    0.0,
+    120.0
+   ],
+   "fcurves": 162,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "cancel_frame",
+    "category",
+    "clasp",
+    "differentiation_vs_E06_E07",
+    "foot_lock",
+    "fps",
+    "frame_bound_note",
+    "frames",
+    "hit_frame",
+    "hit_frames",
+    "hit_point_m",
+    "hitstop_frames",
+    "hitstop_windows",
+    "loop",
+    "note",
+    "root_motion_m",
+    "root_motion_z_m",
+    "seam",
+    "seam_ends",
+    "view_note"
+   ],
+   "props": {
+    "anim_id": "Victory_03",
+    "loop": false,
+    "category": "状态与流程",
+    "note": "胜利 C（擦拳套）：原地小幅下压 → 双拳并拢到胸前中线（间隙 ~3 mm）→ **三次镜像往复**（斜向 dy28/dz6，间隔 8 帧）→ 拳分开 → 挺胸下巴上扬、双拳收在体侧的英雄姿（12 帧稳住）→ 回战斗待机；★ 全程原地、脚锁全程；★ **无 hitstop**；★ 与 E06（捶胸）/ E07（举拳）的四维分离：高度/幅度/接触对象/往复次数；★ 第一拍位移 ≪ E06（255.6 mm）/ E07（580 mm）",
+    "frames": [
+     0.0,
+     120.0
+    ],
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "root_motion_z_m": [
+     0.0,
+     0.0
+    ],
+    "hitstop_frames": 0,
+    "hitstop_windows": [],
+    "antic_frame": 12,
+    "hit_frame": 24,
+    "hit_frames": [
+     24.0
+    ],
+    "cancel_frame": 80,
+    "hit_point_m": [
+     0.048,
+     -0.29,
+     1.3
+    ],
+    "seam": "Idle_01@0",
+    "seam_ends": [
+     "start",
+     "end"
+    ],
+    "frame_bound_note": "★ 120 帧 = 2.0 s = E01 登记的**上界** ⟹ 沿用（显式声明，不是悄悄超）；清单要求胜利动作 1.5~2.5 s ⟹ 落带内",
+    "view_note": "★ 本支取景**自立**（不照抄 E06/E07）：纵向 −0.15~2.05 m（中心 z=0.95、正交高 2.20 m）—— 拳不过顶、比 E07 低 50 mm；正面判「双拳并拢 + 三次镜像往复 + 拳心同高」，侧视判挺胸 + 下巴上扬，3Q 判英雄姿",
+    "foot_lock": [
+     "scope",
+     "reason"
+    ],
+    "clasp": [
+     "anchor_m",
+     "gap_mm",
+     "source"
+    ],
+    "differentiation_vs_E06_E07": [
+     "fist_z_mm",
+     "amplitude_mm",
+     "contact",
+     "stroke_count",
+     "hitstop"
+    ],
+    "fps": 60
+   }
+  },
+  "Walk_B": {
+   "name": "Walk_B",
+   "frame_range": [
+    0.0,
+    72.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "fps",
+    "frames",
+    "locomotion_mps",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stance_ratio",
+    "stride_m",
+    "toe_first_contact"
+   ],
+   "props": {
+    "anim_id": "Walk_B",
+    "loop": true,
+    "category": "基础移动",
+    "note": "后退：直立躯干、脚尖先落、步长 0.27m、0.450 m/s；原地动画，位移由程序给",
+    "locomotion_mps": 0.45,
+    "stride_m": 0.27,
+    "stance_ratio": 0.5,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     72.0
+    ],
+    "toe_first_contact": "{'L': {'frame': 0, 'ankle_y_mm': 134.83, 'low_y_mm': -47.45, 'low_z_mm': 0.0, 'tip_deg': 11.0, 'toe_ahead_mm': 182.28}, 'R': {'frame': 36, 'ankle_y_mm': 134.83, 'low_y_mm': -47.45, 'low_z_mm': 0.0, 'tip_deg': 11.0, 'toe_ahead_mm': 182.28}}"
+   }
+  },
+  "Walk_F": {
+   "name": "Walk_F",
+   "frame_range": [
+    0.0,
+    72.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "category",
+    "fps",
+    "frames",
+    "locomotion_mps",
+    "loop",
+    "note",
+    "root_motion_m",
+    "stance_ratio",
+    "stride_m"
+   ],
+   "props": {
+    "anim_id": "Walk_F",
+    "loop": true,
+    "category": "基础移动",
+    "note": "前走：略前倾、步长 0.36m、肩随步伐摆；原地动画，位移由程序给",
+    "locomotion_mps": 0.6,
+    "stride_m": 0.36,
+    "stance_ratio": 0.5,
+    "root_motion_m": [
+     0.0,
+     0.0
+    ],
+    "fps": 60,
+    "frames": [
+     0.0,
+     72.0
+    ]
+   }
+  },
+  "Wall_Hit": {
+   "name": "Wall_Hit",
+   "frame_range": [
+    0.0,
+    34.0
+   ],
+   "fcurves": 159,
+   "use_frame_range": false,
+   "use_cyclic": false,
+   "prop_keys": [
+    "anim_id",
+    "antic_frame",
+    "ballistic_ref",
+    "cancel_frame",
+    "category",
+    "end_pelvis_y_m",
+    "end_pelvis_z_m",
+    "end_pose_ref",
+    "end_vz_m_per_frame",
+    "fps",
+    "frames",
+    "hit_frame",
+    "hit_point_m",
+    "hit_points",
+    "hitstop_frames",
+    "loop",
+    "note",
+    "root_motion_m",
+    "self_hold_frame",
+    "start_pose_ref",
+    "wall_contact_frame",
+    "wall_detach_frame",
+    "wall_normal",
+    "wall_slide_end_frame",
+    "wall_y_m"
+   ],
+   "props": {
+    "anim_id": "Wall_Hit",
+    "loop": false,
+    "category": "防御与受击",
+    "note": "撞墙：★ 全项目第一支**世界实体（墙）**动画；首帧逐位 = `Launch_Hit@34`；撞墙前承接共享抛物线；撞墙帧姿态+位置全冻 3 帧（§6 命中停顿）；贴墙下滑后松开、落新抛物线；末帧**正在下落**（交 D14/D15/D16）",
+    "antic_frame": 0,
+    "hit_frame": 14,
+    "cancel_frame": 25,
+    "self_hold_frame": 25,
+    "hitstop_frames": 3,
+    "hit_points": 0,
+    "root_motion_m": [
+     0.0,
+     0.226
+    ],
+    "hit_point_m": "None",
+    "wall_y_m": 0.705561,
+    "wall_normal": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "wall_contact_frame": 14,
+    "wall_slide_end_frame": 25,
+    "wall_detach_frame": 26,
+    "end_pelvis_z_m": 0.974201,
+    "end_pelvis_y_m": 0.252,
+    "end_vz_m_per_frame": -0.049585,
+    "ballistic_ref": "anim_jump_start.TAKEOFF_PELVIS_Z/TAKEOFF_SPEED + anim_jump_fall.G_PER_FRAME（相位续 D12 f34，与 D13 逐位相同）",
+    "start_pose_ref": "Launch_Hit 帧 34（SELF_HOLD 锁存姿态）",
+    "end_pose_ref": "**离墙下落中**（不回原位、不接站姿）",
+    "fps": 60,
+    "frames": [
+     0.0,
+     34.0
+    ]
+   }
+  }
+ }
+}

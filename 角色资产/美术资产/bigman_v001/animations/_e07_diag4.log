@@ -1,0 +1,65 @@
+========================================================================
+E07_DIAG4 A. 矩阵口径逐帧最大步（真旋转）
+  MAT  174.156 deg  f= 13  forearm.R
+  MAT   70.514 deg  f= 13  thumb_01.R
+  MAT   70.387 deg  f= 13  pinky_01.R
+  MAT   70.387 deg  f= 13  ring_01.R
+  MAT   70.387 deg  f= 13  middle_01.R
+  MAT   70.387 deg  f= 13  index_01.R
+  MAT   70.174 deg  f= 13  hand.R
+  MAT   70.105 deg  f= 13  ring_02.R
+  MAT   70.105 deg  f= 13  pinky_02.R
+  MAT   70.105 deg  f= 13  middle_02.R
+  MAT   70.105 deg  f= 13  index_02.R
+  MAT   69.889 deg  f= 13  thumb_03.R
+  MAT   67.405 deg  f= 13  ring_03.R
+  MAT   67.405 deg  f= 13  pinky_03.R
+  MAT   67.405 deg  f= 13  middle_03.R
+  MAT   67.405 deg  f= 13  index_03.R
+========================================================================
+E07_DIAG4 B. euler 口径逐帧最大步
+  EUL  210.613 deg  f= 91  hand.R
+  EUL  192.665 deg  f= 20  hand.R
+  EUL  183.132 deg  f= 13  forearm.R
+  EUL  181.748 deg  f= 13  hand.R
+  EUL  120.702 deg  f= 22  hand.R
+  EUL   74.257 deg  f= 92  hand.R
+  EUL   73.768 deg  f= 21  forearm.L
+  EUL   72.240 deg  f= 21  hand.R
+  EUL   43.996 deg  f= 93  hand.R
+  EUL   28.080 deg  f= 95  hand.R
+  EUL   27.503 deg  f= 96  hand.R
+  EUL   26.227 deg  f= 90  hand.R
+  EUL   25.410 deg  f= 97  hand.R
+  EUL   25.125 deg  f= 20  forearm.L
+  EUL   23.783 deg  f= 98  hand.R
+  EUL   23.630 deg  f= 22  forearm.L
+========================================================================
+E07_DIAG4 C. 收招段 R 臂目标 / 拳心 / 手网格（f96..f112）
+  f= 96 env=0.699 | tgtR=[ -276.9,   57.4, 1070.0] gap=  136.4 | core=[ -189.5,  188.9, 1025.3] gap=  119.8 | nothumb=  3 deep=  -7.24 beyond=  0
+  f= 97 env=0.635 | tgtR=[ -275.4,   33.1, 1049.1] gap=  126.2 | core=[ -219.5,  103.5,  962.7] gap=   66.2 | nothumb= 29 deep= -48.53 beyond= 23
+  f= 98 env=0.568 | tgtR=[ -259.3,   -5.9, 1039.9] gap=  107.4 | core=[ -205.3,    6.3,  949.4] gap=   25.4 | nothumb= 76 deep= -92.92 beyond= 69
+  f= 99 env=0.500 | tgtR=[ -227.9,  -41.0, 1043.4] gap=   81.8 | core=[ -162.8,  -59.8,  968.0] gap=   -0.4 | nothumb=245 deep= -76.02 beyond=133
+  f=100 env=0.432 | tgtR=[ -186.5,  -65.2, 1051.3] gap=   45.0 | core=[ -110.9,  -93.1,  992.3] gap=  -10.6 | nothumb=259 deep= -49.95 beyond=166
+  f=101 env=0.365 | tgtR=[ -150.9,  -89.7, 1053.5] gap=   20.0 | core=[  -57.3, -111.4, 1004.8] gap=  -10.4 | nothumb=273 deep= -37.16 beyond=161
+  f=102 env=0.301 | tgtR=[  -96.8, -136.2, 1046.6] gap=   19.9 | core=[   -4.9, -138.6, 1014.2] gap=   12.6 | nothumb= 75 deep= -11.46 beyond=  6
+  f=103 env=0.239 | tgtR=[  -36.6, -155.2, 1064.7] gap=   20.0 | core=[   36.3, -180.4, 1038.6] gap=   50.9 | nothumb=  0 deep=   5.49 beyond=  0
+  f=104 env=0.183 | tgtR=[   -3.9, -193.8, 1098.4] gap=   43.6 | core=[   53.5, -226.6, 1083.8] gap=   81.4 | nothumb=  0 deep=  23.70 beyond=  0
+  f=105 env=0.131 | tgtR=[    3.3, -236.6, 1145.1] gap=   60.5 | core=[   42.6, -264.9, 1141.5] gap=   85.1 | nothumb=  0 deep=  28.82 beyond=  0
+  f=106 env=0.087 | tgtR=[  -14.4, -266.8, 1195.9] gap=   65.0 | core=[    8.4, -287.4, 1198.0] gap=   83.5 | nothumb=  0 deep=  20.43 beyond=  0
+  f=107 env=0.051 | tgtR=[  -48.1, -281.6, 1239.4] gap=   60.4 | core=[  -37.3, -293.9, 1242.8] gap=   73.2 | nothumb=  0 deep=   4.86 beyond=  0
+  f=108 env=0.023 | tgtR=[  -84.8, -284.4, 1269.6] gap=   58.6 | core=[  -80.8, -289.9, 1271.7] gap=   64.9 | nothumb=  2 deep=  -2.09 beyond=  0
+  f=109 env=0.006 | tgtR=[ -112.4, -281.8, 1286.2] gap=   65.1 | core=[ -111.6, -283.2, 1286.8] gap=   66.3 | nothumb=  3 deep=  -3.61 beyond=  0
+  f=110 env=0.000 | tgtR=[ -123.1, -279.8, 1291.6] gap=   66.3 | core=[ -123.1, -279.8, 1291.6] gap=   66.3 | nothumb=  3 deep=  -3.89 beyond=  0
+  f=111 env=0.000 | tgtR=[ -123.6, -279.2, 1292.2] gap=   66.3 | core=[ -123.6, -279.2, 1292.2] gap=   66.3 | nothumb=  3 deep=  -3.91 beyond=  0
+  f=112 env=0.000 | tgtR=[ -124.4, -278.5, 1292.9] gap=   66.4 | core=[ -124.4, -278.5, 1292.9] gap=   66.4 | nothumb=  3 deep=  -3.92 beyond=  0
+========================================================================
+E07_DIAG4 D. 站架拳心 / 拳面余量 / 手骨局部 euler
+  station L core=[  144.5, -307.7, 1271.1] gap=  100.7 face_gap=  47.42 hd_eul=(2.54, -0.47, 21.18)
+  station R core=[ -129.6, -273.5, 1298.2] gap=   66.6 face_gap=  10.61 hd_eul=(8.51, 1.85, -24.56)
+E07_DIAG4 DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

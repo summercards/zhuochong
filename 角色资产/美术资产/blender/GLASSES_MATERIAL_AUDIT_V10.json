@@ -1,0 +1,48 @@
+{
+  "glb_path": "I:\\工作项目\\blender\\business_man_tpose_v10.glb",
+  "glb_sha256": "2e0d207d6424bc1e1e6d5d317f013a140fd6059f3e0aaf1472c13f06fba92d57",
+  "glb_size_bytes": 2839072,
+  "lens_material": {
+    "name": "Glasses Lens",
+    "alpha_mode": "BLEND",
+    "base_color_factor": [
+      0.2199999988079071,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.3199999928474426
+    ],
+    "metallic_factor": 0.019999999552965164,
+    "roughness_factor": 0.07999999821186066,
+    "transmission_factor": 0.3499999940395355,
+    "clearcoat_factor": 0.20000000298023224,
+    "nodes": {
+      "Glasses_Lens_L": {
+        "mesh": "Cube.017",
+        "materials": [
+          "Glasses Lens"
+        ]
+      },
+      "Glasses_Lens_R": {
+        "mesh": "Cube.018",
+        "materials": [
+          "Glasses Lens"
+        ]
+      }
+    }
+  },
+  "frame_material": {
+    "name": "Glasses Frame",
+    "alpha_mode": "OPAQUE"
+  },
+  "checks": {
+    "lens_alpha_mode_is_blend": true,
+    "lens_alpha_is_semi_transparent": true,
+    "lens_base_color_is_blue_gray": true,
+    "lens_roughness_is_low": true,
+    "lens_transmission_is_present": true,
+    "lens_clearcoat_is_present": true,
+    "frame_is_opaque": true,
+    "both_lens_nodes_use_lens_material": true
+  },
+  "pass": true
+}

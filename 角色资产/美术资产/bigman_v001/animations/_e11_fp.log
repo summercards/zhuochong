@@ -1,0 +1,130 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+# ================= BASE =================
+E11F f= 52 fpR= +14.00 soleL=  +3.56 soleR= +27.75 low=  +3.56(Shoe_Sole_L       ) kneeR= 555.37
+E11F f= 53 fpR= +16.00 soleL=  +3.39 soleR= +21.86 low=  +3.39(Shoe_Sole_L       ) kneeR= 558.56
+E11F f= 54 fpR= +18.00 soleL=  +3.25 soleR= +16.12 low=  +3.25(Shoe_Sole_L       ) kneeR= 558.26
+E11F f= 55 fpR= +20.00 soleL=  +3.12 soleR= +10.55 low=  +3.12(Shoe_Sole_L       ) kneeR= 553.39
+E11F f= 56 fpR= +22.00 soleL=  +3.02 soleR=  +5.15 low=  +3.02(Shoe_Sole_L       ) kneeR= 542.32
+E11F f= 57 fpR= +24.00 soleL=  +2.88 soleR=  -1.31 low=  -1.31(Shoe_Sole_R       ) kneeR= 526.07
+E11F f= 58 fpR= +26.00 soleL=  +2.69 soleR=  -7.76 low=  -7.76(Shoe_Sole_R       ) kneeR= 503.26
+E11F f= 59 fpR= +28.00 soleL=  +3.09 soleR= -14.20 low= -14.20(Shoe_Sole_R       ) kneeR= 469.82 <<BAND
+E11F f= 60 fpR= +30.00 soleL=  +3.51 soleR= -20.45 low= -20.45(Shoe_Sole_R       ) kneeR= 427.78 <<BAND
+E11F f= 61 fpR= +31.25 soleL=  +3.94 soleR= -24.71 low= -24.71(Shoe_Sole_R       ) kneeR= 378.77 <<BAND
+E11F f= 62 fpR= +32.50 soleL=  +4.38 soleR= -28.88 low= -28.88(Shoe_Sole_R       ) kneeR= 325.95 <<BAND
+E11F f= 63 fpR= +33.75 soleL=  +4.77 soleR= -32.96 low= -32.96(Shoe_Sole_R       ) kneeR= 273.25 <<BAND
+E11F f= 64 fpR= +35.00 soleL=  +5.17 soleR= -36.96 low= -36.96(Shoe_Sole_R       ) kneeR= 224.20 <<BAND
+E11F f= 65 fpR= +36.25 soleL=  +5.58 soleR= -40.86 low= -40.86(Shoe_Sole_R       ) kneeR= 201.54 <<BAND
+E11F f= 66 fpR= +37.50 soleL=  +6.00 soleR= -44.68 low= -44.68(Shoe_Sole_R       ) kneeR= 181.89 <<BAND
+E11F f= 67 fpR= +38.75 soleL=  +6.44 soleR= -48.39 low= -48.39(Shoe_Sole_R       ) kneeR= 165.05 <<BAND
+E11F f= 68 fpR= +40.00 soleL=  +6.88 soleR= -52.01 low= -52.01(Shoe_Sole_R       ) kneeR= 150.78 <<BAND
+E11F f= 69 fpR= +40.50 soleL=  +7.34 soleR= -54.16 low= -54.16(Shoe_Sole_R       ) kneeR= 138.83 <<BAND
+E11F f= 70 fpR= +41.00 soleL=  +7.76 soleR= -56.30 low= -56.30(Shoe_Sole_R       ) kneeR= 128.97 <<BAND
+E11F f= 71 fpR= +41.50 soleL=  +8.03 soleR= -58.41 low= -58.41(Shoe_Sole_R       ) kneeR= 120.95 <<BAND
+E11F f= 72 fpR= +42.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) kneeR= 114.57 <<BAND
+E11F f= 73 fpR= +42.50 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) kneeR= 114.57 <<BAND
+E11F f= 74 fpR= +43.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) kneeR= 114.57 <<BAND
+E11F f= 75 fpR= +43.50 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) kneeR= 114.57 <<BAND
+E11F f= 76 fpR= +44.00 soleL=  +8.31 soleR= -60.50 low= -60.50(Shoe_Sole_R       ) kneeR= 114.57 <<BAND
+E11F f= 77 fpR= +43.12 soleL=  +8.23 soleR= -62.51 low= -62.51(Shoe_Sole_R       ) kneeR= 126.02 <<BAND
+E11F f= 78 fpR= +42.25 soleL=  +8.93 soleR= -60.96 low= -60.96(Shoe_Sole_R       ) kneeR= 137.24 <<BAND
+E11F f= 79 fpR= +41.38 soleL=  +9.62 soleR= -59.36 low= -59.36(Shoe_Sole_R       ) kneeR= 148.25 <<BAND
+E11F f= 80 fpR= +40.50 soleL= +10.30 soleR= -57.71 low= -57.71(Shoe_Sole_R       ) kneeR= 159.10 <<BAND
+E11F f= 81 fpR= +39.62 soleL= +10.72 soleR= -56.02 low= -56.02(Shoe_Sole_R       ) kneeR= 169.78 <<BAND
+E11F f= 82 fpR= +38.75 soleL= +11.12 soleR= -54.29 low= -54.29(Shoe_Sole_R       ) kneeR= 180.34 <<BAND
+E11F f= 83 fpR= +37.88 soleL= +11.43 soleR= -52.52 low= -52.52(Shoe_Sole_R       ) kneeR= 190.79 <<BAND
+E11F f= 84 fpR= +37.00 soleL= +11.40 soleR= -50.70 low= -50.70(Shoe_Sole_R       ) kneeR= 201.14 <<BAND
+E11F f= 85 fpR= +36.12 soleL= +11.19 soleR= -49.09 low= -49.09(Shoe_Sole_R       ) kneeR= 214.92 <<BAND
+E11F f= 86 fpR= +35.25 soleL= +10.95 soleR= -47.44 low= -47.44(Shoe_Sole_R       ) kneeR= 228.39 <<BAND
+E11F f= 87 fpR= +34.38 soleL= +10.63 soleR= -45.75 low= -45.75(Shoe_Sole_R       ) kneeR= 241.55 <<BAND
+E11F f= 88 fpR= +33.50 soleL= +10.32 soleR= -44.02 low= -44.02(Shoe_Sole_R       ) kneeR= 254.42 <<BAND
+E11F f= 89 fpR= +32.62 soleL= +10.03 soleR= -42.24 low= -42.24(Shoe_Sole_R       ) kneeR= 267.02 <<BAND
+E11F f= 90 fpR= +31.75 soleL=  +9.73 soleR= -40.43 low= -40.43(Shoe_Sole_R       ) kneeR= 279.37 <<BAND
+E11F f= 91 fpR= +30.88 soleL=  +9.45 soleR= -38.58 low= -38.58(Shoe_Sole_R       ) kneeR= 291.47 <<BAND
+E11F f= 92 fpR= +30.00 soleL=  +9.18 soleR= -36.69 low= -36.69(Shoe_Sole_R       ) kneeR= 303.35 <<BAND
+E11F f= 93 fpR= +27.50 soleL=  +9.77 soleR= -30.13 low= -30.13(Shoe_Sole_R       ) kneeR= 320.52 <<BAND
+E11F f= 94 fpR= +25.00 soleL=  +8.43 soleR= -26.29 low= -26.29(Shoe_Sole_R       ) kneeR= 333.96 <<BAND
+E11F f= 95 fpR= +22.50 soleL=  +7.20 soleR= -22.23 low= -22.23(Shoe_Sole_R       ) kneeR= 346.09 <<BAND
+E11F f= 96 fpR= +20.00 soleL=  +6.07 soleR= -18.06 low= -18.06(Shoe_Sole_R       ) kneeR= 357.10 <<BAND
+E11F f= 97 fpR= +17.50 soleL=  +5.05 soleR= -13.68 low= -13.68(Shoe_Sole_R       ) kneeR= 367.17 <<BAND
+E11F f= 98 fpR= +15.00 soleL=  +4.13 soleR=  -9.15 low=  -9.15(Shoe_Sole_R       ) kneeR= 376.50 <<BAND
+E11F f= 99 fpR= +12.50 soleL=  +3.31 soleR=  -4.51 low=  -4.51(Shoe_Sole_R       ) kneeR= 385.28
+E11F f=100 fpR= +10.00 soleL=  +2.60 soleR=  -0.27 low=  -0.27(Shoe_Sole_R       ) kneeR= 393.70
+E11F f=101 fpR=  +7.50 soleL=  +2.01 soleR=  +0.45 low=  +0.45(Shoe_Sole_R       ) kneeR= 401.91
+E11F f=102 fpR=  +5.00 soleL=  +1.54 soleR=  +1.09 low=  +1.09(Shoe_Sole_R       ) kneeR= 410.19
+E11F f=103 fpR=  +2.50 soleL=  +1.19 soleR=  -0.16 low=  -0.16(Shoe_Sole_R       ) kneeR= 418.87
+E11F f=104 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=105 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=106 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=107 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=108 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=109 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=110 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F_BASE body_low_min=-62.51@f77 body_low_max=+5.37@f44  band=(-8.0, 10.0)
+E11F_BASE halfkneel f74 kneeR=114.57 (需 ≤ 160)
+# ================= CAND =================
+E11F f= 52 fpR= +14.00 soleL=  +3.56 soleR= +27.75 low=  +3.56(Shoe_Sole_L       ) kneeR= 555.37
+E11F f= 53 fpR= +16.12 soleL=  +3.39 soleR= +21.49 low=  +3.39(Shoe_Sole_L       ) kneeR= 558.56
+E11F f= 54 fpR= +18.25 soleL=  +3.25 soleR= +15.40 low=  +3.25(Shoe_Sole_L       ) kneeR= 558.26
+E11F f= 55 fpR= +20.38 soleL=  +3.12 soleR=  +9.50 low=  +3.12(Shoe_Sole_L       ) kneeR= 553.39
+E11F f= 56 fpR= +22.50 soleL=  +3.02 soleR=  +3.79 low=  +3.02(Shoe_Sole_L       ) kneeR= 542.32
+E11F f= 57 fpR= +22.12 soleL=  +2.88 soleR=  +3.74 low=  +2.88(Shoe_Sole_L       ) kneeR= 526.07
+E11F f= 58 fpR= +21.75 soleL=  +2.69 soleR=  +3.68 low=  +2.69(Shoe_Sole_L       ) kneeR= 503.26
+E11F f= 59 fpR= +21.38 soleL=  +3.09 soleR=  +3.54 low=  +3.09(Shoe_Sole_L       ) kneeR= 469.82
+E11F f= 60 fpR= +21.00 soleL=  +3.51 soleR=  +3.41 low=  +3.41(Shoe_Sole_R       ) kneeR= 427.78
+E11F f= 61 fpR= +20.62 soleL=  +3.94 soleR=  +3.29 low=  +3.29(Shoe_Sole_R       ) kneeR= 378.77
+E11F f= 62 fpR= +20.25 soleL=  +4.38 soleR=  +3.19 low=  +3.19(Shoe_Sole_R       ) kneeR= 325.95
+E11F f= 63 fpR= +19.88 soleL=  +4.77 soleR=  +3.11 low=  +3.11(Shoe_Sole_R       ) kneeR= 273.25
+E11F f= 64 fpR= +19.50 soleL=  +5.17 soleR=  +3.04 low=  +3.04(Shoe_Sole_R       ) kneeR= 224.20
+E11F f= 65 fpR= +19.12 soleL=  +5.58 soleR=  +2.98 low=  +2.98(Shoe_Sole_R       ) kneeR= 201.54
+E11F f= 66 fpR= +18.75 soleL=  +6.00 soleR=  +2.94 low=  +2.94(Shoe_Sole_R       ) kneeR= 181.89
+E11F f= 67 fpR= +18.38 soleL=  +6.44 soleR=  +2.91 low=  +2.91(Shoe_Sole_R       ) kneeR= 165.05
+E11F f= 68 fpR= +18.00 soleL=  +6.88 soleR=  +2.86 low=  +2.86(Shoe_Sole_R       ) kneeR= 150.78
+E11F f= 69 fpR= +17.60 soleL=  +7.34 soleR=  +2.85 low=  +2.85(Shoe_Sole_R       ) kneeR= 138.83
+E11F f= 70 fpR= +17.20 soleL=  +7.76 soleR=  +2.86 low=  +2.86(Shoe_Sole_R       ) kneeR= 128.97
+E11F f= 71 fpR= +16.80 soleL=  +8.03 soleR=  +2.88 low=  +2.88(Shoe_Sole_R       ) kneeR= 120.95
+E11F f= 72 fpR= +16.40 soleL=  +8.31 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 114.57
+E11F f= 73 fpR= +16.40 soleL=  +8.31 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 114.57
+E11F f= 74 fpR= +16.40 soleL=  +8.31 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 114.57
+E11F f= 75 fpR= +16.40 soleL=  +8.31 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 114.57
+E11F f= 76 fpR= +16.40 soleL=  +8.31 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 114.57
+E11F f= 77 fpR= +16.40 soleL=  +8.23 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 126.02
+E11F f= 78 fpR= +16.40 soleL=  +8.93 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 137.24
+E11F f= 79 fpR= +16.40 soleL=  +9.62 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 148.25
+E11F f= 80 fpR= +16.40 soleL= +10.30 soleR=  +2.92 low=  +2.92(Shoe_Sole_R       ) kneeR= 159.10
+E11F f= 81 fpR= +16.35 soleL= +10.72 soleR=  +3.07 low=  +3.07(Shoe_Sole_R       ) kneeR= 169.78
+E11F f= 82 fpR= +16.30 soleL= +11.12 soleR=  +3.22 low=  +3.22(Shoe_Sole_R       ) kneeR= 180.34
+E11F f= 83 fpR= +16.25 soleL= +11.43 soleR=  +3.37 low=  +3.37(Shoe_Sole_R       ) kneeR= 190.79
+E11F f= 84 fpR= +16.20 soleL= +11.40 soleR=  +3.51 low=  +3.51(Shoe_Sole_R       ) kneeR= 201.14
+E11F f= 85 fpR= +16.15 soleL= +11.19 soleR=  +3.41 low=  +3.41(Shoe_Sole_R       ) kneeR= 214.92
+E11F f= 86 fpR= +16.10 soleL= +10.95 soleR=  +3.31 low=  +3.31(Shoe_Sole_R       ) kneeR= 228.39
+E11F f= 87 fpR= +16.05 soleL= +10.63 soleR=  +3.21 low=  +3.21(Shoe_Sole_R       ) kneeR= 241.55
+E11F f= 88 fpR= +16.00 soleL= +10.32 soleR=  +3.11 low=  +3.11(Shoe_Sole_R       ) kneeR= 254.42
+E11F f= 89 fpR= +15.93 soleL= +10.03 soleR=  +3.09 low=  +3.09(Shoe_Sole_R       ) kneeR= 267.02
+E11F f= 90 fpR= +15.85 soleL=  +9.73 soleR=  +3.06 low=  +3.06(Shoe_Sole_R       ) kneeR= 279.37
+E11F f= 91 fpR= +15.77 soleL=  +9.45 soleR=  +3.04 low=  +3.04(Shoe_Sole_R       ) kneeR= 291.47
+E11F f= 92 fpR= +15.70 soleL=  +9.18 soleR=  +3.02 low=  +3.02(Shoe_Sole_R       ) kneeR= 303.35
+E11F f= 93 fpR= +15.07 soleL=  +9.77 soleR=  +5.10 low=  +5.10(Shoe_Sole_R       ) kneeR= 320.52
+E11F f= 94 fpR= +14.45 soleL=  +8.43 soleR=  +4.62 low=  +4.62(Shoe_Sole_R       ) kneeR= 333.96
+E11F f= 95 fpR= +13.82 soleL=  +7.20 soleR=  +3.93 low=  +3.93(Shoe_Sole_R       ) kneeR= 346.09
+E11F f= 96 fpR= +13.20 soleL=  +6.07 soleR=  +3.04 low=  +3.04(Shoe_Sole_R       ) kneeR= 357.10
+E11F f= 97 fpR= +12.15 soleL=  +5.05 soleR=  +3.36 low=  +3.36(Shoe_Sole_R       ) kneeR= 367.17
+E11F f= 98 fpR= +11.10 soleL=  +4.13 soleR=  +3.24 low=  +3.24(Shoe_Sole_R       ) kneeR= 376.50
+E11F f= 99 fpR= +10.05 soleL=  +3.31 soleR=  +3.06 low=  +3.06(Shoe_Sole_R       ) kneeR= 385.28
+E11F f=100 fpR=  +9.00 soleL=  +2.60 soleR=  +2.87 low=  +2.60(Shoe_Sole_L       ) kneeR= 393.70
+E11F f=101 fpR=  +6.75 soleL=  +2.01 soleR=  +2.59 low=  +2.01(Shoe_Sole_L       ) kneeR= 401.91
+E11F f=102 fpR=  +4.50 soleL=  +1.54 soleR=  +1.92 low=  +1.54(Shoe_Sole_L       ) kneeR= 410.19
+E11F f=103 fpR=  +2.25 soleL=  +1.19 soleR=  -0.09 low=  -0.09(Shoe_Sole_R       ) kneeR= 418.87
+E11F f=104 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=105 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=106 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=107 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=108 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=109 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F f=110 fpR=  +0.00 soleL=  +1.06 soleR=  -0.96 low=  -0.96(Shoe_Sole_R       ) kneeR= 428.35
+E11F_CAND body_low_min=-4.80@f0 body_low_max=+5.37@f44  band=(-8.0, 10.0)
+E11F_CAND halfkneel f74 kneeR=114.57 (需 ≤ 160)
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

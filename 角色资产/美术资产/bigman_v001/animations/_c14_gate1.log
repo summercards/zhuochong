@@ -1,0 +1,15 @@
+C14_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_ultimate_end.py", line 1240, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_ultimate_end.py", line 1042, in main
+    build_hand_keys()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_ultimate_end.py", line 289, in build_hand_keys
+    _lerp_dir(IDLE_ELBOW[side],
+              ~~~~~~~~~~^^^^^^
+KeyError: 'L'
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

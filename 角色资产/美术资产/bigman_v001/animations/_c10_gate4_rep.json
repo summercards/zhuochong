@@ -1,0 +1,527 @@
+{
+ "loop_seamless": null,
+ "ground_min_mm": -0.96,
+ "ground_contact_ok": true,
+ "max_frame_step_deg": 24.558,
+ "max_frame_step_at": [
+  1,
+  "hand.R"
+ ],
+ "no_teleport": true,
+ "bone_travel_mm": {
+  "pelvis": 502.42,
+  "chest": 675.3,
+  "head": 974.14,
+  "hand.L": 906.3,
+  "hand.R": 934.61
+ },
+ "seam_source": [
+  "Idle_01",
+  0
+ ],
+ "skill_start_delta": 0.0,
+ "skill_start_ok": true,
+ "grab_frames": 6,
+ "grab_time_ok": true,
+ "anchor": {
+  "grab": {
+   "frame": 6,
+   "mid_m": [
+    -0.0,
+    -0.64,
+    0.98
+   ],
+   "hand_L_m": [
+    0.16,
+    -0.64,
+    0.98
+   ],
+   "hand_R_m": [
+    -0.16,
+    -0.64,
+    0.98
+   ]
+  },
+  "carry": {
+   "frame": 32,
+   "mid_m": [
+    -0.0,
+    -0.2,
+    1.7
+   ],
+   "hand_L_m": [
+    0.2,
+    -0.2,
+    1.7
+   ],
+   "hand_R_m": [
+    -0.2,
+    -0.2,
+    1.7
+   ]
+  },
+  "slam": {
+   "frame": 68,
+   "mid_m": [
+    0.0,
+    -0.7,
+    0.35
+   ],
+   "hand_L_m": [
+    0.16,
+    -0.7,
+    0.35
+   ],
+   "hand_R_m": [
+    -0.16,
+    -0.7,
+    0.35
+   ]
+  }
+ },
+ "lift_height_mm": 720.0,
+ "lift_min_mm": 600.0,
+ "lift_height_ok": true,
+ "lift_pelvis_z_mm": 85.0,
+ "hip_drive_lift_ok": true,
+ "hip_drive_min_mm": 60.0,
+ "carry_drift_mm": {
+  "L": 0.0001,
+  "R": 0.0001
+ },
+ "carry_drift_at": {
+  "L": 50,
+  "R": 50
+ },
+ "carry_window": [
+  32,
+  50
+ ],
+ "carry_steady_ok": true,
+ "carry_drift_max_mm": 3.0,
+ "carry_plant_mm": {
+  "L": 0.0036,
+  "R": 0.0034
+ },
+ "carry_feet_planted_ok": true,
+ "carry_plant_max_mm": 3.0,
+ "victim_anchor_present": true,
+ "slam_point_z_mm": 350.0,
+ "victim_anchor_ok": true,
+ "slam_floor_mm": -20.0,
+ "slam_descent_mm": [
+  1700.0,
+  1655.49,
+  1605.69,
+  1550.59,
+  1489.13,
+  1421.31,
+  1346.08,
+  1262.36,
+  1169.11,
+  1065.27,
+  950.82,
+  825.78,
+  690.15,
+  562.99,
+  465.5,
+  401.92,
+  368.01,
+  354.24,
+  350.0
+ ],
+ "slam_speed_mm": [
+  44.506,
+  49.804,
+  55.102,
+  61.46,
+  67.818,
+  75.235,
+  83.713,
+  93.25,
+  103.846,
+  114.443,
+  125.039,
+  135.636,
+  127.158,
+  97.488,
+  63.579,
+  33.909,
+  13.776,
+  4.239
+ ],
+ "slam_descent_ok": true,
+ "slam_accel_ok": true,
+ "slam_peak_speed_mm": 135.636,
+ "slam_last_speed_mm": 4.239,
+ "slam_speed_ok": true,
+ "slam_stop_max_mm": 12.0,
+ "slam_stop_ratio": 0.15,
+ "root_motion_m": [
+  0.0,
+  -0.38
+ ],
+ "root_motion_h_mm": 415.0,
+ "root_motion_z_peak_mm": 25.0,
+ "root_motion_z_drop_mm": 283.2,
+ "root_motion_ok": true,
+ "root_motion_limits_mm": [
+  900.0,
+  10.0,
+  500.0
+ ],
+ "hitstop_frozen_steps": [
+  0.0,
+  0.0
+ ],
+ "hitstop_present_ok": true,
+ "hitstop_momentum_mm": 19.981,
+ "hitstop_keeps_momentum_ok": true,
+ "hitstop_frames": 3,
+ "hitstop_frames_ok": true,
+ "antic_frames": 3,
+ "lift_frames": 26,
+ "carry_frames": 18,
+ "slam_frames": 18,
+ "recover_frames": 44,
+ "return_tail": [
+  3.4919,
+  3.4683,
+  3.4443,
+  3.4198,
+  3.3948,
+  3.3691,
+  3.3429,
+  3.3161,
+  3.2885,
+  3.2603,
+  3.2313,
+  3.2015,
+  3.1709,
+  3.1393,
+  3.1068,
+  3.0732,
+  3.0385,
+  3.0025,
+  2.9652,
+  2.9264,
+  2.886,
+  2.8439,
+  2.7998,
+  2.7534,
+  2.7047,
+  2.6531,
+  2.5984,
+  2.5399,
+  2.4771,
+  2.4091,
+  2.3348,
+  2.2527,
+  2.1604,
+  2.0544,
+  1.9288,
+  1.7721,
+  1.572,
+  1.1782,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "return_tail_bones": [
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "forearm.L",
+  "shin.R",
+  "shin.R",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "decel_smooth_ok": true,
+ "no_snap_stop_ok": true,
+ "local_step_max_deg": 3.492,
+ "power_chain_channels_deg": {
+  "pelvis": 22.0,
+  "spine_01": 12.5,
+  "spine_02": 12.5,
+  "chest": 15.0,
+  "shoulder.L": 18.0,
+  "shoulder.R": 18.0,
+  "thigh.L": 90.762,
+  "shin.L": 106.902,
+  "thigh.R": 53.199,
+  "shin.R": 104.767,
+  "upperarm.L": 60.386,
+  "forearm.L": 212.995,
+  "hand.L": 21.177,
+  "upperarm.R": 59.211,
+  "forearm.R": 214.189,
+  "hand.R": 24.558
+ },
+ "power_chain_ok": true,
+ "leg_reach_max_ratio": {
+  "L": 0.97826,
+  "R": 0.97715
+ },
+ "leg_reach_peak": {
+  "L": [
+   32,
+   804.13
+  ],
+  "R": [
+   32,
+   803.22
+  ]
+ },
+ "ik_reach_ok": true,
+ "arm_seat_clamp": {
+  "L": {
+   "any": false,
+   "worst_frame": 68,
+   "worst_over_mm": 0.0,
+   "worst_ratio": 0.878,
+   "limit_mm": 649.675
+  },
+  "R": {
+   "any": false,
+   "worst_frame": 68,
+   "worst_over_mm": 0.0,
+   "worst_ratio": 0.878,
+   "limit_mm": 649.675
+  }
+ },
+ "arm_seat_ok": true,
+ "stance_sole_mm": {
+  "L": [
+   -0.0,
+   1.055
+  ],
+  "R": [
+   -0.962,
+   0.0
+  ]
+ },
+ "stance_sole_ok": true,
+ "end_pose_measured_deg": {
+  "pelvis": [
+   4.0,
+   0.0,
+   0.0
+  ],
+  "spine_01": [
+   2.0,
+   0.0,
+   0.0
+  ],
+  "spine_02": [
+   2.0,
+   0.0,
+   0.0
+  ],
+  "chest": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "neck": [
+   -6.0,
+   0.0,
+   0.0
+  ],
+  "head": [
+   5.0,
+   0.0,
+   0.0
+  ],
+  "shoulder.L": [
+   -18.0,
+   0.0,
+   0.0
+  ],
+  "shoulder.R": [
+   -18.0,
+   0.0,
+   0.0
+  ]
+ },
+ "end_pose_delta_deg": {
+  "pelvis": 0.0,
+  "spine_01": 0.0,
+  "spine_02": 0.0,
+  "chest": 0.0,
+  "neck": 0.0,
+  "head": 0.0,
+  "shoulder.L": 0.0,
+  "shoulder.R": 0.0
+ },
+ "tail_settle_ok": true,
+ "tail_settle_tol_deg": 0.05,
+ "low_bad_frames": {},
+ "world_step_max_deg": 18.305,
+ "world_step_max_at": [
+  1,
+  "forearm.R"
+ ],
+ "world_step_ok": true,
+ "meta": {
+  "anim_id": "Skill_02",
+  "loop": false,
+  "category": "连招与特殊技",
+  "note": "抱摔：抓取 → 抱起（指尖抬升 720 mm）→ 顶住 → 砸地（对手落点 z = 350 mm）→ 命停 3 帧 → 收招回「战斗待机」；受招方锚点三相位登记。",
+  "antic_frame": 3,
+  "hit_frame": 68,
+  "cancel_frame": 110,
+  "hitstop_frames": 3,
+  "root_motion_m": [
+   0.0,
+   -0.38
+  ],
+  "inherit_from": null,
+  "segments": {
+   "grab": [
+    0,
+    6
+   ],
+   "lift": [
+    6,
+    32
+   ],
+   "carry": [
+    32,
+    50
+   ],
+   "slam": [
+    50,
+    68
+   ],
+   "hold": [
+    68,
+    70
+   ],
+   "recover": [
+    70,
+    114
+   ]
+  },
+  "victim_anchor_m": {
+   "carry": [
+    -0.0,
+    -0.2,
+    1.7
+   ],
+   "grab": [
+    -0.0,
+    -0.64,
+    0.98
+   ],
+   "slam": [
+    0.0,
+    -0.7,
+    0.35
+   ]
+  },
+  "grab_point_m": [
+   -0.0,
+   -0.64,
+   0.98
+  ],
+  "carry_point_m": [
+   -0.0,
+   -0.2,
+   1.7
+  ],
+  "slam_point_m": [
+   0.0,
+   -0.7,
+   0.35
+  ],
+  "end_pose_deg": {
+   "chest": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "head": [
+    5.0,
+    0.0,
+    0.0
+   ],
+   "neck": [
+    -6.0,
+    0.0,
+    0.0
+   ],
+   "pelvis": [
+    4.0,
+    0.0,
+    0.0
+   ],
+   "shoulder.L": [
+    -18.0,
+    0.0,
+    0.0
+   ],
+   "shoulder.R": [
+    -18.0,
+    0.0,
+    0.0
+   ],
+   "spine_01": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "spine_02": [
+    2.0,
+    0.0,
+    0.0
+   ]
+  },
+  "fps": 60,
+  "frames": [
+   0,
+   114
+  ]
+ },
+ "failed": [],
+ "non_ok_bools": []
+}

@@ -1,0 +1,26 @@
+C12_POSE2 {"key": "d045_s44_z86", "aspect": 0.4542, "ar": 1.3554, "fill": 0.4659, "fr": 0.7855, "sh_over_h": 0.1684, "headoff_mm": 0.0, "sole_mm": -0.5, "com_in": true, "pz_mm": 855.0}
+C12_POSE2 {"key": "d045_s44_z96", "aspect": 0.4417, "ar": 1.3181, "fill": 0.4783, "fr": 0.8064, "sh_over_h": 0.1684, "headoff_mm": 0.0, "sole_mm": -0.5, "com_in": true, "pz_mm": 855.0}
+C12_POSE2 {"key": "d045_s52_z86", "aspect": 0.4883, "ar": 1.4572, "fill": 0.4352, "fr": 0.7338, "sh_over_h": 0.1684, "headoff_mm": 0.0, "sole_mm": -0.5, "com_in": true, "pz_mm": 855.0}
+C12_POSE2 {"key": "d045_s52_z96", "aspect": 0.4752, "ar": 1.4181, "fill": 0.4459, "fr": 0.7518, "sh_over_h": 0.1684, "headoff_mm": 0.0, "sole_mm": -0.5, "com_in": true, "pz_mm": 855.0}
+C12_POSE2 {"key": "d045_s60_z86", "aspect": 0.5267, "ar": 1.5718, "fill": 0.4048, "fr": 0.6825, "sh_over_h": 0.1684, "headoff_mm": 0.0, "sole_mm": -0.5, "com_in": true, "pz_mm": 855.0}
+C12_POSE2 {"key": "d045_s60_z96", "aspect": 0.513, "ar": 1.5309, "fill": 0.4151, "fr": 0.6999, "sh_over_h": 0.1684, "headoff_mm": 0.0, "sole_mm": -0.5, "com_in": true, "pz_mm": 855.0}
+C12_POSE2 {"key": "d070_s44_z86", "aspect": 0.4607, "ar": 1.3748, "fill": 0.4677, "fr": 0.7886, "sh_over_h": 0.1708, "headoff_mm": 0.0, "sole_mm": -0.98, "com_in": true, "pz_mm": 830.0}
+C12_POSE2 {"key": "d070_s44_z96", "aspect": 0.448, "ar": 1.3369, "fill": 0.4798, "fr": 0.809, "sh_over_h": 0.1708, "headoff_mm": 0.0, "sole_mm": -0.98, "com_in": true, "pz_mm": 830.0}
+C12_POSE2 {"key": "d070_s52_z86", "aspect": 0.4952, "ar": 1.4778, "fill": 0.4359, "fr": 0.735, "sh_over_h": 0.1708, "headoff_mm": 0.0, "sole_mm": -0.98, "com_in": true, "pz_mm": 830.0}
+C12_POSE2 {"key": "d070_s52_z96", "aspect": 0.4819, "ar": 1.4381, "fill": 0.447, "fr": 0.7537, "sh_over_h": 0.1708, "headoff_mm": 0.0, "sole_mm": -0.98, "com_in": true, "pz_mm": 830.0}
+C12_POSE2 {"key": "d070_s60_z86", "aspect": 0.5342, "ar": 1.5942, "fill": 0.4056, "fr": 0.6839, "sh_over_h": 0.1708, "headoff_mm": 0.0, "sole_mm": -0.98, "com_in": true, "pz_mm": 830.0}
+C12_POSE2 {"key": "d070_s60_z96", "aspect": 0.5203, "ar": 1.5527, "fill": 0.4157, "fr": 0.7009, "sh_over_h": 0.1708, "headoff_mm": 0.0, "sole_mm": -0.98, "com_in": true, "pz_mm": 830.0}
+C12_POSE2 {"key": "d095_s44_z86", "aspect": 0.4674, "ar": 1.3948, "fill": 0.4689, "fr": 0.7906, "sh_over_h": 0.1733, "headoff_mm": 0.0, "sole_mm": -1.36, "com_in": true, "pz_mm": 805.0}
+C12_POSE2 {"key": "d095_s44_z96", "aspect": 0.4545, "ar": 1.3563, "fill": 0.4816, "fr": 0.812, "sh_over_h": 0.1733, "headoff_mm": 0.0, "sole_mm": -1.36, "com_in": true, "pz_mm": 805.0}
+C12_POSE2 {"key": "d095_s52_z86", "aspect": 0.5024, "ar": 1.4993, "fill": 0.4374, "fr": 0.7375, "sh_over_h": 0.1733, "headoff_mm": 0.0, "sole_mm": -1.36, "com_in": true, "pz_mm": 805.0}
+C12_POSE2 {"key": "d095_s52_z96", "aspect": 0.4889, "ar": 1.459, "fill": 0.4487, "fr": 0.7565, "sh_over_h": 0.1733, "headoff_mm": 0.0, "sole_mm": -1.36, "com_in": true, "pz_mm": 805.0}
+C12_POSE2 {"key": "d095_s60_z86", "aspect": 0.542, "ar": 1.6174, "fill": 0.4065, "fr": 0.6854, "sh_over_h": 0.1733, "headoff_mm": 0.0, "sole_mm": -1.36, "com_in": true, "pz_mm": 805.0}
+C12_POSE2 {"key": "d095_s60_z96", "aspect": 0.5279, "ar": 1.5754, "fill": 0.4174, "fr": 0.7038, "sh_over_h": 0.1733, "headoff_mm": 0.0, "sole_mm": -1.36, "com_in": true, "pz_mm": 805.0}
+C12_POSE2_PASS []
+C12_POSE2_BASELINE {"aspect": 0.3351, "fill": 0.5931, "sh_over_h": 0.174}
+C12_POSE2_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

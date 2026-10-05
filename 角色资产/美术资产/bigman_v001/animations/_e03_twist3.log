@@ -1,0 +1,31 @@
+E03_TWIST {"twist": -180, "L": {"core_gap_mm": 38.0, "all_min_mm": -2.56, "thumb_min_mm": 102.66, "palm_min_mm": -2.56}, "R": {"core_gap_mm": 38.0, "all_min_mm": -2.46, "thumb_min_mm": 102.5, "palm_min_mm": -2.46}}
+E03_TWIST {"twist": -165, "L": {"core_gap_mm": 38.0, "all_min_mm": -4.05, "thumb_min_mm": 104.11, "palm_min_mm": -4.05}, "R": {"core_gap_mm": 38.0, "all_min_mm": 1.8, "thumb_min_mm": 98.1, "palm_min_mm": 1.8}}
+E03_TWIST {"twist": -150, "L": {"core_gap_mm": 38.0, "all_min_mm": -2.59, "thumb_min_mm": 100.87, "palm_min_mm": -2.59}, "R": {"core_gap_mm": 38.0, "all_min_mm": 8.31, "thumb_min_mm": 90.14, "palm_min_mm": 8.31}}
+E03_TWIST {"twist": -135, "L": {"core_gap_mm": 38.0, "all_min_mm": -4.27, "thumb_min_mm": 98.53, "palm_min_mm": -4.27}, "R": {"core_gap_mm": 38.0, "all_min_mm": 16.51, "thumb_min_mm": 82.06, "palm_min_mm": 16.51}}
+E03_TWIST {"twist": -120, "L": {"core_gap_mm": 38.0, "all_min_mm": -8.91, "thumb_min_mm": 89.57, "palm_min_mm": -8.91}, "R": {"core_gap_mm": 38.0, "all_min_mm": 22.52, "thumb_min_mm": 71.22, "palm_min_mm": 22.52}}
+E03_TWIST {"twist": -105, "L": {"core_gap_mm": 38.0, "all_min_mm": -10.86, "thumb_min_mm": 70.53, "palm_min_mm": -10.86}, "R": {"core_gap_mm": 38.0, "all_min_mm": 20.22, "thumb_min_mm": 58.58, "palm_min_mm": 20.22}}
+E03_TWIST {"twist": -90, "L": {"core_gap_mm": 38.0, "all_min_mm": -6.97, "thumb_min_mm": 48.0, "palm_min_mm": -6.97}, "R": {"core_gap_mm": 38.0, "all_min_mm": 13.78, "thumb_min_mm": 45.14, "palm_min_mm": 13.78}}
+E03_TWIST {"twist": -75, "L": {"core_gap_mm": 38.0, "all_min_mm": -8.4, "thumb_min_mm": 24.58, "palm_min_mm": -8.4}, "R": {"core_gap_mm": 38.0, "all_min_mm": 6.03, "thumb_min_mm": 29.76, "palm_min_mm": 6.03}}
+E03_TWIST {"twist": -60, "L": {"core_gap_mm": 38.0, "all_min_mm": -10.48, "thumb_min_mm": 2.56, "palm_min_mm": -10.48}, "R": {"core_gap_mm": 38.0, "all_min_mm": -0.2, "thumb_min_mm": 13.45, "palm_min_mm": -0.2}}
+E03_TWIST {"twist": -45, "L": {"core_gap_mm": 38.0, "all_min_mm": -16.51, "thumb_min_mm": -16.51, "palm_min_mm": -14.65}, "R": {"core_gap_mm": 38.0, "all_min_mm": -3.26, "thumb_min_mm": -1.44, "palm_min_mm": -3.26}}
+E03_TWIST {"twist": -30, "L": {"core_gap_mm": 38.0, "all_min_mm": -30.91, "thumb_min_mm": -30.91, "palm_min_mm": -19.96}, "R": {"core_gap_mm": 38.0, "all_min_mm": -14.82, "thumb_min_mm": -14.82, "palm_min_mm": -3.25}}
+E03_TWIST {"twist": -15, "L": {"core_gap_mm": 38.0, "all_min_mm": -38.02, "thumb_min_mm": -38.02, "palm_min_mm": -19.54}, "R": {"core_gap_mm": 38.0, "all_min_mm": -27.41, "thumb_min_mm": -27.41, "palm_min_mm": -5.91}}
+E03_TWIST {"twist": 0, "L": {"core_gap_mm": 38.0, "all_min_mm": -36.26, "thumb_min_mm": -36.26, "palm_min_mm": -13.33}, "R": {"core_gap_mm": 38.0, "all_min_mm": -36.19, "thumb_min_mm": -36.19, "palm_min_mm": -13.38}}
+E03_TWIST {"twist": 15, "L": {"core_gap_mm": 38.0, "all_min_mm": -27.39, "thumb_min_mm": -27.39, "palm_min_mm": -5.72}, "R": {"core_gap_mm": 38.0, "all_min_mm": -38.01, "thumb_min_mm": -38.01, "palm_min_mm": -19.66}}
+E03_TWIST {"twist": 30, "L": {"core_gap_mm": 38.0, "all_min_mm": -14.84, "thumb_min_mm": -14.84, "palm_min_mm": -3.27}, "R": {"core_gap_mm": 38.0, "all_min_mm": -30.99, "thumb_min_mm": -30.99, "palm_min_mm": -19.82}}
+E03_TWIST {"twist": 45, "L": {"core_gap_mm": 38.0, "all_min_mm": -3.13, "thumb_min_mm": -1.49, "palm_min_mm": -3.13}, "R": {"core_gap_mm": 38.0, "all_min_mm": -16.68, "thumb_min_mm": -16.68, "palm_min_mm": -14.76}}
+E03_TWIST {"twist": 60, "L": {"core_gap_mm": 38.0, "all_min_mm": -0.08, "thumb_min_mm": 13.38, "palm_min_mm": -0.08}, "R": {"core_gap_mm": 38.0, "all_min_mm": -10.32, "thumb_min_mm": 2.18, "palm_min_mm": -10.32}}
+E03_TWIST {"twist": 75, "L": {"core_gap_mm": 38.0, "all_min_mm": 6.12, "thumb_min_mm": 29.6, "palm_min_mm": 6.12}, "R": {"core_gap_mm": 38.0, "all_min_mm": -8.37, "thumb_min_mm": 24.12, "palm_min_mm": -8.37}}
+E03_TWIST {"twist": 90, "L": {"core_gap_mm": 38.0, "all_min_mm": 13.92, "thumb_min_mm": 45.11, "palm_min_mm": 13.92}, "R": {"core_gap_mm": 38.0, "all_min_mm": -7.13, "thumb_min_mm": 47.55, "palm_min_mm": -7.13}}
+E03_TWIST {"twist": 105, "L": {"core_gap_mm": 38.0, "all_min_mm": 20.4, "thumb_min_mm": 58.41, "palm_min_mm": 20.4}, "R": {"core_gap_mm": 38.0, "all_min_mm": -10.99, "thumb_min_mm": 70.11, "palm_min_mm": -10.99}}
+E03_TWIST {"twist": 120, "L": {"core_gap_mm": 38.0, "all_min_mm": 22.7, "thumb_min_mm": 70.61, "palm_min_mm": 22.7}, "R": {"core_gap_mm": 38.0, "all_min_mm": -8.88, "thumb_min_mm": 89.28, "palm_min_mm": -8.88}}
+E03_TWIST {"twist": 135, "L": {"core_gap_mm": 38.0, "all_min_mm": 16.62, "thumb_min_mm": 82.07, "palm_min_mm": 16.62}, "R": {"core_gap_mm": 38.0, "all_min_mm": -4.32, "thumb_min_mm": 95.86, "palm_min_mm": -4.32}}
+E03_TWIST {"twist": 150, "L": {"core_gap_mm": 38.0, "all_min_mm": 8.45, "thumb_min_mm": 90.2, "palm_min_mm": 8.45}, "R": {"core_gap_mm": 38.0, "all_min_mm": -2.58, "thumb_min_mm": 100.2, "palm_min_mm": -2.58}}
+E03_TWIST {"twist": 165, "L": {"core_gap_mm": 38.0, "all_min_mm": 1.8, "thumb_min_mm": 98.37, "palm_min_mm": 1.8}, "R": {"core_gap_mm": 38.0, "all_min_mm": -4.02, "thumb_min_mm": 102.71, "palm_min_mm": -4.02}}
+E03_TWIST {"twist": 180, "L": {"core_gap_mm": 38.0, "all_min_mm": -2.56, "thumb_min_mm": 103.02, "palm_min_mm": -2.56}, "R": {"core_gap_mm": 38.0, "all_min_mm": -2.46, "thumb_min_mm": 102.5, "palm_min_mm": -2.46}}
+E03_TWIST_BEST [-180, 180, 150, -150, 165, -165]
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

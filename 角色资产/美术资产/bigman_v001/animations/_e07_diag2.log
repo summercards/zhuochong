@@ -1,0 +1,85 @@
+======================================================================
+E07_DIAG2 A. 逐帧 hint 余量（sin 夹角）+ 手骨 y_dir 与 ±X 夹角
+  margin=0.2688  f= 10  (=15.59 deg)
+  margin=0.3789  f=  9  (=22.27 deg)
+  margin=0.5465  f= 11  (=33.13 deg)
+  margin=0.6708  f= 94  (=42.13 deg)
+  margin=0.6779  f= 95  (=42.68 deg)
+  margin=0.6847  f= 93  (=43.21 deg)
+  margin=0.7083  f= 96  (=45.10 deg)
+  margin=0.7114  f= 92  (=45.35 deg)
+  margin=0.7415  f= 91  (=47.86 deg)
+  margin=0.7523  f= 12  (=48.79 deg)
+  margin=0.7565  f= 97  (=49.16 deg)
+  margin=0.7679  f= 90  (=50.16 deg)
+  margin=0.7843  f=  8  (=51.65 deg)
+  margin=0.7846  f= 37  (=51.68 deg)
+======================================================================
+E07_DIAG2 B. 逐帧 R 拳穿模 f86..f114（limit=10.0 mm）
+  f= 86 env=1.000 inside=  0 nothumb=  0 deepest=  90.40 dnothumb=  90.40 beyond=  0 core=[ -345.0,  116.8, 1053.5]
+  f= 88 env=1.000 inside=  0 nothumb=  0 deepest=  90.40 dnothumb=  90.40 beyond=  0 core=[ -345.0,  116.8, 1053.5]
+  f= 90 env=0.977 inside=  0 nothumb=  0 deepest=  95.19 dnothumb=  95.19 beyond=  0 core=[ -346.8,  111.0, 1074.6]
+  f= 92 env=0.913 inside=  0 nothumb=  0 deepest= 108.70 dnothumb= 108.70 beyond=  0 core=[ -354.1,   87.2, 1126.8]
+  f= 94 env=0.817 inside=  0 nothumb=  0 deepest= 111.09 dnothumb= 111.09 beyond=  0 core=[ -379.5,   36.1, 1178.4]
+  f= 96 env=0.699 inside=  0 nothumb=  0 deepest=  93.46 dnothumb=  93.46 beyond=  0 core=[ -349.0,  -86.2, 1224.4]
+  f= 98 env=0.568 inside=832 nothumb=735 deepest= -98.24 dnothumb= -98.24 beyond=709 core=[ -162.9,  -77.6, 1247.4]
+  f=100 env=0.432 inside=627 nothumb=530 deepest=-124.22 dnothumb= -79.08 beyond=570 core=[ -156.9, -134.8, 1262.4]
+  f=102 env=0.301 inside=389 nothumb=292 deepest=-102.33 dnothumb= -70.09 beyond=382 core=[ -140.0, -184.2, 1274.7]
+  f=104 env=0.183 inside=147 nothumb= 50 deepest= -81.86 dnothumb= -48.39 beyond=162 core=[ -126.3, -223.3, 1282.7]
+  f=106 env=0.087 inside= 89 nothumb=  2 deepest= -59.79 dnothumb= -26.48 beyond= 25 core=[ -121.1, -253.1, 1287.8]
+  f=108 env=0.023 inside= 58 nothumb=  0 deepest= -41.21 dnothumb= -10.57 beyond=  2 core=[ -121.4, -273.0, 1290.3]
+  f=110 env=0.000 inside= 35 nothumb=  0 deepest= -33.67 dnothumb=  -4.35 beyond=  0 core=[ -123.1, -279.8, 1291.6]
+  f=112 env=0.000 inside= 43 nothumb=  0 deepest= -33.77 dnothumb=  -4.37 beyond=  0 core=[ -124.4, -278.5, 1292.9]
+  f=114 env=0.000 inside= 45 nothumb=  0 deepest= -33.90 dnothumb=  -4.40 beyond=  0 core=[ -126.1, -276.9, 1294.7]
+======================================================================
+E07_DIAG2 C. 复现 main() 的键值：compat_euler + seam_canonicalize 之后
+  upperarm.L  
+      raw f0 =(-50.236, -13.165, -27.656)
+      raw f120=(-50.236, -13.165, -27.656)
+      comp f0 =(-50.236, -13.165, -27.656)  comp f120=(-50.236, -13.165, -27.656)
+      seam f0 =(-50.236, -13.165, -27.656)  seam f120=(-50.236, -13.165, -27.656)
+  forearm.L   
+      raw f0 =(5.133, 13.268, -137.845)
+      raw f120=(5.133, 13.268, -137.845)
+      comp f0 =(5.133, 13.268, -137.845)  comp f120=(5.133, 13.268, -137.845)
+      seam f0 =(5.133, 13.268, -137.845)  seam f120=(5.133, 13.268, -137.845)
+  hand.L      
+      raw f0 =(2.54, -0.475, 21.177)
+      raw f120=(2.54, -0.475, 21.177)
+      comp f0 =(2.54, -0.475, 21.177)  comp f120=(2.54, -0.475, 21.177)
+      seam f0 =(2.54, -0.475, 21.177)  seam f120=(2.54, -0.475, 21.177)
+  upperarm.R  
+      raw f0 =(-50.055, 15.194, 31.887)
+      raw f120=(-50.055, 15.194, 31.887)
+      comp f0 =(-50.055, 15.194, 31.887)  comp f120=(-50.055, 15.194, 31.887)
+      seam f0 =(-50.055, 15.194, 31.887)  seam f120=(-50.055, 15.194, 31.887)
+  forearm.R   
+      raw f0 =(2.701, -8.9, 146.292)
+      raw f120=(2.701, -8.9, 146.292)
+      comp f0 =(2.701, -8.9, 146.292)  comp f120=(2.701, -8.9, 146.292)
+      seam f0 =(2.701, -8.9, 146.292)  seam f120=(2.701, -8.9, 146.292)
+  hand.R      
+      raw f0 =(8.506, 1.855, -24.558)
+      raw f120=(8.506, 1.855, -24.558)
+      comp f0 =(8.506, 1.855, -24.558)  comp f120=(8.506, 1.855, -24.558)
+      seam f0 =(8.506, 1.855, -24.558)  seam f120=(8.506, 1.855, -24.558)
+  --- 末段 108..120 (compat 后, 未 seam) 每帧 forearm.R / upperarm.R
+   f=108  upperarm.R=(-50.12, 14.9, 31.26)  forearm.R=(182.48, -167.73, -32.01)  hand.R=(4.84, 2.05, -26.6)
+   f=109  upperarm.R=(-50.07, 15.12, 31.73)  forearm.R=(182.64, -170.23, -33.28)  hand.R=(7.56, 1.91, -25.08)
+   f=110  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=111  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=112  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=113  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=114  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=115  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=116  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=117  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=118  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=119  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(182.7, -171.1, -33.71)  hand.R=(8.51, 1.85, -24.56)
+   f=120  upperarm.R=(-50.05, 15.19, 31.89)  forearm.R=(2.7, -8.9, 146.29)  hand.R=(8.51, 1.85, -24.56)
+E07_DIAG2 DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

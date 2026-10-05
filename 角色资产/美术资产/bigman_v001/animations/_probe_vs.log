@@ -1,0 +1,16 @@
+E07_VS_E06 max_deg=177.281 @ frame=62
+E07_VS_E06 identical_frames=13 (<=1.0 deg)
+  f=  0 diff=  0.033 deg
+  f= 14 diff=112.922 deg
+  f= 26 diff=171.012 deg
+  f= 34 diff=157.990 deg
+  f= 60 diff=173.267 deg
+  f= 76 diff=168.301 deg
+  f= 88 diff=164.274 deg
+  f=108 diff=  2.162 deg
+  f=120 diff=  0.033 deg
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

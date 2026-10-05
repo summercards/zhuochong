@@ -1,0 +1,7 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_ground_hit.py", line 952
+    "★ 末帧**不回原位**（这是"躺地被砸一下"的收尾）⟹ 只报：末帧与首帧的世界"
+    ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Blender quit

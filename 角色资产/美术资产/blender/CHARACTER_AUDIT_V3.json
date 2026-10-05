@@ -1,0 +1,3033 @@
+{
+  "generated_at_utc": "2026-09-15T02:57:50.506236+00:00",
+  "glb_path": "I:\\工作项目\\blender\\business_man_tpose_v3.glb",
+  "glb_sha256": "8c26c0ab9801b0b1c6ab79bddf69a9d07d4fe52a4c3fff4eb3c9be611de58b2a",
+  "blender_version": "4.5.0",
+  "scene": {
+    "object_count": 121,
+    "mesh_count": 120,
+    "armature_count": 1,
+    "camera_count": 0,
+    "light_count": 0,
+    "object_names": [
+      "Character_Rig",
+      "Chin",
+      "Cuff_Button_L_01",
+      "Cuff_Button_L_02",
+      "Cuff_Button_L_03",
+      "Cuff_Button_R_01",
+      "Cuff_Button_R_02",
+      "Cuff_Button_R_03",
+      "Ear_L",
+      "Ear_R",
+      "Eye_White_L",
+      "Eye_White_R",
+      "Eyebrow_L",
+      "Eyebrow_R",
+      "Face_Line_L",
+      "Face_Line_R",
+      "Finger_L_1",
+      "Finger_L_2",
+      "Finger_L_3",
+      "Finger_L_4",
+      "Finger_R_1",
+      "Finger_R_2",
+      "Finger_R_3",
+      "Finger_R_4",
+      "Glasses_Bridge",
+      "Glasses_Frame_L",
+      "Glasses_Frame_R",
+      "Glasses_Lens_L",
+      "Glasses_Lens_R",
+      "Glasses_Temple_L",
+      "Glasses_Temple_R",
+      "Hair_Back",
+      "Hair_Cap",
+      "Hair_Lock_01",
+      "Hair_Lock_02",
+      "Hair_Lock_03",
+      "Hair_Lock_04",
+      "Hair_Lock_05",
+      "Hair_Lock_06",
+      "Hair_Lock_07",
+      "Hair_Top_01",
+      "Hair_Top_02",
+      "Hair_Top_03",
+      "Hair_Top_04",
+      "Hair_Top_05",
+      "Head",
+      "Icosphere",
+      "Iris_L",
+      "Iris_R",
+      "Jacket_Back_Seam",
+      "Jacket_Button_01",
+      "Jacket_Button_02",
+      "Jacket_Hem",
+      "Jacket_Lapel_L",
+      "Jacket_Lapel_R",
+      "Jacket_Pocket_Flap_L",
+      "Jacket_Pocket_Flap_R",
+      "Jacket_Pocket_L",
+      "Jacket_Pocket_R",
+      "Jacket_Shell",
+      "Jacket_Side_Vent_L",
+      "Jacket_Side_Vent_R",
+      "Jaw",
+      "Knuckle_L_1",
+      "Knuckle_L_2",
+      "Knuckle_L_3",
+      "Knuckle_L_4",
+      "Knuckle_R_1",
+      "Knuckle_R_2",
+      "Knuckle_R_3",
+      "Knuckle_R_4",
+      "Lower_Lip",
+      "Mouth_Line",
+      "Neck",
+      "Nose",
+      "Palm_L",
+      "Palm_R",
+      "Pupil_L",
+      "Pupil_R",
+      "Shirt_Body",
+      "Shirt_Center_Seam",
+      "Shirt_Collar_L",
+      "Shirt_Collar_R",
+      "Shirt_Cuff_L",
+      "Shirt_Cuff_R",
+      "Shirt_V",
+      "Shoe_Eyelet_L_1_A",
+      "Shoe_Eyelet_L_1_B",
+      "Shoe_Eyelet_L_2_A",
+      "Shoe_Eyelet_L_2_B",
+      "Shoe_Eyelet_R_1_A",
+      "Shoe_Eyelet_R_1_B",
+      "Shoe_Eyelet_R_2_A",
+      "Shoe_Eyelet_R_2_B",
+      "Shoe_Heel_L",
+      "Shoe_Heel_R",
+      "Shoe_L",
+      "Shoe_Lace_L_A",
+      "Shoe_Lace_L_B",
+      "Shoe_Lace_R_A",
+      "Shoe_Lace_R_B",
+      "Shoe_R",
+      "Shoe_Sole_L",
+      "Shoe_Sole_R",
+      "Shoe_Tongue_L",
+      "Shoe_Tongue_R",
+      "Sideburn_L",
+      "Sideburn_R",
+      "Sleeve_L",
+      "Sleeve_R",
+      "Thumb_L",
+      "Thumb_R",
+      "Thumb_Tip_L",
+      "Thumb_Tip_R",
+      "Trouser_Crease_L",
+      "Trouser_Crease_R",
+      "Trouser_Fly",
+      "Trouser_Leg_L",
+      "Trouser_Leg_R",
+      "Trouser_Waist",
+      "Upper_Lip"
+    ]
+  },
+  "bounds": {
+    "min": [
+      -0.963,
+      -1.0,
+      -1.0
+    ],
+    "max": [
+      0.963,
+      1.0,
+      1.886448
+    ],
+    "dimensions": [
+      1.926,
+      2.0,
+      2.886448
+    ],
+    "height_m": 2.886448
+  },
+  "geometry": {
+    "vertex_count": 26245,
+    "triangle_count": 33432,
+    "meshes": [
+      {
+        "name": "Chin",
+        "vertices": 549,
+        "triangles": 952,
+        "min": [
+          -0.037,
+          -0.071,
+          1.612
+        ],
+        "max": [
+          0.037,
+          -0.023,
+          1.664
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Warm Skin"
+        ]
+      },
+      {
+        "name": "Cuff_Button_L_01",
+        "vertices": 164,
+        "triangles": 252,
+        "min": [
+          0.6975,
+          -0.0645,
+          1.4505
+        ],
+        "max": [
+          0.7025,
+          -0.0515,
+          1.4635
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Cuff_Button_L_02",
+        "vertices": 164,
+        "triangles": 252,
+        "min": [
+          0.7155,
+          -0.0645,
+          1.4505
+        ],
+        "max": [
+          0.7205,
+          -0.0515,
+          1.4635
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Cuff_Button_L_03",
+        "vertices": 164,
+        "triangles": 252,
+        "min": [
+          0.7335,
+          -0.0645,
+          1.4505
+        ],
+        "max": [
+          0.7385,
+          -0.0515,
+          1.4635
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Cuff_Button_R_01",
+        "vertices": 164,
+        "triangles": 252,
+        "min": [
+          -0.7025,
+          -0.0645,
+          1.4505
+        ],
+        "max": [
+          -0.6975,
+          -0.0515,
+          1.4635
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Cuff_Button_R_02",
+        "vertices": 164,
+        "triangles": 252,
+        "min": [
+          -0.7205,
+          -0.0645,
+          1.4505
+        ],
+        "max": [
+          -0.7155,
+          -0.0515,
+          1.4635
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Cuff_Button_R_03",
+        "vertices": 164,
+        "triangles": 252,
+        "min": [
+          -0.7385,
+          -0.0645,
+          1.4505
+        ],
+        "max": [
+          -0.7335,
+          -0.0515,
+          1.4635
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Ear_L",
+        "vertices": 423,
+        "triangles": 720,
+        "min": [
+          0.064,
+          -0.016,
+          1.687
+        ],
+        "max": [
+          0.092,
+          0.024,
+          1.747
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Warm Skin"
+        ]
+      },
+      {
+        "name": "Ear_R",
+        "vertices": 423,
+        "triangles": 720,
+        "min": [
+          -0.092,
+          -0.016,
+          1.687
+        ],
+        "max": [
+          -0.064,
+          0.024,
+          1.747
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Warm Skin"
+        ]
+      },
+      {
+        "name": "Eye_White_L",
+        "vertices": 423,
+        "triangles": 720,
+        "min": [
+          0.012,
+          -0.078,
+          1.733
+        ],
+        "max": [
+          0.046,
+          -0.068,
+          1.749
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Eye White"
+        ]
+      },
+      {
+        "name": "Eye_White_R",
+        "vertices": 423,
+        "triangles": 720,
+        "min": [
+          -0.046,
+          -0.078,
+          1.733
+        ],
+        "max": [
+          -0.012,
+          -0.068,
+          1.749
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Eye White"
+        ]
+      },
+      {
+        "name": "Eyebrow_L",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.007034,
+          -0.079118,
+          1.757127
+        ],
+        "max": [
+          0.052966,
+          -0.068882,
+          1.768873
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Eyebrow_R",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.052966,
+          -0.079118,
+          1.757127
+        ],
+        "max": [
+          -0.007034,
+          -0.068882,
+          1.768873
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Face_Line_L",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          0.036199,
+          -0.07883,
+          1.647707
+        ],
+        "max": [
+          0.048056,
+          -0.065198,
+          1.713205
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Face_Line_R",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.048056,
+          -0.07883,
+          1.647707
+        ],
+        "max": [
+          -0.036199,
+          -0.065198,
+          1.713205
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Finger_L_1",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          0.873,
+          -0.0475,
+          1.4315
+        ],
+        "max": [
+          0.949,
+          -0.0265,
+          1.4565
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_L_2",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          0.873,
+          -0.0255,
+          1.4303
+        ],
+        "max": [
+          0.963,
+          -0.0025,
+          1.4553
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_L_3",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          0.873,
+          -0.0015,
+          1.4291
+        ],
+        "max": [
+          0.956,
+          0.0195,
+          1.4541
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_L_4",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          0.873,
+          0.023,
+          1.4279
+        ],
+        "max": [
+          0.939,
+          0.041,
+          1.4529
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_R_1",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          -0.949,
+          -0.0475,
+          1.4315
+        ],
+        "max": [
+          -0.873,
+          -0.0265,
+          1.4565
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_R_2",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          -0.963,
+          -0.0255,
+          1.4303
+        ],
+        "max": [
+          -0.873,
+          -0.0025,
+          1.4553
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_R_3",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          -0.956,
+          -0.0015,
+          1.4291
+        ],
+        "max": [
+          -0.873,
+          0.0195,
+          1.4541
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Finger_R_4",
+        "vertices": 114,
+        "triangles": 224,
+        "min": [
+          -0.939,
+          0.023,
+          1.4279
+        ],
+        "max": [
+          -0.873,
+          0.041,
+          1.4529
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Glasses_Bridge",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.007325,
+          -0.091082,
+          1.742284
+        ],
+        "max": [
+          0.007325,
+          -0.084122,
+          1.750064
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Frame"
+        ]
+      },
+      {
+        "name": "Glasses_Frame_L",
+        "vertices": 451,
+        "triangles": 800,
+        "min": [
+          -0.002225,
+          -0.0875,
+          1.715624
+        ],
+        "max": [
+          0.064225,
+          -0.0805,
+          1.764563
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Frame"
+        ]
+      },
+      {
+        "name": "Glasses_Frame_R",
+        "vertices": 451,
+        "triangles": 800,
+        "min": [
+          -0.064225,
+          -0.0875,
+          1.715624
+        ],
+        "max": [
+          0.002225,
+          -0.0805,
+          1.764563
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Frame"
+        ]
+      },
+      {
+        "name": "Glasses_Lens_L",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.009,
+          -0.0838,
+          1.7285
+        ],
+        "max": [
+          0.053,
+          -0.0802,
+          1.7535
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Lens"
+        ]
+      },
+      {
+        "name": "Glasses_Lens_R",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.053,
+          -0.0838,
+          1.7285
+        ],
+        "max": [
+          -0.009,
+          -0.0802,
+          1.7535
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Lens"
+        ]
+      },
+      {
+        "name": "Glasses_Temple_L",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          0.056275,
+          -0.084796,
+          1.742193
+        ],
+        "max": [
+          0.08086,
+          0.019059,
+          1.745807
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Frame"
+        ]
+      },
+      {
+        "name": "Glasses_Temple_R",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.08086,
+          -0.084796,
+          1.742193
+        ],
+        "max": [
+          -0.056275,
+          0.019059,
+          1.745807
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Glasses Frame"
+        ]
+      },
+      {
+        "name": "Hair_Back",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.076,
+          0.031,
+          1.724
+        ],
+        "max": [
+          0.076,
+          0.085,
+          1.824
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Cap",
+        "vertices": 1303,
+        "triangles": 2376,
+        "min": [
+          -0.09,
+          -0.074,
+          1.745
+        ],
+        "max": [
+          0.09,
+          0.092,
+          1.869
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_01",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.091586,
+          -0.069404,
+          1.76609
+        ],
+        "max": [
+          -0.042414,
+          -0.034596,
+          1.843909
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_02",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.069517,
+          -0.076629,
+          1.770393
+        ],
+        "max": [
+          -0.020483,
+          -0.039371,
+          1.853606
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_03",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.043351,
+          -0.079709,
+          1.772909
+        ],
+        "max": [
+          0.001351,
+          -0.042291,
+          1.85909
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_04",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.018559,
+          -0.080737,
+          1.774199
+        ],
+        "max": [
+          0.024559,
+          -0.043263,
+          1.861801
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_05",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.004117,
+          -0.079754,
+          1.772732
+        ],
+        "max": [
+          0.049883,
+          -0.042246,
+          1.859268
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_06",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.024997,
+          -0.075668,
+          1.770222
+        ],
+        "max": [
+          0.075003,
+          -0.038332,
+          1.853778
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Lock_07",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.045981,
+          -0.067392,
+          1.766087
+        ],
+        "max": [
+          0.094019,
+          -0.032608,
+          1.843913
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Top_01",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.094865,
+          -0.044069,
+          1.76052
+        ],
+        "max": [
+          -0.033135,
+          -0.003931,
+          1.86148
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Top_02",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.063524,
+          -0.04033,
+          1.77029
+        ],
+        "max": [
+          -0.004476,
+          0.00033,
+          1.87971
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Top_03",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.027,
+          -0.038435,
+          1.775552
+        ],
+        "max": [
+          0.027,
+          0.002435,
+          1.886448
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Top_04",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.004476,
+          -0.04033,
+          1.77029
+        ],
+        "max": [
+          0.063524,
+          0.00033,
+          1.87971
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Hair_Top_05",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.033135,
+          -0.044069,
+          1.76052
+        ],
+        "max": [
+          0.094865,
+          -0.003931,
+          1.86148
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Head",
+        "vertices": 242,
+        "triangles": 480,
+        "min": [
+          -0.078,
+          -0.072,
+          1.61
+        ],
+        "max": [
+          0.078,
+          0.085,
+          1.82
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Warm Skin"
+        ]
+      },
+      {
+        "name": "Icosphere",
+        "vertices": 42,
+        "triangles": 80,
+        "min": [
+          -0.951058,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          0.951058,
+          1.0,
+          1.0
+        ],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "Iris_L",
+        "vertices": 423,
+        "triangles": 720,
+        "min": [
+          0.0228,
+          -0.0793,
+          1.7348
+        ],
+        "max": [
+          0.0352,
+          -0.0755,
+          1.7472
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Brown Iris"
+        ]
+      },
+      {
+        "name": "Iris_R",
+        "vertices": 423,
+        "triangles": 720,
+        "min": [
+          -0.0352,
+          -0.0793,
+          1.7348
+        ],
+        "max": [
+          -0.0228,
+          -0.0755,
+          1.7472
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Brown Iris"
+        ]
+      },
+      {
+        "name": "Jacket_Back_Seam",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.0014,
+          0.12867,
+          0.859946
+        ],
+        "max": [
+          0.0014,
+          0.150331,
+          1.470028
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Jacket_Button_01",
+        "vertices": 244,
+        "triangles": 380,
+        "min": [
+          -0.01,
+          -0.146,
+          1.125
+        ],
+        "max": [
+          0.01,
+          -0.14,
+          1.145
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Jacket_Button_02",
+        "vertices": 244,
+        "triangles": 380,
+        "min": [
+          -0.01,
+          -0.146,
+          1.01
+        ],
+        "max": [
+          0.01,
+          -0.14,
+          1.03
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Dark Suit Buttons"
+        ]
+      },
+      {
+        "name": "Jacket_Hem",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.218169,
+          -0.127,
+          0.837245
+        ],
+        "max": [
+          0.218169,
+          -0.013495,
+          0.846755
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Jacket_Lapel_L",
+        "vertices": 12,
+        "triangles": 20,
+        "min": [
+          0.01,
+          -0.162,
+          1.255
+        ],
+        "max": [
+          0.119,
+          -0.152,
+          1.462
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Highlights"
+        ]
+      },
+      {
+        "name": "Jacket_Lapel_R",
+        "vertices": 12,
+        "triangles": 20,
+        "min": [
+          -0.119,
+          -0.162,
+          1.255
+        ],
+        "max": [
+          -0.01,
+          -0.152,
+          1.462
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Highlights"
+        ]
+      },
+      {
+        "name": "Jacket_Pocket_Flap_L",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          0.094,
+          -0.1535,
+          1.076
+        ],
+        "max": [
+          0.204,
+          -0.1425,
+          1.097
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Jacket_Pocket_Flap_R",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          -0.204,
+          -0.1535,
+          1.076
+        ],
+        "max": [
+          -0.094,
+          -0.1425,
+          1.097
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Jacket_Pocket_L",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          0.095,
+          -0.1475,
+          1.057
+        ],
+        "max": [
+          0.204,
+          -0.1385,
+          1.082
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Jacket_Pocket_R",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          -0.204,
+          -0.1475,
+          1.057
+        ],
+        "max": [
+          -0.095,
+          -0.1385,
+          1.082
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Jacket_Shell",
+        "vertices": 242,
+        "triangles": 480,
+        "min": [
+          -0.284,
+          -0.153,
+          0.84
+        ],
+        "max": [
+          0.284,
+          0.148,
+          1.47
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Jacket_Side_Vent_L",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          0.201,
+          -0.092,
+          0.875
+        ],
+        "max": [
+          0.218,
+          -0.088,
+          0.99
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Jacket_Side_Vent_R",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          -0.218,
+          -0.092,
+          0.875
+        ],
+        "max": [
+          -0.201,
+          -0.088,
+          0.99
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Jaw",
+        "vertices": 849,
+        "triangles": 1512,
+        "min": [
+          -0.06,
+          -0.07,
+          1.596
+        ],
+        "max": [
+          0.06,
+          0.058,
+          1.698
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Warm Skin"
+        ]
+      },
+      {
+        "name": "Knuckle_L_1",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          0.878,
+          -0.043,
+          1.453049
+        ],
+        "max": [
+          0.88,
+          -0.025,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_L_2",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          0.878,
+          -0.02,
+          1.453049
+        ],
+        "max": [
+          0.88,
+          -0.002,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_L_3",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          0.878,
+          0.003,
+          1.453049
+        ],
+        "max": [
+          0.88,
+          0.021,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_L_4",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          0.878,
+          0.026,
+          1.453049
+        ],
+        "max": [
+          0.88,
+          0.044,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_R_1",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          -0.88,
+          -0.043,
+          1.453049
+        ],
+        "max": [
+          -0.878,
+          -0.025,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_R_2",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          -0.88,
+          -0.02,
+          1.453049
+        ],
+        "max": [
+          -0.878,
+          -0.002,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_R_3",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          -0.88,
+          0.003,
+          1.453049
+        ],
+        "max": [
+          -0.878,
+          0.021,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Knuckle_R_4",
+        "vertices": 66,
+        "triangles": 100,
+        "min": [
+          -0.88,
+          0.026,
+          1.453049
+        ],
+        "max": [
+          -0.878,
+          0.044,
+          1.454951
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Lower_Lip",
+        "vertices": 373,
+        "triangles": 624,
+        "min": [
+          -0.02,
+          -0.0912,
+          1.658
+        ],
+        "max": [
+          0.02,
+          -0.0828,
+          1.668
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Muted Lips"
+        ]
+      },
+      {
+        "name": "Mouth_Line",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.021152,
+          -0.0949,
+          1.663142
+        ],
+        "max": [
+          0.021152,
+          -0.090109,
+          1.666852
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Creases"
+        ]
+      },
+      {
+        "name": "Neck",
+        "vertices": 86,
+        "triangles": 168,
+        "min": [
+          -0.059,
+          -0.056,
+          1.445
+        ],
+        "max": [
+          0.059,
+          0.06,
+          1.585
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Warm Skin"
+        ]
+      },
+      {
+        "name": "Nose",
+        "vertices": 7,
+        "triangles": 8,
+        "min": [
+          -0.012,
+          -0.098,
+          1.693
+        ],
+        "max": [
+          0.012,
+          -0.073,
+          1.741
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Palm_L",
+        "vertices": 98,
+        "triangles": 192,
+        "min": [
+          0.792,
+          -0.062,
+          1.418
+        ],
+        "max": [
+          0.878,
+          0.054,
+          1.472
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Palm_R",
+        "vertices": 98,
+        "triangles": 192,
+        "min": [
+          -0.878,
+          -0.062,
+          1.418
+        ],
+        "max": [
+          -0.792,
+          0.054,
+          1.472
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Pupil_L",
+        "vertices": 271,
+        "triangles": 440,
+        "min": [
+          0.0266,
+          -0.0795,
+          1.7386
+        ],
+        "max": [
+          0.0314,
+          -0.0775,
+          1.7434
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Pupil"
+        ]
+      },
+      {
+        "name": "Pupil_R",
+        "vertices": 271,
+        "triangles": 440,
+        "min": [
+          -0.0314,
+          -0.0795,
+          1.7386
+        ],
+        "max": [
+          -0.0266,
+          -0.0775,
+          1.7434
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Pupil"
+        ]
+      },
+      {
+        "name": "Shirt_Body",
+        "vertices": 142,
+        "triangles": 280,
+        "min": [
+          -0.266,
+          -0.15,
+          0.86
+        ],
+        "max": [
+          0.266,
+          0.138,
+          1.48
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Crisp White Shirt"
+        ]
+      },
+      {
+        "name": "Shirt_Center_Seam",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.001,
+          -0.153951,
+          0.889938
+        ],
+        "max": [
+          0.001,
+          -0.135051,
+          1.360036
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Shirt_Collar_L",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          0.002,
+          -0.1515,
+          1.412
+        ],
+        "max": [
+          0.046,
+          -0.1445,
+          1.515
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Crisp White Shirt"
+        ]
+      },
+      {
+        "name": "Shirt_Collar_R",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          -0.046,
+          -0.1515,
+          1.412
+        ],
+        "max": [
+          -0.002,
+          -0.1445,
+          1.515
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Crisp White Shirt"
+        ]
+      },
+      {
+        "name": "Shirt_Cuff_L",
+        "vertices": 74,
+        "triangles": 144,
+        "min": [
+          0.748,
+          -0.072,
+          1.374
+        ],
+        "max": [
+          0.797,
+          0.068,
+          1.518
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Crisp White Shirt"
+        ]
+      },
+      {
+        "name": "Shirt_Cuff_R",
+        "vertices": 74,
+        "triangles": 144,
+        "min": [
+          -0.797,
+          -0.072,
+          1.374
+        ],
+        "max": [
+          -0.748,
+          0.068,
+          1.518
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Crisp White Shirt"
+        ]
+      },
+      {
+        "name": "Shirt_V",
+        "vertices": 14,
+        "triangles": 24,
+        "min": [
+          -0.061,
+          -0.154,
+          1.295
+        ],
+        "max": [
+          0.061,
+          -0.148,
+          1.455
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Crisp White Shirt"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_L_1_A",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          0.064295,
+          -0.0788,
+          0.1138
+        ],
+        "max": [
+          0.071705,
+          -0.0712,
+          0.1182
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_L_1_B",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          0.128295,
+          -0.0788,
+          0.1138
+        ],
+        "max": [
+          0.135705,
+          -0.0712,
+          0.1182
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_L_2_A",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          0.064295,
+          -0.0418,
+          0.1058
+        ],
+        "max": [
+          0.071705,
+          -0.0342,
+          0.1102
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_L_2_B",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          0.128295,
+          -0.0418,
+          0.1058
+        ],
+        "max": [
+          0.135705,
+          -0.0342,
+          0.1102
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_R_1_A",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          -0.071705,
+          -0.0788,
+          0.1138
+        ],
+        "max": [
+          -0.064295,
+          -0.0712,
+          0.1182
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_R_1_B",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          -0.135705,
+          -0.0788,
+          0.1138
+        ],
+        "max": [
+          -0.128295,
+          -0.0712,
+          0.1182
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_R_2_A",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          -0.071705,
+          -0.0418,
+          0.1058
+        ],
+        "max": [
+          -0.064295,
+          -0.0342,
+          0.1102
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Eyelet_R_2_B",
+        "vertices": 163,
+        "triangles": 252,
+        "min": [
+          -0.135705,
+          -0.0418,
+          0.1058
+        ],
+        "max": [
+          -0.128295,
+          -0.0342,
+          0.1102
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Heel_L",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.044,
+          0.062,
+          0.001
+        ],
+        "max": [
+          0.156,
+          0.126,
+          0.059
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Heel_R",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.156,
+          0.062,
+          0.001
+        ],
+        "max": [
+          -0.044,
+          0.126,
+          0.059
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_L",
+        "vertices": 238,
+        "triangles": 472,
+        "min": [
+          0.035189,
+          -0.275,
+          0.01
+        ],
+        "max": [
+          0.164811,
+          0.112,
+          0.113
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Polished Black Leather"
+        ]
+      },
+      {
+        "name": "Shoe_Lace_L_A",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          0.067397,
+          -0.101552,
+          0.085557
+        ],
+        "max": [
+          0.132603,
+          -0.090401,
+          0.09954
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Lace_L_B",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          0.069339,
+          -0.059546,
+          0.106581
+        ],
+        "max": [
+          0.130661,
+          -0.048402,
+          0.121544
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Lace_R_A",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.132603,
+          -0.101552,
+          0.085557
+        ],
+        "max": [
+          -0.067397,
+          -0.090401,
+          0.09954
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Lace_R_B",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.130661,
+          -0.059546,
+          0.106581
+        ],
+        "max": [
+          -0.069339,
+          -0.048402,
+          0.121544
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_R",
+        "vertices": 238,
+        "triangles": 472,
+        "min": [
+          -0.164811,
+          -0.275,
+          0.01
+        ],
+        "max": [
+          -0.035189,
+          0.112,
+          0.113
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Polished Black Leather"
+        ]
+      },
+      {
+        "name": "Shoe_Sole_L",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.031,
+          -0.278,
+          0.004
+        ],
+        "max": [
+          0.169,
+          0.122,
+          0.028
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Sole_R",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.169,
+          -0.278,
+          0.004
+        ],
+        "max": [
+          -0.031,
+          0.122,
+          0.028
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Shoe Edge"
+        ]
+      },
+      {
+        "name": "Shoe_Tongue_L",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.061,
+          -0.08978,
+          0.0938
+        ],
+        "max": [
+          0.139,
+          -0.01022,
+          0.1282
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Polished Black Leather"
+        ]
+      },
+      {
+        "name": "Shoe_Tongue_R",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.139,
+          -0.08978,
+          0.0938
+        ],
+        "max": [
+          -0.061,
+          -0.01022,
+          0.1282
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Polished Black Leather"
+        ]
+      },
+      {
+        "name": "Sideburn_L",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          0.064,
+          -0.032,
+          1.72
+        ],
+        "max": [
+          0.082,
+          -0.008,
+          1.772
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Sideburn_R",
+        "vertices": 384,
+        "triangles": 188,
+        "min": [
+          -0.082,
+          -0.032,
+          1.72
+        ],
+        "max": [
+          -0.064,
+          -0.008,
+          1.772
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Near Black Hair"
+        ]
+      },
+      {
+        "name": "Sleeve_L",
+        "vertices": 170,
+        "triangles": 336,
+        "min": [
+          0.235,
+          -0.113,
+          1.344
+        ],
+        "max": [
+          0.75,
+          0.109,
+          1.556
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Sleeve_R",
+        "vertices": 170,
+        "triangles": 336,
+        "min": [
+          -0.75,
+          -0.113,
+          1.344
+        ],
+        "max": [
+          -0.235,
+          0.109,
+          1.556
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Thumb_L",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          0.796363,
+          -0.092637,
+          1.417248
+        ],
+        "max": [
+          0.853946,
+          -0.035039,
+          1.452655
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Thumb_R",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.853946,
+          -0.092637,
+          1.417248
+        ],
+        "max": [
+          -0.796363,
+          -0.035039,
+          1.452655
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Thumb_Tip_L",
+        "vertices": 271,
+        "triangles": 440,
+        "min": [
+          0.838,
+          -0.098,
+          1.418
+        ],
+        "max": [
+          0.86,
+          -0.074,
+          1.438
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Thumb_Tip_R",
+        "vertices": 271,
+        "triangles": 440,
+        "min": [
+          -0.86,
+          -0.098,
+          1.418
+        ],
+        "max": [
+          -0.838,
+          -0.074,
+          1.438
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Skin Highlights"
+        ]
+      },
+      {
+        "name": "Trouser_Crease_L",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          0.099952,
+          -0.099678,
+          0.179934
+        ],
+        "max": [
+          0.116677,
+          -0.07632,
+          0.900079
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Highlights"
+        ]
+      },
+      {
+        "name": "Trouser_Crease_R",
+        "vertices": 121,
+        "triangles": 200,
+        "min": [
+          -0.116677,
+          -0.099678,
+          0.179934
+        ],
+        "max": [
+          -0.099952,
+          -0.07632,
+          0.900079
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Highlights"
+        ]
+      },
+      {
+        "name": "Trouser_Fly",
+        "vertices": 8,
+        "triangles": 12,
+        "min": [
+          -0.012,
+          -0.134,
+          0.84
+        ],
+        "max": [
+          0.055,
+          -0.13,
+          0.96
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Seams"
+        ]
+      },
+      {
+        "name": "Trouser_Leg_L",
+        "vertices": 142,
+        "triangles": 280,
+        "min": [
+          -0.007,
+          -0.094,
+          0.145
+        ],
+        "max": [
+          0.231,
+          0.092,
+          0.91
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Trouser_Leg_R",
+        "vertices": 142,
+        "triangles": 280,
+        "min": [
+          -0.231,
+          -0.094,
+          0.145
+        ],
+        "max": [
+          0.007,
+          0.092,
+          0.91
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Trouser_Waist",
+        "vertices": 86,
+        "triangles": 168,
+        "min": [
+          -0.228,
+          -0.132,
+          0.86
+        ],
+        "max": [
+          0.228,
+          0.126,
+          1.01
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Suit Cobalt Wool"
+        ]
+      },
+      {
+        "name": "Upper_Lip",
+        "vertices": 373,
+        "triangles": 624,
+        "min": [
+          -0.022,
+          -0.092,
+          1.6655
+        ],
+        "max": [
+          0.022,
+          -0.084,
+          1.6745
+        ],
+        "modifiers": [
+          "ARMATURE"
+        ],
+        "materials": [
+          "Muted Lips"
+        ]
+      }
+    ]
+  },
+  "materials": [
+    "Crisp White Shirt",
+    "Dark Brown Iris",
+    "Dark Suit Buttons",
+    "Eye White",
+    "Glasses Frame",
+    "Glasses Lens",
+    "Muted Lips",
+    "Near Black Hair",
+    "Polished Black Leather",
+    "Pupil",
+    "Shoe Edge",
+    "Skin Creases",
+    "Skin Highlights",
+    "Suit Cobalt Wool",
+    "Suit Highlights",
+    "Suit Seams",
+    "Warm Skin"
+  ],
+  "rigs": [
+    {
+      "object": "Character_Rig",
+      "data": "Character_Rig",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bone_count": 20,
+      "bones": [
+        {
+          "name": "root",
+          "parent": null,
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            0.0,
+            0.84
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "head": [
+            0.0,
+            0.0,
+            0.84
+          ],
+          "tail": [
+            0.0,
+            0.0,
+            0.972076
+          ]
+        },
+        {
+          "name": "spine",
+          "parent": "pelvis",
+          "head": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tail": [
+            0.0,
+            0.0,
+            1.24
+          ]
+        },
+        {
+          "name": "chest",
+          "parent": "spine",
+          "head": [
+            0.0,
+            0.0,
+            1.24
+          ],
+          "tail": [
+            0.0,
+            0.0,
+            1.46
+          ]
+        },
+        {
+          "name": "neck",
+          "parent": "chest",
+          "head": [
+            0.0,
+            0.0,
+            1.46
+          ],
+          "tail": [
+            0.0,
+            0.0,
+            1.59
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "neck",
+          "head": [
+            0.0,
+            0.0,
+            1.59
+          ],
+          "tail": [
+            0.0,
+            0.0,
+            1.72
+          ]
+        },
+        {
+          "name": "clavicle.L",
+          "parent": "chest",
+          "head": [
+            0.055,
+            0.0,
+            1.455
+          ],
+          "tail": [
+            0.235,
+            0.0,
+            1.451
+          ]
+        },
+        {
+          "name": "upper_arm.L",
+          "parent": "clavicle.L",
+          "head": [
+            0.235,
+            0.0,
+            1.451
+          ],
+          "tail": [
+            0.53,
+            -0.0,
+            1.448
+          ]
+        },
+        {
+          "name": "forearm.L",
+          "parent": "upper_arm.L",
+          "head": [
+            0.53,
+            -0.0,
+            1.448
+          ],
+          "tail": [
+            0.76,
+            -0.0,
+            1.446
+          ]
+        },
+        {
+          "name": "hand.L",
+          "parent": "forearm.L",
+          "head": [
+            0.76,
+            -0.0,
+            1.446
+          ],
+          "tail": [
+            0.98974,
+            -0.005891,
+            1.436575
+          ]
+        },
+        {
+          "name": "clavicle.R",
+          "parent": "chest",
+          "head": [
+            -0.055,
+            0.0,
+            1.455
+          ],
+          "tail": [
+            -0.235,
+            0.0,
+            1.451
+          ]
+        },
+        {
+          "name": "upper_arm.R",
+          "parent": "clavicle.R",
+          "head": [
+            -0.235,
+            0.0,
+            1.451
+          ],
+          "tail": [
+            -0.53,
+            -0.0,
+            1.448
+          ]
+        },
+        {
+          "name": "forearm.R",
+          "parent": "upper_arm.R",
+          "head": [
+            -0.53,
+            -0.0,
+            1.448
+          ],
+          "tail": [
+            -0.76,
+            -0.0,
+            1.446
+          ]
+        },
+        {
+          "name": "hand.R",
+          "parent": "forearm.R",
+          "head": [
+            -0.76,
+            -0.0,
+            1.446
+          ],
+          "tail": [
+            -0.98974,
+            -0.005891,
+            1.436575
+          ]
+        },
+        {
+          "name": "thigh.L",
+          "parent": "pelvis",
+          "head": [
+            0.112,
+            0.0,
+            0.91
+          ],
+          "tail": [
+            0.102,
+            -0.0,
+            0.505
+          ]
+        },
+        {
+          "name": "shin.L",
+          "parent": "thigh.L",
+          "head": [
+            0.102,
+            -0.0,
+            0.505
+          ],
+          "tail": [
+            0.096,
+            -0.0,
+            0.145
+          ]
+        },
+        {
+          "name": "foot.L",
+          "parent": "shin.L",
+          "head": [
+            0.096,
+            -0.0,
+            0.145
+          ],
+          "tail": [
+            0.102566,
+            -0.328283,
+            -0.002727
+          ]
+        },
+        {
+          "name": "thigh.R",
+          "parent": "pelvis",
+          "head": [
+            -0.112,
+            0.0,
+            0.91
+          ],
+          "tail": [
+            -0.102,
+            -0.0,
+            0.505
+          ]
+        },
+        {
+          "name": "shin.R",
+          "parent": "thigh.R",
+          "head": [
+            -0.102,
+            -0.0,
+            0.505
+          ],
+          "tail": [
+            -0.096,
+            -0.0,
+            0.145
+          ]
+        },
+        {
+          "name": "foot.R",
+          "parent": "shin.R",
+          "head": [
+            -0.096,
+            -0.0,
+            0.145
+          ],
+          "tail": [
+            -0.102566,
+            -0.328283,
+            -0.002727
+          ]
+        }
+      ]
+    }
+  ],
+  "t_pose": {
+    "checked_bones": [
+      {
+        "bone": "upper_arm.L",
+        "head_tail_z_delta": -0.003
+      },
+      {
+        "bone": "forearm.L",
+        "head_tail_z_delta": -0.002
+      },
+      {
+        "bone": "hand.L",
+        "head_tail_z_delta": -0.009425
+      },
+      {
+        "bone": "upper_arm.R",
+        "head_tail_z_delta": -0.003
+      },
+      {
+        "bone": "forearm.R",
+        "head_tail_z_delta": -0.002
+      },
+      {
+        "bone": "hand.R",
+        "head_tail_z_delta": -0.009425
+      }
+    ],
+    "max_abs_head_tail_z_delta": 0.009425,
+    "pass": true
+  },
+  "export_scope": {
+    "forbidden_objects": [],
+    "pass": true
+  }
+}

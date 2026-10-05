@@ -1,0 +1,13 @@
+BASE  failed=[]  non_ok=[]
+------------------------------------------------------------------------------
+E04_TP_SEAM_ZERO         ① 首帧改零位            red=['arm_reach_ok', 'leg_reach_ok', 'seam_in_ok', 'spawn_airborne_ok', 'spawn_foot_lock_phased_ok']
+E04_TP_NOSINK            ② ★★★ 落地不下沉        red=['ground_contact_ok', 'leg_reach_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok']
+E04_TP_NOLIFT            ③ ★ 起跳不起           red=['spawn_root_motion_ok']
+E04_TP_NOHITSTOP         ④ ★ 落地无定格          red=['spawn_impact_hitstop_ok']
+E04_TP_GLUED             ⑤ ★ 空中段脚没离地        red=['spawn_airborne_ok', 'spawn_root_motion_ok']
+E04_TP_FOOTSWAY          ⑥ ★ 地面段脚滑          red=['ground_contact_ok', 'leg_reach_ok', 'no_teleport', 'spawn_airborne_ok', 'spawn_crouch_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok', 'spawn_matrix_step_ok']
+E04_TP_LOOPBREAK         ⑦ 末帧不闭合            red=['end_matches_start_ok', 'loop_seamless']
+E04_TP_OVERSINK          ⑧ 落地过头             red=['ground_contact_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok']
+E04_TP_FOOTASYM          ⑨ ★ L 脚 +X（像素对称）   red=['ground_contact_ok', 'leg_reach_ok', 'no_snap_stop_ok', 'spawn_foot_lock_phased_ok']
+------------------------------------------------------------------------------
+LAZY_KNOBS = []

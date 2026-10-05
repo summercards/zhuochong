@@ -1,0 +1,7 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\_bak_getup_b_071112.py", line 247, in <module>
+    raise RuntimeError("相位不自洽：LEGS_DOWN=%d DIR_END=%d PLANT=%d CHEST_UP=%d "
+RuntimeError: 相位不自洽：LEGS_DOWN=4 DIR_END=17 PLANT=8 CHEST_UP=12 HAND_OFF=17 TUCK=17 FOOT_SET=25 RISE_MID=30 STAND=34 TOTAL=36
+
+Blender quit

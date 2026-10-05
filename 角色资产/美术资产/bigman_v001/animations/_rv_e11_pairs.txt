@@ -1,0 +1,10 @@
+SEAM_ZERO|E11_TP_SEAM_ZERO=1|rvw_seam_in_ok
+ENDZERO|E11_TP_ENDZERO=1|rvw_seam_out_ok
+NORIGOR|E11_TP_NORIGOR=1|rvw_rigor_break_ok
+NOKNEEL|E11_TP_NOKNEEL=1|rvw_halfkneel_ok
+NOLIFT|E11_TP_NOLIFT=1|rvw_phase_c_rise_ok
+NOPLATEAU|E11_TP_NOPLATEAU=1|rvw_plateau_ok
+LIMBJUMP|E11_TP_LIMBJUMP=1|rvw_limb_step_ok
+KNEEPLUNGE|E11_TP_KNEEPLUNGE=1|rvw_knee_path_ok
+SINK|E11_TP_SINK=1|rvw_no_penetration_ok
+SLIDE|E11_TP_SLIDE=1|rvw_foot_slide_ok

@@ -1,0 +1,79 @@
+=== 逐帧步长（deg）：m = 矩阵/真旋转，e = 欧拉数值 ===
+f= 16  hand.L m=0.0 e=0.0  hand.R m=0.0 e=0.0  upperarm.L m=0.0 e=0.0
+f= 17  hand.L m=17.6 e=32.1  hand.R m=17.1 e=27.7  thumb_01.L m=17.6 e=0.0
+f= 18  hand.L m=23.3 e=32.1  hand.R m=21.9 e=27.2  thumb_01.L m=23.3 e=0.0
+f= 19  hand.L m=25.8 e=36.0  hand.R m=24.2 e=29.6  thumb_01.L m=25.8 e=0.0
+f= 20  hand.L m=23.7 e=39.4  hand.R m=23.0 e=35.9  thumb_01.L m=23.7 e=0.0
+f= 21  hand.R m=20.0 e=43.0  hand.L m=20.1 e=37.0  thumb_01.L m=20.1 e=0.0
+f= 22  hand.L m=17.0 e=161.8  hand.R m=17.3 e=155.5  thumb_03.R m=17.3 e=0.0
+f= 23  hand.L m=14.1 e=168.5  hand.R m=14.5 e=165.0  thumb_03.R m=14.5 e=0.0
+f= 24  hand.R m=14.7 e=23.3  hand.L m=14.5 e=21.8  thumb_01.R m=14.7 e=0.0
+f= 25  hand.L m=6.3 e=12.3  hand.R m=6.6 e=11.9  thumb_03.R m=6.6 e=0.0
+f= 26  hand.R m=7.3 e=21.4  hand.L m=6.0 e=17.5  thumb_01.R m=7.3 e=0.0
+f= 27  hand.R m=5.6 e=12.7  hand.L m=3.5 e=12.0  forearm.L m=8.6 e=2.7
+f= 28  upperarm.R m=10.1 e=7.5  upperarm.L m=9.6 e=6.8  forearm.R m=9.5 e=2.9
+f= 29  hand.R m=0.0 e=0.0  forearm.R m=0.0 e=0.0  forearm.L m=0.0 e=0.0
+f= 30  forearm.R m=0.0 e=0.0  hand.R m=0.0 e=0.0  upperarm.R m=0.0 e=0.0
+f= 70  forearm.R m=39.3 e=29.1  forearm.L m=36.3 e=29.1  hand.R m=6.8 e=27.9
+f= 71  hand.L m=23.4 e=18.3  thumb_01.L m=23.4 e=0.0  thumb_03.L m=23.4 e=0.0
+f= 72  hand.L m=13.4 e=8.6  thumb_01.L m=13.4 e=0.0  pinky_01.L m=13.4 e=0.0
+f= 73  hand.R m=17.6 e=9.0  thumb_03.R m=17.6 e=0.0  pinky_01.R m=17.6 e=0.0
+f= 74  hand.L m=18.9 e=11.3  thumb_01.L m=18.9 e=0.0  pinky_01.L m=18.9 e=0.0
+f= 75  hand.R m=38.6 e=23.3  pinky_01.R m=38.6 e=0.0  thumb_01.R m=38.6 e=0.0
+f= 76  hand.L m=83.9 e=86.4  thumb_03.L m=83.9 e=0.0  thumb_01.L m=83.9 e=0.0
+f= 77  hand.L m=35.2 e=28.3  pinky_01.L m=35.2 e=0.0  thumb_01.L m=35.2 e=0.0
+f= 78  hand.R m=17.0 e=19.9  hand.L m=16.8 e=19.6  thumb_01.R m=17.0 e=0.0
+f= 79  hand.R m=14.0 e=16.3  hand.L m=13.7 e=15.2  thumb_01.R m=14.0 e=0.0
+f= 80  hand.L m=10.8 e=163.2  hand.R m=11.0 e=162.7  thumb_03.R m=11.0 e=0.0
+f= 81  hand.R m=7.4 e=17.8  hand.L m=7.2 e=15.5  thumb_03.R m=7.4 e=0.0
+f= 82  hand.R m=3.1 e=6.3  hand.L m=2.9 e=5.5  thumb_03.R m=3.1 e=0.0
+f= 83  forearm.R m=2.4 e=1.7  forearm.L m=1.7 e=1.3  hand.R m=1.5 e=1.6
+f= 84  forearm.R m=2.4 e=1.7  forearm.L m=1.7 e=1.3  hand.R m=1.6 e=1.6
+f= 85  hand.R m=4.1 e=2.7  thumb_01.R m=4.1 e=0.0  thumb_03.R m=4.1 e=0.0
+f= 86  thumb_01.R m=10.1 e=0.0  thumb_03.R m=10.1 e=0.0  pinky_01.R m=10.1 e=0.0
+
+=== hand 滚转退化检查：y(world) 与 x_hint 夹角（越接近 0 越危险）===
+f= 16  L=50.5  R=54.2
+f= 17  L=44.5  R=48.8
+f= 18  L=41.2  R=45.9
+f= 19  L=43.0  R=47.1
+f= 20  L=49.8  R=53.0
+f= 21  L=58.6  R=61.3
+f= 22  L=67.5  R=68.8
+f= 23  L=75.7  R=76.2
+f= 24  L=87.9  R=88.0
+f= 25  L=87.6  R=87.7
+f= 26  L=87.3  R=85.6
+f= 27  L=89.3  R=89.2
+f= 28  L=87.7  R=86.6
+f= 29  L=87.7  R=86.6
+f= 30  L=87.7  R=86.6
+f= 70  L=83.7  R=86.6
+f= 71  L=83.4  R=83.0
+f= 72  L=70.0  R=70.0
+f= 73  L=54.6  R=54.3
+f= 74  L=38.2  R=37.3
+f= 75  L=24.2  R=25.5
+f= 76  L=9.9  R=10.8
+f= 77  L=24.1  R=25.1
+f= 78  L=38.9  R=40.0
+f= 79  L=52.0  R=53.4
+f= 80  L=62.4  R=63.9
+f= 81  L=69.4  R=71.0
+f= 82  L=72.3  R=74.0
+f= 83  L=73.1  R=75.1
+f= 84  L=73.9  R=76.2
+f= 85  L=75.6  R=78.2
+f= 86  L=78.9  R=82.1
+
+=== 帧末 euler 现场（hand.L / hand.R）===
+f=  0  hand.L=['2.5', '-0.5', '21.2']  hand.R=['8.5', '1.9', '-24.6']
+f= 22  hand.L=['-213.1', '109.7', '-10.2']  hand.R=['-214.5', '-104.6', '10.5']
+f= 23  hand.L=['-381.6', '68.2', '-167.8']  hand.R=['-379.5', '-72.7', '164.5']
+f= 24  hand.L=['-370.6', '65.3', '-146.0']  hand.R=['-367.1', '-69.0', '141.2']
+f= 96  hand.L=['-357.5', '-0.5', '21.2']  hand.R=['-351.5', '1.9', '-24.6']
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

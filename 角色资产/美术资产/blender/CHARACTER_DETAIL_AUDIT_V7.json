@@ -1,0 +1,905 @@
+{
+  "glb_path": "I:\\工作项目\\blender\\business_man_tpose_v7.glb",
+  "bone_count": 56,
+  "previews": {
+    "face": "I:\\工作项目\\blender\\business_man_tpose_v7_face_test.png",
+    "left_hand": "I:\\工作项目\\blender\\business_man_tpose_v7_hand_L_test.png",
+    "right_hand": "I:\\工作项目\\blender\\business_man_tpose_v7_hand_R_test.png"
+  },
+  "pose": {
+    "stress_pose": {
+      "jaw_rotation_degrees": 30.0,
+      "upper_lip_local_y_translation_m": 0.006,
+      "lower_lip_local_y_translation_m": 0.01
+    },
+    "preview_pose": {
+      "jaw_rotation_degrees": 6.0,
+      "upper_lip_local_y_translation_m": 0.004,
+      "lower_lip_local_y_translation_m": 0.007
+    },
+    "eye_rotation_degrees": 20.0,
+    "selected_curls": [
+      {
+        "bones": [
+          "finger_index_01.L",
+          "finger_index_02.L",
+          "finger_index_03.L"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.060807,
+        "rest_target_distance_m": 0.089358
+      },
+      {
+        "bones": [
+          "finger_middle_01.L",
+          "finger_middle_02.L",
+          "finger_middle_03.L"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.062843,
+        "rest_target_distance_m": 0.094797
+      },
+      {
+        "bones": [
+          "finger_ring_01.L",
+          "finger_ring_02.L",
+          "finger_ring_03.L"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.061319,
+        "rest_target_distance_m": 0.091156
+      },
+      {
+        "bones": [
+          "finger_pinky_01.L",
+          "finger_pinky_02.L",
+          "finger_pinky_03.L"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.058389,
+        "rest_target_distance_m": 0.083214
+      },
+      {
+        "bones": [
+          "thumb_01.L",
+          "thumb_02.L",
+          "thumb_03.L"
+        ],
+        "axis_index": 2,
+        "sign": 1.0,
+        "angle_degrees": 28.0,
+        "target_distance_m": 0.00725,
+        "rest_target_distance_m": 0.015861
+      },
+      {
+        "bones": [
+          "finger_index_01.R",
+          "finger_index_02.R",
+          "finger_index_03.R"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.060807,
+        "rest_target_distance_m": 0.089358
+      },
+      {
+        "bones": [
+          "finger_middle_01.R",
+          "finger_middle_02.R",
+          "finger_middle_03.R"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.062843,
+        "rest_target_distance_m": 0.094797
+      },
+      {
+        "bones": [
+          "finger_ring_01.R",
+          "finger_ring_02.R",
+          "finger_ring_03.R"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.061319,
+        "rest_target_distance_m": 0.091156
+      },
+      {
+        "bones": [
+          "finger_pinky_01.R",
+          "finger_pinky_02.R",
+          "finger_pinky_03.R"
+        ],
+        "axis_index": 0,
+        "sign": -1.0,
+        "angle_degrees": 38.0,
+        "target_distance_m": 0.058389,
+        "rest_target_distance_m": 0.083214
+      },
+      {
+        "bones": [
+          "thumb_01.R",
+          "thumb_02.R",
+          "thumb_03.R"
+        ],
+        "axis_index": 2,
+        "sign": -1.0,
+        "angle_degrees": 28.0,
+        "target_distance_m": 0.007611,
+        "rest_target_distance_m": 0.016124
+      }
+    ]
+  },
+  "face_checks": {
+    "jaw": {
+      "objects": [
+        "Jaw",
+        "Chin",
+        "Lower_Lip",
+        "Mouth_Line"
+      ],
+      "max_center_displacement_m": 0.079327,
+      "all_finite": true
+    },
+    "upper_lip": {
+      "objects": [
+        "Upper_Lip",
+        "Mouth_Line"
+      ],
+      "max_center_displacement_m": 0.039397,
+      "all_finite": true
+    },
+    "lower_lip": {
+      "objects": [
+        "Lower_Lip",
+        "Mouth_Line"
+      ],
+      "max_center_displacement_m": 0.079327,
+      "all_finite": true
+    },
+    "glasses": {
+      "objects": [
+        "Glasses_Bridge",
+        "Glasses_Frame_L",
+        "Glasses_Frame_R",
+        "Glasses_Lens_L",
+        "Glasses_Lens_R",
+        "Glasses_Temple_L",
+        "Glasses_Temple_R"
+      ],
+      "max_center_displacement_m": 0.009659,
+      "all_finite": true
+    },
+    "eye.L": {
+      "objects": [
+        "Eye_White_L",
+        "Iris_L",
+        "Pupil_L"
+      ],
+      "max_center_displacement_m": 0.009898,
+      "all_finite": true
+    },
+    "eye.R": {
+      "objects": [
+        "Eye_White_R",
+        "Iris_R",
+        "Pupil_R"
+      ],
+      "max_center_displacement_m": 0.009898,
+      "all_finite": true
+    }
+  },
+  "lip_controls": {
+    "upper_lip_translation": {
+      "local_y_translation_m": 0.006,
+      "center_delta_z_m": 0.006002,
+      "max_vertex_displacement_m": 0.006,
+      "pass": true
+    },
+    "lower_lip_translation": {
+      "local_y_translation_m": 0.01,
+      "center_delta_z_m": -0.009999,
+      "max_vertex_displacement_m": 0.01,
+      "pass": true
+    },
+    "upper_lip_rotation": {
+      "local_x_rotation_degrees": 12.0,
+      "max_vertex_displacement_m": 0.00115,
+      "pass": true
+    },
+    "lower_lip_rotation": {
+      "local_x_rotation_degrees": 12.0,
+      "max_vertex_displacement_m": 0.001114,
+      "pass": true
+    },
+    "combined_speech_pose": {
+      "pose": {
+        "jaw_rotation_degrees": 30.0,
+        "upper_lip_local_y_translation_m": 0.006,
+        "lower_lip_local_y_translation_m": 0.01
+      },
+      "rest_lip_center_gap_m": 0.006999,
+      "posed_lip_center_gap_m": 0.081339,
+      "lip_center_gap_increase_m": 0.074339,
+      "rest_mouth_line_band_gap_m": 0.002474,
+      "posed_mouth_line_band_gap_m": 0.065765,
+      "mouth_line_band_gap_increase_m": 0.063291,
+      "pass": true
+    }
+  },
+  "glasses_control": {
+    "rotation_degrees": {
+      "x": 8.0,
+      "z": 10.0
+    },
+    "max_vertex_displacement_m": 0.028533,
+    "max_pairwise_distance_error_m": 7.2e-07,
+    "all_finite": true,
+    "pass": true
+  },
+  "finger_checks": {
+    "Finger_L_1": {
+      "max_vertex_displacement_m": 0.079964,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_L_2": {
+      "max_vertex_displacement_m": 0.094218,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_L_3": {
+      "max_vertex_displacement_m": 0.087085,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_L_4": {
+      "max_vertex_displacement_m": 0.069818,
+      "finite": true,
+      "pass": true
+    },
+    "Thumb_L": {
+      "max_vertex_displacement_m": 0.034809,
+      "finite": true,
+      "pass": true
+    },
+    "Thumb_Tip_L": {
+      "max_vertex_displacement_m": 0.041004,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_R_1": {
+      "max_vertex_displacement_m": 0.079964,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_R_2": {
+      "max_vertex_displacement_m": 0.094218,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_R_3": {
+      "max_vertex_displacement_m": 0.087085,
+      "finite": true,
+      "pass": true
+    },
+    "Finger_R_4": {
+      "max_vertex_displacement_m": 0.069818,
+      "finite": true,
+      "pass": true
+    },
+    "Thumb_R": {
+      "max_vertex_displacement_m": 0.034809,
+      "finite": true,
+      "pass": true
+    },
+    "Thumb_Tip_R": {
+      "max_vertex_displacement_m": 0.041004,
+      "finite": true,
+      "pass": true
+    }
+  },
+  "weight_checks": {
+    "Jaw": {
+      "allowed_bones": [
+        "jaw"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Chin": {
+      "allowed_bones": [
+        "jaw"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Upper_Lip": {
+      "allowed_bones": [
+        "upper_lip"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Lower_Lip": {
+      "allowed_bones": [
+        "lower_lip"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Mouth_Line": {
+      "allowed_bones": [
+        "lower_lip",
+        "upper_lip"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Eye_White_L": {
+      "allowed_bones": [
+        "eye.L"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Iris_L": {
+      "allowed_bones": [
+        "eye.L"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Pupil_L": {
+      "allowed_bones": [
+        "eye.L"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Eye_White_R": {
+      "allowed_bones": [
+        "eye.R"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Iris_R": {
+      "allowed_bones": [
+        "eye.R"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Pupil_R": {
+      "allowed_bones": [
+        "eye.R"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Bridge": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Frame_L": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Frame_R": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Lens_L": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Lens_R": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Temple_L": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Glasses_Temple_R": {
+      "allowed_bones": [
+        "glasses"
+      ],
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_L_1": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_L_1": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_L_2": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_L_2": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_L_3": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_L_3": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_L_4": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_L_4": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Thumb_L": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Thumb_Tip_L": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_R_1": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_R_1": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_R_2": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_R_2": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_R_3": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_R_3": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Finger_R_4": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Knuckle_R_4": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 0.0,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Thumb_R": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    },
+    "Thumb_Tip_R": {
+      "pass": true,
+      "detail": {
+        "max_abs_weight_sum_error": 3e-08,
+        "unexpected_groups": [],
+        "negative_assignments": 0,
+        "pass": true
+      }
+    }
+  },
+  "object_checks": {
+    "Chin": {
+      "center_displacement_m": 0.056279,
+      "max_vertex_displacement_m": 0.069358,
+      "finite": true
+    },
+    "Eye_White_L": {
+      "center_displacement_m": 0.007989,
+      "max_vertex_displacement_m": 0.010226,
+      "finite": true
+    },
+    "Eye_White_R": {
+      "center_displacement_m": 0.007989,
+      "max_vertex_displacement_m": 0.010226,
+      "finite": true
+    },
+    "Finger_L_1": {
+      "center_displacement_m": 0.034555,
+      "max_vertex_displacement_m": 0.079964,
+      "finite": true
+    },
+    "Finger_L_2": {
+      "center_displacement_m": 0.041007,
+      "max_vertex_displacement_m": 0.094218,
+      "finite": true
+    },
+    "Finger_L_3": {
+      "center_displacement_m": 0.037794,
+      "max_vertex_displacement_m": 0.087085,
+      "finite": true
+    },
+    "Finger_L_4": {
+      "center_displacement_m": 0.029967,
+      "max_vertex_displacement_m": 0.069818,
+      "finite": true
+    },
+    "Finger_R_1": {
+      "center_displacement_m": 0.034555,
+      "max_vertex_displacement_m": 0.079964,
+      "finite": true
+    },
+    "Finger_R_2": {
+      "center_displacement_m": 0.041007,
+      "max_vertex_displacement_m": 0.094218,
+      "finite": true
+    },
+    "Finger_R_3": {
+      "center_displacement_m": 0.037794,
+      "max_vertex_displacement_m": 0.087085,
+      "finite": true
+    },
+    "Finger_R_4": {
+      "center_displacement_m": 0.029967,
+      "max_vertex_displacement_m": 0.069818,
+      "finite": true
+    },
+    "Glasses_Bridge": {
+      "center_displacement_m": 0.000482,
+      "max_vertex_displacement_m": 0.000951,
+      "finite": true
+    },
+    "Glasses_Frame_L": {
+      "center_displacement_m": 0.002506,
+      "max_vertex_displacement_m": 0.005556,
+      "finite": true
+    },
+    "Glasses_Frame_R": {
+      "center_displacement_m": 0.002905,
+      "max_vertex_displacement_m": 0.005848,
+      "finite": true
+    },
+    "Glasses_Lens_L": {
+      "center_displacement_m": 0.002426,
+      "max_vertex_displacement_m": 0.00455,
+      "finite": true
+    },
+    "Glasses_Lens_R": {
+      "center_displacement_m": 0.002986,
+      "max_vertex_displacement_m": 0.005141,
+      "finite": true
+    },
+    "Glasses_Temple_L": {
+      "center_displacement_m": 0.003029,
+      "max_vertex_displacement_m": 0.005136,
+      "finite": true
+    },
+    "Glasses_Temple_R": {
+      "center_displacement_m": 0.009659,
+      "max_vertex_displacement_m": 0.014293,
+      "finite": true
+    },
+    "Iris_L": {
+      "center_displacement_m": 0.009516,
+      "max_vertex_displacement_m": 0.010176,
+      "finite": true
+    },
+    "Iris_R": {
+      "center_displacement_m": 0.009516,
+      "max_vertex_displacement_m": 0.010176,
+      "finite": true
+    },
+    "Jaw": {
+      "center_displacement_m": 0.036633,
+      "max_vertex_displacement_m": 0.067588,
+      "finite": true
+    },
+    "Knuckle_L_1": {
+      "center_displacement_m": 0.007599,
+      "max_vertex_displacement_m": 0.00823,
+      "finite": true
+    },
+    "Knuckle_L_2": {
+      "center_displacement_m": 0.008281,
+      "max_vertex_displacement_m": 0.008915,
+      "finite": true
+    },
+    "Knuckle_L_3": {
+      "center_displacement_m": 0.00898,
+      "max_vertex_displacement_m": 0.009615,
+      "finite": true
+    },
+    "Knuckle_L_4": {
+      "center_displacement_m": 0.009692,
+      "max_vertex_displacement_m": 0.010327,
+      "finite": true
+    },
+    "Knuckle_R_1": {
+      "center_displacement_m": 0.007648,
+      "max_vertex_displacement_m": 0.00823,
+      "finite": true
+    },
+    "Knuckle_R_2": {
+      "center_displacement_m": 0.008326,
+      "max_vertex_displacement_m": 0.008915,
+      "finite": true
+    },
+    "Knuckle_R_3": {
+      "center_displacement_m": 0.009022,
+      "max_vertex_displacement_m": 0.009615,
+      "finite": true
+    },
+    "Knuckle_R_4": {
+      "center_displacement_m": 0.00973,
+      "max_vertex_displacement_m": 0.010327,
+      "finite": true
+    },
+    "Lower_Lip": {
+      "center_displacement_m": 0.079327,
+      "max_vertex_displacement_m": 0.081523,
+      "finite": true
+    },
+    "Mouth_Line": {
+      "center_displacement_m": 0.039397,
+      "max_vertex_displacement_m": 0.082941,
+      "finite": true
+    },
+    "Pupil_L": {
+      "center_displacement_m": 0.009898,
+      "max_vertex_displacement_m": 0.010245,
+      "finite": true
+    },
+    "Pupil_R": {
+      "center_displacement_m": 0.009898,
+      "max_vertex_displacement_m": 0.010245,
+      "finite": true
+    },
+    "Thumb_L": {
+      "center_displacement_m": 0.014485,
+      "max_vertex_displacement_m": 0.034809,
+      "finite": true
+    },
+    "Thumb_R": {
+      "center_displacement_m": 0.013896,
+      "max_vertex_displacement_m": 0.034809,
+      "finite": true
+    },
+    "Thumb_Tip_L": {
+      "center_displacement_m": 0.032941,
+      "max_vertex_displacement_m": 0.041004,
+      "finite": true
+    },
+    "Thumb_Tip_R": {
+      "center_displacement_m": 0.033327,
+      "max_vertex_displacement_m": 0.041004,
+      "finite": true
+    },
+    "Upper_Lip": {
+      "center_displacement_m": 0.006002,
+      "max_vertex_displacement_m": 0.006,
+      "finite": true
+    }
+  },
+  "pass": true
+}

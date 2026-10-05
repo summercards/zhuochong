@@ -1,0 +1,287 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+E11L_HIP f=  0 L=[+0.0900, +0.6400, +0.1410] R=[-0.0900, +0.6400, +0.1410]
+E11L_HIP f= 30 L=[+0.0900, +0.5960, +0.1700] R=[-0.0900, +0.5960, +0.1700]
+E11L_HIP f= 44 L=[+0.0900, +0.5200, +0.2180] R=[-0.0900, +0.5200, +0.2180]
+E11L_HIP f= 48 L=[+0.0900, +0.4943, +0.2414] R=[-0.0900, +0.4943, +0.2414]
+E11L_HIP f= 52 L=[+0.0900, +0.4686, +0.2649] R=[-0.0900, +0.4686, +0.2649]
+E11L_HIP f= 56 L=[+0.0900, +0.4429, +0.2883] R=[-0.0900, +0.4429, +0.2883]
+E11L_HIP f= 60 L=[+0.0900, +0.4140, +0.3169] R=[-0.0900, +0.4140, +0.3169]
+E11L_HIP f= 64 L=[+0.0900, +0.3820, +0.3506] R=[-0.0900, +0.3820, +0.3506]
+E11L_HIP f= 68 L=[+0.0900, +0.3500, +0.3843] R=[-0.0900, +0.3500, +0.3843]
+E11L_HIP f= 72 L=[+0.0900, +0.3180, +0.4180] R=[-0.0900, +0.3180, +0.4180]
+E11L_HIP f= 76 L=[+0.0900, +0.3180, +0.4180] R=[-0.0900, +0.3180, +0.4180]
+E11L_HIP f= 84 L=[+0.0900, +0.2340, +0.5290] R=[-0.0900, +0.2340, +0.5290]
+E11L_HIP f= 92 L=[+0.0900, +0.1500, +0.6400] R=[-0.0900, +0.1500, +0.6400]
+E11L_HIP f=100 L=[+0.0900, +0.0500, +0.7667] R=[-0.0900, +0.0500, +0.7667]
+E11L_HIP f=104 L=[+0.0900, +0.0000, +0.8300] R=[-0.0900, +0.0000, +0.8300]
+E11L_KNEEMAP f=44 hipR=[-0.090,0.520,0.218]
+   y=-0.20 z=0.08 | fwd=+330 dn=-31 up=+330 fwd_dn=-31 fwd_up=+329 bk_dn=-31
+   y=-0.20 z=0.12 | fwd=+358 dn=-19 up=+358 fwd_dn=-19 fwd_up=+357 bk_dn=-19
+   y=-0.20 z=0.18 | fwd=+394 dn=+4 up=+394 fwd_dn=+4 fwd_up=+394 bk_dn=+4
+   y=+0.00 z=0.08 | fwd=+449 dn=-150 up=+449 fwd_dn=-147 fwd_up=+448 bk_dn=-149
+   y=+0.00 z=0.12 | fwd=+477 dn=-139 up=+477 fwd_dn=-136 fwd_up=+476 bk_dn=-137
+   y=+0.00 z=0.18 | fwd=+515 dn=-117 up=+515 fwd_dn=-115 fwd_up=+513 bk_dn=-115
+   y=+0.20 z=0.08 | fwd=+463 dn=-192 up=+492 fwd_dn=-176 fwd_up=+489 bk_dn=-189
+   y=+0.20 z=0.12 | fwd=+478 dn=-189 up=+528 fwd_dn=-178 fwd_up=+525 bk_dn=-185
+   y=+0.20 z=0.18 | fwd=+574 dn=-175 up=+574 fwd_dn=-168 fwd_up=+570 bk_dn=-171
+   y=+0.36 z=0.08 | fwd=+421 dn=-156 up=+458 fwd_dn=-149 fwd_up=+450 bk_dn=-147
+   y=+0.36 z=0.12 | fwd=+456 dn=-174 up=+517 fwd_dn=-95 fwd_up=+507 bk_dn=-165
+   y=+0.36 z=0.18 | fwd=+411 dn=-192 up=+592 fwd_dn=-161 fwd_up=+578 bk_dn=-178
+   y=+0.52 z=0.08 | fwd=+154 dn=+4 up=+304 fwd_dn=+102 fwd_up=+206 bk_dn=+102
+   y=+0.52 z=0.12 | fwd=+175 dn=-24 up=+375 fwd_dn=+88 fwd_up=+263 bk_dn=+88
+   y=+0.52 z=0.18 | fwd=+206 dn=-131 up=+543 fwd_dn=-8 fwd_up=+420 bk_dn=-8
+   y=+0.68 z=0.08 | fwd=-118 dn=-156 up=+458 fwd_dn=-147 fwd_up=+451 bk_dn=-149
+   y=+0.68 z=0.12 | fwd=-114 dn=-174 up=+517 fwd_dn=-165 fwd_up=+437 bk_dn=-95
+   y=+0.68 z=0.18 | fwd=-11 dn=-192 up=+592 fwd_dn=-178 fwd_up=+561 bk_dn=-161
+   y=+0.84 z=0.08 | fwd=-163 dn=-192 up=+492 fwd_dn=-189 fwd_up=+476 bk_dn=-176
+   y=+0.84 z=0.12 | fwd=-138 dn=-189 up=+528 fwd_dn=-185 fwd_up=+517 bk_dn=-178
+   y=+0.84 z=0.18 | fwd=-175 dn=-175 up=+574 fwd_dn=-171 fwd_up=+567 bk_dn=-168
+   y=+1.00 z=0.08 | fwd=-163 dn=-163 up=+462 fwd_dn=-162 fwd_up=+458 bk_dn=-159
+   y=+1.00 z=0.12 | fwd=-153 dn=-153 up=+492 fwd_dn=-152 fwd_up=+488 bk_dn=-150
+   y=+1.00 z=0.18 | fwd=-132 dn=-132 up=+530 fwd_dn=-130 fwd_up=+528 bk_dn=-129
+E11L_KNEEMAP f=52 hipR=[-0.090,0.469,0.265]
+   y=-0.20 z=0.08 | fwd=+384 dn=-38 up=+384 fwd_dn=-37 fwd_up=+383 bk_dn=-38
+   y=-0.20 z=0.12 | fwd=+414 dn=-28 up=+414 fwd_dn=-27 fwd_up=+413 bk_dn=-28
+   y=-0.20 z=0.18 | fwd=+454 dn=-9 up=+454 fwd_dn=-8 fwd_up=+454 bk_dn=-9
+   y=+0.00 z=0.08 | fwd=+460 dn=-128 up=+474 fwd_dn=-122 fwd_up=+473 bk_dn=-127
+   y=+0.00 z=0.12 | fwd=+485 dn=-121 up=+507 fwd_dn=-117 fwd_up=+506 bk_dn=-120
+   y=+0.00 z=0.18 | fwd=+551 dn=-106 up=+551 fwd_dn=-103 fwd_up=+550 bk_dn=-104
+   y=+0.20 z=0.08 | fwd=+467 dn=-138 up=+486 fwd_dn=-136 fwd_up=+483 bk_dn=-135
+   y=+0.20 z=0.12 | fwd=+502 dn=-143 up=+530 fwd_dn=-111 fwd_up=+527 bk_dn=-139
+   y=+0.20 z=0.18 | fwd=+526 dn=-145 up=+591 fwd_dn=-129 fwd_up=+587 bk_dn=-140
+   y=+0.36 z=0.08 | fwd=+362 dn=-42 up=+393 fwd_dn=+262 fwd_up=+381 bk_dn=-30
+   y=+0.36 z=0.12 | fwd=+410 dn=-62 up=+453 fwd_dn=+218 fwd_up=+439 bk_dn=-48
+   y=+0.36 z=0.18 | fwd=+474 dn=-106 up=+557 fwd_dn=+38 fwd_up=+540 bk_dn=-88
+   y=+0.52 z=0.08 | fwd=+78 dn=+26 up=+327 fwd_dn=+54 fwd_up=+127 bk_dn=+226
+   y=+0.52 z=0.12 | fwd=+78 dn=+11 up=+383 fwd_dn=+44 fwd_up=+161 bk_dn=+233
+   y=+0.52 z=0.18 | fwd=+73 dn=-42 up=+498 fwd_dn=-2 fwd_up=+283 bk_dn=+172
+   y=+0.68 z=0.08 | fwd=-99 dn=-120 up=+468 fwd_dn=-115 fwd_up=+464 bk_dn=-116
+   y=+0.68 z=0.12 | fwd=-100 dn=-131 up=+519 fwd_dn=-125 fwd_up=+516 bk_dn=-127
+   y=+0.68 z=0.18 | fwd=-75 dn=-144 up=+591 fwd_dn=-137 fwd_up=+561 bk_dn=-113
+   y=+0.84 z=0.08 | fwd=-128 dn=-144 up=+491 fwd_dn=-142 fwd_up=+476 bk_dn=-129
+   y=+0.84 z=0.12 | fwd=-116 dn=-141 up=+528 fwd_dn=-139 fwd_up=+517 bk_dn=-131
+   y=+0.84 z=0.18 | fwd=-131 dn=-131 up=+577 fwd_dn=-129 fwd_up=+571 bk_dn=-125
+   y=+1.00 z=0.08 | fwd=-96 dn=-109 up=+455 fwd_dn=-108 fwd_up=+451 bk_dn=-105
+   y=+1.00 z=0.12 | fwd=-100 dn=-100 up=+486 fwd_dn=-99 fwd_up=+483 bk_dn=-97
+   y=+1.00 z=0.18 | fwd=-83 dn=-83 up=+528 fwd_dn=-82 fwd_up=+526 bk_dn=-81
+E11L_KNEEMAP f=60 hipR=[-0.090,0.414,0.317]
+   y=-0.20 z=0.08 | fwd=+421 dn=-30 up=+427 fwd_dn=-27 fwd_up=+427 bk_dn=-29
+   y=-0.20 z=0.12 | fwd=+450 dn=-23 up=+460 fwd_dn=-20 fwd_up=+460 bk_dn=-22
+   y=-0.20 z=0.18 | fwd=+506 dn=-8 up=+506 fwd_dn=-6 fwd_up=+505 bk_dn=-7
+   y=+0.00 z=0.08 | fwd=+479 dn=-91 up=+489 fwd_dn=-90 fwd_up=+488 bk_dn=-90
+   y=+0.00 z=0.12 | fwd=+513 dn=-88 up=+527 fwd_dn=-78 fwd_up=+525 bk_dn=-87
+   y=+0.00 z=0.18 | fwd=+553 dn=-81 up=+579 fwd_dn=-74 fwd_up=+577 bk_dn=-79
+   y=+0.20 z=0.08 | fwd=+443 dn=-57 up=+458 fwd_dn=+454 fwd_up=+454 bk_dn=-53
+   y=+0.20 z=0.12 | fwd=+487 dn=-66 up=+507 fwd_dn=-62 fwd_up=+502 bk_dn=-62
+   y=+0.20 z=0.18 | fwd=+548 dn=-81 up=+582 fwd_dn=-78 fwd_up=+576 bk_dn=-76
+   y=+0.36 z=0.08 | fwd=+284 dn=+80 up=+323 fwd_dn=+256 fwd_up=+299 bk_dn=+104
+   y=+0.36 z=0.12 | fwd=+320 dn=+77 up=+367 fwd_dn=+276 fwd_up=+341 bk_dn=+103
+   y=+0.36 z=0.18 | fwd=+382 dn=+55 up=+451 fwd_dn=+286 fwd_up=+419 bk_dn=+87
+   y=+0.52 z=0.08 | fwd=+50 dn=+26 up=+376 fwd_dn=+37 fwd_up=+97 bk_dn=+306
+   y=+0.52 z=0.12 | fwd=+47 dn=+17 up=+426 fwd_dn=+29 fwd_up=+127 bk_dn=+316
+   y=+0.52 z=0.18 | fwd=+35 dn=-12 up=+515 fwd_dn=+3 fwd_up=+245 bk_dn=+258
+   y=+0.68 z=0.08 | fwd=-66 dn=-78 up=+478 fwd_dn=-76 fwd_up=+476 bk_dn=-76
+   y=+0.68 z=0.12 | fwd=-67 dn=-84 up=+524 fwd_dn=-81 fwd_up=+521 bk_dn=-82
+   y=+0.68 z=0.18 | fwd=-60 dn=-91 up=+591 fwd_dn=-87 fwd_up=+561 bk_dn=-62
+   y=+0.84 z=0.08 | fwd=-80 dn=-90 up=+488 fwd_dn=-88 fwd_up=+487 bk_dn=-89
+   y=+0.84 z=0.12 | fwd=-73 dn=-87 up=+525 fwd_dn=-85 fwd_up=+515 bk_dn=-77
+   y=+0.84 z=0.18 | fwd=-52 dn=-78 up=+576 fwd_dn=-77 fwd_up=+570 bk_dn=-72
+   y=+1.00 z=0.08 | fwd=-36 dn=-44 up=+441 fwd_dn=-43 fwd_up=+438 bk_dn=-40
+   y=+1.00 z=0.12 | fwd=-26 dn=-37 up=+474 fwd_dn=-36 fwd_up=+472 bk_dn=-34
+   y=+1.00 z=0.18 | fwd=-23 dn=-23 up=+520 fwd_dn=-22 fwd_up=+518 bk_dn=-21
+E11L_KNEEMAP f=68 hipR=[-0.090,0.350,0.384]
+   y=-0.20 z=0.08 | fwd=+459 dn=+2 up=+464 fwd_dn=+2 fwd_up=+463 bk_dn=+3
+   y=-0.20 z=0.12 | fwd=+494 dn=+6 up=+500 fwd_dn=+11 fwd_up=+499 bk_dn=+6
+   y=-0.20 z=0.18 | fwd=+541 dn=+14 up=+551 fwd_dn=+18 fwd_up=+551 bk_dn=+15
+   y=+0.00 z=0.08 | fwd=+483 dn=-23 up=+490 fwd_dn=-22 fwd_up=+488 bk_dn=-22
+   y=+0.00 z=0.12 | fwd=+522 dn=-25 up=+531 fwd_dn=-23 fwd_up=+529 bk_dn=-23
+   y=+0.00 z=0.18 | fwd=+578 dn=-26 up=+592 fwd_dn=-25 fwd_up=+590 bk_dn=-24
+   y=+0.20 z=0.08 | fwd=+395 dn=+61 up=+408 fwd_dn=+361 fwd_up=+402 bk_dn=+66
+   y=+0.20 z=0.12 | fwd=+436 dn=+57 up=+451 fwd_dn=+380 fwd_up=+445 bk_dn=+64
+   y=+0.20 z=0.18 | fwd=+502 dn=+44 up=+525 fwd_dn=+515 fwd_up=+517 bk_dn=+52
+   y=+0.36 z=0.08 | fwd=+223 dn=+222 up=+247 fwd_dn=+211 fwd_up=+235 bk_dn=+234
+   y=+0.36 z=0.12 | fwd=+241 dn=+240 up=+270 fwd_dn=+226 fwd_up=+258 bk_dn=+252
+   y=+0.36 z=0.18 | fwd=+268 dn=+266 up=+305 fwd_dn=+243 fwd_up=+296 bk_dn=+276
+   y=+0.52 z=0.08 | fwd=+58 dn=+46 up=+422 fwd_dn=+51 fwd_up=+100 bk_dn=+368
+   y=+0.52 z=0.12 | fwd=+57 dn=+42 up=+466 fwd_dn=+47 fwd_up=+49 bk_dn=+459
+   y=+0.52 z=0.18 | fwd=+50 dn=+29 up=+540 fwd_dn=+35 fwd_up=+36 bk_dn=+533
+   y=+0.68 z=0.08 | fwd=-13 dn=-21 up=+487 fwd_dn=-19 fwd_up=+486 bk_dn=-19
+   y=+0.68 z=0.12 | fwd=-13 dn=-22 up=+529 fwd_dn=-21 fwd_up=+528 bk_dn=-21
+   y=+0.68 z=0.18 | fwd=-10 dn=-25 up=+592 fwd_dn=-23 fwd_up=+590 bk_dn=-24
+   y=+0.84 z=0.08 | fwd=-10 dn=-15 up=+481 fwd_dn=-14 fwd_up=+481 bk_dn=-15
+   y=+0.84 z=0.12 | fwd=-5 dn=-13 up=+518 fwd_dn=-12 fwd_up=+509 bk_dn=-3
+   y=+0.84 z=0.18 | fwd=+6 dn=-6 up=+572 fwd_dn=-5 fwd_up=+566 bk_dn=-0
+   y=+1.00 z=0.08 | fwd=+56 dn=+53 up=+413 fwd_dn=+53 fwd_up=+410 bk_dn=+55
+   y=+1.00 z=0.12 | fwd=+61 dn=+56 up=+449 fwd_dn=+56 fwd_up=+447 bk_dn=+58
+   y=+1.00 z=0.18 | fwd=+73 dn=+65 up=+500 fwd_dn=+65 fwd_up=+499 bk_dn=+66
+E11L_KNEEMAP f=72 hipR=[-0.090,0.318,0.418]
+   y=-0.20 z=0.08 | fwd=+471 dn=+24 up=+476 fwd_dn=+24 fwd_up=+475 bk_dn=+24
+   y=-0.20 z=0.12 | fwd=+508 dn=+26 up=+513 fwd_dn=+26 fwd_up=+513 bk_dn=+27
+   y=-0.20 z=0.18 | fwd=+559 dn=+31 up=+568 fwd_dn=+37 fwd_up=+567 bk_dn=+32
+   y=+0.00 z=0.08 | fwd=+477 dn=+17 up=+484 fwd_dn=+482 fwd_up=+482 bk_dn=+18
+   y=+0.00 z=0.12 | fwd=+518 dn=+15 up=+525 fwd_dn=+17 fwd_up=+524 bk_dn=+17
+   y=+0.00 z=0.18 | fwd=+577 dn=+11 up=+589 fwd_dn=+13 fwd_up=+587 bk_dn=+14
+   y=+0.20 z=0.08 | fwd=+370 dn=+118 up=+384 fwd_dn=+351 fwd_up=+376 bk_dn=+126
+   y=+0.20 z=0.12 | fwd=+406 dn=+120 up=+422 fwd_dn=+379 fwd_up=+414 bk_dn=+128
+   y=+0.20 z=0.18 | fwd=+466 dn=+115 up=+488 fwd_dn=+413 fwd_up=+478 bk_dn=+125
+   y=+0.36 z=0.08 | fwd=+206 dn=+205 up=+297 fwd_dn=+198 fwd_up=+218 bk_dn=+285
+   y=+0.36 z=0.12 | fwd=+220 dn=+218 up=+325 fwd_dn=+210 fwd_up=+236 bk_dn=+308
+   y=+0.36 z=0.18 | fwd=+237 dn=+234 up=+370 fwd_dn=+222 fwd_up=+263 bk_dn=+341
+   y=+0.52 z=0.08 | fwd=+70 dn=+61 up=+440 fwd_dn=+65 fwd_up=+66 bk_dn=+435
+   y=+0.52 z=0.12 | fwd=+70 dn=+59 up=+483 fwd_dn=+63 fwd_up=+64 bk_dn=+478
+   y=+0.52 z=0.18 | fwd=+65 dn=+50 up=+551 fwd_dn=+55 fwd_up=+56 bk_dn=+546
+   y=+0.68 z=0.08 | fwd=+16 dn=+10 up=+490 fwd_dn=+11 fwd_up=+489 bk_dn=+11
+   y=+0.68 z=0.12 | fwd=+16 dn=+9 up=+531 fwd_dn=+11 fwd_up=+530 bk_dn=+10
+   y=+0.68 z=0.18 | fwd=+19 dn=+8 up=+592 fwd_dn=+10 fwd_up=+591 bk_dn=+9
+   y=+0.84 z=0.08 | fwd=+29 dn=+25 up=+475 fwd_dn=+26 fwd_up=+474 bk_dn=+25
+   y=+0.84 z=0.12 | fwd=+32 dn=+27 up=+512 fwd_dn=+28 fwd_up=+512 bk_dn=+27
+   y=+0.84 z=0.18 | fwd=+41 dn=+33 up=+567 fwd_dn=+34 fwd_up=+561 bk_dn=+38
+   y=+1.00 z=0.08 | fwd=+115 dn=+113 up=+386 fwd_dn=+113 fwd_up=+384 bk_dn=+115
+   y=+1.00 z=0.12 | fwd=+115 dn=+111 up=+427 fwd_dn=+112 fwd_up=+426 bk_dn=+113
+   y=+1.00 z=0.18 | fwd=+121 dn=+116 up=+483 fwd_dn=+116 fwd_up=+481 bk_dn=+117
+E11L_KNEEMAP f=76 hipR=[-0.090,0.318,0.418]
+   y=-0.20 z=0.08 | fwd=+471 dn=+24 up=+476 fwd_dn=+24 fwd_up=+475 bk_dn=+24
+   y=-0.20 z=0.12 | fwd=+508 dn=+26 up=+513 fwd_dn=+26 fwd_up=+513 bk_dn=+27
+   y=-0.20 z=0.18 | fwd=+559 dn=+31 up=+568 fwd_dn=+37 fwd_up=+567 bk_dn=+32
+   y=+0.00 z=0.08 | fwd=+477 dn=+17 up=+484 fwd_dn=+482 fwd_up=+482 bk_dn=+18
+   y=+0.00 z=0.12 | fwd=+518 dn=+15 up=+525 fwd_dn=+17 fwd_up=+524 bk_dn=+17
+   y=+0.00 z=0.18 | fwd=+577 dn=+11 up=+589 fwd_dn=+13 fwd_up=+587 bk_dn=+14
+   y=+0.20 z=0.08 | fwd=+370 dn=+118 up=+384 fwd_dn=+351 fwd_up=+376 bk_dn=+126
+   y=+0.20 z=0.12 | fwd=+406 dn=+120 up=+422 fwd_dn=+379 fwd_up=+414 bk_dn=+128
+   y=+0.20 z=0.18 | fwd=+466 dn=+115 up=+488 fwd_dn=+413 fwd_up=+478 bk_dn=+125
+   y=+0.36 z=0.08 | fwd=+206 dn=+205 up=+297 fwd_dn=+198 fwd_up=+218 bk_dn=+285
+   y=+0.36 z=0.12 | fwd=+220 dn=+218 up=+325 fwd_dn=+210 fwd_up=+236 bk_dn=+308
+   y=+0.36 z=0.18 | fwd=+237 dn=+234 up=+370 fwd_dn=+222 fwd_up=+263 bk_dn=+341
+   y=+0.52 z=0.08 | fwd=+70 dn=+61 up=+440 fwd_dn=+65 fwd_up=+66 bk_dn=+435
+   y=+0.52 z=0.12 | fwd=+70 dn=+59 up=+483 fwd_dn=+63 fwd_up=+64 bk_dn=+478
+   y=+0.52 z=0.18 | fwd=+65 dn=+50 up=+551 fwd_dn=+55 fwd_up=+56 bk_dn=+546
+   y=+0.68 z=0.08 | fwd=+16 dn=+10 up=+490 fwd_dn=+11 fwd_up=+489 bk_dn=+11
+   y=+0.68 z=0.12 | fwd=+16 dn=+9 up=+531 fwd_dn=+11 fwd_up=+530 bk_dn=+10
+   y=+0.68 z=0.18 | fwd=+19 dn=+8 up=+592 fwd_dn=+10 fwd_up=+591 bk_dn=+9
+   y=+0.84 z=0.08 | fwd=+29 dn=+25 up=+475 fwd_dn=+26 fwd_up=+474 bk_dn=+25
+   y=+0.84 z=0.12 | fwd=+32 dn=+27 up=+512 fwd_dn=+28 fwd_up=+512 bk_dn=+27
+   y=+0.84 z=0.18 | fwd=+41 dn=+33 up=+567 fwd_dn=+34 fwd_up=+561 bk_dn=+38
+   y=+1.00 z=0.08 | fwd=+115 dn=+113 up=+386 fwd_dn=+113 fwd_up=+384 bk_dn=+115
+   y=+1.00 z=0.12 | fwd=+115 dn=+111 up=+427 fwd_dn=+112 fwd_up=+426 bk_dn=+113
+   y=+1.00 z=0.18 | fwd=+121 dn=+116 up=+483 fwd_dn=+116 fwd_up=+481 bk_dn=+117
+E11L_KNEEMAP f=84 hipR=[-0.090,0.234,0.529]
+   y=-0.20 z=0.08 | fwd=+488 dn=+120 up=+491 fwd_dn=+490 fwd_up=+490 bk_dn=+121
+   y=-0.20 z=0.12 | fwd=+528 dn=+120 up=+531 fwd_dn=+121 fwd_up=+530 bk_dn=+121
+   y=-0.20 z=0.18 | fwd=+586 dn=+120 up=+591 fwd_dn=+121 fwd_up=+590 bk_dn=+121
+   y=+0.00 z=0.08 | fwd=+453 dn=+154 up=+458 fwd_dn=+437 fwd_up=+456 bk_dn=+156
+   y=+0.00 z=0.12 | fwd=+490 dn=+156 up=+496 fwd_dn=+493 fwd_up=+494 bk_dn=+158
+   y=+0.00 z=0.18 | fwd=+548 dn=+156 up=+556 fwd_dn=+552 fwd_up=+553 bk_dn=+159
+   y=+0.20 z=0.08 | fwd=+332 dn=+280 up=+332 fwd_dn=+326 fwd_up=+336 bk_dn=+276
+   y=+0.20 z=0.12 | fwd=+355 dn=+297 up=+356 fwd_dn=+348 fwd_up=+361 bk_dn=+292
+   y=+0.20 z=0.18 | fwd=+392 dn=+321 up=+393 fwd_dn=+381 fwd_up=+400 bk_dn=+314
+   y=+0.36 z=0.08 | fwd=+216 dn=+215 up=+397 fwd_dn=+213 fwd_up=+225 bk_dn=+388
+   y=+0.36 z=0.12 | fwd=+225 dn=+215 up=+438 fwd_dn=+221 fwd_up=+236 bk_dn=+416
+   y=+0.36 z=0.18 | fwd=+235 dn=+222 up=+491 fwd_dn=+229 fwd_up=+253 bk_dn=+460
+   y=+0.52 z=0.08 | fwd=+140 dn=+136 up=+476 fwd_dn=+138 fwd_up=+138 bk_dn=+473
+   y=+0.52 z=0.12 | fwd=+142 dn=+137 up=+515 fwd_dn=+139 fwd_up=+139 bk_dn=+512
+   y=+0.52 z=0.18 | fwd=+143 dn=+136 up=+575 fwd_dn=+138 fwd_up=+139 bk_dn=+573
+   y=+0.68 z=0.08 | fwd=+124 dn=+121 up=+490 fwd_dn=+122 fwd_up=+122 bk_dn=+489
+   y=+0.68 z=0.12 | fwd=+124 dn=+121 up=+530 fwd_dn=+121 fwd_up=+529 bk_dn=+121
+   y=+0.68 z=0.18 | fwd=+126 dn=+121 up=+590 fwd_dn=+122 fwd_up=+589 bk_dn=+122
+   y=+0.84 z=0.08 | fwd=+177 dn=+175 up=+435 fwd_dn=+176 fwd_up=+435 bk_dn=+176
+   y=+0.84 z=0.12 | fwd=+173 dn=+171 up=+479 fwd_dn=+171 fwd_up=+479 bk_dn=+171
+   y=+0.84 z=0.18 | fwd=+172 dn=+169 up=+541 fwd_dn=+170 fwd_up=+541 bk_dn=+169
+   y=+1.00 z=0.08 | fwd=+311C dn=+311C up=+333C fwd_dn=+311C fwd_up=+333C bk_dn=+311C
+   y=+1.00 z=0.12 | fwd=+325C dn=+325C up=+348C fwd_dn=+325C fwd_up=+348C bk_dn=+325C
+   y=+1.00 z=0.18 | fwd=+348C dn=+348C up=+371C fwd_dn=+348C fwd_up=+371C bk_dn=+348C
+E11L_KNEEMAP f=92 hipR=[-0.090,0.150,0.640]
+   y=-0.20 z=0.08 | fwd=+489 dn=+231 up=+491 fwd_dn=+490 fwd_up=+490 bk_dn=+232
+   y=-0.20 z=0.12 | fwd=+527 dn=+232 up=+530 fwd_dn=+529 fwd_up=+529 bk_dn=+233
+   y=-0.20 z=0.18 | fwd=+585 dn=+234 up=+589 fwd_dn=+587 fwd_up=+588 bk_dn=+235
+   y=+0.00 z=0.08 | fwd=+436 dn=+286 up=+436 fwd_dn=+431 fwd_up=+438 bk_dn=+285
+   y=+0.00 z=0.12 | fwd=+466 dn=+296 up=+467 fwd_dn=+460 fwd_up=+468 bk_dn=+294
+   y=+0.00 z=0.18 | fwd=+513 dn=+303 up=+520 fwd_dn=+504 fwd_up=+516 bk_dn=+307
+   y=+0.20 z=0.08 | fwd=+335 dn=+335 up=+388 fwd_dn=+333 fwd_up=+338 bk_dn=+384
+   y=+0.20 z=0.12 | fwd=+352 dn=+351 up=+412 fwd_dn=+349 fwd_up=+356 bk_dn=+407
+   y=+0.20 z=0.18 | fwd=+376 dn=+375 up=+448 fwd_dn=+372 fwd_up=+381 bk_dn=+442
+   y=+0.36 z=0.08 | fwd=+264 dn=+260 up=+463 fwd_dn=+262 fwd_up=+269 bk_dn=+453
+   y=+0.36 z=0.12 | fwd=+270 dn=+266 up=+497 fwd_dn=+268 fwd_up=+278 bk_dn=+484
+   y=+0.36 z=0.18 | fwd=+279 dn=+274 up=+549 fwd_dn=+276 fwd_up=+292 bk_dn=+531
+   y=+0.52 z=0.08 | fwd=+232 dn=+230 up=+492 fwd_dn=+231 fwd_up=+231 bk_dn=+491
+   y=+0.52 z=0.12 | fwd=+233 dn=+231 up=+531 fwd_dn=+231 fwd_up=+232 bk_dn=+530
+   y=+0.52 z=0.18 | fwd=+235 dn=+231 up=+591 fwd_dn=+232 fwd_up=+233 bk_dn=+590
+   y=+0.68 z=0.08 | fwd=+265 dn=+264 up=+457 fwd_dn=+265 fwd_up=+265 bk_dn=+457
+   y=+0.68 z=0.12 | fwd=+257 dn=+256 up=+505 fwd_dn=+256 fwd_up=+505 bk_dn=+256
+   y=+0.68 z=0.18 | fwd=+252 dn=+250 up=+571 fwd_dn=+251 fwd_up=+571 bk_dn=+250
+   y=+0.84 z=0.08 | fwd=+372C dn=+372C up=+392C fwd_dn=+372C fwd_up=+392C bk_dn=+372C
+   y=+0.84 z=0.12 | fwd=+384C dn=+383C up=+404C fwd_dn=+383C fwd_up=+404C bk_dn=+383C
+   y=+0.84 z=0.18 | fwd=+402C dn=+402C up=+424C fwd_dn=+402C fwd_up=+424C bk_dn=+402C
+   y=+1.00 z=0.08 | fwd=+404C dn=+404C up=+426C fwd_dn=+404C fwd_up=+426C bk_dn=+404C
+   y=+1.00 z=0.12 | fwd=+415C dn=+415C up=+438C fwd_dn=+415C fwd_up=+438C bk_dn=+415C
+   y=+1.00 z=0.18 | fwd=+434C dn=+434C up=+457C fwd_dn=+434C fwd_up=+457C bk_dn=+434C
+E11L_KNEEMAP f=100 hipR=[-0.090,0.050,0.767]
+   y=-0.20 z=0.08 | fwd=+488 dn=+359 up=+489 fwd_dn=+485 fwd_up=+488 bk_dn=+360
+   y=-0.20 z=0.12 | fwd=+523 dn=+364 up=+525 fwd_dn=+519 fwd_up=+524 bk_dn=+365
+   y=-0.20 z=0.18 | fwd=+575 dn=+371 up=+578 fwd_dn=+569 fwd_up=+576 bk_dn=+373
+   y=+0.00 z=0.08 | fwd=+441 dn=+408 up=+441 fwd_dn=+439 fwd_up=+442 bk_dn=+407
+   y=+0.00 z=0.12 | fwd=+464 dn=+425 up=+464 fwd_dn=+462 fwd_up=+465 bk_dn=+424
+   y=+0.00 z=0.18 | fwd=+499 dn=+450 up=+499 fwd_dn=+496 fwd_up=+501 bk_dn=+448
+   y=+0.20 z=0.08 | fwd=+380 dn=+379 up=+470 fwd_dn=+379 fwd_up=+382 bk_dn=+467
+   y=+0.20 z=0.12 | fwd=+390 dn=+390 up=+499 fwd_dn=+389 fwd_up=+393 bk_dn=+496
+   y=+0.20 z=0.18 | fwd=+407 dn=+406 up=+543 fwd_dn=+405 fwd_up=+411 bk_dn=+539
+   y=+0.36 z=0.08 | fwd=+358 dn=+357 up=+492 fwd_dn=+357 fwd_up=+361 bk_dn=+488
+   y=+0.36 z=0.12 | fwd=+359 dn=+357 up=+531 fwd_dn=+358 fwd_up=+363 bk_dn=+526
+   y=+0.36 z=0.18 | fwd=+363 dn=+360 up=+588 fwd_dn=+361 fwd_up=+370 bk_dn=+579
+   y=+0.52 z=0.08 | fwd=+422C dn=+422C up=+437C fwd_dn=+422C fwd_up=+422C bk_dn=+437C
+   y=+0.52 z=0.12 | fwd=+391 dn=+390 up=+498 fwd_dn=+390 fwd_up=+390 bk_dn=+498
+   y=+0.52 z=0.18 | fwd=+372 dn=+371 up=+577 fwd_dn=+372 fwd_up=+372 bk_dn=+577
+   y=+0.68 z=0.08 | fwd=+456C dn=+456C up=+474C fwd_dn=+456C fwd_up=+456C bk_dn=+474C
+   y=+0.68 z=0.12 | fwd=+465C dn=+465C up=+483C fwd_dn=+465C fwd_up=+465C bk_dn=+483C
+   y=+0.68 z=0.18 | fwd=+479C dn=+478C up=+497C fwd_dn=+478C fwd_up=+497C bk_dn=+478C
+   y=+0.84 z=0.08 | fwd=+488C dn=+488C up=+508C fwd_dn=+488C fwd_up=+508C bk_dn=+488C
+   y=+0.84 z=0.12 | fwd=+497C dn=+497C up=+518C fwd_dn=+497C fwd_up=+518C bk_dn=+497C
+   y=+0.84 z=0.18 | fwd=+512C dn=+512C up=+533C fwd_dn=+512C fwd_up=+533C bk_dn=+512C
+   y=+1.00 z=0.08 | fwd=+516C dn=+516C up=+537C fwd_dn=+516C fwd_up=+537C bk_dn=+516C
+   y=+1.00 z=0.12 | fwd=+526C dn=+526C up=+547C fwd_dn=+526C fwd_up=+547C bk_dn=+526C
+   y=+1.00 z=0.18 | fwd=+541C dn=+541C up=+563C fwd_dn=+541C fwd_up=+563C bk_dn=+541C
+E11L_KNEEMAP f=104 hipR=[-0.090,0.000,0.830]
+   y=-0.20 z=0.08 | fwd=+490 dn=+422 up=+490 fwd_dn=+489 fwd_up=+490 bk_dn=+422
+   y=-0.20 z=0.12 | fwd=+524 dn=+427 up=+525 fwd_dn=+523 fwd_up=+525 bk_dn=+427
+   y=-0.20 z=0.18 | fwd=+573 dn=+436 up=+576 fwd_dn=+570 fwd_up=+574 bk_dn=+438
+   y=+0.00 z=0.08 | fwd=+456 dn=+456 up=+456 fwd_dn=+455 fwd_up=+457 bk_dn=+455
+   y=+0.00 z=0.12 | fwd=+476 dn=+476 up=+476 fwd_dn=+475 fwd_up=+477 bk_dn=+475
+   y=+0.00 z=0.18 | fwd=+506 dn=+506 up=+506 fwd_dn=+504 fwd_up=+508 bk_dn=+504
+   y=+0.20 z=0.08 | fwd=+422 dn=+422 up=+490 fwd_dn=+422 fwd_up=+423 bk_dn=+489
+   y=+0.20 z=0.12 | fwd=+428 dn=+427 up=+525 fwd_dn=+427 fwd_up=+430 bk_dn=+523
+   y=+0.20 z=0.18 | fwd=+439 dn=+436 up=+576 fwd_dn=+438 fwd_up=+442 bk_dn=+570
+   y=+0.36 z=0.08 | fwd=+456C dn=+456C up=+467C fwd_dn=+456C fwd_up=+456C bk_dn=+467C
+   y=+0.36 z=0.12 | fwd=+431 dn=+431 up=+521 fwd_dn=+431 fwd_up=+433 bk_dn=+518
+   y=+0.36 z=0.18 | fwd=+422 dn=+421 up=+591 fwd_dn=+422 fwd_up=+422 bk_dn=+590
+   y=+0.52 z=0.08 | fwd=+486C dn=+486C up=+501C fwd_dn=+486C fwd_up=+486C bk_dn=+501C
+   y=+0.52 z=0.12 | fwd=+492C dn=+492C up=+508C fwd_dn=+492C fwd_up=+492C bk_dn=+508C
+   y=+0.52 z=0.18 | fwd=+503C dn=+503C up=+519C fwd_dn=+503C fwd_up=+503C bk_dn=+519C
+   y=+0.68 z=0.08 | fwd=+518C dn=+518C up=+536C fwd_dn=+518C fwd_up=+518C bk_dn=+536C
+   y=+0.68 z=0.12 | fwd=+526C dn=+525C up=+543C fwd_dn=+526C fwd_up=+526C bk_dn=+543C
+   y=+0.68 z=0.18 | fwd=+538C dn=+538C up=+557C fwd_dn=+538C fwd_up=+557C bk_dn=+538C
+   y=+0.84 z=0.08 | fwd=+548C dn=+548C up=+567C fwd_dn=+548C fwd_up=+567C bk_dn=+548C
+   y=+0.84 z=0.12 | fwd=+556C dn=+556C up=+576C fwd_dn=+556C fwd_up=+576C bk_dn=+556C
+   y=+0.84 z=0.18 | fwd=+569C dn=+569C up=+590C fwd_dn=+569C fwd_up=+590C bk_dn=+569C
+   y=+1.00 z=0.08 | fwd=+574C dn=+574C up=+595C fwd_dn=+574C fwd_up=+595C bk_dn=+574C
+   y=+1.00 z=0.12 | fwd=+582C dn=+582C up=+604C fwd_dn=+582C fwd_up=+604C bk_dn=+582C
+   y=+1.00 z=0.18 | fwd=+596C dn=+596C up=+618C fwd_dn=+596C fwd_up=+618C bk_dn=+596C
+E11L_SOLE roll=  0.0 fp=   0.0 -> ankle=200.00 sole=111.43 depth=88.57 mm
+E11L_SOLE roll=  0.0 fp=  -8.0 -> ankle=200.00 sole=107.29 depth=92.71 mm
+E11L_SOLE roll=  0.0 fp= -15.0 -> ankle=200.00 sole=104.04 depth=95.96 mm
+E11L_SOLE roll=  6.0 fp=   0.0 -> ankle=200.00 sole=112.29 depth=87.71 mm
+E11L_SOLE roll=  6.0 fp=  -8.0 -> ankle=200.00 sole=107.99 depth=92.01 mm
+E11L_SOLE roll=  6.0 fp= -15.0 -> ankle=200.00 sole=104.48 depth=95.52 mm
+E11L_SOLE roll= 15.0 fp=   0.0 -> ankle=200.00 sole=111.50 depth=88.50 mm
+E11L_SOLE roll= 15.0 fp=  -8.0 -> ankle=200.00 sole=106.98 depth=93.02 mm
+E11L_SOLE roll= 15.0 fp= -15.0 -> ankle=200.00 sole=103.39 depth=96.61 mm
+E11L_SOLE roll= 30.0 fp=   0.0 -> ankle=200.00 sole=106.54 depth=93.46 mm
+E11L_SOLE roll= 30.0 fp=  -8.0 -> ankle=200.00 sole=105.05 depth=94.95 mm
+E11L_SOLE roll= 30.0 fp= -15.0 -> ankle=200.00 sole=101.58 depth=98.42 mm
+E11L_SOLE roll= 45.0 fp=   0.0 -> ankle=200.00 sole=105.78 depth=94.22 mm
+E11L_SOLE roll= 45.0 fp=  -8.0 -> ankle=200.00 sole=103.02 depth=96.98 mm
+E11L_SOLE roll= 45.0 fp= -15.0 -> ankle=200.00 sole=100.35 depth=99.65 mm
+E11L_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

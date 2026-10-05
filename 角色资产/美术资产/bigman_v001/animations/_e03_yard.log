@@ -1,0 +1,16 @@
+E03_YARD_MANIFOLD {"verts": 1858, "edges": 3712, "faces": 1856, "boundary_edges": 0, "nonmanifold_edges": 0, "loose_edges": 0, "watertight": true}
+E03_YARD {"f": 0, "sides": {"L": {"n": 1326, "single_dir": 3, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 2}}, "R": {"n": 1326, "single_dir": 145, "votes>6": 145, "votes==13": 145, "votes_hist": {"1": 8, "2": 1, "13": 145}}}}
+E03_YARD {"f": 26, "sides": {"L": {"n": 1326, "single_dir": 4, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 47}}, "R": {"n": 1326, "single_dir": 4, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 8}}}}
+E03_YARD {"f": 28, "sides": {"L": {"n": 1326, "single_dir": 1, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 3}}, "R": {"n": 1326, "single_dir": 0, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 40, "2": 1}}}}
+E03_YARD {"f": 44, "sides": {"L": {"n": 1326, "single_dir": 10, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 12}}, "R": {"n": 1326, "single_dir": 2, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 32}}}}
+E03_YARD {"f": 52, "sides": {"L": {"n": 1326, "single_dir": 0, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 2}}, "R": {"n": 1326, "single_dir": 0, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 16}}}}
+E03_YARD {"f": 57, "sides": {"L": {"n": 1326, "single_dir": 12, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 4}}, "R": {"n": 1326, "single_dir": 0, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 60}}}}
+E03_YARD {"f": 60, "sides": {"L": {"n": 1326, "single_dir": 22, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 23}}, "R": {"n": 1326, "single_dir": 3, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 12}}}}
+E03_YARD {"f": 66, "sides": {"L": {"n": 1326, "single_dir": 0, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 9}}, "R": {"n": 1326, "single_dir": 18, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 6}}}}
+E03_YARD {"f": 96, "sides": {"L": {"n": 1326, "single_dir": 3, "votes>6": 0, "votes==13": 0, "votes_hist": {"1": 2}}, "R": {"n": 1326, "single_dir": 145, "votes>6": 145, "votes==13": 145, "votes_hist": {"1": 8, "2": 1, "13": 145}}}}
+E03_YARD_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

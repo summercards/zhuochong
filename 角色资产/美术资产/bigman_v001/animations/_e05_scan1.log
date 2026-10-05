@@ -1,0 +1,12 @@
+E05_SCAN {"twist": false, "rows": [{"x": 65, "y": -0.4, "z": 1.2, "gap": 54.77, "mind": 59.93, "sym_x": 0.0, "sym_y": 0.0, "sym_z": 0.0, "perp": 0.0, "torso_deep": -2.55, "torso_n": 10, "clip": 0.0, "clip_at": null}, {"x": 65, "y": -0.52, "z": 1.2, "gap": 66.64, "mind": 66.64, "sym_x": 0.0, "sym_y": 0.0, "sym_z": 0.0, "perp": 0.0, "torso_deep": 98.54, "torso_n": 0, "clip": 0.0, "clip_at": null}, {"x": 85, "y": -0.4, "z": 1.2, "gap": 99.25, "mind": 100.74, "sym_x": 0.0, "sym_y": 0.0, "sym_z": 0.0, "perp": 0.0, "torso_deep": 5.07, "torso_n": 0, "clip": 0.0, "clip_at": null}, {"x": 85, "y": -0.52, "z": 1.2, "gap": 114.25, "mind": 114.25, "sym_x": 0.0, "sym_y": 0.0, "sym_z": 0.0, "perp": 0.0, "torso_deep": 105.7, "torso_n": 0, "clip": 0.0, "clip_at": null}]}
+
+  x    y      z    | gap    mind  | symx symy symz  perp | torD  torN | clip  clip_at
+  65  -0.40  1.20  |   54.8   59.9 |  0.0  0.0  0.0   0.0 |   -2.5   10 |   0.0 None
+  65  -0.52  1.20  |   66.6   66.6 |  0.0  0.0  0.0   0.0 |   98.5    0 |   0.0 None
+  85  -0.40  1.20  |   99.2  100.7 |  0.0  0.0  0.0   0.0 |    5.1    0 |   0.0 None
+  85  -0.52  1.20  |  114.2  114.2 |  0.0  0.0  0.0   0.0 |  105.7    0 |   0.0 None
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

@@ -1,0 +1,8 @@
+E09_UNSKIN {"obj": "Jacket_Hem", "vgroups": 0, "parent": null, "armature_mod": ["SUBSURF"], "bbox_z_mm": {"0": [903.0, 926.0], "66": [903.0, 926.0], "120": [903.0, 926.0]}, "constant": true}
+E09_UNSKIN {"obj": "Jacket_Hem_Line", "vgroups": 0, "parent": null, "armature_mod": ["SUBSURF"], "bbox_z_mm": {"0": [897.5, 901.5], "66": [897.5, 901.5], "120": [897.5, 901.5]}, "constant": true}
+E09_UNSKIN_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

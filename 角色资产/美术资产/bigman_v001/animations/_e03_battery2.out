@@ -1,0 +1,15 @@
+BASE  failed=[]  non_ok=[]
+------------------------------------------------------------------------------
+E03_TP_SEAM_ZERO         ① 首帧改零位          red=['arm_reach_ok', 'ground_hold_ok', 'leg_reach_ok', 'loop_seamless', 'no_teleport', 'rage_chest_hit_ok', 'rage_foot_lock_ok', 'rage_matrix_step_ok', 'seam_in_ok', 'sole_ground_ok']
+E03_TP_CHESTFAR          ② ★★★ 拳离开胸       red=['loop_seamless', 'no_teleport', 'rage_chest_hit_ok', 'rage_matrix_step_ok']
+E03_TP_CHESTCLIP         ③ 拳穿进胸           red=['rage_chest_hit_ok', 'rage_punch_no_pierce_ok']
+E03_TP_HEADDOWN          ④a 仰头不够          red=['rage_head_back_ok']
+E03_TP_HEADOVER          ④b 仰头过头          red=['rage_head_back_ok', 'rage_matrix_step_ok']
+E03_TP_NOHITSTOP         ⑤ 去掉 hitstop     red=['rage_chest_hit_ok', 'rage_hitstop_ok']
+E03_TP_FOOTSWAY          ⑥ 脚跟着动           red=['chain_present_ok', 'ground_contact_ok', 'ground_hold_ok', 'rage_foot_lock_ok', 'sole_ground_ok']
+E03_TP_LOOPBREAK         ⑦ 末帧不闭合          red=['end_matches_start_ok', 'loop_seamless']
+E03_TP_NOFLIP            ⑧ 躯干不翻转          red=['no_teleport', 'rage_matrix_step_ok', 'rage_punch_no_pierce_ok', 'rage_windup_ok']
+E03_TP_FACEALONG         ⑨ 拳面沿前臂          red=['no_teleport', 'rage_chest_hit_ok', 'rage_hitstop_ok', 'rage_punch_no_pierce_ok']
+E03_CHIRALITY_FLIP       ⑩ 手性翻转           red=['no_teleport', 'rage_chest_hit_ok', 'rage_punch_no_pierce_ok']
+------------------------------------------------------------------------------
+LAZY_KNOBS = []

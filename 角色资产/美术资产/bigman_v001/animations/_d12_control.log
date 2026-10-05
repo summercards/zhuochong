@@ -1,0 +1,62 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+Fra:0 Mem:107.80M (Peak 110.99M) | Time:00:00.62 | Rendering 1 / 64 samples
+Fra:0 Mem:107.80M (Peak 110.99M) | Time:00:00.66 | Rendering 25 / 64 samples
+Fra:0 Mem:107.80M (Peak 110.99M) | Time:00:00.70 | Rendering 50 / 64 samples
+Fra:0 Mem:107.80M (Peak 110.99M) | Time:00:00.72 | Rendering 64 / 64 samples
+Fra:0 Mem:75.76M (Peak 120.89M) | Time:00:00.74 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0000.png'
+Time: 00:00.81 (Saving: 00:00.05)
+
+Fra:4 Mem:109.87M (Peak 113.03M) | Time:00:00.26 | Rendering 1 / 64 samples
+Fra:4 Mem:109.87M (Peak 113.03M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:4 Mem:109.87M (Peak 113.03M) | Time:00:00.37 | Rendering 50 / 64 samples
+Fra:4 Mem:109.87M (Peak 113.03M) | Time:00:00.39 | Rendering 64 / 64 samples
+Fra:4 Mem:77.83M (Peak 122.96M) | Time:00:00.43 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0004.png'
+Time: 00:00.48 (Saving: 00:00.04)
+
+Fra:8 Mem:109.88M (Peak 113.03M) | Time:00:00.25 | Rendering 1 / 64 samples
+Fra:8 Mem:109.88M (Peak 113.03M) | Time:00:00.29 | Rendering 25 / 64 samples
+Fra:8 Mem:109.88M (Peak 113.03M) | Time:00:00.32 | Rendering 50 / 64 samples
+Fra:8 Mem:109.88M (Peak 113.03M) | Time:00:00.34 | Rendering 64 / 64 samples
+Fra:8 Mem:77.83M (Peak 122.97M) | Time:00:00.38 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0008.png'
+Time: 00:00.43 (Saving: 00:00.04)
+
+Fra:12 Mem:109.88M (Peak 113.03M) | Time:00:00.26 | Rendering 1 / 64 samples
+Fra:12 Mem:109.88M (Peak 113.03M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:12 Mem:109.88M (Peak 113.03M) | Time:00:00.37 | Rendering 50 / 64 samples
+Fra:12 Mem:109.88M (Peak 113.03M) | Time:00:00.41 | Rendering 64 / 64 samples
+Fra:12 Mem:77.83M (Peak 122.97M) | Time:00:00.44 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0012.png'
+Time: 00:00.50 (Saving: 00:00.04)
+
+Fra:16 Mem:109.88M (Peak 113.03M) | Time:00:00.23 | Rendering 1 / 64 samples
+Fra:16 Mem:109.88M (Peak 113.03M) | Time:00:00.26 | Rendering 25 / 64 samples
+Fra:16 Mem:109.88M (Peak 113.03M) | Time:00:00.30 | Rendering 50 / 64 samples
+Fra:16 Mem:109.88M (Peak 113.03M) | Time:00:00.31 | Rendering 64 / 64 samples
+Fra:16 Mem:77.83M (Peak 122.97M) | Time:00:00.36 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0016.png'
+Time: 00:00.41 (Saving: 00:00.04)
+
+Fra:20 Mem:109.88M (Peak 113.03M) | Time:00:00.26 | Rendering 1 / 64 samples
+Fra:20 Mem:109.88M (Peak 113.03M) | Time:00:00.29 | Rendering 25 / 64 samples
+Fra:20 Mem:109.88M (Peak 113.03M) | Time:00:00.33 | Rendering 50 / 64 samples
+Fra:20 Mem:109.88M (Peak 113.03M) | Time:00:00.35 | Rendering 64 / 64 samples
+Fra:20 Mem:77.83M (Peak 122.97M) | Time:00:00.40 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0020.png'
+Time: 00:00.45 (Saving: 00:00.04)
+
+Fra:24 Mem:109.88M (Peak 113.03M) | Time:00:00.25 | Rendering 1 / 64 samples
+Fra:24 Mem:109.88M (Peak 113.03M) | Time:00:00.29 | Rendering 25 / 64 samples
+Fra:24 Mem:109.88M (Peak 113.03M) | Time:00:00.33 | Rendering 50 / 64 samples
+Fra:24 Mem:109.88M (Peak 113.03M) | Time:00:00.35 | Rendering 64 / 64 samples
+Fra:24 Mem:77.83M (Peak 122.97M) | Time:00:00.42 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\jumpfall_side_f0024.png'
+Time: 00:00.46 (Saving: 00:00.02)
+
+D12_CONTROL_DONE 7 [0, 4, 8, 12, 16, 20, 24]
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

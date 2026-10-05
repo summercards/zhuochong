@@ -1,0 +1,21 @@
+C04_LAYOUT {"total_frames": 54, "antic": 20, "mid": 24, "hit": 28, "hold": 4, "hold_end": 31, "return_start": 32, "cancel": 44, "advance_mm": 450.0, "foot_schedule": {"L": [[0, 12], [20, 54]], "R": [[0, 4], [12, 54]]}, "seam_source": ["Heavy_01", 36], "pelvis_y0_mm": -89.388, "L_seam_mm": [152.18, -329.58, 79.74], "R_seam_mm": [-141.58, 140.44, 79.8], "L_end_mm": [143.18, -708.96, 79.76], "R_end_mm": [-141.58, -398.96, 79.83], "L_step_mm": 379.38, "R_step_mm": 539.39, "seam_sole_mm": {"L": 0.622, "R": -1.574}, "seam_extra_bones": [], "note": "上游接缝 = Heavy_01 的 CANCEL 帧；末帧 = 抓握保持姿（两脚取 Idle 站架整体平移，便于 C05 起手）；两次落脚全部压在前摇段内。"}
+C04_CALIBRATION {"per_window": {"L_w0": {"pivot_mm": [158.18, -535.6, 15.834], "pivot_vertex": ["Shoe_Sole_L", 141], "ankle_flat_mm": [152.18, -329.6, 83.33]}, "R_w0": {"pivot_mm": [-147.58, -65.57, 13.606], "pivot_vertex": ["Shoe_Sole_R", 141], "ankle_flat_mm": [-141.58, 140.43, 81.11]}, "L_w1": {"pivot_mm": [149.18, -914.97, 12.214], "pivot_vertex": ["Shoe_Sole_L", 141], "ankle_flat_mm": [143.18, -708.97, 79.71]}, "R_w1": {"pivot_mm": [-147.58, -604.96, 14.177], "pivot_vertex": ["Shoe_Sole_R", 141], "ankle_flat_mm": [-141.58, -398.96, 81.68]}}, "pivot_axis_world": [1.0, 0.0, 0.0], "pivot_axis_dev_deg": 0.0, "pivot_scale": 1.0, "arm_len_mm": {"L": {"upper": 328.0, "forearm": 224.0, "hand": 98.0}, "R": {"upper": 328.0, "forearm": 224.0, "hand": 98.0}}, "note": "本支 tip ≈ 0 ⟹ `_pivot_ankle` 退化为恒等、踝目标完全由 FLAT_ANK 决定；三点支点模型保留以便下一支直接复用。"}
+C04_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_grab04.py", line 1637, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_grab04.py", line 1590, in main
+    report.update(grab_assertions(arm, action, samples, foots,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_grab04.py", line 1245, in grab_assertions
+    here = _local_step_deg(ea.get(name), eb.get(name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_grab04.py", line 574, in _local_step_deg
+    b = Euler([math.radians(v) for v in e], "XYZ").to_matrix()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

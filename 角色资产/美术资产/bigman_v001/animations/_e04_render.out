@@ -1,0 +1,11 @@
+=== [1/5] MAIN (spawnwide/spawn_side/spawn_front/spawnkey + landmark + save + glb) ===
+E04_DONE failed=[] non_ok=[]
+=== [2/5] STEM ② NOSINK (期望：px_spawn_head_drop_ok 红) ===
+E04_DONE failed=['ground_contact_ok', 'leg_reach_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok'] non_ok=['ground_contact_ok', 'leg_reach_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok']
+=== [3/5] STEM ⑤ GLUED (期望：px_spawn_airborne_ok 红) ===
+E04_DONE failed=['leg_reach_ok', 'spawn_airborne_ok', 'spawn_foot_lock_phased_ok'] non_ok=['leg_reach_ok', 'no_teleport', 'spawn_airborne_ok', 'spawn_foot_lock_phased_ok']
+=== [4/5] STEM ⑦ FOOTSWAY (期望：px_spawn_foot_lock_ok 红) ===
+E04_DONE failed=['ground_contact_ok', 'leg_reach_ok', 'spawn_airborne_ok', 'spawn_crouch_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok', 'spawn_matrix_step_ok'] non_ok=['ground_contact_ok', 'leg_reach_ok', 'no_teleport', 'spawn_airborne_ok', 'spawn_crouch_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok', 'spawn_matrix_step_ok']
+=== [5/5] STEM ⑨ FOOTASYM (期望：px_spawn_feet_sym_ok 红) ===
+E04_DONE failed=['ground_contact_ok', 'leg_reach_ok', 'no_snap_stop_ok', 'spawn_foot_lock_phased_ok'] non_ok=['ground_contact_ok', 'leg_reach_ok', 'no_snap_stop_ok', 'spawn_foot_lock_phased_ok']
+ALL_RENDER_DONE

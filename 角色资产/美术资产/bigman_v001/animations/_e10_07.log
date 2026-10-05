@@ -1,0 +1,249 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+E10_TRACE f=  0 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.000 pz=0.830 rx=+4.0 low=-0.96(Shoe_Sole_R) knee=428.3 head=1485.5 ank=79.8 leglen=[771.0, 764.9]
+E10STEP f=  1 foot.L=  0.0 foot.R=  0.0 hip.L=  4.2 hip.R=  4.2 knee.L=  2.7 knee.R=  0.2
+E10_TRACE f=  1 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.004 pz=0.829 rx=+3.4 low=-0.97(Shoe_Sole_R) knee=428.5 head=1485.5 ank=79.8 leglen=[771.3, 763.5]
+E10STEP f=  2 foot.L=  0.0 foot.R=  0.0 hip.L=  4.2 hip.R=  4.2 knee.L=  2.7 knee.R=  0.3
+E10_TRACE f=  2 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.008 pz=0.829 rx=+2.8 low=-0.97(Shoe_Sole_R) knee=428.6 head=1485.5 ank=79.8 leglen=[771.6, 762.1]
+E10STEP f=  3 foot.L=  0.0 foot.R=  0.0 hip.L=  4.2 hip.R=  4.2 knee.L=  2.7 knee.R=  0.4
+E10_TRACE f=  3 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.013 pz=0.828 rx=+2.2 low=-0.96(Shoe_Sole_R) knee=428.8 head=1485.4 ank=79.8 leglen=[771.9, 760.8]
+E10STEP f=  4 foot.L=  0.0 foot.R=  0.0 hip.L=  4.2 hip.R=  4.2 knee.L=  2.8 knee.R=  0.4
+E10_TRACE f=  4 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.017 pz=0.827 rx=+1.7 low=-0.96(Shoe_Sole_R) knee=429.0 head=1485.2 ank=79.8 leglen=[772.3, 759.4]
+E10STEP f=  5 foot.L=  0.0 foot.R=  0.0 hip.L=  4.2 hip.R=  4.2 knee.L=  2.8 knee.R=  0.5
+E10_TRACE f=  5 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.021 pz=0.827 rx=+1.1 low=-0.95(Shoe_Sole_R) knee=429.3 head=1485.0 ank=79.8 leglen=[772.6, 758.1]
+E10STEP f=  6 foot.L=  0.0 foot.R=  0.0 hip.L=  4.2 hip.R=  4.2 knee.L=  2.8 knee.R=  0.5
+E10_TRACE f=  6 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.025 pz=0.826 rx=+0.5 low=-0.95(Shoe_Sole_R) knee=429.6 head=1484.7 ank=79.8 leglen=[773.0, 756.8]
+E10STEP f=  7 foot.L=  0.0 foot.R=  0.0 hip.L= 13.3 hip.R= 13.3 knee.L=  5.5 knee.R=  1.4
+E10_TRACE f=  7 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.037 pz=0.822 rx=-1.4 low=-0.96(Shoe_Sole_R) knee=428.8 head=1480.9 ank=79.8 leglen=[771.9, 750.6]
+E10STEP f=  8 foot.L=  0.0 foot.R=  0.0 hip.L= 13.3 hip.R= 13.3 knee.L=  5.8 knee.R=  0.8
+E10_TRACE f=  8 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.050 pz=0.817 rx=-3.2 low=-0.97(Shoe_Sole_R) knee=428.4 head=1476.4 ank=79.8 leglen=[771.1, 744.5]
+E10STEP f=  9 foot.L=  0.0 foot.R=  0.0 hip.L= 13.3 hip.R= 13.3 knee.L=  6.2 knee.R=  0.4
+E10_TRACE f=  9 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.062 pz=0.812 rx=-5.1 low=-0.97(Shoe_Sole_R) knee=428.4 head=1471.1 ank=79.8 leglen=[770.4, 738.6]
+E10STEP f= 10 foot.L=  0.0 foot.R=  0.0 hip.L= 13.3 hip.R= 13.3 knee.L=  6.5 knee.R=  0.5
+E10_TRACE f= 10 s=0.000 hs=0.000 ar=0.000 af=0.000 fe=0.000 lg=0.000 az=0.000 py=+0.075 pz=0.808 rx=-7.0 low=-0.97(Shoe_Sole_R) knee=428.6 head=1465.2 ank=79.8 leglen=[770.0, 732.9]
+E10STEP f= 11 foot.L=  0.5 foot.R=  1.6 hip.L= 47.9 hip.R= 47.9 knee.L= 18.2 knee.R= 30.8
+E10_TRACE f= 11 s=0.024 hs=0.003 ar=0.011 af=0.000 fe=0.000 lg=0.005 az=0.011 py=+0.100 pz=0.767 rx=-11.4 low=-0.90(Shoe_Sole_R) knee=412.4 head=1417.9 ank=80.1 leglen=[739.7, 689.9]
+E10STEP f= 12 foot.L=  1.4 foot.R=  4.4 hip.L= 47.9 hip.R= 47.9 knee.L=  8.6 knee.R= 23.0
+E10_TRACE f= 12 s=0.060 hs=0.012 ar=0.043 af=0.000 fe=0.000 lg=0.018 az=0.043 py=+0.124 pz=0.726 rx=-15.9 low=-0.02(Shoe_Sole_R) knee=401.3 head=1366.4 ank=81.2 leglen=[710.7, 647.0]
+E10STEP f= 13 foot.L=  2.2 foot.R=  6.8 hip.L= 47.9 hip.R= 47.9 knee.L=  2.2 knee.R= 16.6
+E10_TRACE f= 13 s=0.104 hs=0.027 ar=0.092 af=0.000 fe=0.000 lg=0.039 az=0.092 py=+0.149 pz=0.685 rx=-20.3 low=1.54(Shoe_Sole_R) knee=395.7 head=1310.6 ank=82.9 leglen=[683.5, 604.8]
+E10STEP f= 14 foot.L=  2.9 foot.R=  8.9 hip.L= 47.9 hip.R= 47.9 knee.L=  5.3 knee.R= 11.4
+E10_TRACE f= 14 s=0.154 hs=0.047 ar=0.156 af=0.000 fe=0.000 lg=0.066 az=0.156 py=+0.174 pz=0.644 rx=-24.8 low=3.67(Shoe_Sole_R) knee=395.7 head=1250.7 ank=85.1 leglen=[658.6, 564.2]
+E10STEP f= 15 foot.L=  3.4 foot.R= 10.5 hip.L= 47.9 hip.R= 47.9 knee.L= 10.7 knee.R=  9.0
+E10_TRACE f= 15 s=0.208 hs=0.071 ar=0.232 af=0.000 fe=0.000 lg=0.097 az=0.232 py=+0.198 pz=0.603 rx=-29.2 low=6.27(Shoe_Sole_R) knee=401.6 head=1186.8 ank=87.7 leglen=[636.2, 526.1]
+E10STEP f= 16 foot.L=  3.8 foot.R= 11.7 hip.L= 47.9 hip.R= 47.9 knee.L= 15.9 knee.R= 12.2
+E10_TRACE f= 16 s=0.266 hs=0.100 ar=0.316 af=0.000 fe=0.000 lg=0.133 az=0.316 py=+0.223 pz=0.562 rx=-33.6 low=9.27(Shoe_Sole_R) knee=413.5 head=1118.8 ank=90.6 leglen=[616.9, 491.3]
+E10STEP f= 17 foot.L=  4.0 foot.R= 12.5 hip.L= 47.9 hip.R= 47.9 knee.L= 20.8 knee.R= 18.6
+E10_TRACE f= 17 s=0.328 hs=0.132 ar=0.407 af=0.000 fe=0.000 lg=0.171 az=0.407 py=+0.248 pz=0.521 rx=-38.1 low=12.56(Shoe_Sole_R) knee=430.6 head=1047.0 ank=93.6 leglen=[601.2, 461.0]
+E10STEP f= 18 foot.L=  4.2 foot.R= 12.9 hip.L= 47.9 hip.R= 47.9 knee.L= 25.3 knee.R= 26.2
+E10_TRACE f= 18 s=0.392 hs=0.168 ar=0.500 af=0.000 fe=0.000 lg=0.210 az=0.500 py=+0.273 pz=0.480 rx=-42.5 low=16.07(Shoe_Sole_R) knee=451.6 head=971.6 ank=96.8 leglen=[589.3, 436.2]
+E10STEP f= 19 foot.L=  4.2 foot.R= 12.9 hip.L= 47.9 hip.R= 47.9 knee.L= 29.3 knee.R= 33.8
+E10_TRACE f= 19 s=0.460 hs=0.207 ar=0.593 af=0.000 fe=0.000 lg=0.249 az=0.593 py=+0.297 pz=0.439 rx=-46.9 low=17.65(Shoe_Sole_L) knee=474.1 head=892.7 ank=100.0 leglen=[581.7, 418.0]
+E10STEP f= 20 foot.L=  4.0 foot.R= 12.5 hip.L= 47.9 hip.R= 47.9 knee.L= 32.9 knee.R= 40.5
+E10_TRACE f= 20 s=0.530 hs=0.249 ar=0.684 af=0.000 fe=0.000 lg=0.287 az=0.684 py=+0.322 pz=0.398 rx=-51.4 low=18.36(Shoe_Sole_L) knee=494.9 head=810.6 ank=103.1 leglen=[578.4, 407.0]
+E10STEP f= 21 foot.L=  3.8 foot.R= 11.7 hip.L= 47.9 hip.R= 47.9 knee.L= 35.9 knee.R= 45.6
+E10_TRACE f= 21 s=0.603 hs=0.293 ar=0.768 af=0.000 fe=0.000 lg=0.323 az=0.768 py=+0.347 pz=0.357 rx=-55.8 low=18.41(Shoe_Sole_L) knee=493.9 head=725.6 ank=106.0 leglen=[579.6, 403.4]
+E10STEP f= 22 foot.L=  3.4 foot.R= 10.5 hip.L= 47.9 hip.R= 47.9 knee.L= 38.3 knee.R= 49.0
+E10_TRACE f= 22 s=0.678 hs=0.338 ar=0.844 af=0.000 fe=0.000 lg=0.354 az=0.844 py=+0.371 pz=0.316 rx=-60.2 low=18.05(Shoe_Sole_L) knee=482.0 head=638.0 ank=108.6 leglen=[585.3, 406.9]
+E10STEP f= 23 foot.L=  2.9 foot.R=  8.9 hip.L= 47.9 hip.R= 47.9 knee.L= 40.2 knee.R= 50.8
+E10_TRACE f= 23 s=0.756 hs=0.385 ar=0.908 af=0.000 fe=0.000 lg=0.381 az=0.908 py=+0.396 pz=0.275 rx=-64.7 low=17.33(Shoe_Sole_L) knee=465.3 head=548.1 ank=110.7 leglen=[595.2, 416.6]
+E10STEP f= 24 foot.L=  2.2 foot.R=  6.8 hip.L= 47.9 hip.R= 47.9 knee.L= 41.7 knee.R= 51.4
+E10_TRACE f= 24 s=0.835 hs=0.432 ar=0.957 af=0.000 fe=0.000 lg=0.402 az=0.957 py=+0.421 pz=0.234 rx=-69.1 low=16.25(Shoe_Sole_L) knee=443.7 head=456.2 ank=112.4 leglen=[609.0, 431.1]
+E10STEP f= 25 foot.L=  1.4 foot.R=  4.4 hip.L= 47.9 hip.R= 47.9 knee.L= 43.0 knee.R= 51.3
+E10_TRACE f= 25 s=0.917 hs=0.480 ar=0.989 af=0.000 fe=0.000 lg=0.415 az=0.989 py=+0.445 pz=0.193 rx=-73.6 low=14.77(Shoe_Sole_L) knee=417.2 head=362.7 ank=113.5 leglen=[626.4, 449.2]
+E10STEP f= 26 foot.L=  0.5 foot.R=  1.6 hip.L= 47.9 hip.R= 47.9 knee.L= 44.3 knee.R= 50.9
+E10_TRACE f= 26 s=1.000 hs=0.528 ar=1.000 af=0.000 fe=0.000 lg=0.420 az=1.000 py=+0.470 pz=0.152 rx=-78.0 low=12.71(Shoe_Sole_L) knee=386.0 head=268.0 ank=113.9 leglen=[647.0, 469.5]
+E10STEP f= 27 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 27 s=1.000 hs=0.528 ar=1.000 af=0.000 fe=0.000 lg=0.420 az=1.000 py=+0.470 pz=0.152 rx=-78.0 low=12.71(Shoe_Sole_L) knee=386.0 head=268.0 ank=113.9 leglen=[647.0, 469.5]
+E10STEP f= 28 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 28 s=1.000 hs=0.528 ar=1.000 af=0.000 fe=0.000 lg=0.420 az=1.000 py=+0.470 pz=0.152 rx=-78.0 low=12.71(Shoe_Sole_L) knee=386.0 head=268.0 ank=113.9 leglen=[647.0, 469.5]
+E10STEP f= 29 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 29 s=1.000 hs=0.528 ar=1.000 af=0.000 fe=0.000 lg=0.420 az=1.000 py=+0.470 pz=0.152 rx=-78.0 low=12.71(Shoe_Sole_L) knee=386.0 head=268.0 ank=113.9 leglen=[647.0, 469.5]
+E10STEP f= 30 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 30 s=1.000 hs=0.528 ar=1.000 af=0.000 fe=0.000 lg=0.420 az=1.000 py=+0.470 pz=0.152 rx=-78.0 low=12.71(Shoe_Sole_L) knee=386.0 head=268.0 ank=113.9 leglen=[647.0, 469.5]
+E10STEP f= 31 foot.L=  0.4 foot.R=  2.1 hip.L= 18.9 hip.R= 18.9 knee.L= 17.6 knee.R= 14.5
+E10_TRACE f= 31 s=1.000 hs=0.753 ar=1.000 af=0.131 fe=0.156 lg=0.427 az=1.000 py=+0.489 pz=0.150 rx=-79.4 low=10.20(Shoe_Sole_L) knee=372.7 head=246.4 ank=113.9 leglen=[665.5, 489.8]
+E10STEP f= 32 foot.L=  1.3 foot.R=  5.9 hip.L= 18.9 hip.R= 18.9 knee.L= 18.4 knee.R= 14.3
+E10_TRACE f= 32 s=1.000 hs=0.792 ar=1.000 af=0.183 fe=0.216 lg=0.445 az=1.000 py=+0.508 pz=0.147 rx=-80.8 low=8.63(Shoe_Sole_L) knee=358.2 head=227.8 ank=113.9 leglen=[684.2, 514.0]
+E10STEP f= 33 foot.L=  2.0 foot.R=  9.2 hip.L= 18.9 hip.R= 18.9 knee.L= 19.4 knee.R= 15.0
+E10_TRACE f= 33 s=1.000 hs=0.828 ar=1.000 af=0.239 fe=0.282 lg=0.474 az=1.000 py=+0.526 pz=0.145 rx=-82.1 low=7.06(Shoe_Sole_L) knee=342.4 head=209.3 ank=113.9 leglen=[703.0, 541.5]
+E10STEP f= 34 foot.L=  2.5 foot.R= 11.9 hip.L= 18.9 hip.R= 18.9 knee.L= 20.7 knee.R= 16.4
+E10_TRACE f= 34 s=1.000 hs=0.860 ar=1.000 af=0.301 fe=0.352 lg=0.511 az=1.000 py=+0.545 pz=0.143 rx=-83.5 low=5.45(Shoe_Sole_L) knee=324.9 head=190.8 ank=113.9 leglen=[721.9, 571.7]
+E10STEP f= 35 foot.L=  3.0 foot.R= 14.1 hip.L=  4.4 hip.R=  4.4 knee.L=  5.5 knee.R= 10.1
+E10_TRACE f= 35 s=1.000 hs=0.889 ar=1.000 af=0.365 fe=0.425 lg=0.555 az=1.000 py=+0.549 pz=0.143 rx=-83.6 low=4.40(Shoe_Sole_L) knee=320.2 head=188.7 ank=113.9 leglen=[726.8, 590.1]
+E10STEP f= 36 foot.L=  3.4 foot.R= 15.7 hip.L= 11.1 hip.R= 11.1 knee.L= 13.3 knee.R= 14.7
+E10_TRACE f= 36 s=1.000 hs=0.913 ar=1.000 af=0.432 fe=0.500 lg=0.604 az=1.000 py=+0.561 pz=0.142 rx=-83.9 low=3.24(Shoe_Sole_L) knee=308.6 head=184.1 ank=113.9 leglen=[738.4, 616.7]
+E10STEP f= 37 foot.L=  3.6 foot.R= 16.8 hip.L= 14.5 hip.R= 14.5 knee.L= 18.4 knee.R= 19.1
+E10_TRACE f= 37 s=1.000 hs=0.933 ar=1.000 af=0.500 fe=0.575 lg=0.656 az=1.000 py=+0.575 pz=0.142 rx=-84.3 low=2.13(Shoe_Sole_L) knee=292.2 head=178.3 ank=113.9 leglen=[753.2, 647.6]
+E10STEP f= 38 foot.L=  3.7 foot.R= 17.3 hip.L= 14.5 hip.R= 14.5 knee.L= 20.4 knee.R= 22.0
+E10_TRACE f= 38 s=1.000 hs=0.948 ar=1.000 af=0.568 fe=0.648 lg=0.710 az=1.000 py=+0.589 pz=0.141 rx=-84.8 low=1.07(Shoe_Sole_L) knee=273.6 head=172.7 ank=113.9 leglen=[768.2, 679.1]
+E10STEP f= 39 foot.L=  3.7 foot.R= 17.3 hip.L= 11.1 hip.R= 11.1 knee.L= 17.8 knee.R= 22.6
+E10_TRACE f= 39 s=1.000 hs=0.957 ar=1.000 af=0.635 fe=0.718 lg=0.764 az=1.000 py=+0.601 pz=0.140 rx=-85.1 low=0.27(Shoe_Sole_L) knee=257.1 head=168.4 ank=113.9 leglen=[779.8, 707.4]
+E10STEP f= 40 foot.L=  3.6 foot.R= 16.8 hip.L=  4.5 hip.R=  4.5 knee.L=  8.5 knee.R= 19.8
+E10_TRACE f= 40 s=1.000 hs=0.960 ar=1.000 af=0.699 fe=0.784 lg=0.816 az=1.000 py=+0.605 pz=0.140 rx=-85.2 low=-0.21(Shoe_Sole_L) knee=249.2 head=166.7 ank=113.9 leglen=[784.8, 728.5]
+E10STEP f= 41 foot.L=  3.4 foot.R= 15.7 hip.L=  0.3 hip.R=  0.3 knee.L=  2.2 knee.R= 17.5
+E10_TRACE f= 41 s=1.000 hs=0.964 ar=1.000 af=0.761 fe=0.844 lg=0.865 az=1.000 py=+0.605 pz=0.140 rx=-85.2 low=-0.49(Shoe_Sole_L) knee=247.8 head=166.5 ank=113.9 leglen=[785.7, 744.4]
+E10STEP f= 42 foot.L=  3.0 foot.R= 14.1 hip.L=  0.7 hip.R=  0.7 knee.L=  2.6 knee.R= 17.7
+E10_TRACE f= 42 s=1.000 hs=0.968 ar=1.000 af=0.817 fe=0.896 lg=0.909 az=1.000 py=+0.606 pz=0.140 rx=-85.2 low=-0.68(Shoe_Sole_L) knee=245.7 head=166.3 ank=113.9 leglen=[786.9, 759.1]
+E10STEP f= 43 foot.L=  2.5 foot.R= 11.9 hip.L=  1.1 hip.R=  1.1 knee.L=  3.0 knee.R= 17.3
+E10_TRACE f= 43 s=1.000 hs=0.971 ar=1.000 af=0.869 fe=0.939 lg=0.946 az=1.000 py=+0.607 pz=0.140 rx=-85.2 low=-0.79(Shoe_Sole_L) knee=243.1 head=166.0 ank=113.9 leglen=[788.5, 772.1]
+E10STEP f= 44 foot.L=  2.0 foot.R=  9.2 hip.L=  1.5 hip.R=  1.5 knee.L=  3.5 knee.R= 15.8
+E10_TRACE f= 44 s=1.000 hs=0.974 ar=1.000 af=0.913 fe=0.972 lg=0.975 az=1.000 py=+0.609 pz=0.140 rx=-85.3 low=-0.86(Shoe_Sole_L) knee=239.9 head=165.6 ank=113.9 leglen=[790.4, 782.8]
+E10STEP f= 45 foot.L=  1.3 foot.R=  5.9 hip.L=  1.8 hip.R=  1.8 knee.L=  3.8 knee.R= 12.8
+E10_TRACE f= 45 s=1.000 hs=0.978 ar=1.000 af=0.949 fe=0.993 lg=0.993 az=1.000 py=+0.610 pz=0.140 rx=-85.3 low=-0.89(Shoe_Sole_L) knee=236.2 head=165.1 ank=113.9 leglen=[792.5, 790.5]
+E10STEP f= 46 foot.L=  0.4 foot.R=  2.1 hip.L=  2.1 hip.R=  2.1 knee.L=  4.1 knee.R=  7.5
+E10_TRACE f= 46 s=1.000 hs=0.980 ar=1.000 af=0.977 fe=1.000 lg=1.000 az=1.000 py=+0.613 pz=0.140 rx=-85.4 low=-0.91(Shoe_Sole_L) knee=232.3 head=164.6 ank=113.9 leglen=[794.6, 794.6]
+E10STEP f= 47 foot.L=  0.0 foot.R=  0.0 hip.L=  2.3 hip.R=  2.3 knee.L=  4.5 knee.R=  4.5
+E10_TRACE f= 47 s=1.000 hs=0.983 ar=1.000 af=0.994 fe=1.000 lg=1.000 az=1.000 py=+0.615 pz=0.140 rx=-85.4 low=-0.93(Shoe_Sole_L) knee=227.9 head=164.0 ank=113.9 leglen=[796.9, 796.9]
+E10STEP f= 48 foot.L=  0.0 foot.R=  0.0 hip.L=  2.5 hip.R=  2.5 knee.L=  5.1 knee.R=  5.1
+E10_TRACE f= 48 s=1.000 hs=0.986 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.617 pz=0.140 rx=-85.5 low=-0.95(Shoe_Sole_L) knee=223.0 head=163.4 ank=113.9 leglen=[799.3, 799.3]
+E10STEP f= 49 foot.L=  0.0 foot.R=  0.0 hip.L=  2.6 hip.R=  2.6 knee.L=  5.6 knee.R=  5.6
+E10_TRACE f= 49 s=1.000 hs=0.988 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.620 pz=0.140 rx=-85.5 low=-0.96(Shoe_Sole_L) knee=217.6 head=162.7 ank=113.9 leglen=[801.8, 801.8]
+E10STEP f= 50 foot.L=  0.0 foot.R=  0.0 hip.L=  2.6 hip.R=  2.6 knee.L=  6.1 knee.R=  6.1
+E10_TRACE f= 50 s=1.000 hs=0.990 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.623 pz=0.141 rx=-85.6 low=-0.96(Shoe_Sole_L) knee=211.8 head=162.1 ank=113.9 leglen=[804.4, 804.4]
+E10STEP f= 51 foot.L=  0.0 foot.R=  0.0 hip.L=  2.6 hip.R=  2.6 knee.L=  6.5 knee.R=  6.5
+E10_TRACE f= 51 s=1.000 hs=0.992 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.625 pz=0.141 rx=-85.7 low=-0.96(Shoe_Sole_L) knee=205.4 head=161.4 ank=113.9 leglen=[807.0, 807.0]
+E10STEP f= 52 foot.L=  0.0 foot.R=  0.0 hip.L=  2.6 hip.R=  2.6 knee.L=  7.0 knee.R=  7.0
+E10_TRACE f= 52 s=1.000 hs=0.994 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.628 pz=0.141 rx=-85.7 low=-0.95(Shoe_Sole_L) knee=198.6 head=160.8 ank=113.9 leglen=[809.6, 809.6]
+E10STEP f= 53 foot.L=  0.0 foot.R=  0.0 hip.L=  2.5 hip.R=  2.5 knee.L=  7.4 knee.R=  7.4
+E10_TRACE f= 53 s=1.000 hs=0.995 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.630 pz=0.141 rx=-85.8 low=-1.58(Hair_Mass) knee=191.3 head=160.2 ank=113.9 leglen=[812.0, 812.0]
+E10STEP f= 54 foot.L=  0.0 foot.R=  0.0 hip.L=  2.3 hip.R=  2.3 knee.L=  7.8 knee.R=  7.8
+E10_TRACE f= 54 s=1.000 hs=0.996 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.632 pz=0.141 rx=-85.8 low=-2.34(Hair_Mass) knee=183.7 head=159.7 ank=113.9 leglen=[814.3, 814.3]
+E10STEP f= 55 foot.L=  0.0 foot.R=  0.0 hip.L=  2.1 hip.R=  2.1 knee.L=  8.1 knee.R=  8.1
+E10_TRACE f= 55 s=1.000 hs=0.998 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.635 pz=0.141 rx=-85.9 low=-3.03(Hair_Mass) knee=175.7 head=159.1 ank=113.9 leglen=[816.3, 816.3]
+E10STEP f= 56 foot.L=  0.0 foot.R=  0.0 hip.L=  1.8 hip.R=  1.8 knee.L=  8.4 knee.R=  8.4
+E10_TRACE f= 56 s=1.000 hs=0.998 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.636 pz=0.141 rx=-85.9 low=-3.62(Hair_Mass) knee=167.3 head=158.7 ank=113.9 leglen=[818.1, 818.1]
+E10STEP f= 57 foot.L=  0.0 foot.R=  0.0 hip.L=  1.5 hip.R=  1.5 knee.L=  8.7 knee.R=  8.7
+E10_TRACE f= 57 s=1.000 hs=0.999 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.638 pz=0.141 rx=-86.0 low=-4.11(Hair_Mass) knee=158.7 head=158.3 ank=113.9 leglen=[819.6, 819.6]
+E10STEP f= 58 foot.L=  0.0 foot.R=  0.0 hip.L=  1.1 hip.R=  1.1 knee.L=  8.6 knee.R=  8.6
+E10_TRACE f= 58 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.639 pz=0.141 rx=-86.0 low=-4.48(Hair_Mass) knee=150.1 head=158.1 ank=113.9 leglen=[820.8, 820.8]
+E10STEP f= 59 foot.L=  0.0 foot.R=  0.0 hip.L=  0.7 hip.R=  0.7 knee.L=  7.9 knee.R=  7.9
+E10_TRACE f= 59 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.72(Hair_Mass) knee=142.3 head=157.9 ank=113.9 leglen=[821.5, 821.5]
+E10STEP f= 60 foot.L=  0.1 foot.R=  0.1 hip.L=  0.3 hip.R=  0.3 knee.L=  1.8 knee.R=  1.8
+E10_TRACE f= 60 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 61 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 61 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 62 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 62 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 63 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 63 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 64 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 64 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 65 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 65 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 66 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 66 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 67 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 67 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 68 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 68 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 69 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 69 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 70 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 70 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 71 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 71 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 72 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 72 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 73 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 73 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 74 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 74 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 75 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 75 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 76 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 76 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 77 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 77 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 78 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 78 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 79 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 79 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 80 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 80 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 81 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 81 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 82 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 82 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 83 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 83 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 84 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 84 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 85 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 85 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 86 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 86 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 87 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 87 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 88 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 88 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 89 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 89 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 90 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 90 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 91 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 91 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 92 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 92 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 93 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 93 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 94 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 94 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 95 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 95 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 96 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 96 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 97 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 97 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 98 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 98 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f= 99 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f= 99 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=100 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=100 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=101 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=101 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=102 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=102 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=103 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=103 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=104 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=104 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=105 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=105 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=106 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=106 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=107 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=107 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=108 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=108 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=109 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=109 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=110 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=110 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=111 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=111 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=112 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=112 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=113 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=113 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=114 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=114 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=115 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=115 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=116 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=116 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=117 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=117 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=118 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=118 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=119 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=119 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10STEP f=120 foot.L=  0.0 foot.R=  0.0 hip.L=  0.0 hip.R=  0.0 knee.L=  0.0 knee.R=  0.0
+E10_TRACE f=120 s=1.000 hs=1.000 ar=1.000 af=1.000 fe=1.000 lg=1.000 az=1.000 py=+0.640 pz=0.141 rx=-86.0 low=-4.80(Hair_Mass) knee=140.5 head=157.8 ank=113.9 leglen=[821.7, 821.7]
+E10_REPORT {"loop_seamless": null, "ground_min_mm": -4.8, "max_frame_step_deg": 13.99, "max_frame_step_at": [16, "forearm.R"], "no_teleport": true, "bone_travel_mm": {"pelvis": 940.38, "chest": 1455.62, "head": 1907.0, "hand.L": 1792.41, "hand.R": 1791.29}, "dth_common_ground_contact_raw": false, "dth_common_ground_contact_note": "★ 原读数（鞋底口径 `ground_contact_ok`）= False，**本支置空**：仰卧尸体的支撑面不是鞋底。替代判据 = `dth_body_ground_ok`（载体 = 全身最低件，带 [-6, 8] mm）。与 E09 同一处口径处理。", "dth_zero_motion_amp_mm": 0.0, "dth_zero_motion_crossings": 0, "dth_zero_motion_ok": true, "dth_zero_motion_note": "★★★ **本支唯一的新判据族**（清单 E10 详细计划 §1 ①）：「死亡」与「躺着的战败」差别**就是**「有没有呼吸」。载体 = 与 E09 `dft_breath_ok`**完全同一根探针**（胸骨顶 `neck` = chest.tail 世界 z），窗口同为 `[60, 120]`。E09 在同窗口实测呼吸 **5~34 mm / 过零 ≥3**；本支实测 幅 **0.0000 mm / 过零 0**（判据：幅 ≤ 1.0 mm 且 过零 ≤ 1）。★ 守卫 = `E10_TP_MICROMOTION=1`（尸僵窗注入残余微动）⟹ 必须见红。", "dth_tip_knee_min_mm": 428.35, "dth_no_kneel_ok": true, "dth_no_kneel_note": "★ 清单原文：「与普通击倒区分」⟹ 本支是**直接后倒**，**不许有跪姿段**（E09 的招牌是「双膝触地 4 帧冻结」）。载体 = 前摇窗 `[0, 10]` 内**膝关节世界 z 的最小值** ≥ 300 mm（跪姿实测膝 z ≈ 104.7，站架 ≈ 487）。实测最低 428.35 mm。守卫 = `E10_TP_KNEEL=1`（前摇注入跪姿）⟹ 必须见红。", "dth_chain_travel": {"foot_mm": 76.717, "knee_deg": 90.232, "hip_mm": 940.383, "waist_deg": 57.296, "shoulder_mm": 1653.148, "hand_mm": 1904.559}, "dth_chain_ok": true, "dth_chain_note": "★ SOUL 硬约束：**脚→腿→髋→腰→肩→手**逐段都要有关键帧量。本支是「整体后倒」，髋/手行程远大于 E09（实测髋 940 mm / 手 1905 mm / 脚 77 mm）。", "dth_body_low_min_mm": -4.8, "dth_body_low_max_mm": -4.8, "dth_body_ground_ok": true, "dth_worst_part": "Hair_Mass", "dth_worst_frame": 60, "dth_global_low_mm": -4.8, "dth_no_penetration_ok": true, "dth_ground_note": "★ **沿用 E09 `dft_body_ground_ok` / `dft_no_penetration_ok` 的口径与容差**（带 [-6, 8] mm；下限 -8 mm），只把窗口换成尸僵窗 `[60, 120]`。载体 = 逐件最低 z。尸僵窗内最低件 = `Hair_Mass`（-4.80 mm）；全程最险帧 = f60，最低件 = `Hair_Mass`。守卫 = `E10_TP_SINK=1`（整体下沉 60 mm）⟹ 两条都要见红。", "dth_knee_z_min_mm": 140.47, "dth_knee_z_at": 60, "dth_knee_path_ok": true, "dth_limb_step_max_mm": 51.36, "dth_limb_step_at": [51.35564080997644, 24, "knee.R"], "dth_limb_step_ok": true, "dth_knee_path_note": "★ **沿用 E09 `dft_knee_path_ok` 的容差**（膝 z ≥ 104.7 − 4.0 mm）。为什么本支也要盯：本支的腿**由世界空间解算器驱动**，仰卧极点朝上、站架极点朝前 —— 极点一旦取反（`E10_TP_KNEEPLUNGE=1`）膝立刻入地。实测最低 140.47 mm（f60）。守卫 = `E10_TP_KNEEPLUNGE=1`。", "dth_limb_step_note": "★ **沿用 E09 `dft_limb_step_ok` 的容差 60 mm/帧**（= 3.6 m/s @60fps）。实测峰值 51.36 mm/帧 @f24 `knee.R`。守卫 = `E10_TP_LIMBJUMP=1`（f18 给踝目标注入 50 mm 尖峰）⟹ 必须见红。", "dth_hitstop_windows": {"land": {"frames": [26, 30], "worst_step_deg": 0.0, "at": null}}, "dth_hitstop_ok": true, "dth_hitstop_note": "★ 本支是**单段重摔** ⟹ 只有**一个**冻结窗 `[26, 30]`（4 帧；E09 有两个：膝落 + 前扑）。载体 = 窗口内逐帧姿态。守卫 = `E10_TP_NOHITSTOP=1`（窗口内每帧漂 1.5°）⟹ 必须见红（≥ 0.01°）。", "dth_supine_axis_y": 0.99756, "dth_supine_head_gap_mm": 16.48, "dth_supine_pelvis_z_mm": 141.0, "dth_supine_ok": true, "dth_supine_note": "★★★ **本支相对 E09 的全部差别就是「趴着」变「躺着」** ⟹ 必须被量出来。三个载体：① 躯干长轴 `chest` 世界方向的 |y| 分量 ≥ 0.90（**仰卧**实测 0.99756；俯卧会翻成负 ⟹ 见守卫）；② **后脑勺**（`Hair_Mass`）最低 z 必须**低于**头（`Head`）最低 z 至少 8.0 mm —— 头发着地 ⟹ 脸朝上（实测 gap 16.48 mm）；③ 尾帧骨盆世界 z ≤ 200 mm（实测 141.00，E09 同口径上限 200）。守卫 = `E10_TP_PRONE=1` / `E10_TP_NOFALL=1`，两条都必须见红。", "dth_vs_e09_pos_mm": 2281.38, "dth_vs_e09_dir_deg": 177.642, "dth_vs_e09_worst_bone": "thigh.R", "dth_distinct_from_e09_ok": true, "dth_distinct_note": "★★★ 清单 E10 详细计划 §0：「E09 终姿定格作**可分性基准**（≥15°）」。口径照抄 `_probe_e07_vs_e06.py`：57 骨**世界矩阵**，取朝向差的最大值。实测最大 **177.642° @ thigh.R**（位置差 2281.38 mm），阈值 15° ⟹ 余量 11.8×。★ 这条判据是**跨支接口**（E10 与 E09 必须能被玩家一眼区分），不是行为开关 ⟹ 它的失败模式是「作者把尸体姿写成了 E09 的伏地姿」，由本判据本身兜住。", "dth_rebound_head_drop_mm": 110.16, "dth_rebound_head_at_land_mm": 267.99, "dth_rebound_ok": true, "dth_rebound_note": "★ 清单 E10 详细计划 §2：「回弹 24→40（**头/四肢二次落地**、惯性、不许瞬停）」。载体 = **头（`head`）世界 z 在触地定格之后还要再落多少** ≥ 40 mm。实测：f26 触地时头 z = 268.0，f30 定格末 = 268.0，尾帧 = 157.8 ⟹ 二次落地落差 **110.16 mm**。★ 为什么必须单开一条：躯干触地（`dth_hitstop_ok`）只证明**背**停了，证明不了**头还在往下走** —— 没有这条，「头跟躯干一起瞬停」会全绿。", "dth_settle_peak_mm": 0.645, "dth_settle_tail_mm": 0.0608, "dth_settle_decay_ratio": 0.4915, "dth_settle_moving_frames": 17, "dth_settle_ok": true, "dth_settle_note": "★ 清单 §6「起步慢、命中重、有惯性、**不许瞬停**」在**尾部**的量化。载体 = **头**（`head`）世界 z 在沉降窗 `[40, 60]` 内的逐帧位移（= 清单 §2 的「沉降 40→60」）。三条：单帧峰值 ≤ 12 mm（实测 0.645）、末帧 ≤ 0.5 mm（实测 0.0608 ⟹ 已经停住）、「在动（> 0.2 mm）」帧数 ≥ 12（实测 17 ⟹ 动作是**铺开**的，不是一帧刹住）。产出 `0.4915` 的衰减比（末帧 / 首帧）。守卫 = `E10_TP_SNAP=1`（沉降压成单帧瞬停）⟹ 峰值与帧数两条同时见红。", "no_snap_stop_step_deg": 0.0, "no_snap_stop_at": null, "no_snap_stop_ok": true, "clip_max_mm": 0.0, "clip_at": null, "no_face_clip_ok": true, "hand_leg_clearance_mm": 135.36, "hand_leg_clearance_frame": 10, "hand_leg_no_clip_ok": true, "leg_reach_len_ratio_max": 0.9995, "leg_reach_len_at": [60, "L"], "dth_leg_target_resid_mm": 0.129, "dth_leg_target_resid_at": [60, "L"], "leg_reach_ok": true, "leg_reach_note": "★ 载体 = `|踝实测世界位置 − 踝设计目标|`（目标逐帧登记在 `TGT`），容差 2.0 mm；辅以「全长比」0.99950（≤ 1.00）。实测最大残差 **0.129 mm** @ f60 `L`。★ 为什么不用「髋踝距离 / 骨长」：解算器超伸时**自己截断**，该比值**恒 ≤ 上限**，结构上不可红。守卫 = `E10_TP_LIMBJUMP=1`（f18 给目标注入 50 mm 尖峰 ⟹ 残差直接爆）。", "arm_reach_ratio_max": 0.98877, "arm_reach_at": [36, "L"], "arm_reach_ok": true, "phase_markers": {"START": 0, "ANTIC_END": 10, "IMPACT": 26, "IMPACT_HOLD_END": 30, "REBOUND_TAIL": 40, "SETTLE_TAIL": 60, "END": 120}, "phase_note": "★ 按 SOUL「动作必须有前摇/命中/后摇」拆：前摇 0→10（失去支撑、重心后倒，**无跪姿段**）、**命中帧 = 26**（背/臀触地 + 4 帧冻结）、回弹 30→40（头/四肢二次落地）、沉降 40→60、**尸僵 60→120**（零微动）、**可取消帧 = 31**（触地定格之后即可接 E11 `Revive`）。", "hold_window": [26, 120], "dth_hem_float_mm": 902.3, "dth_hem_float_note": "★★★ **E09 登记的上游缺陷在本支更严重**：`Jacket_Hem` / `Jacket_Hem_Line`（未蒙皮，`vgroups=0`/`parent=null`）在尸体末帧悬于全身最低件之上 **902 mm**（衣摆 z = 897.5，全身最低件 z = -4.8）。E09 是**仰卧前**的过渡态，本支是**永久保持**的水平尸体 ⟹ 这块浮空薄板从「一瞬穿帮」升级为「尸体特写里的常驻穿帮」。定性 = **上游资产缺陷**，动画侧无权修（§6 硬约束：绝不回写 `bigman_tpose_v001.blend`）⟹ 按 E04/E05/E09 惯例**测量入册 + 排除出像素判据**，升级为**待主人决策的高优项**。", "seam_in_pos_max_mm": 4.7e-05, "seam_in_dir_max_deg": 0.031009, "seam_in_at": "thumb_01.R", "seam_in_ok": true, "dth_seam_in_ok": true, "dth_final_pose_elem_max": 0.0, "dth_final_pose_at": null, "dth_final_pose_ok": true, "dth_final_pose_note": "★ 尸僵起点（f60）与尾帧（f120）**逐位一致**（57 骨 × 16 元素）⟹ 「尸体姿」是**自持**的（不是「停在半口气」）。这是 `dth_zero_motion_ok`（只盯胸骨顶一根探针）的**全骨兜底**：任一骨在尸僵窗内漂移都会在这里见红。", "phase_matrix_step_deg": 16.351, "phase_matrix_step_at": [31, "forearm.L"], "phase_matrix_step_ok": true, "meta": {"anim_id": "Death", "loop": false, "category": "状态与战斗流程", "note": "死亡：失去支撑直接后倒（无跪姿段）→ 背/臀重摔（触地 4 帧冻结）→ 头/四肢二次落地（回弹）→ 沉降 → 尸僵稳定（零微动）。起点 = Idle_01@0 逐位，终点 = **仰卧尸体 Pose**（不是 E09 的伏地）", "frame_bound_note": "★ 沿用 E01 登记的 E 族上界 120 帧 / 2.0 s", "hitstop_frames": "land[26,30]（★ 单段重摔 ⟹ 只有一个窗口）", "seam_in": "Idle_01@0", "end_pose": "supine_corpse_zero_motion", "terminal_pelvis_m": [0.64, 0.141], "root_motion_m": [0.0, 0.64], "distinct_from": "E09 Defeat（仰卧 vs 俯卧）", "fps": 60, "frames": [0, 120]}, "failed": [], "non_ok_bools": ["dth_common_ground_contact_raw"]}
+E10_DONE failed=[] non_ok=['dth_common_ground_contact_raw']
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

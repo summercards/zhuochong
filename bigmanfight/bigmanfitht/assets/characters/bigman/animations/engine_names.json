@@ -1,0 +1,13 @@
+{
+  "_about": "清单名 -> Godot 导入后 AnimationPlayer 实际动画名 的差异登记表。清单名（= 动画文档与检查表的 Clip 名）是语义权威，引擎名是物理事实，两者不一致时必须在这里登记，不允许在代码里散落硬编码。",
+  "_rule": "Godot 的 glTF 导入器会把动画名结尾的 `_Loop` 去掉（它把 `_Loop` 当循环标记），但仅当去掉后缀后不与文件里其它动画名冲突时才改。本资产里 C08b 的 `Charge_Loop` 因去掉后会撞上已有的 `Charge` 而保住原名，D02 的 `Guard_Loop` 则被改成了 `Guard`。",
+  "_evidence": [
+    "tools/probe_anim_names.gd 实测：GLB 里是 'Guard_Loop'（animations[21]），Godot 里是 'Guard'，时长 1.2 s 与 D02 一致。",
+    "对照实验：把 GLB 里 'Guard_Loop' 等长改成 'GuardXLoop' 后，Godot 原样保留 —— 证明触发条件是结尾的 '_Loop' 而不是别的东西。",
+    "68 段动画里只有这 1 段发生改名（全量集合比对，见 verify_assets.py 的 ENGINE_NAME 检查）。"
+  ],
+  "_verified_by": "tools/verify_assets.py（用同一条规则从 GLB 重算，对不上即门禁失败）",
+  "fixups": {
+    "Guard_Loop": "Guard"
+  }
+}

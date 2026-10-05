@@ -1,0 +1,1046 @@
+C02_LAYOUT {"total_frames": 52, "antic": 18, "hit": 30, "hold": 4, "cancel": 42, "advance_mm": 200.0, "foot_schedule": {"L": [[0, 6], [16, 52]], "R": [[0, 20], [42, 52]]}, "seam_source": ["Heavy_01", 36], "pelvis_y0_mm": -89.388, "L_seam_mm": [152.18, -329.58, 79.74], "R_seam_mm": [-141.58, 140.44, 79.8], "L_end_mm": [143.18, -458.96, 79.76], "R_end_mm": [-141.58, -148.96, 79.83], "L_step_mm": 129.38, "R_step_mm": 289.39, "seam_sole_mm": {"L": 0.622, "R": -1.574}, "seam_extra_bones": [], "note": "上游接缝 = Heavy_01 的 CANCEL 帧；末帧 = Idle_01@0 平移；L 蓄力段上步、R 蹬离地后前落。"}
+C02_CALIBRATION {"per_window": {"L_w0": {"pivot_mm": [158.18, -535.6, 15.834], "pivot_vertex": ["Shoe_Sole_L", 141], "ankle_flat_mm": [152.18, -329.6, 83.33]}, "R_w0": {"pivot_mm": [-147.58, -65.57, 13.606], "pivot_vertex": ["Shoe_Sole_R", 141], "ankle_flat_mm": [-141.58, 140.43, 81.11]}, "L_w1": {"pivot_mm": [149.18, -664.98, 11.072], "pivot_vertex": ["Shoe_Sole_L", 141], "ankle_flat_mm": [143.18, -458.98, 78.57]}, "R_w1": {"pivot_mm": [-147.58, -354.97, 14.338], "pivot_vertex": ["Shoe_Sole_R", 141], "ankle_flat_mm": [-141.58, -148.97, 81.84]}}, "pivot_axis_world": [1.0, 0.0, 0.0], "pivot_axis_dev_deg": 0.0, "pivot_scale": 1.0, "tip40_ankle_z_mm": 199.96, "note": "支点 x/y 由构造不变（贴地闭环只改 z）；az0 = 踝高 − 鞋底最低点。滚动轴取骨架 X 轴的世界投影，故 40° 踮脚的支点漂移由构造归零。"}
+C02_R_AIR {"off_ankle_mm": [-141.58, 73.36, 180.01], "seam_ankle_mm": [-141.58, 140.44, 79.8], "vert0_mm": 418.56, "vert1_mm": 768.16, "tip_at_off_deg": 32.0, "landing_pelvis_mm": 850.0, "landing_ankle_mm": 81.84}
+C02_REPORT {"loop_seamless": null, "ground_min_mm": -1.57, "ground_contact_ok": true, "max_frame_step_deg": 39.296, "max_frame_step_at": [24, "upperarm.R"], "no_teleport": false, "bone_travel_mm": {"pelvis": 259.92, "chest": 370.8, "head": 665.87, "hand.L": 609.74, "hand.R": 1080.93}, "seam_start_delta": 0.0, "seam_start_ok": true, "seam_end_pose_delta": 2.384e-07, "seam_end_orient_delta": 2.384e-07, "seam_end_relative_delta": 5.96e-08, "seam_end_raw_delta": 0.2894, "seam_end_orient_bone": "thumb_02.R", "seam_end_relative_bone": "middle_02.L", "root_motion_m": -0.2, "seam_end_ok": true, "root_motion_ok": true, "advance_total_mm": -200.0, "pivot_drift_mm": {"L_w0_mm": 0.0276, "L_w1_mm": 0.0386, "R_w0_mm": 0.0092, "R_w1_mm": 0.0156}, "stance_pivot_ok": true, "plant_sole_mm": {"L_w0": [0.002, 0.622], "L_w1": [-0.002, 1.055], "R_w0": [-1.574, 0.0], "R_w1": [-0.962, 0.025]}, "stance_sole_ok": true, "unsupported_frames": [], "always_supported_ok": true, "air_sole_min_mm": 13.966, "swing_airborne_ok": true, "fist_z_min_mm": 184.03, "fist_z_peak_mm": 2031.0, "fist_z_rise_mm": 1846.98, "fist_z_rise_l_mm": 545.4, "fist_rise_ratio": 1.496, "fist_rise_up_ok": true, "fist_up_monotone_ratio": 0.9167, "fist_strike_path_mm": 2357.25, "fist_strike_rise_mm": 1816.5, "fist_up_dominance": 0.7706, "trajectory_up_ok": true, "pelvis_z_min_mm": 548.0, "pelvis_z_max_mm": 948.0, "pelvis_z_min_frame": 18, "pelvis_z_max_frame": 33, "pelvis_z_rise_mm": 400.0, "hip_rise_ratio": 1.12, "launch_up_ok": true, "hip_up_monotone_ratio": 1.0, "hip_up_monotone_ok": true, "hitstop_frozen_steps": [0.0, 0.0, 0.0], "hitstop_present_ok": true, "hitstop_momentum_mm": 0.0, "hitstop_rise_mm": 15.0, "hitstop_keeps_momentum_ok": true, "power_chain_channels_deg": {"pelvis": 22.867, "spine_01": 20.809, "spine_02": 20.809, "chest": 20.779, "shoulder.L": 28.0, "shoulder.R": 19.86, "thigh.L": 103.559, "shin.L": 80.415, "thigh.R": 51.858, "shin.R": 111.6}, "power_chain_ok": true, "leg_reach_max_ratio": {"L": 0.9914, "R": 0.96892}, "leg_reach_peak": {"L": [34, 814.93], "R": [42, 796.45]}, "ik_reach_ok": true, "return_tail": [15.3636, 14.5331, 13.7027, 12.8722, 12.0417, 11.2113, 10.3808, 9.5504, 8.7199, 7.8894, 7.059, 6.2285, 5.398, 4.5676, 3.7371, 2.9066, 2.0762, 1.2457, 0.7082], "return_tail_bones": ["forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "forearm.R", "shin.L"], "decel_smooth_ok": true, "no_snap_stop_ok": true, "return_tail_zero_frames": 0, "antic_frames": 18, "antic_frames_ok": true, "hitstop_frames": 4, "hitstop_frames_ok": true, "launch_window": [18, 30], "amplitude_baseline": {"pelvis_z_rise_mm": 357.0, "fist_z_rise_mm": 1235.0, "fist_z_peak_mm": 1929.98}, "hip_rise_min_mm": 392.7, "fist_rise_min_mm": 1482.0, "max_abs_euler_y_deg": 95.79, "arm_roll_max_deg": {"upperarm.L": 8.0, "forearm.L": 45.0, "hand.L": 13.0, "upperarm.R": 50.0, "forearm.R": 32.0, "hand.R": 0.0}, "meta": {"anim_id": "Launcher", "loop": false, "category": "连招与特殊技", "note": "击飞技：接 Heavy_01 可取消帧，深蹲蓄力 → 双踮脚蹬伸 → 后手上挑贯拳至头顶前上方，4 帧爆发停顿，Root Motion 前冲 0.200 m；纵向幅度 ≥ 最强地面普通攻击（Uppercut）", "antic_frame": 18, "hit_frame": 30, "cancel_frame": 42, "hitstop_frames": 4, "root_motion_m": [0.0, -0.2], "amplitude_baseline": {"pelvis_z_rise_mm": 357.0, "fist_z_rise_mm": 1235.0, "fist_z_peak_mm": 1929.98}, "hit_point_m": null, "fps": 60, "frames": [0, 52]}, "failed": [], "non_ok_bools": ["no_teleport"]}
+Info: Saved as "bigman_anim_v001.blend"
+INFO Draco mesh compression is available, use library at D:\Program Files\Blender Foundation\Blender 4.5\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+02:40:04 | INFO: Starting glTF 2.0 export
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Collar_Point_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Collar_Point_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Ear_Inner_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Ear_Inner_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Ear_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Ear_Lobe_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Ear_Lobe_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Ear_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eye_Glint_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eye_Glint_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eye_Line_Upper_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eye_Line_Upper_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eye_White_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eye_White_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eyebrow_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eyebrow_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eyelid_Lower_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eyelid_Lower_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eyelid_Upper_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Eyelid_Upper_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Glasses_Bridge
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Glasses_Frame_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Glasses_Frame_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Glasses_Temple_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Glasses_Temple_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Iris_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Iris_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Iris_Ring_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Iris_Ring_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Back_Seam
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Button_1
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Button_2
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Collar
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Lapel_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Lapel_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Jacket_Vent
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Lapel_Fold_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Lapel_Fold_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Lapel_Notch_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Lapel_Notch_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Lower_Lip
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mouth_Line
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Nose_Wing_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Nose_Wing_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Pocket_Flap_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Pocket_Flap_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Pupil_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Pupil_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Shirt_Collar
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Shirt_Cuff_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Shirt_Cuff_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Shirt_Front
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Shoe_Toe_Cap_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Shoe_Toe_Cap_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Sleeve_Button_1_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Sleeve_Button_1_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Sleeve_Button_2_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Sleeve_Button_2_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Sleeve_Button_3_L
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Sleeve_Button_3_R
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Mesh
+02:40:04 | INFO: Primitives created: 1
+02:40:04 | INFO: Extracting primitive: Upper_Lip
+02:40:04 | INFO: Primitives created: 1
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:13 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:14 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:16 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:21 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:22 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:26 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:28 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:29 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:30 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:32 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:36 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:38 | WARNING: Baking animation because there are keyframes with different interpolation methods in one channel
+02:40:42 | INFO: Finished glTF 2.0 export in 37.75401210784912 s
+
+C02_DONE failed=[]
+C02_DONE non_ok_bools=['no_teleport']
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 7796, total unfreed memory 0.814014 MB

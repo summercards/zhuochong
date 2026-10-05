@@ -1,0 +1,1853 @@
+{
+ "files": [
+  {
+   "path": "I:\\工作项目\\BIGMANFIGHT\\角色资产\\美术资产\\bigman_v001\\bigman_anim_v001.glb",
+   "file_bytes": 13149268,
+   "glb_version": 2,
+   "bin_chunk_bytes": 10617560,
+   "generator": "Khronos glTF Blender I/O v4.5.47",
+   "copyright": null,
+   "counts": {
+    "nodes": 149,
+    "meshes": 91,
+    "primitives": 91,
+    "materials": 17,
+    "images": 0,
+    "textures": 0,
+    "skins": 1,
+    "animations": 68
+   },
+   "triangles": 78048,
+   "primitive_modes": {
+    "TRIANGLES": 91
+   },
+   "skins": [
+    {
+     "name": "Character_Rig",
+     "joints": 57,
+     "skeleton": null,
+     "inverseBindMatrices": true
+    }
+   ],
+   "joint_tree": [
+    {
+     "name": "root",
+     "parent": "Character_Rig",
+     "children": [
+      "pelvis"
+     ]
+    },
+    {
+     "name": "pelvis",
+     "parent": "root",
+     "children": [
+      "spine_01",
+      "thigh.L",
+      "thigh.R"
+     ]
+    },
+    {
+     "name": "spine_01",
+     "parent": "pelvis",
+     "children": [
+      "spine_02"
+     ]
+    },
+    {
+     "name": "spine_02",
+     "parent": "spine_01",
+     "children": [
+      "chest"
+     ]
+    },
+    {
+     "name": "chest",
+     "parent": "spine_02",
+     "children": [
+      "neck",
+      "shoulder.L",
+      "shoulder.R"
+     ]
+    },
+    {
+     "name": "neck",
+     "parent": "chest",
+     "children": [
+      "head"
+     ]
+    },
+    {
+     "name": "head",
+     "parent": "neck",
+     "children": [
+      "jaw",
+      "glasses",
+      "eye.L",
+      "eye.R"
+     ]
+    },
+    {
+     "name": "jaw",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "glasses",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "eye.L",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "eye.R",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "shoulder.L",
+     "parent": "chest",
+     "children": [
+      "upperarm.L"
+     ]
+    },
+    {
+     "name": "upperarm.L",
+     "parent": "shoulder.L",
+     "children": [
+      "forearm.L"
+     ]
+    },
+    {
+     "name": "forearm.L",
+     "parent": "upperarm.L",
+     "children": [
+      "hand.L"
+     ]
+    },
+    {
+     "name": "hand.L",
+     "parent": "forearm.L",
+     "children": [
+      "index_01.L",
+      "middle_01.L",
+      "ring_01.L",
+      "pinky_01.L",
+      "thumb_01.L"
+     ]
+    },
+    {
+     "name": "index_01.L",
+     "parent": "hand.L",
+     "children": [
+      "index_02.L"
+     ]
+    },
+    {
+     "name": "index_02.L",
+     "parent": "index_01.L",
+     "children": [
+      "index_03.L"
+     ]
+    },
+    {
+     "name": "index_03.L",
+     "parent": "index_02.L",
+     "children": []
+    },
+    {
+     "name": "middle_01.L",
+     "parent": "hand.L",
+     "children": [
+      "middle_02.L"
+     ]
+    },
+    {
+     "name": "middle_02.L",
+     "parent": "middle_01.L",
+     "children": [
+      "middle_03.L"
+     ]
+    },
+    {
+     "name": "middle_03.L",
+     "parent": "middle_02.L",
+     "children": []
+    },
+    {
+     "name": "ring_01.L",
+     "parent": "hand.L",
+     "children": [
+      "ring_02.L"
+     ]
+    },
+    {
+     "name": "ring_02.L",
+     "parent": "ring_01.L",
+     "children": [
+      "ring_03.L"
+     ]
+    },
+    {
+     "name": "ring_03.L",
+     "parent": "ring_02.L",
+     "children": []
+    },
+    {
+     "name": "pinky_01.L",
+     "parent": "hand.L",
+     "children": [
+      "pinky_02.L"
+     ]
+    },
+    {
+     "name": "pinky_02.L",
+     "parent": "pinky_01.L",
+     "children": [
+      "pinky_03.L"
+     ]
+    },
+    {
+     "name": "pinky_03.L",
+     "parent": "pinky_02.L",
+     "children": []
+    },
+    {
+     "name": "thumb_01.L",
+     "parent": "hand.L",
+     "children": [
+      "thumb_02.L"
+     ]
+    },
+    {
+     "name": "thumb_02.L",
+     "parent": "thumb_01.L",
+     "children": [
+      "thumb_03.L"
+     ]
+    },
+    {
+     "name": "thumb_03.L",
+     "parent": "thumb_02.L",
+     "children": []
+    },
+    {
+     "name": "shoulder.R",
+     "parent": "chest",
+     "children": [
+      "upperarm.R"
+     ]
+    },
+    {
+     "name": "upperarm.R",
+     "parent": "shoulder.R",
+     "children": [
+      "forearm.R"
+     ]
+    },
+    {
+     "name": "forearm.R",
+     "parent": "upperarm.R",
+     "children": [
+      "hand.R"
+     ]
+    },
+    {
+     "name": "hand.R",
+     "parent": "forearm.R",
+     "children": [
+      "index_01.R",
+      "middle_01.R",
+      "ring_01.R",
+      "pinky_01.R",
+      "thumb_01.R"
+     ]
+    },
+    {
+     "name": "index_01.R",
+     "parent": "hand.R",
+     "children": [
+      "index_02.R"
+     ]
+    },
+    {
+     "name": "index_02.R",
+     "parent": "index_01.R",
+     "children": [
+      "index_03.R"
+     ]
+    },
+    {
+     "name": "index_03.R",
+     "parent": "index_02.R",
+     "children": []
+    },
+    {
+     "name": "middle_01.R",
+     "parent": "hand.R",
+     "children": [
+      "middle_02.R"
+     ]
+    },
+    {
+     "name": "middle_02.R",
+     "parent": "middle_01.R",
+     "children": [
+      "middle_03.R"
+     ]
+    },
+    {
+     "name": "middle_03.R",
+     "parent": "middle_02.R",
+     "children": []
+    },
+    {
+     "name": "ring_01.R",
+     "parent": "hand.R",
+     "children": [
+      "ring_02.R"
+     ]
+    },
+    {
+     "name": "ring_02.R",
+     "parent": "ring_01.R",
+     "children": [
+      "ring_03.R"
+     ]
+    },
+    {
+     "name": "ring_03.R",
+     "parent": "ring_02.R",
+     "children": []
+    },
+    {
+     "name": "pinky_01.R",
+     "parent": "hand.R",
+     "children": [
+      "pinky_02.R"
+     ]
+    },
+    {
+     "name": "pinky_02.R",
+     "parent": "pinky_01.R",
+     "children": [
+      "pinky_03.R"
+     ]
+    },
+    {
+     "name": "pinky_03.R",
+     "parent": "pinky_02.R",
+     "children": []
+    },
+    {
+     "name": "thumb_01.R",
+     "parent": "hand.R",
+     "children": [
+      "thumb_02.R"
+     ]
+    },
+    {
+     "name": "thumb_02.R",
+     "parent": "thumb_01.R",
+     "children": [
+      "thumb_03.R"
+     ]
+    },
+    {
+     "name": "thumb_03.R",
+     "parent": "thumb_02.R",
+     "children": []
+    },
+    {
+     "name": "thigh.L",
+     "parent": "pelvis",
+     "children": [
+      "shin.L"
+     ]
+    },
+    {
+     "name": "shin.L",
+     "parent": "thigh.L",
+     "children": [
+      "foot.L"
+     ]
+    },
+    {
+     "name": "foot.L",
+     "parent": "shin.L",
+     "children": [
+      "toe.L"
+     ]
+    },
+    {
+     "name": "toe.L",
+     "parent": "foot.L",
+     "children": []
+    },
+    {
+     "name": "thigh.R",
+     "parent": "pelvis",
+     "children": [
+      "shin.R"
+     ]
+    },
+    {
+     "name": "shin.R",
+     "parent": "thigh.R",
+     "children": [
+      "foot.R"
+     ]
+    },
+    {
+     "name": "foot.R",
+     "parent": "shin.R",
+     "children": [
+      "toe.R"
+     ]
+    },
+    {
+     "name": "toe.R",
+     "parent": "foot.R",
+     "children": []
+    }
+   ],
+   "unskinned_mesh_nodes": [
+    {
+     "node": "Jacket_Hem_Line",
+     "mesh": "Mesh",
+     "tris": 256
+    },
+    {
+     "node": "Jacket_Hem",
+     "mesh": "Mesh",
+     "tris": 960
+    }
+   ],
+   "skinned_node_count": 89,
+   "material_names": [
+    "Suit_Blue_Deep",
+    "Suit_Blue",
+    "Shirt_White",
+    "Skin_Dark",
+    "Skin",
+    "Eye_Glint",
+    "Brow",
+    "Eye_White",
+    "Glasses_Black",
+    "Hair_Black",
+    "Iris",
+    "Iris_Ring",
+    "Button_Dark",
+    "Lips",
+    "Pupil",
+    "Shoe_Sole",
+    "Shoe_Black"
+   ],
+   "image_names": [],
+   "animations": [
+    {
+     "name": "Air_Heavy",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.433333,
+     "frames_60fps": 26.0,
+     "t_lo": 0.0,
+     "t_hi": 0.43333333333333335,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Air_Hit",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.3,
+     "frames_60fps": 18.0,
+     "t_lo": 0.0,
+     "t_hi": 0.3,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Air_Light",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.45,
+     "frames_60fps": 27.0,
+     "t_lo": 0.0,
+     "t_hi": 0.45,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Battle_Start",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.6,
+     "frames_60fps": 96.0,
+     "t_lo": 0.0,
+     "t_hi": 1.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Charge",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.833333,
+     "frames_60fps": 110.0,
+     "t_lo": 0.0,
+     "t_hi": 1.8333333333333333,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Charge_Loop",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.6,
+     "frames_60fps": 36.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Combo_Finish",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.8,
+     "frames_60fps": 48.0,
+     "t_lo": 0.0,
+     "t_hi": 0.8,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Crouch",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.4,
+     "frames_60fps": 24.0,
+     "t_lo": 0.0,
+     "t_hi": 0.4,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Crouch_Idle",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Dash_Attack",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.7,
+     "frames_60fps": 42.0,
+     "t_lo": 0.0,
+     "t_hi": 0.7,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Death",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Defeat",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Exhausted",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "GetUp_B",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.666667,
+     "frames_60fps": 40.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6666666666666666,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "GetUp_F",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.6,
+     "frames_60fps": 36.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Grab_Hold",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Grab_Start",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.9,
+     "frames_60fps": 54.0,
+     "t_lo": 0.0,
+     "t_hi": 0.9,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Ground_Hit",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.333333,
+     "frames_60fps": 20.0,
+     "t_lo": 0.0,
+     "t_hi": 0.3333333333333333,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Ground_Smash",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.0,
+     "frames_60fps": 60.0,
+     "t_lo": 0.0,
+     "t_hi": 1.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Guard_Break",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.0,
+     "frames_60fps": 60.0,
+     "t_lo": 0.0,
+     "t_hi": 1.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Guard_Hit",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.6,
+     "frames_60fps": 36.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Guard_Loop",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.2,
+     "frames_60fps": 72.0,
+     "t_lo": 0.0,
+     "t_hi": 1.2,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Guard_Start",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.4,
+     "frames_60fps": 24.0,
+     "t_lo": 0.0,
+     "t_hi": 0.4,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Heavy_01",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.8,
+     "frames_60fps": 48.0,
+     "t_lo": 0.0,
+     "t_hi": 0.8,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Heavy_02",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.866667,
+     "frames_60fps": 52.0,
+     "t_lo": 0.0,
+     "t_hi": 0.8666666666666667,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Body",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.633333,
+     "frames_60fps": 38.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6333333333333333,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Head",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.566667,
+     "frames_60fps": 34.0,
+     "t_lo": 0.0,
+     "t_hi": 0.5666666666666667,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Heavy_B",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.7,
+     "frames_60fps": 42.0,
+     "t_lo": 0.0,
+     "t_hi": 0.7,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Heavy_F",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.7,
+     "frames_60fps": 42.0,
+     "t_lo": 0.0,
+     "t_hi": 0.7,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Leg",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.633333,
+     "frames_60fps": 38.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6333333333333333,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Light_B",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.4,
+     "frames_60fps": 24.0,
+     "t_lo": 0.0,
+     "t_hi": 0.4,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Hit_Light_F",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.4,
+     "frames_60fps": 24.0,
+     "t_lo": 0.0,
+     "t_hi": 0.4,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Idle_01",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 3.0,
+     "frames_60fps": 180.0,
+     "t_lo": 0.0,
+     "t_hi": 3.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Idle_02",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 3.5,
+     "frames_60fps": 210.0,
+     "t_lo": 0.0,
+     "t_hi": 3.5,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Jump_Fall",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.4,
+     "frames_60fps": 24.0,
+     "t_lo": 0.0,
+     "t_hi": 0.4,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Jump_Land",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.5,
+     "frames_60fps": 30.0,
+     "t_lo": 0.0,
+     "t_hi": 0.5,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Jump_Start",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.6,
+     "frames_60fps": 36.0,
+     "t_lo": 0.0,
+     "t_hi": 0.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Jump_Up",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.2,
+     "frames_60fps": 12.0,
+     "t_lo": 0.0,
+     "t_hi": 0.2,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Knockdown_Attack",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.9,
+     "frames_60fps": 54.0,
+     "t_lo": 0.0,
+     "t_hi": 0.9,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Knockdown_B",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.333333,
+     "frames_60fps": 20.0,
+     "t_lo": 0.0,
+     "t_hi": 0.3333333333333333,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Knockdown_F",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.333333,
+     "frames_60fps": 20.0,
+     "t_lo": 0.0,
+     "t_hi": 0.3333333333333333,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Launch_Hit",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.566667,
+     "frames_60fps": 34.0,
+     "t_lo": 0.0,
+     "t_hi": 0.5666666666666667,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Launcher",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.866667,
+     "frames_60fps": 52.0,
+     "t_lo": 0.0,
+     "t_hi": 0.8666666666666667,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Light_01",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.3,
+     "frames_60fps": 18.0,
+     "t_lo": 0.0,
+     "t_hi": 0.3,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Light_02",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.366667,
+     "frames_60fps": 22.0,
+     "t_lo": 0.0,
+     "t_hi": 0.36666666666666664,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Light_03",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.433333,
+     "frames_60fps": 26.0,
+     "t_lo": 0.0,
+     "t_hi": 0.43333333333333335,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Low_Attack",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.766667,
+     "frames_60fps": 46.0,
+     "t_lo": 0.0,
+     "t_hi": 0.7666666666666667,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Rage",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.6,
+     "frames_60fps": 96.0,
+     "t_lo": 0.0,
+     "t_hi": 1.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Revive",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Run",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.8,
+     "frames_60fps": 48.0,
+     "t_lo": 0.0,
+     "t_hi": 0.8,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Run_Stop",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.9,
+     "frames_60fps": 54.0,
+     "t_lo": 0.0,
+     "t_hi": 0.9,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Skill_01",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.6,
+     "frames_60fps": 96.0,
+     "t_lo": 0.0,
+     "t_hi": 1.6,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Skill_02",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.9,
+     "frames_60fps": 114.0,
+     "t_lo": 0.0,
+     "t_hi": 1.9,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Skill_03",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.733333,
+     "frames_60fps": 104.0,
+     "t_lo": 0.0,
+     "t_hi": 1.7333333333333334,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Spawn",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Stun",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Throw",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.0,
+     "frames_60fps": 60.0,
+     "t_lo": 0.0,
+     "t_hi": 1.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Turn",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.5,
+     "frames_60fps": 30.0,
+     "t_lo": 0.0,
+     "t_hi": 0.5,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Ultimate_Attack",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Ultimate_End",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.2,
+     "frames_60fps": 72.0,
+     "t_lo": 0.0,
+     "t_hi": 1.2,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Ultimate_Start",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.033333,
+     "frames_60fps": 62.0,
+     "t_lo": 0.0,
+     "t_hi": 1.0333333333333334,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Uppercut",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.833333,
+     "frames_60fps": 50.0,
+     "t_lo": 0.0,
+     "t_hi": 0.8333333333333334,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Victory_01",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Victory_02",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Victory_03",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 2.0,
+     "frames_60fps": 120.0,
+     "t_lo": 0.0,
+     "t_hi": 2.0,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Walk_B",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.2,
+     "frames_60fps": 72.0,
+     "t_lo": 0.0,
+     "t_hi": 1.2,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Walk_F",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 1.2,
+     "frames_60fps": 72.0,
+     "t_lo": 0.0,
+     "t_hi": 1.2,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    },
+    {
+     "name": "Wall_Hit",
+     "channels": 171,
+     "samplers": 171,
+     "duration_s": 0.566667,
+     "frames_60fps": 34.0,
+     "t_lo": 0.0,
+     "t_hi": 0.5666666666666667,
+     "paths": [
+      "rotation",
+      "scale",
+      "translation"
+     ]
+    }
+   ]
+  },
+  {
+   "path": "I:\\工作项目\\BIGMANFIGHT\\角色资产\\美术资产\\bigman_v001\\bigman_tpose_v001.glb",
+   "file_bytes": 2143884,
+   "glb_version": 2,
+   "bin_chunk_bytes": 2046992,
+   "generator": "Khronos glTF Blender I/O v4.5.47",
+   "copyright": null,
+   "counts": {
+    "nodes": 149,
+    "meshes": 91,
+    "primitives": 91,
+    "materials": 17,
+    "images": 0,
+    "textures": 0,
+    "skins": 1,
+    "animations": 0
+   },
+   "triangles": 78048,
+   "primitive_modes": {
+    "TRIANGLES": 91
+   },
+   "skins": [
+    {
+     "name": "Character_Rig",
+     "joints": 57,
+     "skeleton": null,
+     "inverseBindMatrices": true
+    }
+   ],
+   "joint_tree": [
+    {
+     "name": "root",
+     "parent": "Character_Rig",
+     "children": [
+      "pelvis"
+     ]
+    },
+    {
+     "name": "pelvis",
+     "parent": "root",
+     "children": [
+      "spine_01",
+      "thigh.L",
+      "thigh.R"
+     ]
+    },
+    {
+     "name": "spine_01",
+     "parent": "pelvis",
+     "children": [
+      "spine_02"
+     ]
+    },
+    {
+     "name": "spine_02",
+     "parent": "spine_01",
+     "children": [
+      "chest"
+     ]
+    },
+    {
+     "name": "chest",
+     "parent": "spine_02",
+     "children": [
+      "neck",
+      "shoulder.L",
+      "shoulder.R"
+     ]
+    },
+    {
+     "name": "neck",
+     "parent": "chest",
+     "children": [
+      "head"
+     ]
+    },
+    {
+     "name": "head",
+     "parent": "neck",
+     "children": [
+      "jaw",
+      "glasses",
+      "eye.L",
+      "eye.R"
+     ]
+    },
+    {
+     "name": "jaw",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "glasses",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "eye.L",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "eye.R",
+     "parent": "head",
+     "children": []
+    },
+    {
+     "name": "shoulder.L",
+     "parent": "chest",
+     "children": [
+      "upperarm.L"
+     ]
+    },
+    {
+     "name": "upperarm.L",
+     "parent": "shoulder.L",
+     "children": [
+      "forearm.L"
+     ]
+    },
+    {
+     "name": "forearm.L",
+     "parent": "upperarm.L",
+     "children": [
+      "hand.L"
+     ]
+    },
+    {
+     "name": "hand.L",
+     "parent": "forearm.L",
+     "children": [
+      "index_01.L",
+      "middle_01.L",
+      "ring_01.L",
+      "pinky_01.L",
+      "thumb_01.L"
+     ]
+    },
+    {
+     "name": "index_01.L",
+     "parent": "hand.L",
+     "children": [
+      "index_02.L"
+     ]
+    },
+    {
+     "name": "index_02.L",
+     "parent": "index_01.L",
+     "children": [
+      "index_03.L"
+     ]
+    },
+    {
+     "name": "index_03.L",
+     "parent": "index_02.L",
+     "children": []
+    },
+    {
+     "name": "middle_01.L",
+     "parent": "hand.L",
+     "children": [
+      "middle_02.L"
+     ]
+    },
+    {
+     "name": "middle_02.L",
+     "parent": "middle_01.L",
+     "children": [
+      "middle_03.L"
+     ]
+    },
+    {
+     "name": "middle_03.L",
+     "parent": "middle_02.L",
+     "children": []
+    },
+    {
+     "name": "ring_01.L",
+     "parent": "hand.L",
+     "children": [
+      "ring_02.L"
+     ]
+    },
+    {
+     "name": "ring_02.L",
+     "parent": "ring_01.L",
+     "children": [
+      "ring_03.L"
+     ]
+    },
+    {
+     "name": "ring_03.L",
+     "parent": "ring_02.L",
+     "children": []
+    },
+    {
+     "name": "pinky_01.L",
+     "parent": "hand.L",
+     "children": [
+      "pinky_02.L"
+     ]
+    },
+    {
+     "name": "pinky_02.L",
+     "parent": "pinky_01.L",
+     "children": [
+      "pinky_03.L"
+     ]
+    },
+    {
+     "name": "pinky_03.L",
+     "parent": "pinky_02.L",
+     "children": []
+    },
+    {
+     "name": "thumb_01.L",
+     "parent": "hand.L",
+     "children": [
+      "thumb_02.L"
+     ]
+    },
+    {
+     "name": "thumb_02.L",
+     "parent": "thumb_01.L",
+     "children": [
+      "thumb_03.L"
+     ]
+    },
+    {
+     "name": "thumb_03.L",
+     "parent": "thumb_02.L",
+     "children": []
+    },
+    {
+     "name": "shoulder.R",
+     "parent": "chest",
+     "children": [
+      "upperarm.R"
+     ]
+    },
+    {
+     "name": "upperarm.R",
+     "parent": "shoulder.R",
+     "children": [
+      "forearm.R"
+     ]
+    },
+    {
+     "name": "forearm.R",
+     "parent": "upperarm.R",
+     "children": [
+      "hand.R"
+     ]
+    },
+    {
+     "name": "hand.R",
+     "parent": "forearm.R",
+     "children": [
+      "index_01.R",
+      "middle_01.R",
+      "ring_01.R",
+      "pinky_01.R",
+      "thumb_01.R"
+     ]
+    },
+    {
+     "name": "index_01.R",
+     "parent": "hand.R",
+     "children": [
+      "index_02.R"
+     ]
+    },
+    {
+     "name": "index_02.R",
+     "parent": "index_01.R",
+     "children": [
+      "index_03.R"
+     ]
+    },
+    {
+     "name": "index_03.R",
+     "parent": "index_02.R",
+     "children": []
+    },
+    {
+     "name": "middle_01.R",
+     "parent": "hand.R",
+     "children": [
+      "middle_02.R"
+     ]
+    },
+    {
+     "name": "middle_02.R",
+     "parent": "middle_01.R",
+     "children": [
+      "middle_03.R"
+     ]
+    },
+    {
+     "name": "middle_03.R",
+     "parent": "middle_02.R",
+     "children": []
+    },
+    {
+     "name": "ring_01.R",
+     "parent": "hand.R",
+     "children": [
+      "ring_02.R"
+     ]
+    },
+    {
+     "name": "ring_02.R",
+     "parent": "ring_01.R",
+     "children": [
+      "ring_03.R"
+     ]
+    },
+    {
+     "name": "ring_03.R",
+     "parent": "ring_02.R",
+     "children": []
+    },
+    {
+     "name": "pinky_01.R",
+     "parent": "hand.R",
+     "children": [
+      "pinky_02.R"
+     ]
+    },
+    {
+     "name": "pinky_02.R",
+     "parent": "pinky_01.R",
+     "children": [
+      "pinky_03.R"
+     ]
+    },
+    {
+     "name": "pinky_03.R",
+     "parent": "pinky_02.R",
+     "children": []
+    },
+    {
+     "name": "thumb_01.R",
+     "parent": "hand.R",
+     "children": [
+      "thumb_02.R"
+     ]
+    },
+    {
+     "name": "thumb_02.R",
+     "parent": "thumb_01.R",
+     "children": [
+      "thumb_03.R"
+     ]
+    },
+    {
+     "name": "thumb_03.R",
+     "parent": "thumb_02.R",
+     "children": []
+    },
+    {
+     "name": "thigh.L",
+     "parent": "pelvis",
+     "children": [
+      "shin.L"
+     ]
+    },
+    {
+     "name": "shin.L",
+     "parent": "thigh.L",
+     "children": [
+      "foot.L"
+     ]
+    },
+    {
+     "name": "foot.L",
+     "parent": "shin.L",
+     "children": [
+      "toe.L"
+     ]
+    },
+    {
+     "name": "toe.L",
+     "parent": "foot.L",
+     "children": []
+    },
+    {
+     "name": "thigh.R",
+     "parent": "pelvis",
+     "children": [
+      "shin.R"
+     ]
+    },
+    {
+     "name": "shin.R",
+     "parent": "thigh.R",
+     "children": [
+      "foot.R"
+     ]
+    },
+    {
+     "name": "foot.R",
+     "parent": "shin.R",
+     "children": [
+      "toe.R"
+     ]
+    },
+    {
+     "name": "toe.R",
+     "parent": "foot.R",
+     "children": []
+    }
+   ],
+   "unskinned_mesh_nodes": [
+    {
+     "node": "Jacket_Hem_Line",
+     "mesh": "Mesh",
+     "tris": 256
+    },
+    {
+     "node": "Jacket_Hem",
+     "mesh": "Mesh",
+     "tris": 960
+    }
+   ],
+   "skinned_node_count": 89,
+   "material_names": [
+    "Suit_Blue_Deep",
+    "Suit_Blue",
+    "Shirt_White",
+    "Skin_Dark",
+    "Skin",
+    "Eye_Glint",
+    "Brow",
+    "Eye_White",
+    "Glasses_Black",
+    "Hair_Black",
+    "Iris",
+    "Iris_Ring",
+    "Button_Dark",
+    "Lips",
+    "Pupil",
+    "Shoe_Sole",
+    "Shoe_Black"
+   ],
+   "image_names": [],
+   "animations": []
+  }
+ ]
+}

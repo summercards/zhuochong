@@ -1,0 +1,13 @@
+== front ==
+  f0003 vs f0005 : mask_xor=0  rgb_max=0.00784  all_max=0.00784  rows=None
+  f0005 vs f0006 : mask_xor=0  rgb_max=0.00000  all_max=0.00000  rows=None
+  f0003 vs f0006 : mask_xor=0  rgb_max=0.00784  all_max=0.00784  rows=None
+  f0000 vs f0003 : mask_xor=2237  rgb_max=0.82745  all_max=0.82745  rows=(67, 974, 393)
+== side ==
+  f0003 vs f0005 : mask_xor=1  rgb_max=0.00784  all_max=0.00784  rows=(751, 751, 1)
+  f0005 vs f0006 : mask_xor=0  rgb_max=0.00000  all_max=0.00000  rows=None
+  f0003 vs f0006 : mask_xor=1  rgb_max=0.00784  all_max=0.00784  rows=(751, 751, 1)
+  f0000 vs f0003 : mask_xor=11174  rgb_max=0.86667  all_max=0.86667  rows=(67, 974, 411)
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+
+Blender quit

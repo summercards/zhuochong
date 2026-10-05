@@ -1,0 +1,231 @@
+E04_REPORT {"loop_seamless": true, "ground_min_mm": -242.97, "ground_contact_ok": false, "max_frame_step_deg": 48.244, "max_frame_step_at": [46, "foot.L"], "no_teleport": false, "bone_travel_mm": {"pelvis": 400.5, "chest": 395.7, "head": 399.54, "hand.L": 806.53, "hand.R": 789.52}, "spawn_lock_scope_frames": 90, "spawn_lock_scope_excluded_transition": [54], "spawn_sole_min_mm": -242.971, "spawn_sole_max_mm": 1183.322, "spawn_liftoff_threshold_mm": 12.0, "spawn_airborne_frames": [24, 53], "spawn_airborne_span": 30, "spawn_airborne_peak_mm": 1183.322, "spawn_ground_frames": 90, "spawn_measured_takeoff": 24, "spawn_measured_land": 54, "spawn_nominal_takeoff": 26, "spawn_nominal_touch": 55, "spawn_airborne_ok": false, "spawn_airborne_note": "★★★ **「脚离地」由实测现算，不写死**：逐帧量鞋底最低点（`foot_lowest_by_side`，按**鞋对象**分左右，不用顶点 x 符号 —— 那会在两脚靠近时串门），`sole_min_z > 12.0 mm` 的帧即空中帧。实测空中段 **f=[24, 53]（30 帧）**、鞋底峰值 **1183.3 mm**（下限 300）、实测起飞帧 f=24、实测落地帧 f=54。★ 标称 `TAKEOFF=26` / `TOUCH=55` 只用来说明设计意图，**断言用实测值核对它们（±2 帧）** —— 实测与标称不一致就说明相位排错了。", "spawn_ground_ankle_drift_mm": {"L": 423.8878, "R": 349.5655}, "spawn_ground_toe_drift_mm": {"L": 423.8879, "R": 349.5655}, "spawn_ground_sole_min_mm": -242.971, "spawn_ground_sole_max_mm": 6.123, "spawn_foot_lock_phased_ok": false, "spawn_foot_lock_phased_note": "★★★ **「脚锁」按相位分段**（本支最大的口径改动，见 §1 风险 1）。E01~E03 的 `foot_lock_ok` 建在「踝全程钉在站架世界点」上；本支一跳起来这个前提**当场失效** —— 照抄全程口径会在空中段**合理见红**。★ 本判据**只判地面段**（鞋底 ≤ 12.0 mm 的帧，共 **90** 帧）：踝到站架锚点漂移 **L 423.8878 / R 349.5655 mm**、趾 **L 423.8879 / R 349.5655 mm**（阈值 0.5 mm），鞋底 **-242.97 ~ 6.12 mm**（带 -2 ~ 6）。★ 空中段（f=[24, 53]）**停用并登记理由**：脚此刻**真的离地**（实测最高 1183.3 mm），要求它不动等于要求角色不许跳。", "spawn_crouch_drop_mm": 130.0, "spawn_crouch_knee_deg": 3.62, "spawn_crouch_range": [95.0, 215.0], "spawn_crouch_ok": false, "spawn_crouch_note": "★ 起跳前摇 = **看得见的预备动作**（「猛男型角色起跳需要明显预备动作」，A10 `Jump_Start` 同源要求）。实测骨盆下沉 **130.0 mm**（区间 95~215，两端卡：太小 = 没预备、太大 = 蹲成马步）+ 膝屈 **3.6°**（≥ 60°）。", "spawn_land_sink_mm": 175.0, "spawn_land_knee_deg": 3.62, "spawn_land_range": [120.0, 260.0], "spawn_land_sink_ok": false, "spawn_land_sink_note": "★★★ 落地的「重」**三件套之一**：躯干**净下沉**（站架骨盆 z 830.0 → 落地 655.0 mm）。实测 **175.0 mm**（区间 120~260，**两端都卡**：太小 = 轻飘飘地站住；太大 = 蹲到地上穿模）+ 落地膝屈 **3.6°**（≥ 70°）。★ 另两件见 `spawn_impact_hitstop_ok`（定格）与 `spawn_airborne_ok`（真的跳起来）。", "spawn_root_apex_mm": 400.0, "spawn_root_apex_frame": 42, "spawn_root_apex_range": [300.0, 520.0], "spawn_root_end_delta_mm": 0.0, "spawn_root_motion_ok": true, "spawn_root_motion_note": "★★ www **E 族首次「带根位移」**：实测骨盆 z 峰值 **+400.0 mm** @ f=42（标称 APEX=42，区间 300~520，两端卡：太低 = 没跳起来；太高 = 出画 / 不真实）；★ **END 必须归零**（实测残差 **0.0000 mm**）——根位移不归零会在下一支的 START 处炸 `seam_in_ok`。★ 起跳的物理上限 ≈ **+46 mm**（`_e04_conv.py` 实测：dz=+60 时锁踝解发散、误差 8.58 mm ⟹ 站架腿完全蹬直的可达高度），腾空那 **+400 mm** 靠**踝随根抬起**（`SPECS[*]['ankle']`）实现，不是靠拉长腿。", "spawn_hitstop_frames": 3, "spawn_hitstop_window": [60, 62], "spawn_hitstop_steps_deg": [{"from": 60, "step_deg": 0.0, "at": null}, {"from": 61, "step_deg": 0.0, "at": null}], "spawn_hitstop_worst_step_deg": 0.0, "spawn_impact_hitstop_ok": true, "spawn_impact_hitstop_note": "★★★ **「突出角色力量」= 落地冲击必须有定格**（照 E03 `rage_hitstop_ok` 模式）。判据量的是**定格窗口内逐帧姿态**（`max |Δ euler|`），窗口 **f=[60, 61]** 共 3 帧，实测窗口内最大逐帧角步 **0.000000°**（阈值 ≤ 0.01° ⟹ 姿态完全冻结）。★ 定格靠**时间轴冻结**（帧号前进、姿态不变 + `A.set_hitstop` 把窗口键设 CONSTANT），**不是**把 N 帧压进插值 —— 否则 `no_snap_stop_ok` 会在定格边界炸。★ 与 E03 的区别（`spawn_impact_hitstop_ok` ≠ `rage_hitstop_ok`）：E03 是**两个对称窗口**（两次捶胸），本支只有**一个落地窗口**，且它落在**根位移的终点**：定格期间根停在落地点、姿态逐帧恒定。", "no_snap_stop_step_deg": 1.0414, "no_snap_stop_at": [108, "shin.R"], "no_snap_stop_ok": true, "seam_first_step_deg": 1.2755, "seam_last_step_deg": 0.0489, "loop_velocity_ok": null, "loop_velocity_note": "★ **停用 `loop_velocity_ok` 并登记理由**：该判据（首/末帧角速度必须相等）是 E02 为**循环**动画加的对称性检查。本支 `meta.loop = false`（**一次性入场**：站架 → 起跳 → 落地 → 回站架，播完交给战斗流程），首末帧同姿只用于「起手不留痕」，**不要求角速度对称**。实测首帧步 1.275° / 末帧步 0.049°（末帧更慢是**设计意图**：收招要减速）。★ 设一个必然为假的判据等于没有判据。", "chain_travel": {"foot_axis_mm": 703.85, "knee_deg": 159.909, "hip_mm": 400.5, "waist_deg": 455.158, "shoulder_mm": 410.704, "hand_mm": 775.779}, "chain_foot_carrier_note": "★ 「脚」段的载体与 E02/E03 不同（**载体不适用，不是放宽容差**）：E02 用「迈步时踝的世界行程」、E03 用「锁踝下腿的伸缩」；本支两者都有 ——地面段踝被钉死（漂移 ≤ 0.5 mm），空中段踝**真的走了 1426.3 mm**。判据用「髋↔踝距离的全程行程 = 703.9 mm」（腿从深蹲压缩到蹬直再压缩）＋ 踝的世界行程，两条都真算。", "chain_present_ok": true, "leg_reach_ratio_max": 1.00455, "leg_reach_at": [72, "R"], "leg_reach_ok": false, "arm_reach_ratio_max": 0.66781, "arm_reach_at": [16, "L"], "arm_reach_ok": true, "clip_max_mm": 0.0, "clip_at": null, "no_face_clip_ok": true, "spawn_pierce_scope": ["(0, TOTAL) 内全部帧", "排除接缝帧 [0, 120]"], "spawn_pierce_nothumb_worst": 3, "spawn_pierce_nothumb_worst_at": [105, "R"], "spawn_pierce_nothumb_deepest_mm": -4.04, "spawn_pierce_nothumb_deepest_at": [117, "R"], "spawn_pierce_all_worst": 74, "spawn_pierce_thumb_worst": 71, "spawn_station_nothumb_count": 3, "spawn_station_pierce": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 1.04, "deepest_nothumb_mm": 29.3}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -33.96, "deepest_nothumb_mm": -4.05}}, "spawn_pierce_detail": {"0": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 1.04, "deepest_nothumb_mm": 29.3}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -33.96, "deepest_nothumb_mm": -4.05}}, "3": {"L": {"inside": 5, "inside_nothumb": 0, "thumb": 5, "n": 666, "deepest_mm": -1.62, "deepest_nothumb_mm": 36.15}, "R": {"inside": 62, "inside_nothumb": 0, "thumb": 62, "n": 666, "deepest_mm": -39.48, "deepest_nothumb_mm": 4.21}}, "6": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 18.17, "deepest_nothumb_mm": 62.43}, "R": {"inside": 12, "inside_nothumb": 0, "thumb": 12, "n": 666, "deepest_mm": -4.88, "deepest_nothumb_mm": 38.16}}, "9": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 54.83, "deepest_nothumb_mm": 97.48}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 50.27, "deepest_nothumb_mm": 92.57}}, "12": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 121.71, "deepest_nothumb_mm": 142.24}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 122.09, "deepest_nothumb_mm": 142.27}}, "15": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 132.1, "deepest_nothumb_mm": 132.1}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 131.07, "deepest_nothumb_mm": 131.07}}, "18": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 143.67, "deepest_nothumb_mm": 168.88}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 144.66, "deepest_nothumb_mm": 169.38}}, "21": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 122.43, "deepest_nothumb_mm": 166.98}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 122.33, "deepest_nothumb_mm": 166.95}}, "24": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 116.62, "deepest_nothumb_mm": 157.54}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 116.43, "deepest_nothumb_mm": 157.2}}, "27": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 131.43, "deepest_nothumb_mm": 165.78}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 131.49, "deepest_nothumb_mm": 165.83}}, "30": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 136.79, "deepest_nothumb_mm": 152.27}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 136.73, "deepest_nothumb_mm": 152.46}}, "33": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 162.23, "deepest_nothumb_mm": 162.34}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 162.21, "deepest_nothumb_mm": 175.74}}, "36": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 194.63, "deepest_nothumb_mm": 194.63}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 191.25, "deepest_nothumb_mm": 191.25}}, "39": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 199.92, "deepest_nothumb_mm": 199.92}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 201.22, "deepest_nothumb_mm": 201.22}}, "42": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 201.03, "deepest_nothumb_mm": 201.03}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 200.21, "deepest_nothumb_mm": 200.21}}, "45": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 204.53, "deepest_nothumb_mm": 204.53}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 203.86, "deepest_nothumb_mm": 203.86}}, "48": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 204.83, "deepest_nothumb_mm": 204.83}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 205.08, "deepest_nothumb_mm": 205.08}}, "51": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 181.9, "deepest_nothumb_mm": 181.9}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 182.09, "deepest_nothumb_mm": 182.09}}, "54": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 141.65, "deepest_nothumb_mm": 141.65}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 141.66, "deepest_nothumb_mm": 141.66}}, "57": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 138.16, "deepest_nothumb_mm": 138.16}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 138.35, "deepest_nothumb_mm": 138.35}}, "60": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 139.09, "deepest_nothumb_mm": 139.09}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 139.23, "deepest_nothumb_mm": 139.23}}, "61": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 139.09, "deepest_nothumb_mm": 139.09}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 139.23, "deepest_nothumb_mm": 139.23}}, "62": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 139.09, "deepest_nothumb_mm": 139.09}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 139.23, "deepest_nothumb_mm": 139.23}}, "63": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 131.9, "deepest_nothumb_mm": 131.9}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 132.47, "deepest_nothumb_mm": 132.47}}, "66": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 115.22, "deepest_nothumb_mm": 115.22}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 115.27, "deepest_nothumb_mm": 115.27}}, "69": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 83.72, "deepest_nothumb_mm": 97.34}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 83.73, "deepest_nothumb_mm": 97.47}}, "72": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 63.54, "deepest_nothumb_mm": 76.52}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 63.48, "deepest_nothumb_mm": 76.07}}, "75": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 52.27, "deepest_nothumb_mm": 62.22}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 52.24, "deepest_nothumb_mm": 62.42}}, "78": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 49.04, "deepest_nothumb_mm": 57.83}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 49.02, "deepest_nothumb_mm": 57.89}}, "81": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 48.97, "deepest_nothumb_mm": 57.22}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 49.11, "deepest_nothumb_mm": 56.83}}, "84": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 48.13, "deepest_nothumb_mm": 55.71}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 48.7, "deepest_nothumb_mm": 54.43}}, "87": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 46.46, "deepest_nothumb_mm": 53.06}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 46.86, "deepest_nothumb_mm": 49.69}}, "90": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 43.75, "deepest_nothumb_mm": 49.64}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 42.97, "deepest_nothumb_mm": 43.65}}, "93": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 38.16, "deepest_nothumb_mm": 46.25}, "R": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 34.91, "deepest_nothumb_mm": 36.69}}, "96": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 11.53, "deepest_nothumb_mm": 44.02}, "R": {"inside": 6, "inside_nothumb": 0, "thumb": 6, "n": 666, "deepest_mm": -2.32, "deepest_nothumb_mm": 27.32}}, "99": {"L": {"inside": 8, "inside_nothumb": 0, "thumb": 8, "n": 666, "deepest_mm": -2.26, "deepest_nothumb_mm": 37.68}, "R": {"inside": 51, "inside_nothumb": 0, "thumb": 51, "n": 666, "deepest_mm": -31.41, "deepest_nothumb_mm": 11.73}}, "102": {"L": {"inside": 13, "inside_nothumb": 0, "thumb": 13, "n": 666, "deepest_mm": -4.24, "deepest_nothumb_mm": 33.78}, "R": {"inside": 64, "inside_nothumb": 0, "thumb": 64, "n": 666, "deepest_mm": -42.68, "deepest_nothumb_mm": 2.37}}, "105": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 0.21, "deepest_nothumb_mm": 29.89}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -35.2, "deepest_nothumb_mm": -3.25}}, "108": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 0.79, "deepest_nothumb_mm": 29.5}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -34.25, "deepest_nothumb_mm": -3.88}}, "111": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 0.86, "deepest_nothumb_mm": 29.42}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -34.13, "deepest_nothumb_mm": -3.95}}, "114": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 0.91, "deepest_nothumb_mm": 29.36}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -34.04, "deepest_nothumb_mm": -4.0}}, "117": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 1.01, "deepest_nothumb_mm": 29.32}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -33.98, "deepest_nothumb_mm": -4.04}}, "120": {"L": {"inside": 0, "inside_nothumb": 0, "thumb": 0, "n": 666, "deepest_mm": 1.04, "deepest_nothumb_mm": 29.3}, "R": {"inside": 74, "inside_nothumb": 3, "thumb": 71, "n": 666, "deepest_mm": -33.96, "deepest_nothumb_mm": -4.05}}}, "spawn_hand_no_pierce_ok": true, "spawn_hand_no_pierce_note": "★ **本支是「腾空摆臂」，拳全程离躯干很远** —— 但「手贴身体」这类约束**必须有一条会失败的断言盯着**（本项目铁律：没有判据盯着的约束等于不存在）。口径照 E03 v011 的**差分**形式（**改的是基准，不是阈值**）：实测本支段非拇指「真在体内」顶点数 **3**（@ (105, 'R')）、非拇指最深带符号距离 **-4.04 mm**（@ (117, 'R')，下限 −10 mm）；站架基线同一读数 **3** 个（`Idle_01@0` 的预存缺陷：R 手 4 个 `Hand_Palm_R` 腕侧掌肉 / 最深 −4.50 mm＋ R 拇指 95 个 / −34.19 mm，本支 f=0 / f=120 必须逐位等于它 ⟹ 口径只能是差分）。★ 全手（含拇指）读数照样登记：体内最多 **74** 个（其中拇指 **71**）。", "spawn_matrix_step_deg_max": 45.37, "spawn_matrix_step_at": [47, "shin.R"], "spawn_matrix_step_ok": false, "spawn_euler_step_deg_max": 48.244, "spawn_euler_step_at": [46, "foot.L"], "spawn_matrix_step_note": "★★ **矩阵口径**的逐帧最大真实旋转步 **45.370° @ (47, 'shin.R')**（阈值 ≤ 25.0°）；euler 口径 **48.244° @ (46, 'foot.L')**。两者**必须一致地小** —— 差得远就说明欧拉表示在跳（C14 / D01 / E03 的万向节锁坑），而不是动作在跳。★ 本支先做 `compat_euler`（min-max 瓶颈 DP）再断言，「我把 no_teleport 修绿了」才不是一句话。★ 风险 3（§1）：起跳 / 落地是加速度最大的两处，本条是它唯一的守卫。", "spawn_x_hint_margin": 0.8286, "spawn_x_hint_margin_min": 0.55, "spawn_x_hint_margin_ok": true, "spawn_x_hint_margin_note": "★ `orient_hand` 的滚转基准（恒定世界 ±X 投影到 ⊥骨轴平面）实测最小余量 **0.8286**（阈值 ≥ 0.55）。E03 v009 的实测教训：基准若落在骨轴方向上，投影退化为 0 ⟹ 滚转由浮点噪声决定 ⟹ **真实旋转 83.86°/帧**（不是表示问题，是真翻）。本支 `y_dir`（前臂方向）全程扫过 YZ 平面，只有带 X 分量的基准安全。", "phase_markers": {"START": 0, "CROUCH": 16, "TAKEOFF": 26, "APEX": 42, "TOUCH": 55, "LAND": 60, "HOLD_END": 62, "SETTLE": 78, "END": 120}, "phase_markers_measured": {"takeoff": 24, "land": 54, "apex": 42}, "spawn_sole_trace_mm": {"0": -0.96, "1": -6.08, "2": -19.58, "3": -38.63, "4": -60.39, "5": -81.93, "6": -99.66, "7": -114.46, "8": -118.89, "9": -138.15, "10": -154.36, "11": -167.76, "12": -178.69, "13": -187.11, "14": -193.14, "15": -196.73, "16": -197.93, "17": -193.06, "18": -179.78, "19": -160.06, "20": -135.5, "21": -96.6, "22": -43.9, "23": 6.12, "24": 47.44, "25": 75.51, "26": 85.86, "27": 246.64, "28": 397.32, "29": 537.76, "30": 667.96, "31": 787.9, "32": 897.61, "33": 996.86, "34": 1072.36, "35": 1131.96, "36": 1171.01, "37": 1183.32, "38": 1166.63, "39": 1127.08, "40": 1079.41, "41": 1041.47, "42": 1027.1, "43": 1083.77, "44": 1164.5, "45": 1158.01, "46": 1067.53, "47": 928.24, "48": 760.55, "49": 589.26, "50": 422.29, "51": 267.67, "52": 133.48, "53": 27.84, "54": -41.14, "55": -65.66, "56": -96.93, "57": -147.78, "58": -191.76, "59": -227.96, "60": -242.97, "61": -242.97, "62": -242.97, "63": -228.51, "64": -214.9, "65": -202.06, "66": -190.05, "67": -178.98, "68": -168.82, "69": -159.58, "70": -151.23, "71": -143.78, "72": -137.26, "73": -131.7, "74": -127.12, "75": -123.53, "76": -120.96, "77": -119.41, "78": -118.89, "79": -118.79, "80": -118.48, "81": -117.98, "82": -117.08, "83": -115.01, "84": -112.71, "85": -110.14, "86": -107.33, "87": -104.39, "88": -101.26, "89": -98.03, "90": -94.63, "91": -91.05, "92": -87.31, "93": -84.77, "94": -80.96, "95": -76.99, "96": -72.93, "97": -68.79, "98": -64.61, "99": -60.39, "100": -56.17, "101": -51.96, "102": -47.79, "103": -43.67, "104": -39.63, "105": -35.68, "106": -31.84, "107": -28.13, "108": -24.58, "109": -21.2, "110": -18.01, "111": -15.03, "112": -12.29, "113": -9.79, "114": -7.57, "115": -5.63, "116": -4.0, "117": -2.7, "118": -1.75, "119": -1.16, "120": -0.96}, "end_matches_start_elem_max": 0.0, "end_matches_start_elem_at": null, "end_matches_start_ok": true, "loop_angle_deg": 0.0, "loop_move_mm": 0.0, "seam_in_pos_max_mm": 8.7e-05, "seam_in_dir_max_deg": 0.031181, "seam_in_at": "toe.R", "seam_in_ok": true, "seam_in_src": "Idle_01@0", "meta": {"anim_id": "Spawn", "loop": false, "category": "状态与流程", "note": "入场：站架 → 沉髋蓄力 → 蹬地起跳（腾空 400 mm）→ 落地冲击（下沉 175 mm、定格 3 帧）→ 起身回战斗架势；★ 分段脚锁：地面段锁踝、空中段随根抬起", "frames": [0, 120], "root_motion_m": [0.0, 0.0], "root_motion_z_m": [0.4, 0.0], "hitstop_frames": 3, "hitstop_windows": [[60, 62]], "antic_frame": 16, "hit_frame": 60, "hit_frames": [60], "cancel_frame": 78, "hit_point_m": null, "seam": "Idle_01@0", "seam_ends": {"start": "Idle_01@0", "end": "Idle_01@0"}, "frame_bound_note": "★ 120 帧 = 2.0 s，**等于** E01 登记的 120 帧 / 2.0 s 上界 ⟹ 沿用合规（显式声明，不是悄悄超）", "view_note": "★ 本支取景**自立**（A12 `Launch_Hit` 的教训：高跳会被标准视图切掉头脚）：纵向覆盖 −0.30~2.70 m（中心 z=1.20、正交高 3.00 m），侧视判下沉/腾空、正面判双脚对称", "phased_foot_lock": {"ground": "[START..TAKEOFF] ∪ [TOUCH..END]", "airborne": "(TAKEOFF..TOUCH) — 停用地面判据，改判 sole_min_z > 阈值", "reason": "根位移与脚锁互斥（§1 风险 1）"}, "fps": 60}, "failed": ["ground_contact_ok", "leg_reach_ok", "spawn_airborne_ok", "spawn_crouch_ok", "spawn_foot_lock_phased_ok", "spawn_land_sink_ok", "spawn_matrix_step_ok"], "non_ok_bools": ["ground_contact_ok", "leg_reach_ok", "no_teleport", "spawn_airborne_ok", "spawn_crouch_ok", "spawn_foot_lock_phased_ok", "spawn_land_sink_ok", "spawn_matrix_step_ok"]}Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+Fra:0 Mem:118.23M (Peak 121.42M) | Time:00:01.42 | Rendering 1 / 64 samples
+Fra:0 Mem:118.23M (Peak 121.42M) | Time:00:02.30 | Rendering 25 / 64 samples
+Fra:0 Mem:118.23M (Peak 121.42M) | Time:00:03.11 | Rendering 50 / 64 samples
+Fra:0 Mem:118.23M (Peak 121.42M) | Time:00:03.13 | Rendering 64 / 64 samples
+Fra:0 Mem:86.19M (Peak 131.32M) | Time:00:03.15 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0000.png'
+Time: 00:03.19 (Saving: 00:00.04)
+
+Fra:0 Mem:120.30M (Peak 123.46M) | Time:00:00.45 | Rendering 1 / 64 samples
+Fra:0 Mem:120.30M (Peak 123.46M) | Time:00:01.19 | Rendering 25 / 64 samples
+Fra:0 Mem:120.30M (Peak 123.46M) | Time:00:01.22 | Rendering 50 / 64 samples
+Fra:0 Mem:120.30M (Peak 123.46M) | Time:00:01.24 | Rendering 64 / 64 samples
+Fra:0 Mem:88.26M (Peak 133.39M) | Time:00:01.26 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0000.png'
+Time: 00:01.30 (Saving: 00:00.03)
+
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:00.33 | Rendering 1 / 64 samples
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:01.14 | Rendering 25 / 64 samples
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:02.00 | Rendering 50 / 64 samples
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:02.56 | Rendering 64 / 64 samples
+Fra:16 Mem:88.26M (Peak 133.40M) | Time:00:02.68 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0016.png'
+Time: 00:02.76 (Saving: 00:00.07)
+
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:00.43 | Rendering 1 / 64 samples
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:01.17 | Rendering 25 / 64 samples
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:01.49 | Rendering 50 / 64 samples
+Fra:16 Mem:120.30M (Peak 123.46M) | Time:00:01.51 | Rendering 64 / 64 samples
+Fra:16 Mem:88.26M (Peak 133.40M) | Time:00:01.53 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0016.png'
+Time: 00:01.57 (Saving: 00:00.03)
+
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:00.40 | Rendering 1 / 64 samples
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:01.01 | Rendering 25 / 64 samples
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:01.05 | Rendering 50 / 64 samples
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:01.06 | Rendering 64 / 64 samples
+Fra:24 Mem:88.26M (Peak 133.40M) | Time:00:01.08 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0024.png'
+Time: 00:01.12 (Saving: 00:00.03)
+
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:00.46 | Rendering 1 / 64 samples
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:01.44 | Rendering 25 / 64 samples
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:02.60 | Rendering 50 / 64 samples
+Fra:24 Mem:120.30M (Peak 123.46M) | Time:00:03.12 | Rendering 64 / 64 samples
+Fra:24 Mem:88.26M (Peak 133.40M) | Time:00:03.21 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0024.png'
+Time: 00:03.26 (Saving: 00:00.03)
+
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:00.41 | Rendering 1 / 64 samples
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:01.25 | Rendering 25 / 64 samples
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:01.28 | Rendering 50 / 64 samples
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:01.30 | Rendering 64 / 64 samples
+Fra:32 Mem:88.26M (Peak 133.40M) | Time:00:01.32 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0032.png'
+Time: 00:01.38 (Saving: 00:00.05)
+
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:00.44 | Rendering 1 / 64 samples
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:01.32 | Rendering 25 / 64 samples
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:01.35 | Rendering 50 / 64 samples
+Fra:32 Mem:120.30M (Peak 123.46M) | Time:00:01.37 | Rendering 64 / 64 samples
+Fra:32 Mem:88.26M (Peak 133.40M) | Time:00:01.39 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0032.png'
+Time: 00:01.43 (Saving: 00:00.03)
+
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:00.39 | Rendering 1 / 64 samples
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:01.24 | Rendering 25 / 64 samples
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:02.26 | Rendering 50 / 64 samples
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:02.86 | Rendering 64 / 64 samples
+Fra:42 Mem:88.26M (Peak 133.40M) | Time:00:02.96 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0042.png'
+Time: 00:02.99 (Saving: 00:00.02)
+
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:00.42 | Rendering 1 / 64 samples
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:01.29 | Rendering 25 / 64 samples
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:01.73 | Rendering 50 / 64 samples
+Fra:42 Mem:120.30M (Peak 123.46M) | Time:00:01.75 | Rendering 64 / 64 samples
+Fra:42 Mem:88.26M (Peak 133.40M) | Time:00:01.77 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0042.png'
+Time: 00:01.80 (Saving: 00:00.03)
+
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:00.42 | Rendering 1 / 64 samples
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:01.34 | Rendering 25 / 64 samples
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:01.37 | Rendering 50 / 64 samples
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:01.39 | Rendering 64 / 64 samples
+Fra:50 Mem:88.26M (Peak 133.40M) | Time:00:01.41 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0050.png'
+Time: 00:01.52 (Saving: 00:00.10)
+
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:00.40 | Rendering 1 / 64 samples
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:01.12 | Rendering 25 / 64 samples
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:01.70 | Rendering 50 / 64 samples
+Fra:50 Mem:120.30M (Peak 123.46M) | Time:00:02.05 | Rendering 64 / 64 samples
+Fra:50 Mem:88.26M (Peak 133.40M) | Time:00:02.15 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0050.png'
+Time: 00:02.18 (Saving: 00:00.02)
+
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:00.37 | Rendering 1 / 64 samples
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:00.98 | Rendering 25 / 64 samples
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:01.64 | Rendering 50 / 64 samples
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:02.01 | Rendering 64 / 64 samples
+Fra:56 Mem:88.26M (Peak 133.40M) | Time:00:02.03 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0056.png'
+Time: 00:02.07 (Saving: 00:00.03)
+
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:00.40 | Rendering 1 / 64 samples
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:01.09 | Rendering 25 / 64 samples
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:01.13 | Rendering 50 / 64 samples
+Fra:56 Mem:120.30M (Peak 123.46M) | Time:00:01.14 | Rendering 64 / 64 samples
+Fra:56 Mem:88.26M (Peak 133.40M) | Time:00:01.16 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0056.png'
+Time: 00:01.20 (Saving: 00:00.03)
+
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:00.42 | Rendering 1 / 64 samples
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:01.44 | Rendering 25 / 64 samples
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:02.27 | Rendering 50 / 64 samples
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:02.82 | Rendering 64 / 64 samples
+Fra:58 Mem:88.26M (Peak 133.40M) | Time:00:02.88 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0058.png'
+Time: 00:02.93 (Saving: 00:00.05)
+
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:00.44 | Rendering 1 / 64 samples
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:01.34 | Rendering 25 / 64 samples
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:01.64 | Rendering 50 / 64 samples
+Fra:58 Mem:120.30M (Peak 123.46M) | Time:00:01.66 | Rendering 64 / 64 samples
+Fra:58 Mem:88.26M (Peak 133.40M) | Time:00:01.68 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0058.png'
+Time: 00:01.72 (Saving: 00:00.03)
+
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:00.44 | Rendering 1 / 64 samples
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:01.35 | Rendering 25 / 64 samples
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:01.38 | Rendering 50 / 64 samples
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:01.40 | Rendering 64 / 64 samples
+Fra:60 Mem:88.26M (Peak 133.40M) | Time:00:01.42 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0060.png'
+Time: 00:01.46 (Saving: 00:00.03)
+
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:00.38 | Rendering 1 / 64 samples
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:01.16 | Rendering 25 / 64 samples
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:01.98 | Rendering 50 / 64 samples
+Fra:60 Mem:120.30M (Peak 123.46M) | Time:00:02.35 | Rendering 64 / 64 samples
+Fra:60 Mem:88.26M (Peak 133.40M) | Time:00:02.44 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0060.png'
+Time: 00:02.48 (Saving: 00:00.03)
+
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:00.39 | Rendering 1 / 64 samples
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:01.17 | Rendering 25 / 64 samples
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:01.88 | Rendering 50 / 64 samples
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:01.89 | Rendering 64 / 64 samples
+Fra:62 Mem:88.26M (Peak 133.40M) | Time:00:01.91 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0062.png'
+Time: 00:01.95 (Saving: 00:00.03)
+
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:00.37 | Rendering 1 / 64 samples
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:01.15 | Rendering 25 / 64 samples
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:01.26 | Rendering 50 / 64 samples
+Fra:62 Mem:120.30M (Peak 123.46M) | Time:00:01.28 | Rendering 64 / 64 samples
+Fra:62 Mem:88.26M (Peak 133.40M) | Time:00:01.30 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0062.png'
+Time: 00:01.34 (Saving: 00:00.03)
+
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:00.33 | Rendering 1 / 64 samples
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:01.10 | Rendering 25 / 64 samples
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:01.91 | Rendering 50 / 64 samples
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:02.30 | Rendering 64 / 64 samples
+Fra:70 Mem:88.26M (Peak 133.40M) | Time:00:02.38 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0070.png'
+Time: 00:02.42 (Saving: 00:00.03)
+
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:00.40 | Rendering 1 / 64 samples
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:01.25 | Rendering 25 / 64 samples
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:02.04 | Rendering 50 / 64 samples
+Fra:70 Mem:120.30M (Peak 123.46M) | Time:00:02.06 | Rendering 64 / 64 samples
+Fra:70 Mem:88.26M (Peak 133.40M) | Time:00:02.08 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0070.png'
+Time: 00:02.12 (Saving: 00:00.03)
+
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:00.37 | Rendering 1 / 64 samples
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:01.06 | Rendering 25 / 64 samples
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:01.25 | Rendering 50 / 64 samples
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:01.27 | Rendering 64 / 64 samples
+Fra:78 Mem:88.26M (Peak 133.40M) | Time:00:01.29 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0078.png'
+Time: 00:01.34 (Saving: 00:00.04)
+
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:00.39 | Rendering 1 / 64 samples
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:01.38 | Rendering 25 / 64 samples
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:02.31 | Rendering 50 / 64 samples
+Fra:78 Mem:120.30M (Peak 123.46M) | Time:00:02.86 | Rendering 64 / 64 samples
+Fra:78 Mem:88.26M (Peak 133.40M) | Time:00:02.95 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0078.png'
+Time: 00:03.00 (Saving: 00:00.03)
+
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:00.40 | Rendering 1 / 64 samples
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:01.32 | Rendering 25 / 64 samples
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:01.53 | Rendering 50 / 64 samples
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:01.55 | Rendering 64 / 64 samples
+Fra:96 Mem:88.26M (Peak 133.40M) | Time:00:01.57 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0096.png'
+Time: 00:01.61 (Saving: 00:00.03)
+
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:00.44 | Rendering 1 / 64 samples
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:01.36 | Rendering 25 / 64 samples
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:01.39 | Rendering 50 / 64 samples
+Fra:96 Mem:120.30M (Peak 123.46M) | Time:00:01.41 | Rendering 64 / 64 samples
+Fra:96 Mem:88.26M (Peak 133.40M) | Time:00:01.43 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0096.png'
+Time: 00:01.48 (Saving: 00:00.04)
+
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:00.36 | Rendering 1 / 64 samples
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:01.18 | Rendering 25 / 64 samples
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:02.02 | Rendering 50 / 64 samples
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:02.52 | Rendering 64 / 64 samples
+Fra:120 Mem:88.26M (Peak 133.40M) | Time:00:02.61 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_side_f0120.png'
+Time: 00:02.65 (Saving: 00:00.03)
+
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:00.42 | Rendering 1 / 64 samples
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:01.38 | Rendering 25 / 64 samples
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:02.00 | Rendering 50 / 64 samples
+Fra:120 Mem:120.30M (Peak 123.46M) | Time:00:02.02 | Rendering 64 / 64 samples
+Fra:120 Mem:88.26M (Peak 133.40M) | Time:00:02.04 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\spawnfoot_front_f0120.png'
+Time: 00:02.08 (Saving: 00:00.03)
+
+
+E04_DONE failed=['ground_contact_ok', 'leg_reach_ok', 'spawn_airborne_ok', 'spawn_crouch_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok', 'spawn_matrix_step_ok'] non_ok=['ground_contact_ok', 'leg_reach_ok', 'no_teleport', 'spawn_airborne_ok', 'spawn_crouch_ok', 'spawn_foot_lock_phased_ok', 'spawn_land_sink_ok', 'spawn_matrix_step_ok']
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

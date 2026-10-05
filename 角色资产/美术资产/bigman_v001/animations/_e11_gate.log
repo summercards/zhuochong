@@ -1,0 +1,129 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+E11_TRACE f=  0 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-4.80(Hair_Mass) head=157.8
+E11_TRACE f=  1 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=160.1
+E11_TRACE f=  2 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=162.4
+E11_TRACE f=  3 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=164.6
+E11_TRACE f=  4 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=166.9
+E11_TRACE f=  5 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=169.2
+E11_TRACE f=  6 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=171.5
+E11_TRACE f=  7 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=173.8
+E11_TRACE f=  8 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=176.0
+E11_TRACE f=  9 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=178.3
+E11_TRACE f= 10 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=180.6
+E11_TRACE f= 11 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=182.9
+E11_TRACE f= 12 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=185.2
+E11_TRACE f= 13 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=187.4
+E11_TRACE f= 14 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=189.7
+E11_TRACE f= 15 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=192.0
+E11_TRACE f= 16 py=+0.640 pz=0.141 rx=-86.0 kneeL=140.5 kneeR=140.5 ankL=113.9 ankR=113.9 low=-0.52(Shoe_Sole_L) head=194.3
+E11_TRACE f= 17 py=+0.637 pz=0.143 rx=-83.9 kneeL=166.9 kneeR=144.7 ankL=113.7 ankR=113.5 low=-1.02(Shoe_Sole_L) head=225.4
+E11_TRACE f= 18 py=+0.634 pz=0.145 rx=-81.9 kneeL=182.6 kneeR=149.0 ankL=113.5 ankR=113.1 low=-1.42(Shoe_Sole_R) head=256.4
+E11_TRACE f= 19 py=+0.631 pz=0.147 rx=-79.8 kneeL=195.0 kneeR=153.3 ankL=113.3 ankR=112.6 low=-1.90(Shoe_Sole_R) head=287.1
+E11_TRACE f= 20 py=+0.627 pz=0.149 rx=-77.7 kneeL=205.5 kneeR=157.5 ankL=113.1 ankR=112.2 low=-2.39(Shoe_Sole_R) head=317.6
+E11_TRACE f= 21 py=+0.624 pz=0.151 rx=-75.6 kneeL=214.9 kneeR=161.7 ankL=112.9 ankR=111.8 low=-2.87(Shoe_Sole_R) head=347.7
+E11_TRACE f= 22 py=+0.621 pz=0.153 rx=-73.6 kneeL=223.4 kneeR=166.0 ankL=112.7 ankR=111.4 low=-3.33(Shoe_Sole_R) head=377.4
+E11_TRACE f= 23 py=+0.618 pz=0.155 rx=-71.5 kneeL=231.3 kneeR=170.2 ankL=112.4 ankR=110.9 low=-3.79(Shoe_Sole_R) head=406.7
+E11_TRACE f= 24 py=+0.615 pz=0.158 rx=-69.4 kneeL=238.7 kneeR=174.5 ankL=112.2 ankR=110.5 low=-4.23(Shoe_Sole_R) head=435.4
+E11_TRACE f= 25 py=+0.612 pz=0.160 rx=-67.4 kneeL=245.6 kneeR=178.8 ankL=112.0 ankR=110.1 low=-4.66(Shoe_Sole_R) head=463.6
+E11_TRACE f= 26 py=+0.609 pz=0.162 rx=-65.3 kneeL=252.2 kneeR=183.0 ankL=111.8 ankR=109.7 low=-5.07(Shoe_Sole_R) head=491.2
+E11_TRACE f= 27 py=+0.605 pz=0.164 rx=-63.2 kneeL=258.5 kneeR=187.3 ankL=111.6 ankR=109.3 low=-5.47(Shoe_Sole_R) head=518.1
+E11_TRACE f= 28 py=+0.602 pz=0.166 rx=-61.1 kneeL=264.5 kneeR=191.5 ankL=111.4 ankR=108.8 low=-5.85(Shoe_Sole_R) head=544.3
+E11_TRACE f= 29 py=+0.599 pz=0.168 rx=-59.1 kneeL=270.3 kneeR=195.8 ankL=111.2 ankR=108.4 low=-6.21(Shoe_Sole_R) head=569.7
+E11_TRACE f= 30 py=+0.596 pz=0.170 rx=-57.0 kneeL=275.8 kneeR=200.0 ankL=111.0 ankR=108.0 low=-6.55(Shoe_Sole_R) head=594.2
+E11_TRACE f= 31 py=+0.591 pz=0.173 rx=-54.8 kneeL=284.4 kneeR=197.1 ankL=110.6 ankR=107.7 low=-6.76(Shoe_Sole_R) head=620.2
+E11_TRACE f= 32 py=+0.585 pz=0.177 rx=-52.6 kneeL=292.6 kneeR=194.3 ankL=110.1 ankR=107.4 low=-6.95(Shoe_Sole_R) head=645.2
+E11_TRACE f= 33 py=+0.580 pz=0.180 rx=-50.4 kneeL=300.4 kneeR=191.4 ankL=109.7 ankR=107.1 low=-7.11(Shoe_Sole_R) head=669.2
+E11_TRACE f= 34 py=+0.574 pz=0.184 rx=-48.1 kneeL=307.9 kneeR=188.6 ankL=109.3 ankR=106.9 low=-7.25(Shoe_Sole_R) head=692.1
+E11_TRACE f= 35 py=+0.569 pz=0.187 rx=-45.9 kneeL=315.0 kneeR=185.7 ankL=108.9 ankR=106.6 low=-7.36(Shoe_Sole_R) head=713.8
+E11_TRACE f= 36 py=+0.563 pz=0.191 rx=-43.7 kneeL=321.8 kneeR=182.9 ankL=108.4 ankR=106.3 low=-7.57(Shoe_Sole_R) head=734.5
+E11_TRACE f= 37 py=+0.558 pz=0.194 rx=-41.5 kneeL=328.4 kneeR=180.0 ankL=108.0 ankR=106.0 low=-7.75(Shoe_Sole_R) head=753.9
+E11_TRACE f= 38 py=+0.553 pz=0.197 rx=-39.3 kneeL=334.7 kneeR=177.1 ankL=107.6 ankR=105.7 low=-7.91(Shoe_Sole_R) head=772.1
+E11_TRACE f= 39 py=+0.547 pz=0.201 rx=-37.1 kneeL=340.8 kneeR=174.3 ankL=107.1 ankR=105.4 low=-8.06(Shoe_Sole_R) head=789.1
+E11_TRACE f= 40 py=+0.542 pz=0.204 rx=-34.9 kneeL=346.6 kneeR=171.4 ankL=106.7 ankR=105.1 low=-8.21(Shoe_Sole_R) head=804.8
+E11_TRACE f= 41 py=+0.536 pz=0.208 rx=-32.6 kneeL=352.3 kneeR=168.6 ankL=106.3 ankR=104.9 low=-8.33(Shoe_Sole_R) head=819.1
+E11_TRACE f= 42 py=+0.531 pz=0.211 rx=-30.4 kneeL=357.7 kneeR=165.7 ankL=105.9 ankR=104.6 low=-8.41(Shoe_Sole_R) head=832.2
+E11_TRACE f= 43 py=+0.525 pz=0.215 rx=-28.2 kneeL=363.0 kneeR=162.9 ankL=105.4 ankR=104.3 low=-8.46(Shoe_Sole_R) head=843.9
+E11_TRACE f= 44 py=+0.520 pz=0.218 rx=-26.0 kneeL=368.1 kneeR=160.0 ankL=105.0 ankR=104.0 low=-8.48(Shoe_Sole_R) head=854.2
+E11_TRACE f= 45 py=+0.514 pz=0.224 rx=-23.7 kneeL=373.9 kneeR=156.3 ankL=103.8 ankR=104.5 low=-7.67(Shoe_Sole_R) head=865.6
+E11_TRACE f= 46 py=+0.507 pz=0.230 rx=-21.4 kneeL=379.5 kneeR=152.5 ankL=102.6 ankR=105.0 low=-6.84(Shoe_Sole_R) head=875.7
+E11_TRACE f= 47 py=+0.501 pz=0.236 rx=-19.1 kneeL=384.8 kneeR=148.7 ankL=101.4 ankR=105.5 low=-6.05(Shoe_Sole_R) head=884.5
+E11_TRACE f= 48 py=+0.494 pz=0.241 rx=-16.9 kneeL=389.8 kneeR=145.0 ankL=100.1 ankR=106.0 low=-5.25(Shoe_Sole_R) head=892.0
+E11_TRACE f= 49 py=+0.488 pz=0.247 rx=-14.6 kneeL=394.5 kneeR=141.3 ankL=98.9 ankR=106.5 low=-4.44(Shoe_Sole_R) head=898.3
+E11_TRACE f= 50 py=+0.481 pz=0.253 rx=-12.3 kneeL=399.0 kneeR=137.5 ankL=97.7 ankR=107.0 low=-5.32(Shoe_Sole_R) head=903.2
+E11_TRACE f= 51 py=+0.475 pz=0.259 rx=-10.0 kneeL=403.2 kneeR=133.8 ankL=96.5 ankR=107.5 low=-9.64(Shoe_Sole_R) head=906.8
+E11_TRACE f= 52 py=+0.469 pz=0.265 rx= -7.7 kneeL=407.1 kneeR=130.0 ankL=95.3 ankR=108.0 low=-14.26(Shoe_Sole_R) head=909.1
+E11_TRACE f= 53 py=+0.462 pz=0.271 rx= -5.4 kneeL=410.7 kneeR=128.1 ankL=94.1 ankR=109.3 low=-18.89(Shoe_Sole_R) head=910.2
+E11_TRACE f= 54 py=+0.456 pz=0.277 rx= -3.1 kneeL=414.1 kneeR=126.3 ankL=92.9 ankR=110.5 low=-23.38(Shoe_Sole_R) head=910.0
+E11_TRACE f= 55 py=+0.449 pz=0.282 rx= -0.9 kneeL=417.1 kneeR=124.4 ankL=91.6 ankR=111.8 low=-27.70(Shoe_Sole_R) head=908.5
+E11_TRACE f= 56 py=+0.443 pz=0.288 rx= +1.4 kneeL=419.7 kneeR=122.5 ankL=90.4 ankR=113.0 low=-31.85(Shoe_Sole_R) head=905.8
+E11_TRACE f= 57 py=+0.436 pz=0.294 rx= +3.7 kneeL=422.0 kneeR=120.6 ankL=89.2 ankR=114.3 low=-35.81(Shoe_Sole_R) head=901.9
+E11_TRACE f= 58 py=+0.430 pz=0.300 rx= +6.0 kneeL=423.9 kneeR=118.8 ankL=88.0 ankR=115.5 low=-39.76(Shoe_Sole_R) head=896.8
+E11_TRACE f= 59 py=+0.422 pz=0.308 rx= +7.6 kneeL=430.0 kneeR=116.9 ankL=87.6 ankR=116.7 low=-43.70(Shoe_Sole_R) head=899.6
+E11_TRACE f= 60 py=+0.414 pz=0.317 rx= +9.1 kneeL=435.7 kneeR=115.0 ankL=87.1 ankR=118.0 low=-47.45(Shoe_Sole_R) head=902.1
+E11_TRACE f= 61 py=+0.406 pz=0.325 rx=+10.7 kneeL=441.1 kneeR=114.6 ankL=86.7 ankR=119.5 low=-48.96(Shoe_Sole_R) head=904.3
+E11_TRACE f= 62 py=+0.398 pz=0.334 rx=+12.3 kneeL=446.1 kneeR=114.2 ankL=86.3 ankR=121.0 low=-50.38(Shoe_Sole_R) head=906.1
+E11_TRACE f= 63 py=+0.390 pz=0.342 rx=+13.9 kneeL=450.8 kneeR=113.9 ankL=85.9 ankR=122.5 low=-51.71(Shoe_Sole_R) head=907.6
+E11_TRACE f= 64 py=+0.382 pz=0.351 rx=+15.4 kneeL=455.1 kneeR=113.5 ankL=85.4 ankR=124.0 low=-52.96(Shoe_Sole_R) head=908.8
+E11_TRACE f= 65 py=+0.374 pz=0.359 rx=+17.0 kneeL=459.2 kneeR=113.1 ankL=85.0 ankR=125.5 low=-54.11(Shoe_Sole_R) head=909.6
+E11_TRACE f= 66 py=+0.366 pz=0.367 rx=+18.6 kneeL=462.9 kneeR=112.7 ankL=84.6 ankR=127.0 low=-55.18(Shoe_Sole_R) head=910.1
+E11_TRACE f= 67 py=+0.358 pz=0.376 rx=+20.1 kneeL=466.3 kneeR=112.4 ankL=84.1 ankR=128.5 low=-56.14(Shoe_Sole_R) head=910.2
+E11_TRACE f= 68 py=+0.350 pz=0.384 rx=+21.7 kneeL=469.4 kneeR=112.0 ankL=83.7 ankR=130.0 low=-57.01(Shoe_Sole_R) head=910.1
+E11_TRACE f= 69 py=+0.342 pz=0.393 rx=+23.3 kneeL=472.2 kneeR=111.5 ankL=83.3 ankR=130.2 low=-57.66(Shoe_Sole_R) head=909.6
+E11_TRACE f= 70 py=+0.334 pz=0.401 rx=+24.9 kneeL=474.7 kneeR=111.0 ankL=82.9 ankR=130.5 low=-58.30(Shoe_Sole_R) head=908.8
+E11_TRACE f= 71 py=+0.326 pz=0.410 rx=+26.4 kneeL=477.0 kneeR=110.5 ankL=82.4 ankR=130.7 low=-58.91(Shoe_Sole_R) head=907.8
+E11_TRACE f= 72 py=+0.318 pz=0.418 rx=+28.0 kneeL=479.0 kneeR=110.0 ankL=82.0 ankR=131.0 low=-59.50(Shoe_Sole_R) head=906.4
+E11_TRACE f= 73 py=+0.318 pz=0.418 rx=+28.0 kneeL=479.0 kneeR=110.0 ankL=82.0 ankR=131.0 low=-59.50(Shoe_Sole_R) head=906.4
+E11_TRACE f= 74 py=+0.318 pz=0.418 rx=+28.0 kneeL=479.0 kneeR=110.0 ankL=82.0 ankR=131.0 low=-59.50(Shoe_Sole_R) head=906.4
+E11_TRACE f= 75 py=+0.318 pz=0.418 rx=+28.0 kneeL=479.0 kneeR=110.0 ankL=82.0 ankR=131.0 low=-59.50(Shoe_Sole_R) head=906.4
+E11_TRACE f= 76 py=+0.318 pz=0.418 rx=+28.0 kneeL=479.0 kneeR=110.0 ankL=82.0 ankR=131.0 low=-59.50(Shoe_Sole_R) head=906.4
+E11_TRACE f= 77 py=+0.307 pz=0.432 rx=+27.2 kneeL=481.7 kneeR=121.2 ankL=81.7 ankR=130.0 low=-62.51(Shoe_Sole_R) head=929.0
+E11_TRACE f= 78 py=+0.297 pz=0.446 rx=+26.5 kneeL=483.9 kneeR=132.5 ankL=81.6 ankR=128.0 low=-62.96(Shoe_Sole_R) head=951.3
+E11_TRACE f= 79 py=+0.286 pz=0.460 rx=+25.8 kneeL=485.7 kneeR=143.8 ankL=81.5 ankR=126.0 low=-63.36(Shoe_Sole_R) head=973.5
+E11_TRACE f= 80 py=+0.276 pz=0.473 rx=+25.0 kneeL=487.2 kneeR=155.0 ankL=81.4 ankR=124.0 low=-63.71(Shoe_Sole_R) head=995.4
+E11_TRACE f= 81 py=+0.266 pz=0.487 rx=+24.2 kneeL=488.3 kneeR=166.2 ankL=81.4 ankR=122.0 low=-64.02(Shoe_Sole_R) head=1017.2
+E11_TRACE f= 82 py=+0.255 pz=0.501 rx=+23.5 kneeL=489.0 kneeR=177.5 ankL=81.3 ankR=120.0 low=-64.29(Shoe_Sole_R) head=1038.7
+E11_TRACE f= 83 py=+0.244 pz=0.515 rx=+22.8 kneeL=489.5 kneeR=188.7 ankL=81.2 ankR=118.0 low=-64.52(Shoe_Sole_R) head=1060.1
+E11_TRACE f= 84 py=+0.234 pz=0.529 rx=+22.0 kneeL=489.6 kneeR=200.0 ankL=81.2 ankR=116.0 low=-64.70(Shoe_Sole_R) head=1081.2
+E11_TRACE f= 85 py=+0.224 pz=0.543 rx=+21.2 kneeL=489.6 kneeR=215.0 ankL=81.1 ankR=114.0 low=-64.84(Shoe_Sole_R) head=1102.1
+E11_TRACE f= 86 py=+0.213 pz=0.557 rx=+20.5 kneeL=489.4 kneeR=230.0 ankL=81.0 ankR=112.0 low=-64.94(Shoe_Sole_R) head=1122.8
+E11_TRACE f= 87 py=+0.203 pz=0.571 rx=+19.8 kneeL=489.1 kneeR=245.0 ankL=81.0 ankR=110.0 low=-65.00(Shoe_Sole_R) head=1143.3
+E11_TRACE f= 88 py=+0.192 pz=0.585 rx=+19.0 kneeL=488.6 kneeR=260.0 ankL=80.9 ankR=108.0 low=-65.02(Shoe_Sole_R) head=1163.6
+E11_TRACE f= 89 py=+0.181 pz=0.598 rx=+18.2 kneeL=488.0 kneeR=275.0 ankL=80.8 ankR=106.0 low=-64.99(Shoe_Sole_R) head=1183.6
+E11_TRACE f= 90 py=+0.171 pz=0.612 rx=+17.5 kneeL=487.4 kneeR=290.0 ankL=80.7 ankR=104.0 low=-64.93(Shoe_Sole_R) head=1203.4
+E11_TRACE f= 91 py=+0.161 pz=0.626 rx=+16.8 kneeL=486.8 kneeR=305.0 ankL=80.7 ankR=102.0 low=-64.83(Shoe_Sole_R) head=1223.0
+E11_TRACE f= 92 py=+0.150 pz=0.640 rx=+16.0 kneeL=486.1 kneeR=320.0 ankL=80.6 ankR=100.0 low=-64.69(Shoe_Sole_R) head=1242.3
+E11_TRACE f= 93 py=+0.137 pz=0.656 rx=+15.0 kneeL=485.4 kneeR=329.0 ankL=80.5 ankR=98.3 low=-60.04(Shoe_Sole_R) head=1264.8
+E11_TRACE f= 94 py=+0.125 pz=0.672 rx=+14.0 kneeL=484.7 kneeR=338.1 ankL=80.5 ankR=96.6 low=-55.09(Shoe_Sole_R) head=1287.0
+E11_TRACE f= 95 py=+0.112 pz=0.688 rx=+13.0 kneeL=484.1 kneeR=347.1 ankL=80.4 ankR=95.0 low=-49.85(Shoe_Sole_R) head=1308.7
+E11_TRACE f= 96 py=+0.100 pz=0.703 rx=+12.0 kneeL=483.7 kneeR=356.1 ankL=80.3 ankR=93.3 low=-44.34(Shoe_Sole_R) head=1330.1
+E11_TRACE f= 97 py=+0.087 pz=0.719 rx=+11.0 kneeL=483.4 kneeR=365.2 ankL=80.3 ankR=91.6 low=-38.75(Shoe_Sole_R) head=1351.0
+E11_TRACE f= 98 py=+0.075 pz=0.735 rx=+10.0 kneeL=483.3 kneeR=374.2 ankL=80.2 ankR=89.9 low=-32.95(Shoe_Sole_R) head=1371.5
+E11_TRACE f= 99 py=+0.062 pz=0.751 rx= +9.0 kneeL=483.4 kneeR=383.2 ankL=80.1 ankR=88.2 low=-26.92(Shoe_Sole_R) head=1391.6
+E11_TRACE f=100 py=+0.050 pz=0.767 rx= +8.0 kneeL=483.7 kneeR=392.3 ankL=80.0 ankR=86.6 low=-20.67(Shoe_Sole_R) head=1411.2
+E11_TRACE f=101 py=+0.038 pz=0.782 rx= +7.0 kneeL=484.2 kneeR=401.3 ankL=80.0 ankR=84.9 low=-14.23(Shoe_Sole_R) head=1430.4
+E11_TRACE f=102 py=+0.025 pz=0.798 rx= +6.0 kneeL=485.0 kneeR=410.3 ankL=79.9 ankR=83.2 low=-8.16(Shoe_Sole_R) head=1449.2
+E11_TRACE f=103 py=+0.013 pz=0.814 rx= +5.0 kneeL=486.0 kneeR=419.4 ankL=79.8 ankR=81.5 low=-2.32(Shoe_Sole_R) head=1467.6
+E11_TRACE f=104 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=105 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=106 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=107 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=108 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=109 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=110 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=111 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=112 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=113 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=114 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=115 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=116 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=117 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=118 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=119 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.2 kneeR=428.4 ankL=79.8 ankR=79.8 low=-1.62(Shoe_Sole_R) head=1485.5
+E11_TRACE f=120 py=+0.000 pz=0.830 rx= +4.0 kneeL=487.1 kneeR=428.3 ankL=79.8 ankR=79.8 low=-0.96(Shoe_Sole_R) head=1485.5
+E11_REPORT {"loop_seamless": null, "ground_min_mm": -65.02, "max_frame_step_deg": 101.741, "max_frame_step_at": [64, "foot.R"], "no_teleport": false, "bone_travel_mm": {"pelvis": 940.38, "chest": 1455.62, "head": 1907.0, "hand.L": 1795.57, "hand.R": 1803.71}, "rvw_common_ground_contact_raw": false, "rvw_common_ground_contact_note": "★ 原读数（鞋底口径 `ground_contact_ok`）= False，**本支置空**：起点是仰卧（支撑面 = 背/头）。替代判据 = `rvw_body_band_ok`（全程全身最低件）+ `rvw_sole_ground_ok`（**仅站姿窗**启用鞋底带）。", "rvw_rigor_sternum_mm": 15.602, "rvw_rigor_break_ok": true, "rvw_rigor_note": "★★★ **本支新判据**（清单 E11 §1 风险 3）：「复活」与「尸体」的差别**就是**「僵直被打破」。载体 = 与 E10 `dth_zero_motion_ok` **完全同一根探针**（胸骨顶 `neck` = chest.tail 世界 z），窗口 = 起步窗 `[0, 16]`。E10 在尸僵窗实测 **0.0000 mm**；本支同探针实测 **15.6020 mm**（判据 ≥ 3.0 mm）。★ 守卫 = `E11_TP_NORIGOR=1`（把起步窗抹平）⟹ 必须见红。", "rvw_phase_a_head_mm": 659.93, "rvw_phase_a_hip_mm": 77.0, "rvw_phase_a_ok": true, "rvw_phase_a_note": "★ 撑起段 `[16, 44]`：头世界 z 必须上升 **120 ~ 900 mm**（上界防「一次跳到站姿」），骨盆 z ≥ 10 mm（下界防「只抬手不抬身」）。实测头 659.93 / 髋 77.00。", "rvw_phase_b_hip_mm": 200.0, "rvw_phase_b_knee_drop_mm": 250.0, "rvw_phase_b_ok": true, "rvw_phase_b_note": "★ 收腿段 `[44, 72]`：骨盆 z 上升 ≥ 80 mm **且** 右膝**相对髋**下降 ≥ 60 mm（膝往地上去，这才是「跪下去」而不是「躺平被抬起来」）。实测髋 +200.00 / 膝相对髋降 250.00。守卫 = `E11_TP_NOKNEEL=1`。", "rvw_phase_c_hip_mm": 412.0, "rvw_phase_c_head_mm": 579.08, "rvw_phase_c_rise_ok": true, "rvw_phase_c_note": "★ 站起段 `[76, 104]`：骨盆 z 上升 ≥ 350 mm、头上升 ≥ 550 mm。实测髋 +412.00 / 头 +579.08。守卫 = `E11_TP_NOLIFT=1`（骨盆封在低位）。", "rvw_phase_d_hip_mm": 0.0, "rvw_phase_d_settle_ok": true, "rvw_phase_d_note": "★ 收势段 `[104, 120]`：这一段是「站稳后的余势」⟹ 骨盆位移必须**小**（≤ 25 mm），否则读成「还在往上跳」。实测 0.00 mm。", "rvw_hk_down_knee_mm": 110.0, "rvw_hk_up_knee_mm": 478.96, "rvw_hk_gap_mm": 368.96, "rvw_halfkneel_ok": true, "rvw_halfkneel_note": "★★ 清单 §2 的「半跪」：**一膝着地 + 一膝高抬**。载体 = f74 两侧膝世界 z（低的那侧 ≤ 160 mm、高的那侧 ≥ 280 mm）。实测低 110.00 / 高 478.96（差 368.96）。守卫 = `E11_TP_NOKNEEL=1`（膝不落地）。", "rvw_plateau_worst_deg": 0.0, "rvw_plateau_ok": true, "rvw_plateau_note": "★★ 清单 §0 第 3 条要求的**与 D18 的分界**：半跪处给 **4 帧完全停顿**（窗口 `[72, 76]` 逐帧姿态漂移 ≤ 0.01°）。实测最差 0.000000°。守卫 = `E11_TP_NOPLATEAU=1`（不冻结）。", "rvw_d18_closest_frame": 34, "rvw_d18_min_max_dir_deg": 131.669, "rvw_distinct_from_d18_ok": true, "rvw_distinct_note": "★★★ 清单 E11 §0 第 3 条：「与 D18 撞车」是本支**最大风险**。★ 开工探针实测 D18 也有 **22 帧**低膝段 ⟹「有膝地停顿」这条**分不开**它们，故改用**姿态分界**：把 E11 的半跪姿（f74）与 D18 **每一帧**做57 骨世界矩阵比对，要求**最近那一帧**也差 ≥ 15°。实测最近帧 = D18@34，差 **131.669°**（余量 8.8×）⟹ E11 经过一个 D18 从不经过的姿态。", "rvw_body_low_min_mm": -65.02, "rvw_body_low_max_mm": -0.52, "rvw_body_band_ok": false, "rvw_no_penetration_ok": false, "rvw_body_low_note": "★ 载体 = **全身最低件**（逐帧、全部网格）。带 [-8, 10] mm，下限 -8。实测最低 -65.02 / 最高 -0.52。★ 为什么不用通用 `ground_contact_ok`（鞋底口径）：本支起点是**仰卧**（支撑面是背/头），鞋底只是其中一件 —— 同 E10 先例**显式置空 + 换载体**。守卫 = `E11_TP_SINK=1`（整体下沉 60 mm）。", "rvw_knee_min_mm": 110.0, "rvw_knee_min_at": 72, "rvw_knee_path_ok": true, "rvw_limb_step_max_mm": 221.42, "rvw_limb_step_at": [221.42269978180477, 64, "knee.R"], "rvw_limb_step_ok": false, "rvw_limb_note": "★ 沿用 E09/E10 容差：膝 z ≥ 104.7 − 4.0 mm（实测最低 110.00 @f72）、膝/踝单帧世界位移 ≤ 60 mm（实测峰 221.42 @f64）。守卫 = `E11_TP_KNEEPLUNGE=1`（极点翻向下）/ `E11_TP_LIMBJUMP=1`（踝尖峰）。", "rvw_sole_ground_min_mm": -1.62, "rvw_sole_ground_max_mm": 1.06, "rvw_sole_ground_ok": true, "rvw_foot_slide_mm": {"toe.L": 0.0, "toe.R": 0.0}, "rvw_foot_slide_ok": true, "rvw_sole_note": "★★ 清单 §1 风险 5：本支**是站姿类终点** ⟹ 通用的「鞋底 −2 ~ +6 mm」`ground_contact_ok` **本支真的启用**（不像 E10 置空），但只在**站姿窗** `[104, 120]` 上量（起点仰卧时鞋底离地是设计意图）。实测鞋底 z ∈ [-1.62, 1.06]。★ 脚不许滑：窗口内 `toe.L/R` 世界位移 ≤ 3 mm，实测 {'toe.L': 0.0, 'toe.R': 0.0}。守卫 = `E11_TP_SLIDE=1`。", "rvw_chain": {"foot_mm": 105.732, "knee_deg": 146.788, "hip_mm": 940.383, "waist_deg": 10.0, "shoulder_mm": 1653.148, "hand_mm": 1906.708}, "rvw_chain_ok": true, "rvw_chain_note": "★ SOUL 硬约束：**脚→腿→髋→腰→肩→手**逐段都要有关键帧量。实测 {\"foot_mm\": 105.732, \"knee_deg\": 146.788, \"hip_mm\": 940.383, \"waist_deg\": 10.0, \"shoulder_mm\": 1653.148, \"hand_mm\": 1906.708}。", "rvw_stand_pelvis_mm": 830.0, "rvw_stand_head_mm": 1485.5, "rvw_stand_ok": true, "phase_markers": {"START": 0, "RIGOR_END": 16, "PROP_END": 44, "TUCK_END": 72, "HK_END": 76, "STAND": 104, "END": 120}, "rvw_seam_in_pos_mm": 0.0, "rvw_seam_in_dir_deg": 0.030159, "rvw_seam_in_at": "index_03.L", "rvw_seam_in_ok": true, "rvw_seam_in_note": "★★ 清单 §0 第 1 条：起点 = `Death@120` **逐位**（仰卧尸僵）。实测 pos 0.000000 mm / dir 0.030159°（容差 0.01 mm / 0.05°）。守卫 = `E11_TP_SEAM_ZERO=1`。", "rvw_seam_out_pos_mm": 0.0, "rvw_seam_out_dir_deg": 0.031181, "rvw_seam_out_at": "thumb_01.R", "rvw_seam_out_ok": true, "rvw_seam_out_note": "★★★ 清单 §0 第 2 条：终点 = `Idle_01@0` **逐位** —— **全链唯一一次首尾闭合**（用同一组参数 `IDLE.idle_pose(arm, 0.0)` 生成，不手调末帧）。实测 pos 0.000000 mm / dir 0.031181°（容差 0.01 mm / 0.05°）。守卫 = `E11_TP_ENDZERO=1`。", "no_snap_stop_step_deg": 26.368, "no_snap_stop_at": [120, "shin.R"], "no_snap_stop_ok": false, "rvw_hem_end_mm": 897.5, "rvw_hem_note": "★ 清单 §1 风险 6：`Jacket_Hem` / `Jacket_Hem_Line` 未蒙皮（E04 起登记）。本支**末段回到直立** ⟹ 浮片会自己回到腰上：末帧衣摆世界 z = **897.50 mm**（E10 尸体末帧它在身体上方 902 mm ⟹ 常驻穿帮）。直立姿下**不穿帮**，但**属性仍是上游缺陷**（待主人决策，见 E10 日志 §七）。", "meta": {"anim_id": "Revive", "loop": false, "category": "状态与战斗流程", "note": "复活：从 Death 末姿（仰卧尸僵）撑起 → 收腿半跪（4 帧停顿）→ 站起 → 收回 Idle_01@0。★ 全链唯一一次首尾闭合。", "frame_bound_note": "★ 沿用 E01 登记的 E 族上界 120 帧 / 2.0 s", "hitstop_frames": "none（非攻击动作 ⟹ 无命中帧；代之以半跪 4 帧停顿）", "seam_in": "Death@120（E10 末姿，逐位）", "seam_out": "Idle_01@0（A01 站架，逐位）", "half_kneel_frame": 74, "root_motion_m": [0.0, -0.64], "distinct_from": "D18 GetUp_B（姿态分界：半跪姿 vs D18 全帧 ≥15°）", "fps": 60, "frames": [0, 120]}, "failed": ["no_snap_stop_ok", "rvw_body_band_ok", "rvw_limb_step_ok", "rvw_no_penetration_ok"], "non_ok_bools": ["no_snap_stop_ok", "no_teleport", "rvw_body_band_ok", "rvw_common_ground_contact_raw", "rvw_limb_step_ok", "rvw_no_penetration_ok"]}
+E11_DONE failed=['no_snap_stop_ok', 'rvw_body_band_ok', 'rvw_limb_step_ok', 'rvw_no_penetration_ok'] non_ok=['no_snap_stop_ok', 'no_teleport', 'rvw_body_band_ok', 'rvw_common_ground_contact_raw', 'rvw_limb_step_ok', 'rvw_no_penetration_ok']
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

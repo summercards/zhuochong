@@ -1,0 +1,48 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+Fra:0 Mem:108.83M (Peak 112.02M) | Time:00:00.61 | Rendering 1 / 64 samples
+Fra:0 Mem:108.83M (Peak 112.02M) | Time:00:00.66 | Rendering 25 / 64 samples
+Fra:0 Mem:108.83M (Peak 112.02M) | Time:00:00.71 | Rendering 50 / 64 samples
+Fra:0 Mem:108.83M (Peak 112.02M) | Time:00:00.74 | Rendering 64 / 64 samples
+Fra:0 Mem:76.78M (Peak 117.64M) | Time:00:00.77 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\e03station_chestfront_f0000.png'
+Time: 00:00.83 (Saving: 00:00.05)
+
+Fra:0 Mem:110.89M (Peak 114.05M) | Time:00:00.26 | Rendering 1 / 64 samples
+Fra:0 Mem:110.89M (Peak 114.05M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:0 Mem:110.89M (Peak 114.05M) | Time:00:00.35 | Rendering 50 / 64 samples
+Fra:0 Mem:110.89M (Peak 114.05M) | Time:00:00.37 | Rendering 64 / 64 samples
+Fra:0 Mem:78.85M (Peak 119.71M) | Time:00:00.39 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\e03station_chest3q_f0000.png'
+Time: 00:00.43 (Saving: 00:00.03)
+
+Fra:0 Mem:110.90M (Peak 114.06M) | Time:00:00.23 | Rendering 1 / 64 samples
+Fra:0 Mem:110.90M (Peak 114.06M) | Time:00:00.27 | Rendering 25 / 64 samples
+Fra:0 Mem:110.90M (Peak 114.06M) | Time:00:00.32 | Rendering 50 / 64 samples
+Fra:0 Mem:110.90M (Peak 114.06M) | Time:00:00.34 | Rendering 64 / 64 samples
+Fra:0 Mem:78.85M (Peak 119.71M) | Time:00:00.36 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\e03station_chestside_f0000.png'
+Time: 00:00.40 (Saving: 00:00.03)
+
+Fra:0 Mem:99.81M (Peak 99.81M) | Time:00:00.12 | Rendering 1 / 64 samples
+Fra:0 Mem:99.81M (Peak 99.81M) | Time:00:00.14 | Rendering 25 / 64 samples
+Fra:0 Mem:99.81M (Peak 99.81M) | Time:00:00.17 | Rendering 50 / 64 samples
+Fra:0 Mem:99.81M (Peak 99.81M) | Time:00:00.18 | Rendering 64 / 64 samples
+Fra:0 Mem:70.05M (Peak 108.62M) | Time:00:00.20 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\e03station_hand_chestfront_f0000.png'
+Time: 00:00.23 (Saving: 00:00.02)
+
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.11 | Rendering 1 / 64 samples
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.13 | Rendering 25 / 64 samples
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.16 | Rendering 50 / 64 samples
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.17 | Rendering 64 / 64 samples
+Fra:0 Mem:70.05M (Peak 108.61M) | Time:00:00.19 | Compositing
+Saved: 'I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\previews\anim\e03station_hand3q_chest3q_f0000.png'
+Time: 00:00.22 (Saving: 00:00.02)
+
+E03_STATION {"tag": "real Idle_01 @0", "sides": {"L": {"inside_parity": 6, "n": 2652, "palm_min_mm": 29.3, "thumb_min_mm": 1.04, "all_min_mm": 1.04, "all_min_at": "Thumb_L", "all_min_xyz": [0.0982, -0.2175, 1.2753], "by_part": {"fingers": [1, 1928], "palm": [5, 434], "thumb": [0, 290]}}, "R": {"inside_parity": 294, "n": 2652, "palm_min_mm": -4.05, "thumb_min_mm": -34.19, "all_min_mm": -34.19, "all_min_at": "Thumb_R", "all_min_xyz": [-0.0946, -0.1787, 1.2933], "by_part": {"fingers": [0, 1928], "palm": [14, 434], "thumb": [280, 290]}}}}
+E03_STATION {"tag": "rage_pose(0) rebuild", "sides": {"L": {"inside_parity": 6, "n": 2652, "palm_min_mm": 29.3, "thumb_min_mm": 1.04, "all_min_mm": 1.04, "all_min_at": "Thumb_L", "all_min_xyz": [0.0982, -0.2175, 1.2753], "by_part": {"fingers": [1, 1928], "palm": [5, 434], "thumb": [0, 290]}}, "R": {"inside_parity": 294, "n": 2652, "palm_min_mm": -4.05, "thumb_min_mm": -34.19, "all_min_mm": -34.19, "all_min_at": "Thumb_R", "all_min_xyz": [-0.0946, -0.1787, 1.2933], "by_part": {"fingers": [0, 1928], "palm": [14, 434], "thumb": [280, 290]}}}}
+E03_STATION_DONE
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

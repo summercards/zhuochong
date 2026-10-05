@@ -1,0 +1,44 @@
+C12_POSE {"key": "d085_s30_z80_t04_04", "aspect": 0.4063, "aspect_ratio": 1.2125, "fill": 0.5152, "fill_ratio": 0.8687, "sh_over_h": 0.1762, "headoff_mm": 0.0, "sole_mm": -1.2, "com_in": true}
+C12_POSE {"key": "d085_s30_z80_t08_10", "aspect": 0.4187, "aspect_ratio": 1.2495, "fill": 0.5128, "fill_ratio": 0.8646, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.17, "com_in": true}
+C12_POSE {"key": "d085_s30_z92_t04_04", "aspect": 0.3945, "aspect_ratio": 1.1773, "fill": 0.5311, "fill_ratio": 0.8955, "sh_over_h": 0.1762, "headoff_mm": 0.0, "sole_mm": -1.2, "com_in": true}
+C12_POSE {"key": "d085_s30_z92_t08_10", "aspect": 0.4068, "aspect_ratio": 1.214, "fill": 0.5272, "fill_ratio": 0.8889, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.17, "com_in": true}
+C12_POSE {"key": "d085_s40_z80_t04_04", "aspect": 0.4411, "aspect_ratio": 1.3163, "fill": 0.4771, "fill_ratio": 0.8044, "sh_over_h": 0.1762, "headoff_mm": 0.0, "sole_mm": -1.2, "com_in": true}
+C12_POSE {"key": "d085_s40_z80_t08_10", "aspect": 0.4559, "aspect_ratio": 1.3605, "fill": 0.4739, "fill_ratio": 0.799, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.17, "com_in": true}
+C12_POSE {"key": "d085_s40_z92_t04_04", "aspect": 0.4268, "aspect_ratio": 1.2736, "fill": 0.4921, "fill_ratio": 0.8297, "sh_over_h": 0.1762, "headoff_mm": 0.0, "sole_mm": -1.2, "com_in": true}
+C12_POSE {"key": "d085_s40_z92_t08_10", "aspect": 0.4413, "aspect_ratio": 1.3169, "fill": 0.4909, "fill_ratio": 0.8277, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.17, "com_in": true}
+C12_POSE {"key": "d085_s50_z80_t04_04", "aspect": 0.4724, "aspect_ratio": 1.4097, "fill": 0.4461, "fill_ratio": 0.7521, "sh_over_h": 0.1762, "headoff_mm": 0.0, "sole_mm": -1.2, "com_in": true}
+C12_POSE {"key": "d085_s50_z80_t08_10", "aspect": 0.4888, "aspect_ratio": 1.4587, "fill": 0.4464, "fill_ratio": 0.7527, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.17, "com_in": true}
+C12_POSE {"key": "d085_s50_z92_t04_04", "aspect": 0.4566, "aspect_ratio": 1.3626, "fill": 0.4625, "fill_ratio": 0.7798, "sh_over_h": 0.1762, "headoff_mm": 0.0, "sole_mm": -1.2, "com_in": true}
+C12_POSE {"key": "d085_s50_z92_t08_10", "aspect": 0.4725, "aspect_ratio": 1.41, "fill": 0.4614, "fill_ratio": 0.7779, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.17, "com_in": true}
+C12_POSE {"key": "d115_s30_z80_t04_04", "aspect": 0.4134, "aspect_ratio": 1.2337, "fill": 0.5159, "fill_ratio": 0.8698, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.61, "com_in": true}
+C12_POSE {"key": "d115_s30_z80_t08_10", "aspect": 0.4262, "aspect_ratio": 1.2719, "fill": 0.5146, "fill_ratio": 0.8676, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.58, "com_in": true}
+C12_POSE {"key": "d115_s30_z92_t04_04", "aspect": 0.4014, "aspect_ratio": 1.1979, "fill": 0.5311, "fill_ratio": 0.8955, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.61, "com_in": true}
+C12_POSE {"key": "d115_s30_z92_t08_10", "aspect": 0.4141, "aspect_ratio": 1.2358, "fill": 0.5292, "fill_ratio": 0.8923, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.58, "com_in": true}
+C12_POSE {"key": "d115_s40_z80_t04_04", "aspect": 0.4488, "aspect_ratio": 1.3393, "fill": 0.4774, "fill_ratio": 0.8049, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.61, "com_in": true}
+C12_POSE {"key": "d115_s40_z80_t08_10", "aspect": 0.4641, "aspect_ratio": 1.385, "fill": 0.4754, "fill_ratio": 0.8016, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.58, "com_in": true}
+C12_POSE {"key": "d115_s40_z92_t04_04", "aspect": 0.4343, "aspect_ratio": 1.296, "fill": 0.4935, "fill_ratio": 0.8321, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.61, "com_in": true}
+C12_POSE {"key": "d115_s40_z92_t08_10", "aspect": 0.4492, "aspect_ratio": 1.3405, "fill": 0.4919, "fill_ratio": 0.8294, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.58, "com_in": true}
+C12_POSE {"key": "d115_s50_z80_t04_04", "aspect": 0.4807, "aspect_ratio": 1.4345, "fill": 0.4479, "fill_ratio": 0.7552, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.61, "com_in": true}
+C12_POSE {"key": "d115_s50_z80_t08_10", "aspect": 0.4975, "aspect_ratio": 1.4846, "fill": 0.4472, "fill_ratio": 0.754, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.58, "com_in": true}
+C12_POSE {"key": "d115_s50_z92_t04_04", "aspect": 0.4646, "aspect_ratio": 1.3865, "fill": 0.4642, "fill_ratio": 0.7827, "sh_over_h": 0.1793, "headoff_mm": 0.0, "sole_mm": -1.61, "com_in": true}
+C12_POSE {"key": "d115_s50_z92_t08_10", "aspect": 0.4809, "aspect_ratio": 1.4351, "fill": 0.4631, "fill_ratio": 0.7808, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.58, "com_in": true}
+C12_POSE {"key": "d145_s30_z80_t04_04", "aspect": 0.4208, "aspect_ratio": 1.2557, "fill": 0.5168, "fill_ratio": 0.8714, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.96, "com_in": true}
+C12_POSE {"key": "d145_s30_z80_t08_10", "aspect": 0.434, "aspect_ratio": 1.2951, "fill": 0.5157, "fill_ratio": 0.8695, "sh_over_h": 0.1858, "headoff_mm": 0.0, "sole_mm": -1.93, "com_in": true}
+C12_POSE {"key": "d145_s30_z92_t04_04", "aspect": 0.4086, "aspect_ratio": 1.2193, "fill": 0.5324, "fill_ratio": 0.8977, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.96, "com_in": true}
+C12_POSE {"key": "d145_s30_z92_t08_10", "aspect": 0.4216, "aspect_ratio": 1.2581, "fill": 0.5304, "fill_ratio": 0.8943, "sh_over_h": 0.1858, "headoff_mm": 0.0, "sole_mm": -1.93, "com_in": true}
+C12_POSE {"key": "d145_s40_z80_t04_04", "aspect": 0.4568, "aspect_ratio": 1.3632, "fill": 0.4785, "fill_ratio": 0.8068, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.96, "com_in": true}
+C12_POSE {"key": "d145_s40_z80_t08_10", "aspect": 0.4725, "aspect_ratio": 1.41, "fill": 0.4774, "fill_ratio": 0.8049, "sh_over_h": 0.1858, "headoff_mm": 0.0, "sole_mm": -1.93, "com_in": true}
+C12_POSE {"key": "d145_s40_z92_t04_04", "aspect": 0.4421, "aspect_ratio": 1.3193, "fill": 0.4953, "fill_ratio": 0.8351, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.96, "com_in": true}
+C12_POSE {"key": "d145_s40_z92_t08_10", "aspect": 0.4574, "aspect_ratio": 1.365, "fill": 0.493, "fill_ratio": 0.8312, "sh_over_h": 0.1858, "headoff_mm": 0.0, "sole_mm": -1.93, "com_in": true}
+C12_POSE {"key": "d145_s50_z80_t04_04", "aspect": 0.4893, "aspect_ratio": 1.4602, "fill": 0.4495, "fill_ratio": 0.7579, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.96, "com_in": true}
+C12_POSE {"key": "d145_s50_z80_t08_10", "aspect": 0.5066, "aspect_ratio": 1.5118, "fill": 0.4485, "fill_ratio": 0.7562, "sh_over_h": 0.1858, "headoff_mm": 0.0, "sole_mm": -1.93, "com_in": true}
+C12_POSE {"key": "d145_s50_z92_t04_04", "aspect": 0.4729, "aspect_ratio": 1.4112, "fill": 0.4648, "fill_ratio": 0.7837, "sh_over_h": 0.1825, "headoff_mm": 0.0, "sole_mm": -1.96, "com_in": true}
+C12_POSE {"key": "d145_s50_z92_t08_10", "aspect": 0.4897, "aspect_ratio": 1.4614, "fill": 0.4646, "fill_ratio": 0.7833, "sh_over_h": 0.1858, "headoff_mm": 0.0, "sole_mm": -1.93, "com_in": true}
+C12_POSE_TOP [["d145_s50_z80_t08_10", 1.5118, 0.7562], ["d145_s50_z92_t08_10", 1.4614, 0.7833], ["d115_s50_z80_t08_10", 1.4846, 0.754], ["d145_s50_z80_t04_04", 1.4602, 0.7579], ["d115_s50_z92_t08_10", 1.4351, 0.7808], ["d145_s40_z80_t08_10", 1.41, 0.8049], ["d085_s50_z80_t08_10", 1.4587, 0.7527], ["d145_s40_z92_t08_10", 1.365, 0.8312]]
+C12_POSE_BASELINE {"aspect": 0.3351, "fill": 0.5931}
+C12_POSE_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

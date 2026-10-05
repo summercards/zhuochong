@@ -1,0 +1,53 @@
+{
+  "scene": "GreenShootingEffect_V1",
+  "frames": [
+    1,
+    160
+  ],
+  "fps": 30,
+  "resolution": [
+    720,
+    720
+  ],
+  "engine": "BLENDER_EEVEE_NEXT",
+  "collections": [
+    "ENVIRONMENT",
+    "GROUND_ENERGY",
+    "BEAM_SYSTEM",
+    "CROSS_SIGILS",
+    "PARTICLES",
+    "EFFECT_LIGHTS"
+  ],
+  "phases": {
+    "awakening": [
+      1,
+      24
+    ],
+    "convergence": [
+      25,
+      44
+    ],
+    "shooting_beams": [
+      35,
+      78
+    ],
+    "impact_and_sustain": [
+      72,
+      124
+    ],
+    "aftershock": [
+      125,
+      142
+    ],
+    "dissolve": [
+      143,
+      160
+    ]
+  },
+  "controls": [
+    "CTRL_GroundEnergy",
+    "CTRL_BeamSystem",
+    "CTRL_CrossSigils",
+    "CTRL_Particles"
+  ]
+}

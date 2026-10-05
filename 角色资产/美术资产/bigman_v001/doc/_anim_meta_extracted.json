@@ -1,0 +1,557 @@
+{
+ "anim_air_heavy.py": {
+  "name": "Air_Heavy",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_air_hit.py": {
+  "name": "Air_Hit",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_air_light.py": {
+  "name": "Air_Light",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_battle_start.py": {
+  "name": "Battle_Start",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_charge08.py": {
+  "name": "Charge",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_combo01.py": {
+  "name": "Combo_Finish",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_crouch.py": {
+  "name": "Crouch",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_crouch_idle.py": {
+  "name": "Crouch_Idle",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_dash10.py": {
+  "name": "Dash_Attack",
+  "loop": false,
+  "root": null,
+  "cat": "普通攻击"
+ },
+ "anim_death.py": {
+  "name": "Death",
+  "loop": false,
+  "root": [
+   0.0,
+   0.64
+  ],
+  "cat": "状态与战斗流程"
+ },
+ "anim_defeat.py": {
+  "name": "Defeat",
+  "loop": false,
+  "root": null,
+  "cat": "状态与战斗流程"
+ },
+ "anim_exhausted.py": {
+  "name": "Exhausted",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_getup_b.py": {
+  "name": "GetUp_B",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ },
+ "anim_getup_f.py": {
+  "name": "GetUp_F",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ },
+ "anim_grab04.py": {
+  "name": "Grab_Start",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_grab05.py": {
+  "name": "Grab_Hold",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_ground_hit.py": {
+  "name": "Ground_Hit",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_guard_break.py": {
+  "name": "Guard_Break",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御"
+ },
+ "anim_guard_hit.py": {
+  "name": "Guard_Hit",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御"
+ },
+ "anim_guard_loop.py": {
+  "name": "Guard_Loop",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御"
+ },
+ "anim_guard_start.py": {
+  "name": "Guard_Start",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御"
+ },
+ "anim_heavy_01.py": {
+  "name": "Heavy_01",
+  "loop": false,
+  "root": [
+   0.0,
+   -0.076
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_heavy_02.py": {
+  "name": "Heavy_02",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_hit_body.py": {
+  "name": "Hit_Body",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_hit_head.py": {
+  "name": "Hit_Head",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_hit_heavy_b.py": {
+  "name": "Hit_Heavy_B",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ },
+ "anim_hit_heavy_f.py": {
+  "name": "Hit_Heavy_F",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ },
+ "anim_hit_leg.py": {
+  "name": "Hit_Leg",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_hit_light_b.py": {
+  "name": "Hit_Light_B",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_hit_light_f.py": {
+  "name": "Hit_Light_F",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_idle_01.py": {
+  "name": "Idle_01",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_idle_02.py": {
+  "name": "Idle_02",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_jump_fall.py": {
+  "name": "Jump_Fall",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_jump_land.py": {
+  "name": "Jump_Land",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_jump_start.py": {
+  "name": "Jump_Start",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_jump_up.py": {
+  "name": "Jump_Up",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_knockdown03.py": {
+  "name": "Knockdown_Attack",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_knockdown_b.py": {
+  "name": "Knockdown_B",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ },
+ "anim_knockdown_f.py": {
+  "name": "Knockdown_F",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ },
+ "anim_launch_hit.py": {
+  "name": "Launch_Hit",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "防御与受击"
+ },
+ "anim_launcher02.py": {
+  "name": "Launcher",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_light_01.py": {
+  "name": "Light_01",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_light_02.py": {
+  "name": "Light_02",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_light_03.py": {
+  "name": "Light_03",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_low_attack.py": {
+  "name": "Low_Attack",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_rage.py": {
+  "name": "Rage",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_revive.py": {
+  "name": "Revive",
+  "loop": false,
+  "root": [
+   0.0,
+   -0.64
+  ],
+  "cat": "状态与战斗流程"
+ },
+ "anim_run.py": {
+  "name": "Run",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_run_stop.py": {
+  "name": "Run_Stop",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_skill01.py": {
+  "name": "Skill_01",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_skill02.py": {
+  "name": "Skill_02",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_skill03.py": {
+  "name": "Skill_03",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_smash07.py": {
+  "name": "Ground_Smash",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_spawn.py": {
+  "name": "Spawn",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_stun.py": {
+  "name": "Stun",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_throw06.py": {
+  "name": "Throw",
+  "loop": false,
+  "root": null,
+  "cat": "连招与特殊技"
+ },
+ "anim_turn.py": {
+  "name": "Turn",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_ultimate_attack.py": {
+  "name": "Ultimate_Attack",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_ultimate_end.py": {
+  "name": "Ultimate_End",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_ultimate_start.py": {
+  "name": "Ultimate_Start",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "连招与特殊技"
+ },
+ "anim_uppercut.py": {
+  "name": "Uppercut",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "普通攻击"
+ },
+ "anim_victory_01.py": {
+  "name": "Victory_01",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_victory_02.py": {
+  "name": "Victory_02",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_victory_03.py": {
+  "name": "Victory_03",
+  "loop": false,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "状态与流程"
+ },
+ "anim_walk_b.py": {
+  "name": "Walk_B",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_walk_f.py": {
+  "name": "Walk_F",
+  "loop": true,
+  "root": [
+   0.0,
+   0.0
+  ],
+  "cat": "基础移动"
+ },
+ "anim_wall_hit.py": {
+  "name": "Wall_Hit",
+  "loop": false,
+  "root": null,
+  "cat": "防御与受击"
+ }
+}

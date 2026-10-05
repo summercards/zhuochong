@@ -1,0 +1,1082 @@
+{
+  "glb_path": "I:\\工作项目\\blender\\business_man_tpose_v8.glb",
+  "glb_sha256": "954bda3243aefd3690e25e0901fc370912a9bc715e76524075666aba8be7af45",
+  "glb_size_bytes": 2039156,
+  "blender_version": "4.5.0",
+  "scene_scope": {
+    "mesh_count": 121,
+    "armature_count": 1,
+    "bone_count": 56,
+    "camera_count": 0,
+    "light_count": 0,
+    "importer_helper_count": 1,
+    "pass": true
+  },
+  "action_names": [
+    "attack",
+    "crouch",
+    "hit",
+    "idle",
+    "jump",
+    "jump_up",
+    "run",
+    "talk",
+    "walk"
+  ],
+  "action_names_pass": true,
+  "durations": {
+    "idle": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 2.0,
+      "duration_seconds": 2.0,
+      "expected_seconds": 2.0,
+      "pass": true
+    },
+    "walk": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 1.066667,
+      "duration_seconds": 1.066667,
+      "expected_seconds": 1.066667,
+      "pass": true
+    },
+    "run": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.8,
+      "duration_seconds": 0.8,
+      "expected_seconds": 0.8,
+      "pass": true
+    },
+    "talk": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 2.0,
+      "duration_seconds": 2.0,
+      "expected_seconds": 2.0,
+      "pass": true
+    },
+    "attack": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.8,
+      "duration_seconds": 0.8,
+      "expected_seconds": 0.8,
+      "pass": true
+    },
+    "jump": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 1.2,
+      "duration_seconds": 1.2,
+      "expected_seconds": 1.2,
+      "pass": true
+    },
+    "hit": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.666667,
+      "duration_seconds": 0.666667,
+      "expected_seconds": 0.666667,
+      "pass": true
+    },
+    "crouch": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 1.0,
+      "duration_seconds": 1.0,
+      "expected_seconds": 1.0,
+      "pass": true
+    },
+    "jump_up": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.6,
+      "duration_seconds": 0.6,
+      "expected_seconds": 0.6,
+      "pass": true
+    }
+  },
+  "actions": {
+    "idle": {
+      "curve_count": 560,
+      "keyframe_point_count": 3421,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "walk": {
+      "curve_count": 560,
+      "keyframe_point_count": 2825,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "run": {
+      "curve_count": 560,
+      "keyframe_point_count": 2385,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "talk": {
+      "curve_count": 560,
+      "keyframe_point_count": 4719,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "attack": {
+      "curve_count": 560,
+      "keyframe_point_count": 2017,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "jump": {
+      "curve_count": 560,
+      "keyframe_point_count": 3325,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "hit": {
+      "curve_count": 560,
+      "keyframe_point_count": 1861,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "crouch": {
+      "curve_count": 560,
+      "keyframe_point_count": 1439,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "jump_up": {
+      "curve_count": 560,
+      "keyframe_point_count": 2191,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    }
+  },
+  "root_motion": {
+    "idle": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "walk": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "run": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "talk": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "attack": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "jump": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "hit": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "crouch": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "jump_up": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    }
+  },
+  "loop_checks": {
+    "idle": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "walk": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "run": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "talk": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "attack": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "jump": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "hit": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "crouch": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "jump_up": {
+      "pass": true,
+      "skipped": "one-shot"
+    }
+  },
+  "bounds": {
+    "idle": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432673,
+            -0.254695,
+            -0.003542
+          ],
+          "maximum": [
+            0.433795,
+            0.149693,
+            1.860037
+          ],
+          "dimensions": [
+            0.866467,
+            0.404389,
+            1.863579
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "walk": {
+      "samples": [
+        {
+          "minimum": [
+            -0.490553,
+            -0.626751,
+            -0.014308
+          ],
+          "maximum": [
+            0.481836,
+            0.514897,
+            1.865778
+          ],
+          "dimensions": [
+            0.972389,
+            1.141648,
+            1.880085
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.461652,
+            -0.623753,
+            -0.013504
+          ],
+          "maximum": [
+            0.508117,
+            0.514867,
+            1.866027
+          ],
+          "dimensions": [
+            0.969769,
+            1.13862,
+            1.87953
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.490553,
+            -0.626751,
+            -0.014308
+          ],
+          "maximum": [
+            0.481836,
+            0.514897,
+            1.865778
+          ],
+          "dimensions": [
+            0.972389,
+            1.141648,
+            1.880085
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "run": {
+      "samples": [
+        {
+          "minimum": [
+            -0.472353,
+            -0.762875,
+            -0.002853
+          ],
+          "maximum": [
+            0.435804,
+            0.699839,
+            1.765261
+          ],
+          "dimensions": [
+            0.908157,
+            1.462714,
+            1.768114
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.469211,
+            -0.746703,
+            -0.001405
+          ],
+          "maximum": [
+            0.432082,
+            0.69405,
+            1.77028
+          ],
+          "dimensions": [
+            0.901293,
+            1.440753,
+            1.771685
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.472728,
+            -0.755549,
+            -0.00229
+          ],
+          "maximum": [
+            0.437369,
+            0.697101,
+            1.767826
+          ],
+          "dimensions": [
+            0.910097,
+            1.45265,
+            1.770116
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "talk": {
+      "samples": [
+        {
+          "minimum": [
+            -0.462735,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.430727,
+            0.149693,
+            1.857954
+          ],
+          "dimensions": [
+            0.893462,
+            0.404389,
+            1.862816
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.454344,
+            -0.254695,
+            -0.00485
+          ],
+          "maximum": [
+            0.429858,
+            0.149693,
+            1.857592
+          ],
+          "dimensions": [
+            0.884202,
+            0.404389,
+            1.862442
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.462735,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.430727,
+            0.149693,
+            1.857954
+          ],
+          "dimensions": [
+            0.893462,
+            0.404389,
+            1.862816
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "attack": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.452275,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.884757,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.231382,
+            -0.749721,
+            -0.00087
+          ],
+          "maximum": [
+            0.420756,
+            0.201028,
+            1.861107
+          ],
+          "dimensions": [
+            0.652138,
+            0.950749,
+            1.861977
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.436267,
+            -0.254959,
+            -0.004832
+          ],
+          "maximum": [
+            0.452695,
+            0.149708,
+            1.858111
+          ],
+          "dimensions": [
+            0.888963,
+            0.404667,
+            1.862943
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "jump": {
+      "samples": [
+        {
+          "minimum": [
+            -0.444232,
+            -0.36248,
+            -0.040169
+          ],
+          "maximum": [
+            0.444232,
+            0.137286,
+            1.743149
+          ],
+          "dimensions": [
+            0.888463,
+            0.499765,
+            1.783318
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.68308,
+            -0.292236,
+            0.343515
+          ],
+          "maximum": [
+            0.68308,
+            0.144163,
+            2.18363
+          ],
+          "dimensions": [
+            1.366161,
+            0.4364,
+            1.840115
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "hit": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.451146,
+            -0.280578,
+            -0.007284
+          ],
+          "maximum": [
+            0.495581,
+            0.172551,
+            1.851813
+          ],
+          "dimensions": [
+            0.946727,
+            0.453129,
+            1.859098
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "crouch": {
+      "samples": [
+        {
+          "minimum": [
+            -0.444231,
+            -0.382179,
+            -0.020244
+          ],
+          "maximum": [
+            0.444232,
+            0.136438,
+            1.703738
+          ],
+          "dimensions": [
+            0.888463,
+            0.518617,
+            1.723982
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.444231,
+            -0.382179,
+            -0.014244
+          ],
+          "maximum": [
+            0.444232,
+            0.136438,
+            1.709711
+          ],
+          "dimensions": [
+            0.888463,
+            0.518617,
+            1.723955
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.444231,
+            -0.382179,
+            -0.020244
+          ],
+          "maximum": [
+            0.444232,
+            0.136438,
+            1.703738
+          ],
+          "dimensions": [
+            0.888463,
+            0.518617,
+            1.723982
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "jump_up": {
+      "samples": [
+        {
+          "minimum": [
+            -0.444231,
+            -0.368596,
+            -0.036192
+          ],
+          "maximum": [
+            0.444231,
+            0.137053,
+            1.732189
+          ],
+          "dimensions": [
+            0.888463,
+            0.505649,
+            1.768382
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.77881,
+            -0.281378,
+            0.17096
+          ],
+          "maximum": [
+            0.77881,
+            0.136984,
+            2.035505
+          ],
+          "dimensions": [
+            1.55762,
+            0.418363,
+            1.864545
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.680029,
+            -0.275341,
+            0.252784
+          ],
+          "maximum": [
+            0.680029,
+            0.136984,
+            2.106738
+          ],
+          "dimensions": [
+            1.360057,
+            0.412325,
+            1.853954
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    }
+  },
+  "pose_checks": {
+    "talk": {
+      "sample": "source frame 24",
+      "jaw_angle_degrees": 14.871067,
+      "upper_lip_local_y_m": 0.004957,
+      "lower_lip_local_y_m": 0.009914,
+      "pass": true
+    },
+    "attack": {
+      "sample": "source frame 11",
+      "right_index_to_pinky_first_joint_degrees": [
+        77.900015,
+        77.900015,
+        77.900015,
+        77.900015
+      ],
+      "pass": true
+    },
+    "crouch": {
+      "pelvis_offset_m": 0.150748,
+      "pass": true
+    },
+    "jump": {
+      "pelvis_offset_m": 0.333472,
+      "pass": true
+    },
+    "jump_up": {
+      "pelvis_offset_m": 0.264218,
+      "pass": true
+    },
+    "hit": {
+      "chest_angle_degrees": 20.265115,
+      "head_angle_degrees": 22.581097,
+      "pass": true
+    },
+    "locomotion": {
+      "walk": {
+        "half_cycle_thigh_matrix_delta": 0.810596,
+        "pass": true
+      },
+      "run": {
+        "half_cycle_thigh_matrix_delta": 1.17588,
+        "pass": true
+      }
+    }
+  },
+  "ground_contact": {
+    "idle": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 30,
+          "minimum_z_m": 0.000138,
+          "ground_clearance_m": 0.012138
+        },
+        {
+          "frame": 60,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.012138,
+      "pass": true
+    },
+    "walk": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.014308,
+          "ground_clearance_m": -0.002308
+        },
+        {
+          "frame": 8,
+          "minimum_z_m": -0.013286,
+          "ground_clearance_m": -0.001286
+        },
+        {
+          "frame": 16,
+          "minimum_z_m": -0.002337,
+          "ground_clearance_m": 0.009663
+        },
+        {
+          "frame": 24,
+          "minimum_z_m": -0.021267,
+          "ground_clearance_m": -0.009267
+        },
+        {
+          "frame": 32,
+          "minimum_z_m": -0.014308,
+          "ground_clearance_m": -0.002308
+        }
+      ],
+      "minimum_clearance_m": -0.009267,
+      "maximum_clearance_m": 0.009663,
+      "pass": true
+    },
+    "run": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.002853,
+          "ground_clearance_m": 0.009147
+        },
+        {
+          "frame": 6,
+          "minimum_z_m": 0.01997,
+          "ground_clearance_m": 0.03197
+        },
+        {
+          "frame": 12,
+          "minimum_z_m": 0.016808,
+          "ground_clearance_m": 0.028808
+        },
+        {
+          "frame": 18,
+          "minimum_z_m": 0.002219,
+          "ground_clearance_m": 0.014219
+        },
+        {
+          "frame": 24,
+          "minimum_z_m": -0.002853,
+          "ground_clearance_m": 0.009147
+        }
+      ],
+      "minimum_clearance_m": 0.009147,
+      "maximum_clearance_m": 0.03197,
+      "pass": true
+    },
+    "talk": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 30,
+          "minimum_z_m": -0.001464,
+          "ground_clearance_m": 0.010536
+        },
+        {
+          "frame": 60,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.010536,
+      "pass": true
+    },
+    "attack": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 24,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.007138,
+      "pass": true
+    },
+    "jump": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.040169,
+          "ground_clearance_m": -0.028169
+        },
+        {
+          "frame": 36,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": -0.028169,
+      "maximum_clearance_m": 0.007138,
+      "pass": true
+    },
+    "hit": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 20,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.007138,
+      "pass": true
+    },
+    "crouch": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.020244,
+          "ground_clearance_m": -0.008244
+        },
+        {
+          "frame": 15,
+          "minimum_z_m": -0.015189,
+          "ground_clearance_m": -0.003189
+        },
+        {
+          "frame": 30,
+          "minimum_z_m": -0.020244,
+          "ground_clearance_m": -0.008244
+        }
+      ],
+      "minimum_clearance_m": -0.008244,
+      "maximum_clearance_m": -0.003189,
+      "pass": true
+    },
+    "jump_up": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.036192,
+          "ground_clearance_m": -0.024192
+        }
+      ],
+      "minimum_clearance_m": -0.024192,
+      "maximum_clearance_m": -0.024192,
+      "pass": true
+    }
+  },
+  "previews": {
+    "idle": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_idle_preview.png",
+      "source_frame": 15
+    },
+    "walk": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_walk_preview.png",
+      "source_frame": 8
+    },
+    "run": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_run_preview.png",
+      "source_frame": 6
+    },
+    "talk": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_talk_preview.png",
+      "source_frame": 24
+    },
+    "attack": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_attack_preview.png",
+      "source_frame": 11
+    },
+    "jump": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_jump_preview.png",
+      "source_frame": 18
+    },
+    "hit": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_hit_preview.png",
+      "source_frame": 3
+    },
+    "crouch": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_crouch_preview.png",
+      "source_frame": 15
+    },
+    "jump_up": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v8_jump_up_preview.png",
+      "source_frame": 10
+    }
+  },
+  "pass": true
+}

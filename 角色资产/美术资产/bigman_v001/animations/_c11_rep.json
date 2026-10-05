@@ -1,0 +1,469 @@
+{
+ "loop_seamless": null,
+ "ground_min_mm": -1.5,
+ "ground_contact_ok": true,
+ "max_frame_step_deg": 23.905,
+ "max_frame_step_at": [
+  50,
+  "shin.L"
+ ],
+ "no_teleport": true,
+ "bone_travel_mm": {
+  "pelvis": 326.86,
+  "chest": 305.21,
+  "head": 330.45,
+  "hand.L": 729.52,
+  "hand.R": 623.35
+ },
+ "skill_start_delta_deg": 0.0,
+ "skill_start_ok": true,
+ "windup_turn_deg": -30.0,
+ "windup_monotone_ok": true,
+ "windup_turn_ok": true,
+ "spin_turn_deg": 390.0,
+ "spin_monotone_ok": true,
+ "spin_turn_ok": true,
+ "spin_end_yaw_deg": 0.0,
+ "spin_end_yaw_ok": true,
+ "spin_peak_step_deg": 22.862,
+ "spin_peak_frame": 30,
+ "spin_peak_plateau": [
+  29,
+  30
+ ],
+ "spin_peak_allow_frame": 30.67,
+ "spin_peak_early_ok": true,
+ "spin_hit_step_deg": 5.209,
+ "spin_hit_ratio": 0.2278,
+ "spin_decel_ok": true,
+ "spin_accel_ok": true,
+ "spin_speed_ok": true,
+ "foot_pivot_drift_mm": 0.004,
+ "foot_pivot_drift_at": 19,
+ "foot_pivot_ok": true,
+ "plant_L_pre_mm": 1.06,
+ "plant_R_pre_mm": 1.606,
+ "plant_L_post_mm": 2.2,
+ "plant_R_post_mm": 1.482,
+ "plant_ok": true,
+ "chain_peak_mmps": {
+  "hip": 2075.5,
+  "shoulder": 2241.3,
+  "fist": 12345.0
+ },
+ "chain_peak_frame": {
+  "hip": 29,
+  "shoulder": 33,
+  "fist": 33
+ },
+ "chain_window_peak_mmps": {
+  "hip": 2075.5,
+  "shoulder": 2241.3,
+  "fist": 12345.0
+ },
+ "chain_window_frame": {
+  "hip": 29,
+  "shoulder": 33,
+  "fist": 33
+ },
+ "chain_order_ok": true,
+ "chain_window_order_ok": true,
+ "chain_magnitude_ok": true,
+ "chain_in_window_ok": true,
+ "punch_chain_ok": true,
+ "hit_glove_front_mm": {
+  "L": -297.0,
+  "R": -662.42
+ },
+ "punch_front_lead_mm": 365.42,
+ "punch_frontmost_ok": true,
+ "root_span_h_mm": 453.78,
+ "root_span_z_mm": 54.0,
+ "root_motion_ok": true,
+ "windup_frames": 12,
+ "windup_time_ok": true,
+ "swing_lift_mm": 237.43,
+ "swing_lift_ok": true,
+ "leg_reach_worst_ratio": 0.93857,
+ "leg_reach_worst_at": [
+  1,
+  "L"
+ ],
+ "leg_reach_ok": true,
+ "arm_clamp": {
+  "L": {
+   "any": false,
+   "worst_frame": 1,
+   "worst_ratio": 0.38932,
+   "worst_over_mm": 0.0,
+   "limit_mm": 649.675
+  },
+  "R": {
+   "any": false,
+   "worst_frame": 48,
+   "worst_ratio": 0.81214,
+   "worst_over_mm": 0.0,
+   "limit_mm": 649.675
+  }
+ },
+ "arm_reach_ok": true,
+ "hitstop_frames": 4,
+ "hitstop_worst_step_deg": 0.0,
+ "hitstop_ok": true,
+ "end_pose_delta_mm": 0.0001,
+ "end_pose_ok": true,
+ "low_bad_frames": {},
+ "meta": {
+  "anim_id": "Skill_03",
+  "loop": false,
+  "category": "连招与特殊技",
+  "note": "旋转重拳：反相拧身 → 髋部释放 → 360° 单向转体出拳 → 命停 4 帧→ 收招。骨盆世界 yaw 累计 390°。",
+  "antic_frame": 16,
+  "hit_frame": 46,
+  "cancel_frame": 96,
+  "hitstop_frames": 4,
+  "root_motion_m": [
+   0.0,
+   0.0
+  ],
+  "inherit_from": null,
+  "segments": {
+   "ease": [
+    0,
+    4
+   ],
+   "coil": [
+    4,
+    16
+   ],
+   "coil_hold": [
+    16,
+    19
+   ],
+   "release": [
+    19,
+    23
+   ],
+   "spin": [
+    23,
+    46
+   ],
+   "hitstop": [
+    46,
+    49
+   ],
+   "recover": [
+    49,
+    104
+   ]
+  },
+  "spin_axis": "world +Z (root.rotation_euler.y)",
+  "spin_turn_deg": 360.0,
+  "pelvis_world_turn_deg": 390.0,
+  "pivot_foot": "R",
+  "pivot_vertex": [
+   "Shoe_Sole_R",
+   141
+  ],
+  "pivot_world_m": [
+   -0.147579,
+   -0.065568,
+   0.012327
+  ],
+  "punch_side": "R",
+  "end_pose_deg": {
+   "chest": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "eye.L": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "eye.R": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "foot.L": [
+    -7.6839,
+    -3.9838,
+    1.439
+   ],
+   "foot.R": [
+    -31.959,
+    4.5114,
+    0.2636
+   ],
+   "forearm.L": [
+    5.1333,
+    13.2682,
+    -137.8453
+   ],
+   "forearm.R": [
+    2.7012,
+    -8.9002,
+    146.2917
+   ],
+   "glasses": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hand.L": [
+    2.5403,
+    -0.475,
+    21.1772
+   ],
+   "hand.R": [
+    8.5064,
+    1.8547,
+    -24.5583
+   ],
+   "head": [
+    5.0,
+    0.0,
+    0.0
+   ],
+   "index_01.L": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "index_01.R": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "index_02.L": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "index_02.R": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "index_03.L": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "index_03.R": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "jaw": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "middle_01.L": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "middle_01.R": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "middle_02.L": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "middle_02.R": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "middle_03.L": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "middle_03.R": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "neck": [
+    -6.0,
+    0.0,
+    0.0
+   ],
+   "pelvis": [
+    4.0,
+    0.0,
+    0.0
+   ],
+   "pinky_01.L": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "pinky_01.R": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "pinky_02.L": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "pinky_02.R": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "pinky_03.L": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "pinky_03.R": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "ring_01.L": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "ring_01.R": [
+    -78.0,
+    0.0,
+    0.0
+   ],
+   "ring_02.L": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "ring_02.R": [
+    -88.0,
+    0.0,
+    0.0
+   ],
+   "ring_03.L": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "ring_03.R": [
+    -62.0,
+    0.0,
+    0.0
+   ],
+   "root": [
+    0.0,
+    360.0,
+    0.0
+   ],
+   "shin.L": [
+    40.5875,
+    0.0,
+    0.0
+   ],
+   "shin.R": [
+    42.9554,
+    0.0,
+    0.0
+   ],
+   "shoulder.L": [
+    -18.0,
+    0.0,
+    0.0
+   ],
+   "shoulder.R": [
+    -18.0,
+    0.0,
+    0.0
+   ],
+   "spine_01": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "spine_02": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "thigh.L": [
+    -37.0837,
+    0.0,
+    -4.3
+   ],
+   "thigh.R": [
+    -14.9865,
+    0.0,
+    4.3
+   ],
+   "thumb_01.L": [
+    -34.0,
+    0.0,
+    0.0
+   ],
+   "thumb_01.R": [
+    -34.0,
+    0.0,
+    0.0
+   ],
+   "thumb_02.L": [
+    -26.0,
+    0.0,
+    0.0
+   ],
+   "thumb_02.R": [
+    -26.0,
+    0.0,
+    0.0
+   ],
+   "thumb_03.L": [
+    -22.0,
+    0.0,
+    0.0
+   ],
+   "thumb_03.R": [
+    -22.0,
+    0.0,
+    0.0
+   ],
+   "toe.L": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toe.R": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "upperarm.L": [
+    -50.2361,
+    -13.165,
+    -27.6556
+   ],
+   "upperarm.R": [
+    -50.0546,
+    15.1944,
+    31.8868
+   ]
+  },
+  "fps": 60,
+  "frames": [
+   0,
+   104
+  ]
+ },
+ "failed": [],
+ "non_ok_bools": []
+}

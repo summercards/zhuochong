@@ -1,0 +1,1211 @@
+{
+  "glb_path": "I:\\工作项目\\blender\\business_man_tpose_v9.glb",
+  "glb_sha256": "d47302e4315ab9750c34a835f02d8760f4ea4b70b9940d79d1a6fd21f79bfaf1",
+  "glb_size_bytes": 2838932,
+  "blender_version": "4.5.0",
+  "scene_scope": {
+    "mesh_count": 121,
+    "armature_count": 1,
+    "bone_count": 56,
+    "camera_count": 0,
+    "light_count": 0,
+    "importer_helper_count": 1,
+    "pass": true
+  },
+  "action_names": [
+    "attack",
+    "crouch",
+    "defeat",
+    "hit",
+    "idle",
+    "jump",
+    "jump_up",
+    "run",
+    "talk",
+    "walk"
+  ],
+  "action_names_pass": true,
+  "durations": {
+    "idle": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 2.0,
+      "duration_seconds": 2.0,
+      "expected_seconds": 2.0,
+      "pass": true
+    },
+    "walk": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 1.066667,
+      "duration_seconds": 1.066667,
+      "expected_seconds": 1.066667,
+      "pass": true
+    },
+    "run": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.8,
+      "duration_seconds": 0.8,
+      "expected_seconds": 0.8,
+      "pass": true
+    },
+    "talk": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 2.0,
+      "duration_seconds": 2.0,
+      "expected_seconds": 2.0,
+      "pass": true
+    },
+    "attack": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.8,
+      "duration_seconds": 0.8,
+      "expected_seconds": 0.8,
+      "pass": true
+    },
+    "jump": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 1.2,
+      "duration_seconds": 1.2,
+      "expected_seconds": 1.2,
+      "pass": true
+    },
+    "hit": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.666667,
+      "duration_seconds": 0.666667,
+      "expected_seconds": 0.666667,
+      "pass": true
+    },
+    "crouch": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 1.0,
+      "duration_seconds": 1.0,
+      "expected_seconds": 1.0,
+      "pass": true
+    },
+    "jump_up": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.6,
+      "duration_seconds": 0.6,
+      "expected_seconds": 0.6,
+      "pass": true
+    },
+    "defeat": {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 2.0,
+      "duration_seconds": 2.0,
+      "expected_seconds": 2.0,
+      "pass": true
+    }
+  },
+  "actions": {
+    "idle": {
+      "curve_count": 560,
+      "keyframe_point_count": 34160,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "walk": {
+      "curve_count": 560,
+      "keyframe_point_count": 18480,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "run": {
+      "curve_count": 560,
+      "keyframe_point_count": 14000,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "talk": {
+      "curve_count": 560,
+      "keyframe_point_count": 34160,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "attack": {
+      "curve_count": 560,
+      "keyframe_point_count": 14000,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "jump": {
+      "curve_count": 560,
+      "keyframe_point_count": 20720,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "hit": {
+      "curve_count": 560,
+      "keyframe_point_count": 11760,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "crouch": {
+      "curve_count": 560,
+      "keyframe_point_count": 17360,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "jump_up": {
+      "curve_count": 560,
+      "keyframe_point_count": 10640,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    },
+    "defeat": {
+      "curve_count": 560,
+      "keyframe_point_count": 34160,
+      "time_finite": true,
+      "value_finite": true,
+      "pass": true
+    }
+  },
+  "root_motion": {
+    "idle": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "walk": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "run": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "talk": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "attack": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "jump": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "hit": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "crouch": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "jump_up": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    },
+    "defeat": {
+      "max_location_m": 0.0,
+      "max_rotation_radians": 0.0,
+      "max_scale_error": 0.0,
+      "finite": true,
+      "pass": true
+    }
+  },
+  "loop_checks": {
+    "idle": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "walk": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "run": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "talk": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "attack": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "jump": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "hit": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "crouch": {
+      "max_curve_endpoint_delta": 0.0,
+      "pass": true
+    },
+    "jump_up": {
+      "pass": true,
+      "skipped": "one-shot"
+    },
+    "defeat": {
+      "pass": true,
+      "skipped": "one-shot"
+    }
+  },
+  "bounds": {
+    "idle": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432672,
+            -0.254695,
+            -0.003542
+          ],
+          "maximum": [
+            0.433795,
+            0.149693,
+            1.860037
+          ],
+          "dimensions": [
+            0.866468,
+            0.404389,
+            1.863579
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "walk": {
+      "samples": [
+        {
+          "minimum": [
+            -0.490553,
+            -0.626751,
+            -0.014308
+          ],
+          "maximum": [
+            0.481836,
+            0.514897,
+            1.865778
+          ],
+          "dimensions": [
+            0.972389,
+            1.141648,
+            1.880085
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.461078,
+            -0.626751,
+            -0.014308
+          ],
+          "maximum": [
+            0.508239,
+            0.514897,
+            1.865778
+          ],
+          "dimensions": [
+            0.969317,
+            1.141648,
+            1.880085
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.490553,
+            -0.626751,
+            -0.014308
+          ],
+          "maximum": [
+            0.481836,
+            0.514897,
+            1.865778
+          ],
+          "dimensions": [
+            0.972389,
+            1.141648,
+            1.880085
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "run": {
+      "samples": [
+        {
+          "minimum": [
+            -0.28655,
+            -0.752584,
+            0.015354
+          ],
+          "maximum": [
+            0.296035,
+            0.691679,
+            1.763277
+          ],
+          "dimensions": [
+            0.582585,
+            1.444263,
+            1.747923
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.296035,
+            -0.752584,
+            0.015354
+          ],
+          "maximum": [
+            0.28655,
+            0.691679,
+            1.763277
+          ],
+          "dimensions": [
+            0.582585,
+            1.444263,
+            1.747923
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.28655,
+            -0.752584,
+            0.015354
+          ],
+          "maximum": [
+            0.296035,
+            0.691679,
+            1.763277
+          ],
+          "dimensions": [
+            0.582585,
+            1.444263,
+            1.747923
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "talk": {
+      "samples": [
+        {
+          "minimum": [
+            -0.462735,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.430727,
+            0.149693,
+            1.857954
+          ],
+          "dimensions": [
+            0.893462,
+            0.404389,
+            1.862816
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.454344,
+            -0.254695,
+            -0.00485
+          ],
+          "maximum": [
+            0.429858,
+            0.149693,
+            1.857592
+          ],
+          "dimensions": [
+            0.884202,
+            0.404389,
+            1.862442
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.462735,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.430727,
+            0.149693,
+            1.857954
+          ],
+          "dimensions": [
+            0.893462,
+            0.404389,
+            1.862816
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "attack": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.452275,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.884757,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.231382,
+            -0.749722,
+            -0.00087
+          ],
+          "maximum": [
+            0.420756,
+            0.201028,
+            1.861107
+          ],
+          "dimensions": [
+            0.652138,
+            0.95075,
+            1.861977
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.452275,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.884757,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "jump": {
+      "samples": [
+        {
+          "minimum": [
+            -0.444232,
+            -0.36248,
+            -0.040169
+          ],
+          "maximum": [
+            0.444232,
+            0.137286,
+            1.743149
+          ],
+          "dimensions": [
+            0.888463,
+            0.499765,
+            1.783318
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.679279,
+            -0.292269,
+            0.345149
+          ],
+          "maximum": [
+            0.679279,
+            0.144163,
+            2.185159
+          ],
+          "dimensions": [
+            1.358559,
+            0.436433,
+            1.84001
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "hit": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.451146,
+            -0.280578,
+            -0.007284
+          ],
+          "maximum": [
+            0.495581,
+            0.172551,
+            1.851814
+          ],
+          "dimensions": [
+            0.946728,
+            0.45313,
+            1.859098
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "crouch": {
+      "samples": [
+        {
+          "minimum": [
+            -0.444231,
+            -0.382179,
+            -0.020244
+          ],
+          "maximum": [
+            0.444232,
+            0.136438,
+            1.703738
+          ],
+          "dimensions": [
+            0.888463,
+            0.518617,
+            1.723982
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.444232,
+            -0.382179,
+            -0.014244
+          ],
+          "maximum": [
+            0.444232,
+            0.136438,
+            1.709711
+          ],
+          "dimensions": [
+            0.888463,
+            0.518617,
+            1.723955
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.444231,
+            -0.382179,
+            -0.020244
+          ],
+          "maximum": [
+            0.444232,
+            0.136438,
+            1.703738
+          ],
+          "dimensions": [
+            0.888463,
+            0.518617,
+            1.723982
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "jump_up": {
+      "samples": [
+        {
+          "minimum": [
+            -0.444231,
+            -0.368596,
+            -0.036192
+          ],
+          "maximum": [
+            0.444231,
+            0.137053,
+            1.732189
+          ],
+          "dimensions": [
+            0.888463,
+            0.505649,
+            1.768382
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.778629,
+            -0.282868,
+            0.177686
+          ],
+          "maximum": [
+            0.778629,
+            0.136984,
+            2.038278
+          ],
+          "dimensions": [
+            1.557259,
+            0.419852,
+            1.860592
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.678988,
+            -0.27534,
+            0.253602
+          ],
+          "maximum": [
+            0.678988,
+            0.136984,
+            2.10752
+          ],
+          "dimensions": [
+            1.357976,
+            0.412324,
+            1.853918
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    },
+    "defeat": {
+      "samples": [
+        {
+          "minimum": [
+            -0.432482,
+            -0.254695,
+            -0.004862
+          ],
+          "maximum": [
+            0.432482,
+            0.150331,
+            1.858
+          ],
+          "dimensions": [
+            0.864964,
+            0.405027,
+            1.862862
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.570521,
+            -0.530262,
+            -0.098646
+          ],
+          "maximum": [
+            0.468444,
+            1.080555,
+            0.994438
+          ],
+          "dimensions": [
+            1.038965,
+            1.610818,
+            1.093084
+          ],
+          "finite": true
+        },
+        {
+          "minimum": [
+            -0.457886,
+            -0.832243,
+            0.028495
+          ],
+          "maximum": [
+            0.404838,
+            1.073987,
+            0.812619
+          ],
+          "dimensions": [
+            0.862724,
+            1.90623,
+            0.784124
+          ],
+          "finite": true
+        }
+      ],
+      "all_finite": true,
+      "pass": true
+    }
+  },
+  "pose_checks": {
+    "talk": {
+      "sample": "source frame 24",
+      "jaw_angle_degrees": 15.000031,
+      "upper_lip_local_y_m": 0.005,
+      "lower_lip_local_y_m": 0.01,
+      "pass": true
+    },
+    "attack": {
+      "sample": "source frame 11",
+      "right_index_to_pinky_first_joint_degrees": [
+        77.900015,
+        77.900015,
+        77.900015,
+        77.900015
+      ],
+      "pass": true
+    },
+    "crouch": {
+      "pelvis_offset_m": 0.150748,
+      "pass": true
+    },
+    "jump": {
+      "pelvis_offset_m": 0.335,
+      "pass": true
+    },
+    "jump_up": {
+      "pelvis_offset_m": 0.265,
+      "pass": true
+    },
+    "hit": {
+      "chest_angle_degrees": 23.350996,
+      "head_angle_degrees": 26.009169,
+      "pass": true
+    },
+    "locomotion": {
+      "walk": {
+        "half_cycle_thigh_matrix_delta": 0.812358,
+        "pass": true
+      },
+      "run": {
+        "half_cycle_thigh_matrix_delta": 1.181998,
+        "pass": true,
+        "left_hand_y_delta_m": 0.511373,
+        "right_hand_y_delta_m": 0.511372,
+        "opposite_phase": true
+      }
+    },
+    "defeat": {
+      "sample": "source frame 60",
+      "pelvis_fall_angle_degrees": 88.005143,
+      "pelvis_drop_m": 0.68,
+      "final_maximum_z_m": 0.812619,
+      "final_y_dimension_m": 1.90623,
+      "final_minimum_z_m": 0.028495,
+      "pass": true
+    }
+  },
+  "ground_contact": {
+    "idle": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 30,
+          "minimum_z_m": -0.003542,
+          "ground_clearance_m": 0.008458
+        },
+        {
+          "frame": 60,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.008458,
+      "pass": true
+    },
+    "walk": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.014308,
+          "ground_clearance_m": -0.002308
+        },
+        {
+          "frame": 8,
+          "minimum_z_m": -0.00226,
+          "ground_clearance_m": 0.00974
+        },
+        {
+          "frame": 16,
+          "minimum_z_m": -0.014308,
+          "ground_clearance_m": -0.002308
+        },
+        {
+          "frame": 24,
+          "minimum_z_m": -0.042261,
+          "ground_clearance_m": -0.030261
+        },
+        {
+          "frame": 32,
+          "minimum_z_m": -0.014308,
+          "ground_clearance_m": -0.002308
+        }
+      ],
+      "minimum_clearance_m": -0.030261,
+      "maximum_clearance_m": 0.00974,
+      "pass": true
+    },
+    "run": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": 0.015354,
+          "ground_clearance_m": 0.027354
+        },
+        {
+          "frame": 6,
+          "minimum_z_m": 0.0189,
+          "ground_clearance_m": 0.0309
+        },
+        {
+          "frame": 12,
+          "minimum_z_m": 0.015354,
+          "ground_clearance_m": 0.027354
+        },
+        {
+          "frame": 18,
+          "minimum_z_m": 0.0189,
+          "ground_clearance_m": 0.0309
+        },
+        {
+          "frame": 24,
+          "minimum_z_m": 0.015354,
+          "ground_clearance_m": 0.027354
+        }
+      ],
+      "minimum_clearance_m": 0.027354,
+      "maximum_clearance_m": 0.0309,
+      "pass": true
+    },
+    "talk": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 30,
+          "minimum_z_m": -0.00485,
+          "ground_clearance_m": 0.00715
+        },
+        {
+          "frame": 60,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.00715,
+      "pass": true
+    },
+    "attack": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 24,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.007138,
+      "pass": true
+    },
+    "jump": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.040169,
+          "ground_clearance_m": -0.028169
+        },
+        {
+          "frame": 36,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": -0.028169,
+      "maximum_clearance_m": 0.007138,
+      "pass": true
+    },
+    "hit": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 20,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.007138,
+      "pass": true
+    },
+    "crouch": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.020244,
+          "ground_clearance_m": -0.008244
+        },
+        {
+          "frame": 15,
+          "minimum_z_m": -0.014244,
+          "ground_clearance_m": -0.002244
+        },
+        {
+          "frame": 30,
+          "minimum_z_m": -0.020244,
+          "ground_clearance_m": -0.008244
+        }
+      ],
+      "minimum_clearance_m": -0.008244,
+      "maximum_clearance_m": -0.002244,
+      "pass": true
+    },
+    "jump_up": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.036192,
+          "ground_clearance_m": -0.024192
+        }
+      ],
+      "minimum_clearance_m": -0.024192,
+      "maximum_clearance_m": -0.024192,
+      "pass": true
+    },
+    "defeat": {
+      "samples": [
+        {
+          "frame": 0,
+          "minimum_z_m": -0.004862,
+          "ground_clearance_m": 0.007138
+        },
+        {
+          "frame": 22,
+          "minimum_z_m": 0.032393,
+          "ground_clearance_m": 0.044393
+        },
+        {
+          "frame": 44,
+          "minimum_z_m": 0.016737,
+          "ground_clearance_m": 0.028737
+        },
+        {
+          "frame": 60,
+          "minimum_z_m": 0.028495,
+          "ground_clearance_m": 0.040495
+        }
+      ],
+      "minimum_clearance_m": 0.007138,
+      "maximum_clearance_m": 0.044393,
+      "pass": true
+    }
+  },
+  "previews": {
+    "idle": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_idle_preview.png",
+      "source_frame": 15
+    },
+    "walk": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_walk_preview.png",
+      "source_frame": 8
+    },
+    "run": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_run_preview.png",
+      "source_frame": 0
+    },
+    "talk": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_talk_preview.png",
+      "source_frame": 24
+    },
+    "attack": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_attack_preview.png",
+      "source_frame": 11
+    },
+    "jump": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_jump_preview.png",
+      "source_frame": 18
+    },
+    "hit": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_hit_preview.png",
+      "source_frame": 3
+    },
+    "crouch": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_crouch_preview.png",
+      "source_frame": 15
+    },
+    "jump_up": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_jump_up_preview.png",
+      "source_frame": 10
+    },
+    "defeat": {
+      "path": "I:\\工作项目\\blender\\business_man_tpose_v9_defeat_preview.png",
+      "source_frame": 52
+    }
+  },
+  "pass": true
+}

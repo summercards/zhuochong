@@ -1,0 +1,52 @@
+E08_3WAY Victory_01 vs Victory_02: max_mat_deg=177.281 @f=62 | identical(<=1deg)=13 frames | fist_max=796.8 mm @ f(26, 'fistL')
+   f=  0 mat=  0.033 deg  fistL_d=    0.00 mm  fistR_d=    0.00 mm
+   f= 12 mat= 94.021 deg  fistL_d=  375.25 mm  fistR_d=  136.49 mm
+   f= 14 mat=112.922 deg  fistL_d=  482.39 mm  fistR_d=  166.42 mm
+   f= 24 mat=169.185 deg  fistL_d=  781.90 mm  fistR_d=  102.98 mm
+   f= 34 mat=157.990 deg  fistL_d=  752.97 mm  fistR_d=  131.37 mm
+   f= 48 mat=157.150 deg  fistL_d=  707.70 mm  fistR_d=  122.39 mm
+   f= 60 mat=173.267 deg  fistL_d=  729.46 mm  fistR_d=  118.31 mm
+   f= 80 mat=165.280 deg  fistL_d=  651.91 mm  fistR_d=  174.52 mm
+   f= 92 mat=163.154 deg  fistL_d=  603.18 mm  fistR_d=  173.48 mm
+   f=110 mat=  0.789 deg  fistL_d=    2.01 mm  fistR_d=    0.90 mm
+   f=120 mat=  0.033 deg  fistL_d=    0.00 mm  fistR_d=    0.00 mm
+E08_3WAY Victory_01 vs Victory_03: max_mat_deg=137.897 @f=78 | identical(<=1deg)=6 frames | fist_max=270.5 mm @ f(17, 'fistR')
+   f=  0 mat=  0.033 deg  fistL_d=    0.00 mm  fistR_d=    0.00 mm
+   f= 12 mat=102.471 deg  fistL_d=  209.58 mm  fistR_d=  214.82 mm
+   f= 14 mat=115.818 deg  fistL_d=  251.26 mm  fistR_d=  261.98 mm
+   f= 24 mat=100.633 deg  fistL_d=  172.18 mm  fistR_d=  172.59 mm
+   f= 34 mat=111.589 deg  fistL_d=   48.19 mm  fistR_d=   69.73 mm
+   f= 48 mat=113.138 deg  fistL_d=   45.13 mm  fistR_d=   77.72 mm
+   f= 60 mat=121.974 deg  fistL_d=   47.95 mm  fistR_d=   43.94 mm
+   f= 80 mat=131.894 deg  fistL_d=  181.15 mm  fistR_d=  183.46 mm
+   f= 92 mat=129.725 deg  fistL_d=   86.65 mm  fistR_d=   89.69 mm
+   f=110 mat=  3.920 deg  fistL_d=   18.79 mm  fistR_d=   15.97 mm
+   f=120 mat=  0.033 deg  fistL_d=    0.00 mm  fistR_d=    0.00 mm
+E08_3WAY Victory_02 vs Victory_03: max_mat_deg=135.325 @f=17 | identical(<=1deg)=6 frames | fist_max=778.1 mm @ f(27, 'fistL')
+   f=  0 mat=  0.033 deg  fistL_d=    0.00 mm  fistR_d=    0.00 mm
+   f= 12 mat=120.283 deg  fistL_d=  460.48 mm  fistR_d=   87.07 mm
+   f= 14 mat=132.614 deg  fistL_d=  567.64 mm  fistR_d=  102.86 mm
+   f= 24 mat=122.645 deg  fistL_d=  765.35 mm  fistR_d=  125.06 mm
+   f= 34 mat=131.015 deg  fistL_d=  739.46 mm  fistR_d=  133.23 mm
+   f= 48 mat=128.933 deg  fistL_d=  701.75 mm  fistR_d=  125.37 mm
+   f= 60 mat=124.062 deg  fistL_d=  729.25 mm  fistR_d=   97.07 mm
+   f= 80 mat=116.519 deg  fistL_d=  751.85 mm  fistR_d=  173.22 mm
+   f= 92 mat=106.212 deg  fistL_d=  639.69 mm  fistR_d=  169.78 mm
+   f=110 mat=  3.953 deg  fistL_d=   18.37 mm  fistR_d=   15.19 mm
+   f=120 mat=  0.033 deg  fistL_d=    0.00 mm  fistR_d=    0.00 mm
+E08_3WAY_FIRSTBEAT (f0 -> 第一拍) 的拳心位移
+   Victory_01   fistL  f0->f14  =   255.53 mm  (y:  -307.7 ->  -310.0)
+   Victory_01   fistR  f0->f14  =   288.66 mm  (y:  -273.5 ->  -310.0)
+   Victory_02   fistL  f0->f14  =   579.88 mm  (y:  -307.7 ->  +165.8)
+   Victory_02   fistR  f0->f14  =   142.15 mm  (y:  -273.5 ->  -313.6)
+   Victory_03   fistL  f0->f12  =    36.41 mm  (y:  -307.7 ->  -296.0)
+   Victory_03   fistR  f0->f12  =    50.16 mm  (y:  -273.5 ->  -296.0)
+E08_3WAY_HEIGHT (拳心 z 范围，mm)
+   Victory_01   zL 1061.0 ~ 1392.0 | zR 1061.0 ~ 1392.0
+   Victory_02   zL 987.3 ~ 1940.0 | zR 1165.3 ~ 1333.4
+   Victory_03   zL 1163.6 ~ 1301.0 | zR 1163.6 ~ 1320.6
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

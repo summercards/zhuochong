@@ -1,0 +1,15 @@
+E03_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 1240, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 1140, in main
+    report.update(rage_assertions(arm, action, samples, meshes))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 1012, in rage_assertions
+    "★★ **矩阵口径**的逐帧最大真实旋转步：实测 **%.3f° @ %s**（阈值 ≤ %.1f°）。"
+TypeError: must be real number, not NoneType
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

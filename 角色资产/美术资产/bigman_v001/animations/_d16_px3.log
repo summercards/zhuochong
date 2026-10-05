@@ -1,0 +1,17 @@
+D16PX_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\probe_d16_pixels.py", line 531, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\probe_d16_pixels.py", line 374, in main
+    air = scan("airhit_side", list(range(0, 19)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\probe_d16_pixels.py", line 251, in scan
+    pixels = load(view, frame)
+             ^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\probe_d16_pixels.py", line 125, in load
+    _res, _ortho, _cz, base = VIEWS[view]
+                              ~~~~~^^^^^^
+KeyError: 'airhit_side'
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+
+Blender quit

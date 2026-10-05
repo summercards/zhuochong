@@ -1,0 +1,7 @@
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_defeat.py", line 737
+    "★ 末帧（%d）与触地定格末帧（%d）**逐位一致** —— 呼吸在端点归零 ⟹ "
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Blender quit

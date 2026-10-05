@@ -1,0 +1,46 @@
+{
+  "glb_path": "I:\\工作项目\\blender\\business_man_tpose_v4.glb",
+  "preview_path": "I:\\工作项目\\blender\\business_man_tpose_v4_pose_test.png",
+  "pose_checks": {
+    "bones_rotated": [
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "upper_arm.R",
+      "forearm.R",
+      "thigh.L",
+      "shin.L",
+      "thigh.R",
+      "head",
+      "spine",
+      "chest"
+    ],
+    "finite_geometry_rest": true,
+    "finite_geometry_posed": true,
+    "rest_bounds": {
+      "min": [
+        -0.963,
+        -0.278,
+        0.001
+      ],
+      "max": [
+        0.963,
+        0.150331,
+        1.858
+      ]
+    },
+    "posed_bounds": {
+      "min": [
+        -0.907271,
+        -0.315813,
+        -0.033694
+      ],
+      "max": [
+        0.91859,
+        0.359269,
+        1.840404
+      ]
+    },
+    "pass": true
+  }
+}

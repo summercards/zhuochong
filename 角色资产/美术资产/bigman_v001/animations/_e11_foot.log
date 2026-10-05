@@ -1,0 +1,40 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+# ========= E11F 二维网格：soleR / kneeR（行=每帧，列=dz,dp） ========
+E11F f= 44  base_soleR= +60.67 base_kneeR= 472.19 | 达标(dz,dp,sole)= [(60, 45, 2.3779121693223715)]
+E11F f= 48  base_soleR= +77.97 base_kneeR= 544.77 | 达标(dz,dp,sole)= [(0, 15, 5.247197579592466)]
+E11F f= 52  base_soleR= +83.76 base_kneeR= 588.47 | 达标(dz,dp,sole)= []
+E11F f= 56  base_soleR= +96.23 base_kneeR= 593.42 | 达标(dz,dp,sole)= [(0, 0, 5.149327218532562), (60, 30, 3.6319787614047527)]
+E11F f= 60  base_soleR=+103.43 base_kneeR= 490.11 | 达标(dz,dp,sole)= []
+E11F f= 64  base_soleR= +96.67 base_kneeR= 238.60 | 达标(dz,dp,sole)= [(0, -15, 1.612439751625061), (40, 0, 3.0410289764404297)]
+E11F f= 68  base_soleR= +94.96 base_kneeR= 150.01 | 达标(dz,dp,sole)= [(20, -15, 3.012843430042267)]
+E11F f= 72  base_soleR= +88.39 base_kneeR= 111.00 | 达标(dz,dp,sole)= []
+E11F f= 76  base_soleR= +88.39 base_kneeR= 111.00 | 达标(dz,dp,sole)= []
+E11F f= 80  base_soleR= +90.04 base_kneeR= 159.82 | 达标(dz,dp,sole)= [(60, 0, 2.2881776094436646)]
+E11F f= 84  base_soleR= +92.53 base_kneeR= 204.69 | 达标(dz,dp,sole)= []
+E11F f= 88  base_soleR= +90.89 base_kneeR= 261.25 | 达标(dz,dp,sole)= []
+E11F f= 92  base_soleR= +89.14 base_kneeR= 312.65 | 达标(dz,dp,sole)= [(0, -15, 5.1344819366931915), (40, 0, 3.3147037029266357)]
+E11F f= 96  base_soleR=  +7.05 base_kneeR= 324.27 | 达标(dz,dp,sole)= [(40, -30, 3.7167209666222334), (60, -15, 1.9068475812673569)]
+E11F f=100  base_soleR= -16.03 base_kneeR= 368.17 | 达标(dz,dp,sole)= []
+E11F f=104  base_soleR=  -0.96 base_kneeR= 428.35 | 达标(dz,dp,sole)= []
+# ========= E11F 逐帧最优（在 dz∈0..80, dp∈-60..60 中取 |sole-1| 最小） ==
+E11F_BEST f= 44 dz= 30 dp=  30 soleR=  +0.66 kneeR= 466.39 ankR= 164.00 toeRtail=  26.16
+E11F_BEST f= 48 dz= 30 dp=  30 soleR=  +0.42 kneeR= 538.56 ankR= 180.00 toeRtail=  24.46
+E11F_BEST f= 52 dz= 30 dp=  22 soleR=  +1.24 kneeR= 580.63 ankR= 180.00 toeRtail=  24.03
+E11F_BEST f= 56 dz= 30 dp=  15 soleR=  -1.47 kneeR= 580.96 ankR= 180.00 toeRtail=  20.34
+E11F_BEST f= 60 dz= 70 dp=  30 soleR=  +0.86 kneeR= 545.35 ankR= 215.00 toeRtail=  21.88
+E11F_BEST f= 64 dz=  0 dp= -15 soleR=  +1.61 kneeR= 224.20 ankR= 140.00 toeRtail=  20.49
+E11F_BEST f= 68 dz= 80 dp=  22 soleR=  +0.01 kneeR= 141.75 ankR= 215.00 toeRtail=  19.98
+E11F_BEST f= 72 dz= 10 dp= -22 soleR=  +2.39 kneeR= 114.08 ankR= 140.00 toeRtail=  20.51
+E11F_BEST f= 76 dz= 10 dp= -22 soleR=  +2.39 kneeR= 114.08 ankR= 140.00 toeRtail=  20.51
+E11F_BEST f= 80 dz= 80 dp=  15 soleR=  +0.43 kneeR= 157.08 ankR= 210.00 toeRtail=  20.56
+E11F_BEST f= 84 dz= 50 dp=   0 soleR=  -0.70 kneeR= 205.22 ankR= 180.00 toeRtail=  19.33
+E11F_BEST f= 88 dz= 80 dp=  22 soleR=  -0.57 kneeR= 266.34 ankR= 209.00 toeRtail=  19.56
+E11F_BEST f= 92 dz= 80 dp=  22 soleR=  +2.30 kneeR= 320.76 ankR= 208.00 toeRtail=  22.57
+E11F_BEST f= 96 dz= 30 dp= -60 soleR=  +1.17 kneeR= 323.07 ankR=  79.16 toeRtail= 103.10
+E11F_BEST f=100 dz= 80 dp= -60 soleR=  -5.96 kneeR= 369.95 ankR=  71.39 toeRtail=  60.78
+E11F_BEST f=104 dz=  0 dp= -60 soleR=  -0.96 kneeR= 428.35 ankR=  79.83 toeRtail=  21.83
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

@@ -1,0 +1,11 @@
+D16PX_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\probe_d16_pixels.py", line 534, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\probe_d16_pixels.py", line 483, in main
+    d15_lo2 = min(d15_wide[f]["bottom"] for f in d15_fall)
+                                                 ^^^^^^^^
+NameError: name 'd15_fall' is not defined
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+
+Blender quit

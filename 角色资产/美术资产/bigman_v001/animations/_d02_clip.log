@@ -1,0 +1,64 @@
+D01_LAYOUT {"total_frames": 24, "seconds": 0.4, "ease_end": 4, "slow_end": 5, "guard": 13, "peak": 16, "settle": 20, "frozen_tail": 4, "segments": 1, "hit_points": 0, "root_motion_m": [0.0, 0.0], "pelvis_z0_mm": 830.0, "ankle0_mm": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "idle_fist_mm": {"L": [144.52, -307.73, 1271.06], "R": [-129.58, -273.48, 1298.18]}, "guard_fist_mm": {"L": [150.0, -230.0, 1510.0], "R": [-150.0, -230.0, 1510.0]}, "guard_elbow_dir": {"L": [-0.3, -0.1, -0.95], "R": [0.3, -0.1, -0.95]}, "tour": "起手接合 4 帧 → 慢起至 5 帧（走 12% 行程）→ 举防到位 13 帧 → 过冲 16 帧 → 定格 20 帧（20..24 逐位冻结）", "note": "D01 举防：本支是全项目第一支持护姿；肘内收 + 拳分列脸两侧（探针两轮目检回炉后定稿）"}
+D02_LAYOUT {"total_frames": 72, "seconds": 1.2, "peak": 36, "mid": 18, "segments": 1, "hit_points": 0, "root_motion_m": [0.0, 0.0], "zero_fist_mm": {"L": [150.0, -230.0, 1510.0], "R": [-150.0, -230.0, 1510.0]}, "zero_pelvis_z_mm": 830.0, "press_drop_mm": -5.0, "press_fist_offset_mm": [5.0, 4.0, 4.0], "torso_press_deg": {"pelvis": 1.2, "spine_01": 1.0, "spine_02": 1.0, "chest": 2.0, "neck": -1.5, "head": 1.0, "shoulder.L": 3.0, "shoulder.R": 3.0}, "d01_end_euler_max_diff": 32.09802737, "note": "D02 防御：零位 = D01 定格真值（重演得到，不抄常量）；单一承压脉冲 1.2 s；首尾共用同一 dict"}
+D02C frame=0 worst_mm=0.00  box_lo=[-83.5, -235.8, 1446.4] box_hi=[83.7, -37.3, 1716.5]
+        fist L=[150.0, -230.0, 1510.0] R=[-150.0, -230.0, 1510.0] press=0.0000
+        pen=  -6.79  hand.L       idx=2  at=[122.5, -265.3, 1451.7]
+        pen=  -6.95  hand.R       idx=2  at=[-122.5, -265.3, 1451.7]
+        pen=  -7.44  hand.L       idx=3  at=[127.1, -259.4, 1461.4]
+        pen=  -7.47  hand.L       idx=1  at=[118.0, -271.2, 1441.9]
+        pen=  -7.61  hand.R       idx=1  at=[-118.0, -271.2, 1441.9]
+        pen=  -7.62  hand.R       idx=3  at=[-127.1, -259.4, 1461.4]
+D02C frame=18 worst_mm=15.41  box_lo=[-83.5, -266.6, 1432.1] box_hi=[83.7, -72.7, 1706.2]
+        fist L=[146.2, -227.0, 1507.0] R=[-146.3, -227.0, 1507.0] press=0.7500
+        pen=  15.41  hand.L       idx=0  at=[105.2, -282.3, 1437.2]
+        pen=  15.41  forearm.L    idx=8  at=[105.2, -282.3, 1437.2]
+        pen=  15.24  hand.R       idx=0  at=[-105.2, -282.3, 1437.2]
+        pen=  15.24  forearm.R    idx=8  at=[-105.2, -282.3, 1437.2]
+        pen=  13.96  hand.L       idx=1  at=[110.3, -275.4, 1446.0]
+        pen=  13.77  hand.R       idx=1  at=[-110.3, -275.4, 1446.0]
+D02C frame=27 worst_mm=20.76  box_lo=[-83.5, -274.4, 1428.6] box_hi=[83.7, -80.4, 1703.7]
+        fist L=[145.4, -226.3, 1506.3] R=[-145.4, -226.3, 1506.3] press=0.9219
+        pen=  20.76  hand.L       idx=0  at=[103.0, -283.2, 1438.7]
+        pen=  20.76  forearm.L    idx=8  at=[103.0, -283.2, 1438.7]
+        pen=  20.58  hand.R       idx=0  at=[-103.0, -283.2, 1438.7]
+        pen=  20.58  forearm.R    idx=8  at=[-103.0, -283.2, 1438.7]
+        pen=  17.31  hand.L       idx=1  at=[108.3, -276.1, 1447.2]
+        pen=  17.11  hand.R       idx=1  at=[-108.3, -276.1, 1447.2]
+D02C frame=36 worst_mm=22.94  box_lo=[-83.5, -278.3, 1427.0] box_hi=[83.7, -83.8, 1702.5]
+        fist L=[145.0, -226.0, 1506.0] R=[-145.0, -226.0, 1506.0] press=1.0000
+        pen=  22.94  hand.L       idx=0  at=[102.0, -283.6, 1439.4]
+        pen=  22.94  forearm.L    idx=8  at=[102.0, -283.6, 1439.4]
+        pen=  22.75  hand.R       idx=0  at=[-102.0, -283.6, 1439.4]
+        pen=  22.75  forearm.R    idx=8  at=[-102.0, -283.6, 1439.4]
+        pen=  18.41  forearm.L    idx=7  at=[89.7, -300.1, 1420.4]
+        pen=  18.35  forearm.R    idx=7  at=[-89.7, -300.1, 1420.4]
+D02C frame=45 worst_mm=20.76  box_lo=[-83.5, -274.4, 1428.6] box_hi=[83.7, -80.4, 1703.7]
+        fist L=[145.4, -226.3, 1506.3] R=[-145.4, -226.3, 1506.3] press=0.9219
+        pen=  20.76  hand.L       idx=0  at=[103.0, -283.2, 1438.7]
+        pen=  20.76  forearm.L    idx=8  at=[103.0, -283.2, 1438.7]
+        pen=  20.58  hand.R       idx=0  at=[-103.0, -283.2, 1438.7]
+        pen=  20.58  forearm.R    idx=8  at=[-103.0, -283.2, 1438.7]
+        pen=  17.31  hand.L       idx=1  at=[108.3, -276.1, 1447.2]
+        pen=  17.11  hand.R       idx=1  at=[-108.3, -276.1, 1447.2]
+D02C frame=54 worst_mm=15.41  box_lo=[-83.5, -266.6, 1432.1] box_hi=[83.7, -72.7, 1706.2]
+        fist L=[146.2, -227.0, 1507.0] R=[-146.2, -227.0, 1507.0] press=0.7500
+        pen=  15.41  hand.L       idx=0  at=[105.2, -282.3, 1437.2]
+        pen=  15.41  forearm.L    idx=8  at=[105.2, -282.3, 1437.2]
+        pen=  15.25  hand.R       idx=0  at=[-105.2, -282.3, 1437.2]
+        pen=  15.25  forearm.R    idx=8  at=[-105.2, -282.3, 1437.2]
+        pen=  13.96  hand.L       idx=1  at=[110.3, -275.4, 1446.0]
+        pen=  13.77  hand.R       idx=1  at=[-110.3, -275.4, 1446.0]
+D02C frame=72 worst_mm=0.00  box_lo=[-83.5, -235.8, 1446.4] box_hi=[83.7, -37.3, 1716.5]
+        fist L=[150.0, -230.0, 1510.0] R=[-150.0, -230.0, 1510.0] press=0.0000
+        pen=  -6.79  hand.L       idx=2  at=[122.5, -265.3, 1451.7]
+        pen=  -6.95  hand.R       idx=2  at=[-122.5, -265.3, 1451.7]
+        pen=  -7.44  hand.L       idx=3  at=[127.1, -259.4, 1461.4]
+        pen=  -7.47  hand.L       idx=1  at=[118.0, -271.2, 1441.9]
+        pen=  -7.61  hand.R       idx=1  at=[-118.0, -271.2, 1441.9]
+        pen=  -7.62  hand.R       idx=3  at=[-127.1, -259.4, 1461.4]
+D02C_DONE
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

@@ -1,0 +1,112 @@
+E03_TRACE f=  0 drop= -70.0 head_back=  +0.0 lock=1.8774 core_gap={'L': 100.7, 'R': 66.6} face_gap={'L': 1.0, 'R': -34.0}
+E03_TRACE f=  1 drop= -70.3 head_back=  -0.1 lock=1.8772 core_gap={'L': 100.9, 'R': 66.8} face_gap={'L': 1.2, 'R': -34.1}
+E03_TRACE f=  2 drop= -71.3 head_back=  -0.2 lock=1.8768 core_gap={'L': 102.0, 'R': 67.0} face_gap={'L': 1.4, 'R': -34.2}
+E03_TRACE f=  3 drop= -72.7 head_back=  -0.5 lock=1.8764 core_gap={'L': 100.4, 'R': 66.4} face_gap={'L': 1.4, 'R': -35.8}
+E03_TRACE f=  4 drop= -74.7 head_back=  -0.8 lock=1.8769 core_gap={'L': 98.3, 'R': 63.5} face_gap={'L': -1.4, 'R': -39.8}
+E03_TRACE f=  5 drop= -77.0 head_back=  -1.3 lock=1.9326 core_gap={'L': 93.9, 'R': 56.8} face_gap={'L': -5.4, 'R': -44.9}
+E03_TRACE f=  6 drop= -79.7 head_back=  -1.7 lock=2.0367 core_gap={'L': 87.2, 'R': 50.3} face_gap={'L': -10.3, 'R': -47.1}
+E03_TRACE f=  7 drop= -82.7 head_back=  -2.3 lock=2.1851 core_gap={'L': 81.0, 'R': 41.6} face_gap={'L': -14.6, 'R': -49.4}
+E03_TRACE f=  8 drop= -85.8 head_back=  -2.8 lock=2.3788 core_gap={'L': 75.9, 'R': 36.9} face_gap={'L': -18.2, 'R': -50.5}
+E03_TRACE f=  9 drop= -89.1 head_back=  -3.4 lock=2.6141 core_gap={'L': 75.3, 'R': 39.4} face_gap={'L': -17.8, 'R': -44.1}
+E03_TRACE f= 10 drop= -92.5 head_back=  -4.0 lock=2.8842 core_gap={'L': 80.6, 'R': 58.1} face_gap={'L': -5.2, 'R': -20.6}
+E03_TRACE f= 11 drop= -95.9 head_back=  -4.6 lock=3.1803 core_gap={'L': 78.7, 'R': 62.2} face_gap={'L': 10.8, 'R': 0.6}
+E03_TRACE f= 12 drop= -99.2 head_back=  -5.2 lock=3.4918 core_gap={'L': 78.2, 'R': 68.9} face_gap={'L': 23.9, 'R': 19.8}
+E03_TRACE f= 13 drop=-102.3 head_back=  -5.7 lock=3.8082 core_gap={'L': 85.3, 'R': 75.0} face_gap={'L': 39.8, 'R': 29.5}
+E03_TRACE f= 14 drop=-105.3 head_back=  -6.3 lock=4.1182 core_gap={'L': 98.7, 'R': 88.4} face_gap={'L': 53.3, 'R': 43.7}
+E03_TRACE f= 15 drop=-108.0 head_back=  -6.7 lock=4.4106 core_gap={'L': 116.0, 'R': 106.9} face_gap={'L': 70.7, 'R': 63.0}
+E03_TRACE f= 16 drop=-110.3 head_back=  -7.2 lock=4.6738 core_gap={'L': 131.1, 'R': 123.6} face_gap={'L': 86.8, 'R': 79.2}
+E03_TRACE f= 17 drop=-112.3 head_back=  -7.5 lock=4.8968 core_gap={'L': 143.1, 'R': 137.4} face_gap={'L': 99.7, 'R': 92.6}
+E03_TRACE f= 18 drop=-113.7 head_back=  -7.8 lock=5.0686 core_gap={'L': 153.7, 'R': 147.8} face_gap={'L': 108.7, 'R': 102.7}
+E03_TRACE f= 19 drop=-114.7 head_back=  -7.9 lock=5.1788 core_gap={'L': 158.6, 'R': 154.2} face_gap={'L': 115.0, 'R': 109.3}
+E03_TRACE f= 20 drop=-115.0 head_back=  -8.0 lock=5.2174 core_gap={'L': 159.3, 'R': 156.6} face_gap={'L': 117.0, 'R': 111.7}
+E03_TRACE f= 21 drop=-114.5 head_back=  -7.9 lock=5.1629 core_gap={'L': 156.2, 'R': 150.7} face_gap={'L': 111.8, 'R': 105.9}
+E03_TRACE f= 22 drop=-112.9 head_back=  -7.6 lock=5.0003 core_gap={'L': 139.2, 'R': 133.9} face_gap={'L': 96.0, 'R': 89.3}
+E03_TRACE f= 23 drop=-110.4 head_back=  -7.0 lock=4.7337 core_gap={'L': 113.4, 'R': 106.0} face_gap={'L': 68.8, 'R': 62.2}
+E03_TRACE f= 24 drop=-106.8 head_back=  -6.2 lock=4.3700 core_gap={'L': 77.1, 'R': 69.6} face_gap={'L': 33.1, 'R': 25.5}
+E03_TRACE f= 25 drop=-102.1 head_back=  -5.3 lock=3.9203 core_gap={'L': 33.1, 'R': 25.8} face_gap={'L': -10.8, 'R': -18.1}
+E03_TRACE f= 26 drop= -96.4 head_back=  -4.1 lock=3.4029 core_gap={'L': 6.9, 'R': 0.2} face_gap={'L': -40.8, 'R': -48.2}
+E03_TRACE f= 27 drop= -89.7 head_back=  -2.6 lock=2.8487 core_gap={'L': -0.0, 'R': -2.4} face_gap={'L': -54.4, 'R': -54.8}
+E03_TRACE f= 28 drop= -82.0 head_back=  -1.0 lock=2.3149 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.3, 'R': -36.2}
+E03_TRACE f= 29 drop= -82.0 head_back=  -1.0 lock=2.3149 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.3, 'R': -36.2}
+E03_TRACE f= 30 drop= -82.0 head_back=  -1.0 lock=2.3149 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.3, 'R': -36.2}
+E03_TRACE f= 31 drop= -81.7 head_back=  -0.5 lock=2.2853 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.2, 'R': -36.1}
+E03_TRACE f= 32 drop= -80.7 head_back=  +1.0 lock=2.2070 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.1, 'R': -35.9}
+E03_TRACE f= 33 drop= -79.2 head_back=  +3.4 lock=2.1004 core_gap={'L': 38.0, 'R': 34.9} face_gap={'L': -35.7, 'R': -36.9}
+E03_TRACE f= 34 drop= -77.2 head_back=  +6.3 lock=1.9890 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.7, 'R': -36.6}
+E03_TRACE f= 35 drop= -75.0 head_back=  +9.8 lock=1.8953 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -36.3, 'R': -36.3}
+E03_TRACE f= 36 drop= -72.6 head_back= +13.6 lock=1.8817 core_gap={'L': 38.0, 'R': 35.4} face_gap={'L': -35.8, 'R': -35.7}
+E03_TRACE f= 37 drop= -70.0 head_back= +17.5 lock=1.8946 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -38.8, 'R': -38.7}
+E03_TRACE f= 38 drop= -67.4 head_back= +21.4 lock=1.9136 core_gap={'L': 38.0, 'R': 37.1} face_gap={'L': -38.7, 'R': -38.7}
+E03_TRACE f= 39 drop= -65.0 head_back= +25.2 lock=1.9402 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -38.8, 'R': -38.7}
+E03_TRACE f= 40 drop= -62.8 head_back= +28.7 lock=1.9743 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -40.6, 'R': -38.8}
+E03_TRACE f= 41 drop= -60.8 head_back= +31.6 lock=2.0130 core_gap={'L': 38.0, 'R': 37.1} face_gap={'L': -38.8, 'R': -38.8}
+E03_TRACE f= 42 drop= -59.3 head_back= +34.0 lock=2.0504 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -40.6, 'R': -38.8}
+E03_TRACE f= 43 drop= -58.3 head_back= +35.5 lock=2.0784 core_gap={'L': 37.1, 'R': 38.0} face_gap={'L': -40.7, 'R': -39.0}
+E03_TRACE f= 44 drop= -58.0 head_back= +36.0 lock=2.0892 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -39.1, 'R': -39.1}
+E03_TRACE f= 45 drop= -58.0 head_back= +36.0 lock=2.0892 core_gap={'L': 28.0, 'R': 27.9} face_gap={'L': -40.9, 'R': -40.9}
+E03_TRACE f= 46 drop= -58.0 head_back= +36.0 lock=2.0892 core_gap={'L': 26.8, 'R': 26.7} face_gap={'L': -27.5, 'R': -27.4}
+E03_TRACE f= 47 drop= -58.0 head_back= +36.0 lock=2.0892 core_gap={'L': 52.4, 'R': 52.4} face_gap={'L': 7.3, 'R': 7.2}
+E03_TRACE f= 48 drop= -58.0 head_back= +36.0 lock=2.0892 core_gap={'L': 75.5, 'R': 75.5} face_gap={'L': 30.3, 'R': 30.4}
+E03_TRACE f= 49 drop= -58.5 head_back= +34.9 lock=2.0722 core_gap={'L': 64.5, 'R': 64.9} face_gap={'L': 19.5, 'R': 19.7}
+E03_TRACE f= 50 drop= -60.0 head_back= +31.8 lock=2.0272 core_gap={'L': 37.6, 'R': 39.2} face_gap={'L': -8.2, 'R': -6.8}
+E03_TRACE f= 51 drop= -62.5 head_back= +26.4 lock=1.9696 core_gap={'L': 19.6, 'R': 19.6} face_gap={'L': -37.0, 'R': -37.0}
+E03_TRACE f= 52 drop= -66.0 head_back= +19.0 lock=1.9180 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -38.5, 'R': -38.5}
+E03_TRACE f= 53 drop= -66.0 head_back= +19.0 lock=1.9180 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -38.5, 'R': -38.5}
+E03_TRACE f= 54 drop= -66.0 head_back= +19.0 lock=1.9180 core_gap={'L': 38.0, 'R': 38.0} face_gap={'L': -38.5, 'R': -38.5}
+E03_TRACE f= 55 drop= -66.0 head_back= +19.0 lock=1.9187 core_gap={'L': 35.6, 'R': 35.6} face_gap={'L': -39.4, 'R': -39.4}
+E03_TRACE f= 56 drop= -65.9 head_back= +19.1 lock=1.9207 core_gap={'L': 29.5, 'R': 29.5} face_gap={'L': -41.5, 'R': -41.4}
+E03_TRACE f= 57 drop= -65.7 head_back= +19.2 lock=1.9238 core_gap={'L': 25.7, 'R': 25.6} face_gap={'L': -42.4, 'R': -42.3}
+E03_TRACE f= 58 drop= -65.5 head_back= +19.3 lock=1.9278 core_gap={'L': 21.5, 'R': 21.4} face_gap={'L': -42.9, 'R': -42.9}
+E03_TRACE f= 59 drop= -65.2 head_back= +19.4 lock=1.9327 core_gap={'L': 19.8, 'R': 19.8} face_gap={'L': -40.3, 'R': -40.3}
+E03_TRACE f= 60 drop= -65.0 head_back= +19.5 lock=1.9381 core_gap={'L': 20.7, 'R': 20.7} face_gap={'L': -32.9, 'R': -32.9}
+E03_TRACE f= 61 drop= -64.8 head_back= +19.6 lock=1.9440 core_gap={'L': 24.8, 'R': 24.8} face_gap={'L': -22.9, 'R': -22.9}
+E03_TRACE f= 62 drop= -64.5 head_back= +19.7 lock=1.9497 core_gap={'L': 33.7, 'R': 33.7} face_gap={'L': -12.8, 'R': -12.8}
+E03_TRACE f= 63 drop= -64.3 head_back= +19.8 lock=1.9550 core_gap={'L': 44.5, 'R': 45.5} face_gap={'L': -1.1, 'R': -0.3}
+E03_TRACE f= 64 drop= -64.1 head_back= +19.9 lock=1.9595 core_gap={'L': 56.8, 'R': 56.9} face_gap={'L': 11.3, 'R': 11.4}
+E03_TRACE f= 65 drop= -64.0 head_back= +20.0 lock=1.9626 core_gap={'L': 65.7, 'R': 65.6} face_gap={'L': 20.2, 'R': 20.3}
+E03_TRACE f= 66 drop= -64.0 head_back= +20.0 lock=1.9636 core_gap={'L': 68.9, 'R': 68.8} face_gap={'L': 23.5, 'R': 23.5}
+E03_TRACE f= 67 drop= -64.0 head_back= +19.9 lock=1.9631 core_gap={'L': 68.6, 'R': 68.4} face_gap={'L': 23.2, 'R': 23.1}
+E03_TRACE f= 68 drop= -64.1 head_back= +19.7 lock=1.9615 core_gap={'L': 67.8, 'R': 67.4} face_gap={'L': 22.1, 'R': 21.8}
+E03_TRACE f= 69 drop= -64.2 head_back= +19.4 lock=1.9591 core_gap={'L': 66.5, 'R': 65.3} face_gap={'L': 20.5, 'R': 19.8}
+E03_TRACE f= 70 drop= -64.3 head_back= +19.0 lock=1.9559 core_gap={'L': 64.8, 'R': 63.3} face_gap={'L': 18.3, 'R': 17.0}
+E03_TRACE f= 71 drop= -64.4 head_back= +18.5 lock=1.9519 core_gap={'L': 62.7, 'R': 60.4} face_gap={'L': 15.5, 'R': 13.7}
+E03_TRACE f= 72 drop= -64.6 head_back= +17.9 lock=1.9475 core_gap={'L': 60.2, 'R': 56.9} face_gap={'L': 11.1, 'R': 9.4}
+E03_TRACE f= 73 drop= -64.8 head_back= +17.2 lock=1.9427 core_gap={'L': 58.5, 'R': 53.8} face_gap={'L': 6.5, 'R': 4.1}
+E03_TRACE f= 74 drop= -65.1 head_back= +16.5 lock=1.9377 core_gap={'L': 56.5, 'R': 50.4} face_gap={'L': 1.9, 'R': -1.4}
+E03_TRACE f= 75 drop= -65.3 head_back= +15.7 lock=1.9326 core_gap={'L': 55.4, 'R': 47.3} face_gap={'L': -2.9, 'R': -7.0}
+E03_TRACE f= 76 drop= -65.6 head_back= +14.8 lock=1.9273 core_gap={'L': 54.5, 'R': 44.9} face_gap={'L': -7.3, 'R': -12.5}
+E03_TRACE f= 77 drop= -65.8 head_back= +13.9 lock=1.9222 core_gap={'L': 54.8, 'R': 42.9} face_gap={'L': -11.4, 'R': -17.7}
+E03_TRACE f= 78 drop= -66.1 head_back= +13.0 lock=1.9172 core_gap={'L': 55.4, 'R': 41.2} face_gap={'L': -14.8, 'R': -22.2}
+E03_TRACE f= 79 drop= -66.4 head_back= +12.0 lock=1.9123 core_gap={'L': 56.7, 'R': 40.5} face_gap={'L': -17.1, 'R': -26.5}
+E03_TRACE f= 80 drop= -66.7 head_back= +11.0 lock=1.9078 core_gap={'L': 58.5, 'R': 39.7} face_gap={'L': -18.8, 'R': -30.0}
+E03_TRACE f= 81 drop= -67.0 head_back= +10.0 lock=1.9037 core_gap={'L': 60.6, 'R': 39.9} face_gap={'L': -19.3, 'R': -32.6}
+E03_TRACE f= 82 drop= -67.3 head_back=  +9.0 lock=1.8999 core_gap={'L': 63.2, 'R': 40.0} face_gap={'L': -19.0, 'R': -34.1}
+E03_TRACE f= 83 drop= -67.6 head_back=  +8.0 lock=1.8963 core_gap={'L': 65.7, 'R': 40.4} face_gap={'L': -17.4, 'R': -34.6}
+E03_TRACE f= 84 drop= -67.9 head_back=  +7.0 lock=1.8932 core_gap={'L': 68.5, 'R': 40.8} face_gap={'L': -15.0, 'R': -33.9}
+E03_TRACE f= 85 drop= -68.2 head_back=  +6.1 lock=1.8903 core_gap={'L': 72.1, 'R': 43.1} face_gap={'L': -11.2, 'R': -32.4}
+E03_TRACE f= 86 drop= -68.4 head_back=  +5.2 lock=1.8879 core_gap={'L': 78.3, 'R': 46.3} face_gap={'L': -6.6, 'R': -30.7}
+E03_TRACE f= 87 drop= -68.7 head_back=  +4.3 lock=1.8857 core_gap={'L': 84.7, 'R': 49.3} face_gap={'L': -2.7, 'R': -30.0}
+E03_TRACE f= 88 drop= -68.9 head_back=  +3.5 lock=1.8839 core_gap={'L': 90.7, 'R': 52.0} face_gap={'L': -0.2, 'R': -30.6}
+E03_TRACE f= 89 drop= -69.2 head_back=  +2.8 lock=1.8823 core_gap={'L': 95.6, 'R': 57.9} face_gap={'L': 1.4, 'R': -32.1}
+E03_TRACE f= 90 drop= -69.4 head_back=  +2.1 lock=1.8810 core_gap={'L': 97.5, 'R': 62.3} face_gap={'L': 2.2, 'R': -33.8}
+E03_TRACE f= 91 drop= -69.6 head_back=  +1.5 lock=1.8798 core_gap={'L': 100.8, 'R': 65.4} face_gap={'L': 2.7, 'R': -36.3}
+E03_TRACE f= 92 drop= -69.7 head_back=  +1.0 lock=1.8790 core_gap={'L': 101.7, 'R': 67.1} face_gap={'L': 3.1, 'R': -36.5}
+E03_TRACE f= 93 drop= -69.8 head_back=  +0.6 lock=1.8783 core_gap={'L': 101.8, 'R': 67.6} face_gap={'L': 3.1, 'R': -35.1}
+E03_TRACE f= 94 drop= -69.9 head_back=  +0.3 lock=1.8778 core_gap={'L': 101.4, 'R': 67.4} face_gap={'L': 2.0, 'R': -33.8}
+E03_TRACE f= 95 drop= -70.0 head_back=  +0.1 lock=1.8776 core_gap={'L': 100.9, 'R': 66.9} face_gap={'L': 1.3, 'R': -34.1}
+E03_TRACE f= 96 drop= -70.0 head_back=  +0.0 lock=1.8774 core_gap={'L': 100.7, 'R': 66.6} face_gap={'L': 1.0, 'R': -34.0}
+E03_FAILURE Traceback (most recent call last):
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 1199, in <module>
+    main()
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 1099, in main
+    report.update(rage_assertions(arm, action, samples, meshes))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\animations\anim_rage.py", line 971, in rage_assertions
+    "★★ **矩阵口径**的逐帧最大真实旋转步：实测 **%.3f° @ %s**（阈值 ≤ %.1f°）。"
+TypeError: must be real number, not NoneType
+
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB

@@ -1,0 +1,21 @@
+E10_BOOT {"ankle_rest": {"L": [143.18, -169.57, 79.76], "R": [-141.58, 140.43, 79.83]}, "ankle_term": {"L": [211.83, -172.21, 113.9], "R": [-211.83, -172.21, 113.9]}, "L1": 0.410019, "L2": 0.412005, "axis": 1.0}
+# ============ E11A 起点（未反解） ============
+E11A side=L  x@92=+148.000  x@93=+134.212  d= -13.788  (a0=-5.200)
+E11A side=R  x@92=-170.000  x@93=-165.893  d=  +4.107  (a0=+8.660)
+# ============ E11A 逐侧二分 ============
+E11A_SOL side=L  a0= -7.041  ->  x@93=+148.001 (want +148.000, 残差  +0.001)
+E11A_SOL side=R  a0= +9.132  ->  x@93=-170.001 (want -170.000, 残差  -0.001)
+# ============ E11A 反解后逐帧踝 x / 膝 x ============
+E11A_POST f= 92 ankX L=+148.000 R=-170.000 kneeX L=+118.885 R=-129.773
+E11A_POST f= 94 ankX L=+148.905 R=-168.949 kneeX L=+103.005 R=-130.102
+E11A_POST f= 96 ankX L=+149.877 R=-166.050 kneeX L=+107.243 R=-128.632
+E11A_POST f= 98 ankX L=+149.756 R=-161.957 kneeX L=+110.448 R=-126.908
+E11A_POST f=100 ankX L=+148.576 R=-156.555 kneeX L=+112.599 R=-124.541
+E11A_POST f=102 ankX L=+146.373 R=-149.922 kneeX L=+113.695 R=-121.269
+E11A_POST f=104 ankX L=+143.178 R=-141.579 kneeX L=+113.753 R=-116.875
+E11A_FINAL TAIL_ABDUCT_START={'L': -7.041, 'R': 9.132}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:36:24)
+Read blend: "I:\工作项目\BIGMANFIGHT\角色资产\美术资产\bigman_v001\bigman_anim_v001.blend"
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000008 MB
